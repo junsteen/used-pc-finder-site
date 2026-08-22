@@ -1,0 +1,27 @@
+# 検索エンジン・AIクローラーいずれも歓迎します。
+# 掲載しているのは公開情報の集約と、自ら調査・構造化したスペックデータです。
+
+User-agent: *
+Allow: /
+
+# AI/LLMのクローラーを明示的に許可
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /

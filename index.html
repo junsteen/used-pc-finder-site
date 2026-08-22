@@ -3,7 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>商品検索</title>
+<title>中古PC・パーツ横断検索 | 用途から必要スペックを判定</title>
+<meta name="description" content="楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視。After EffectsやローカルLLMなど用途から必要スペックを判定し、部品構成と完成品を同じ土俵で比較します。">
+<link rel="canonical" href="https://used-pc-finder-site.pages.dev/">
+<meta property="og:title" content="中古PC・パーツ横断検索">
+<meta property="og:description" content="用途から必要スペックを判定し、部品構成と完成品を同じ土俵で比較する中古PC検索。">
+<meta property="og:type" content="website">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+JP:wght@400;500;600&display=swap">
 <style>
   :root {
@@ -67,6 +72,7 @@
     margin: 0.9rem 0 0.3rem; text-wrap: balance;
   }
   .updated { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.82rem; color: var(--text-muted); }
+  .lede { color: var(--text-muted); max-width: 62ch; margin: 0.5rem 0 0.75rem; font-size: 0.95rem; }
 
   .filter-bar {
     display: grid; gap: 0.75rem;
@@ -172,7 +178,8 @@
 <div class="wrap">
   <header>
     <span class="eyebrow"><span class="blip"></span> 常時監視中</span>
-    <h1>商品検索</h1>
+    <h1>中古PC・パーツ横断検索</h1>
+    <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視しています。用途を選ぶと必要スペックの下限が表示され、各出品が要件を満たすか判定します。</p>
     <div class="updated" id="updated-at">読み込み中...</div>
   </header>
 
