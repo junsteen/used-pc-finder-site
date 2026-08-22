@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>商品検索</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+JP:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --surface-line: #e4e0d6;
+    --text: #1b2333;
+    --text-muted: #5c6478;
+    --accent: #c97d1d;
+    --accent-soft: #e8c595;
+    --ok: #3f7d4a;
+    --down: #2c7a4b;
+    --up: #b3492e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1321;
+      --surface: #141c2e;
+      --surface-line: #263049;
+      --text: #e8ecf4;
+      --text-muted: #8b96ac;
+      --accent: #f2a93b;
+      --accent-soft: #7a5a28;
+      --ok: #6fce82;
+      --down: #6fce82;
+      --up: #ef8266;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem) 1.25rem 4rem; }
+
+  header { margin-bottom: 1.75rem; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--accent); border: 1px solid var(--accent-soft); border-radius: 999px;
+    padding: 0.25rem 0.75rem; background: color-mix(in srgb, var(--accent) 8%, transparent);
+  }
+  .blip {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--ok);
+    animation: pulse 2.2s ease-out infinite;
+  }
+  @media (prefers-reduced-motion: reduce) { .blip { animation: none; } }
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--ok) 45%, transparent); }
+    70%  { box-shadow: 0 0 0 8px color-mix(in srgb, var(--ok) 0%, transparent); }
+    100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--ok) 0%, transparent); }
+  }
+  h1 {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 700; font-size: clamp(1.6rem, 4vw, 2.2rem);
+    margin: 0.9rem 0 0.3rem; text-wrap: balance;
+  }
+  .updated { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.82rem; color: var(--text-muted); }
+
+  .filter-bar {
+    display: grid; gap: 0.75rem;
+    grid-template-columns: 1.6fr 1fr 1fr 1fr;
+    background: var(--surface); border: 1px solid var(--surface-line);
+    border-radius: 10px; padding: 1rem; margin-bottom: 1.25rem;
+  }
+  @media (max-width: 640px) { .filter-bar { grid-template-columns: 1fr 1fr; } }
+  .field-wide { grid-column: 1 / -1; }
+  .purpose-panel {
+    background: var(--surface); border: 1px solid var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px; padding: 0.9rem 1.1rem; margin-bottom: 1rem; font-size: 0.88rem;
+  }
+  .purpose-panel h2 {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 0.5rem;
+  }
+  .purpose-req { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.6rem 0 0; }
+  .purpose-req span {
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.75rem;
+    border: 1px solid var(--surface-line); border-radius: 4px; padding: 0.2rem 0.55rem;
+  }
+  .purpose-panel .src { color: var(--text-muted); font-size: 0.75rem; margin: 0.6rem 0 0; }
+  .chip.fit { color: var(--ok); border-color: var(--ok); }
+  .chip.unfit { color: var(--up); border-color: var(--up); }
+  .chip.unknown { color: var(--text-muted); }
+  .field { display: flex; flex-direction: column; gap: 0.3rem; }
+  .field label {
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.7rem;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted);
+  }
+  input, select {
+    font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--surface-line); border-radius: 6px; padding: 0.5rem 0.6rem;
+  }
+  input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  .result-count {
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.85rem;
+    color: var(--text-muted); margin: 0 0 0.75rem;
+  }
+
+  .cards { display: flex; flex-direction: column; gap: 0.75rem; }
+  .card {
+    background: var(--surface); border: 1px solid var(--surface-line);
+    border-radius: 10px; padding: 1rem 1.1rem;
+    display: grid; grid-template-columns: 1fr auto; gap: 0.5rem 1rem; align-items: start;
+  }
+  .card-title { font-weight: 500; font-size: 0.98rem; text-wrap: pretty; }
+  .card-title a { color: var(--text); text-decoration: none; }
+  .card-title a:hover { color: var(--accent); text-decoration: underline; }
+
+  .price-block { text-align: right; font-family: "IBM Plex Mono", ui-monospace, monospace; }
+  .price { font-size: 1.25rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .price-delta { font-size: 0.78rem; margin-top: 0.15rem; }
+  .price-delta.down { color: var(--down); }
+  .price-delta.up { color: var(--up); }
+
+  .meta-row {
+    grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 0.4rem;
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.75rem;
+  }
+  .chip {
+    border: 1px solid var(--surface-line); border-radius: 999px;
+    padding: 0.15rem 0.6rem; color: var(--text-muted);
+  }
+  .chip.rank { color: var(--accent); border-color: var(--accent-soft); }
+  .chip.ship { color: var(--ok); }
+  .spec-row {
+    grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 0.9rem;
+    font-size: 0.78rem; color: var(--text-muted); border-top: 1px dashed var(--surface-line);
+    padding-top: 0.5rem; margin-top: 0.15rem;
+  }
+  .spec-row b { color: var(--text); font-weight: 500; }
+
+  .empty { text-align: center; color: var(--text-muted); padding: 3rem 1rem; font-family: "IBM Plex Mono", ui-monospace, monospace; }
+
+  footer {
+    margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--surface-line);
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.78rem; color: var(--text-muted);
+  }
+  footer p { margin: 0.3rem 0; }
+  .pr-notice { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+  .pr-badge, .chip.pr {
+    border: 1px solid var(--accent-soft); background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--accent); border-radius: 4px; padding: 0.1rem 0.4rem;
+    font-size: 0.7rem; letter-spacing: 0.06em; font-weight: 600;
+  }
+  .chip.pr { border-radius: 999px; }
+  .chip.unverified { color: var(--text-muted); border-style: dashed; }
+  .footer-h {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text); margin: 1.25rem 0 0.4rem;
+  }
+  .footer-h:first-child { margin-top: 0; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow"><span class="blip"></span> 常時監視中</span>
+    <h1>商品検索</h1>
+    <div class="updated" id="updated-at">読み込み中...</div>
+  </header>
+
+  <div class="filter-bar">
+    <div class="field field-wide">
+      <label for="f-purpose">用途プリセット</label>
+      <select id="f-purpose"><option value="">指定なし</option></select>
+    </div>
+    <div class="field">
+      <label for="f-keyword">キーワード</label>
+      <input type="search" id="f-keyword" placeholder="商品名で絞り込み">
+    </div>
+    <div class="field">
+      <label for="f-category">カテゴリ</label>
+      <select id="f-category"><option value="">全て</option></select>
+    </div>
+    <div class="field">
+      <label for="f-max">価格上限</label>
+      <input type="number" id="f-max" placeholder="円" min="0" step="1000">
+    </div>
+    <div class="field">
+      <label for="f-sort">並び替え</label>
+      <select id="f-sort">
+        <option value="price_asc">価格が安い順</option>
+        <option value="price_desc">価格が高い順</option>
+        <option value="newest">新着順</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="purpose-panel" class="purpose-panel" hidden></div>
+  <p class="result-count" id="result-count"></p>
+  <div class="cards" id="cards"></div>
+
+  <footer>
+    <h2 class="footer-h">免責事項</h2>
+    <p>掲載している価格・在庫・スペックは、各サイトから自動収集した<strong>取得時点の情報</strong>です。正確性・最新性を保証するものではありません。</p>
+    <p>スペック情報の一部はAIによる調査結果で、人による検証を経ていないものが含まれます（該当分には「未検証」と表示しています）。</p>
+    <p><strong>購入の判断は必ず販売元のページで最終確認のうえ、自己責任で行ってください。</strong>当サイトの情報に起因する損害について責任を負いかねます。</p>
+    <p id="correction-line" hidden>誤りを見つけた場合は <a id="correction-link" href="#" target="_blank" rel="noopener">こちらからご報告</a> ください。</p>
+
+    <h2 class="footer-h">広告について</h2>
+    <p class="pr-notice"><span class="pr-badge">PR</span> 当サイトは楽天アフィリエイトを利用しており、楽天市場の商品リンクから購入された場合に売上の一部が還元されます。</p>
+
+    <h2 class="footer-h">データソース</h2>
+    <p>楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  const state = { data: null };
+  const params = new URLSearchParams(location.search);
+
+  const el = {
+    purpose: document.getElementById('f-purpose'),
+    purposePanel: document.getElementById('purpose-panel'),
+    keyword: document.getElementById('f-keyword'),
+    category: document.getElementById('f-category'),
+    max: document.getElementById('f-max'),
+    sort: document.getElementById('f-sort'),
+    cards: document.getElementById('cards'),
+    count: document.getElementById('result-count'),
+    updated: document.getElementById('updated-at'),
+  };
+
+  el.keyword.value = params.get('q') || '';
+  el.category.value = params.get('cat') || '';
+  el.max.value = params.get('max') || '';
+  el.sort.value = params.get('sort') || 'price_asc';
+
+  function yen(n) { return '¥' + n.toLocaleString('ja-JP'); }
+
+  function specFacts(spec) {
+    if (!spec || !spec.spec) return '';
+    const s = spec.spec;
+    const facts = [];
+    if (s.screen_size_inch) facts.push(['画面', s.screen_size_inch + '型']);
+    if (s.resolution) facts.push(['解像度', s.resolution]);
+    if (s.weight_g) facts.push(['重さ', s.weight_g + 'g']);
+    if (s.vram_gb) facts.push(['VRAM', s.vram_gb + 'GB']);
+    if (s.usb_c !== undefined) facts.push(['USB-C', s.usb_c ? 'あり' : 'なし']);
+    if (s.thunderbolt) facts.push(['TB', s.thunderbolt]);
+    if (spec.release_date) facts.push(['発売', spec.release_date]);
+    if (!facts.length) return '';
+    return '<div class="spec-row">' + facts.map(f =>
+      '<span>' + f[0] + ': <b>' + f[1] + '</b></span>'
+    ).join('') + '</div>';
+  }
+
+  // 出品が用途プリセットの要件を満たすか判定する。
+  // 判定に必要なスペックが分からない場合は「不適合」ではなく「不明」を返す（欠損を一級市民として扱う）。
+  function judgeFit(listing, req) {
+    if (!req) return null;
+    const spec = listing.spec_id ? (state.data.specs[listing.spec_id] || {}).spec : null;
+    if (!spec) return { verdict: 'unknown', reason: 'スペック情報なし' };
+
+    const needVram = req.specs && req.specs.vram_gb && req.specs.vram_gb.min;
+    if (needVram) {
+      if (spec.vram_gb === undefined) return { verdict: 'unknown', reason: 'VRAM不明' };
+      if (spec.vram_gb < needVram) {
+        return { verdict: 'unfit', reason: 'VRAM ' + spec.vram_gb + 'GB < 必要' + needVram + 'GB' };
+      }
+    }
+
+    const needVendor = req.specs && req.specs.gpu_vendor &&
+      (req.specs.gpu_vendor.required || req.specs.gpu_vendor.preferred);
+    if (needVendor && spec.vram_gb !== undefined) {
+      const isNvidia = /nvidia|geforce|rtx|gtx/i.test(listing.title);
+      if (needVendor === 'NVIDIA' && !isNvidia) {
+        return { verdict: 'unknown', reason: 'GPUベンダー要確認' };
+      }
+    }
+
+    return { verdict: 'fit', reason: '要件を満たす' };
+  }
+
+  function renderPurposePanel(req) {
+    if (!req) { el.purposePanel.hidden = true; return; }
+    const rows = [];
+    const s = req.specs || {};
+    if (s.vram_gb) rows.push('VRAM 最低' + s.vram_gb.min + 'GB' + (s.vram_gb.recommended ? ' / 推奨' + s.vram_gb.recommended + 'GB' : ''));
+    if (s.ram_gb) rows.push('メモリ 最低' + s.ram_gb.min + 'GB' + (s.ram_gb.recommended ? ' / 推奨' + s.ram_gb.recommended + 'GB' : ''));
+    if (s.cpu && s.cpu.cores_recommended) rows.push('CPU 推奨' + s.cpu.cores_recommended + 'コア');
+    if (s.gpu_vendor) rows.push('GPU ' + (s.gpu_vendor.required || s.gpu_vendor.preferred) + '推奨');
+
+    const src = (req.sources || []).map(x =>
+      x.url ? '<a href="' + x.url + '" target="_blank" rel="noopener">出典</a>' : (x.note || '')
+    ).filter(Boolean)[0] || '';
+
+    el.purposePanel.innerHTML =
+      '<h2>' + req.display_name + '</h2>' +
+      '<div>' + (req.summary || '') + '</div>' +
+      '<div class="purpose-req">' + rows.map(r => '<span>' + r + '</span>').join('') + '</div>' +
+      (src ? '<p class="src">' + src + '</p>' : '');
+    el.purposePanel.hidden = false;
+  }
+
+  function priceDelta(listing) {
+    const hist = listing.price_history || [];
+    if (hist.length < 2) return '';
+    const prev = hist[hist.length - 2].price_yen;
+    const diff = listing.price_yen - prev;
+    if (diff === 0) return '';
+    const cls = diff < 0 ? 'down' : 'up';
+    const arrow = diff < 0 ? '▼' : '▲';
+    return '<div class="price-delta ' + cls + '">' + arrow + ' ' + yen(prev) + ' から</div>';
+  }
+
+  function render() {
+    const kw = el.keyword.value.trim().toLowerCase();
+    const cat = el.category.value;
+    const max = parseInt(el.max.value, 10);
+    const sort = el.sort.value;
+    const req = el.purpose.value ? state.data.requirements[el.purpose.value] : null;
+    renderPurposePanel(req);
+
+    let items = state.data.listings.filter(l => {
+      if (kw && !l.title.toLowerCase().includes(kw)) return false;
+      if (cat && l.watch_name !== cat) return false;
+      if (!isNaN(max) && max > 0 && l.price_yen > max) return false;
+      return true;
+    });
+
+    if (sort === 'price_asc') items.sort((a, b) => a.price_yen - b.price_yen);
+    else if (sort === 'price_desc') items.sort((a, b) => b.price_yen - a.price_yen);
+    else items.sort((a, b) => (b.observed_at || '').localeCompare(a.observed_at || ''));
+
+    el.count.textContent = items.length + ' 件';
+
+    if (!items.length) {
+      el.cards.innerHTML = '<div class="empty">条件に合う出品が見つかりませんでした。</div>';
+      return;
+    }
+
+    el.cards.innerHTML = items.map(l => {
+      const spec = l.spec_id ? state.data.specs[l.spec_id] : null;
+      const watchLabel = (state.data.watches[l.watch_name] || {}).display_name || l.watch_name;
+      const chips = [];
+      if (l.condition_rank) chips.push('<span class="chip rank">' + l.condition_rank + '</span>');
+      if (l.shipping) chips.push('<span class="chip ship">' + l.shipping + '</span>');
+      chips.push('<span class="chip">' + l.source + '</span>');
+      // アフィリエイトリンクの商品は個別にも明示する(景品表示法のステマ規制対応)
+      if (l.is_affiliate) chips.push('<span class="chip pr">PR</span>');
+      // スペックがAI調査のみ(人による検証なし)であることを明示する
+      if (spec && spec.verified === false) {
+        chips.push('<span class="chip unverified">スペック未検証</span>');
+      }
+      const fit = judgeFit(l, req);
+      if (fit) {
+        const label = fit.verdict === 'fit' ? '◎ 適合'
+          : fit.verdict === 'unfit' ? '× ' + fit.reason
+          : '? ' + fit.reason;
+        chips.push('<span class="chip ' + fit.verdict + '">' + label + '</span>');
+      }
+      chips.push('<span class="chip">' + watchLabel + '</span>');
+
+      return '<div class="card">' +
+        '<div class="card-title"><a href="' + l.url + '" target="_blank" rel="noopener">' + l.title + '</a></div>' +
+        '<div class="price-block"><div class="price">' + yen(l.price_yen) + '</div>' + priceDelta(l) + '</div>' +
+        '<div class="meta-row">' + chips.join('') + '</div>' +
+        specFacts(spec) +
+        '</div>';
+    }).join('');
+  }
+
+  function syncUrl() {
+    const p = new URLSearchParams();
+    if (el.purpose.value) p.set('use', el.purpose.value);
+    if (el.keyword.value) p.set('q', el.keyword.value);
+    if (el.category.value) p.set('cat', el.category.value);
+    if (el.max.value) p.set('max', el.max.value);
+    if (el.sort.value !== 'price_asc') p.set('sort', el.sort.value);
+    const qs = p.toString();
+    history.replaceState(null, '', qs ? '?' + qs : location.pathname);
+  }
+
+  [el.purpose, el.keyword, el.category, el.max, el.sort].forEach(input => {
+    input.addEventListener('input', () => { render(); syncUrl(); });
+  });
+
+  fetch('data.json')
+    .then(r => r.json())
+    .then(data => {
+      state.data = data;
+      el.updated.textContent = '最終更新: ' + data.generated_at;
+
+      if (data.correction_url) {
+        const link = document.getElementById('correction-link');
+        link.href = data.correction_url;
+        document.getElementById('correction-line').hidden = false;
+      }
+
+      Object.keys(data.requirements || {}).forEach(id => {
+        const opt = document.createElement('option');
+        opt.value = id;
+        opt.textContent = data.requirements[id].display_name;
+        el.purpose.appendChild(opt);
+      });
+      el.purpose.value = params.get('use') || '';
+
+      const seen = new Set();
+      Object.keys(data.watches).forEach(name => {
+        if (seen.has(name)) return;
+        seen.add(name);
+        const opt = document.createElement('option');
+        opt.value = name;
+        opt.textContent = data.watches[name].display_name;
+        el.category.appendChild(opt);
+      });
+      el.category.value = params.get('cat') || '';
+
+      render();
+    })
+    .catch(err => {
+      el.cards.innerHTML = '<div class="empty">データの読み込みに失敗しました。</div>';
+      console.error(err);
+    });
+})();
+</script>
+</body>
+</html>
