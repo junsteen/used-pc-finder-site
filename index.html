@@ -471,15 +471,16 @@
       const s = specs[id];
       const maker = (state.data.manufacturers[s.manufacturer_id] || {}).display_name || '—';
       const n = counts[id] || 0;
-      const nameCell = watchOf[id]
-        ? '<button class="cat-link" data-watch="' + watchOf[id] + '">' + s.display_name + '</button>'
-        : s.display_name;
+      // 製品名はスペック詳細ページへ。出品件数はその機種の出品への絞り込み。
+      const countCell = (n && watchOf[id])
+        ? '<button class="cat-link" data-watch="' + watchOf[id] + '">' + n + ' 件</button>'
+        : (n ? n + ' 件' : '—');
       return '<tr>' +
-        '<td>' + nameCell + '</td>' +
+        '<td><a href="models/' + id + '.html">' + s.display_name + '</a></td>' +
         '<td>' + maker + '</td>' +
         '<td>' + (s.release_date || '—') + '</td>' +
         '<td>' + (s.verified ? '確認済み' : '<span class="chip unverified">未検証</span>') + '</td>' +
-        '<td class="num">' + (n ? n + ' 件' : '—') + '</td>' +
+        '<td class="num">' + countCell + '</td>' +
         '</tr>';
     }).join('');
 
