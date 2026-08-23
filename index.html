@@ -41,7 +41,7 @@
     <h1>中古PC・パーツ横断検索</h1>
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視しています。用途を選ぶと必要スペックの下限が表示され、各出品が要件を満たすか判定します。</p>
     <div class="updated" id="updated-at"><!--UPDATED:START-->
-最終更新: 2026-08-23 14:20:18+09:00
+最終更新: 2026-08-23 14:49:52+09:00
 <!--UPDATED:END--></div>
   </header>
 
@@ -99,7 +99,7 @@
     <h2 class="section-h">収録済みカタログ</h2>
     <p class="queue-lede">メーカー公式ページ等から調査した製品スペックです。ここに収録されている製品は、出品一覧でもスペックが表示され、用途プリセットでの適合判定が効きます。</p>
     <div id="catalog-list"><!--CATALOG:START-->
-<p class='queue-empty'>5 製品を収録</p><div class='catalog-wrap'><table class='catalog-table'><thead><tr><th>製品</th><th>メーカー</th><th>発売</th><th>スペック</th><th class='num'>現在の出品</th></tr></thead><tbody><tr><td><a href='models/geforce_rtx3060_12gb.html'>GeForce RTX 3060 12GB</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2021-01</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='rtx3060_12gb'>63 件</button></td></tr><tr><td><a href='models/geforce_rtx4060ti_16gb.html'>GeForce RTX 4060 Ti 16GB</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2023-07</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='bonsai_gpu_pc'>4 件</button></td></tr><tr><td><a href='models/geforce_rtx4070ti_super.html'>GeForce RTX 4070 Ti SUPER</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2024-01</td><td><span class='chip unverified'>未検証</span></td><td class='num'>—</td></tr><tr><td><a href='models/vaio_pro_pk_vjpk21.html'>VAIO Pro PK (VJPK21)</a></td><td>VAIO株式会社</td><td>2021-10-22</td><td><span class='chip unverified'>未検証</span></td><td class='num'>—</td></tr><tr><td><a href='models/dynabook_g83hu.html'>dynabook G83/HU</a></td><td>Dynabook株式会社</td><td>2022-03</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='dynabook_g83hu'>4 件</button></td></tr></tbody></table></div>
+<p class='queue-empty'>5 製品を収録</p><div class='catalog-wrap'><table class='catalog-table'><thead><tr><th>製品</th><th>メーカー</th><th>発売</th><th>スペック</th><th class='num'>現在の出品</th></tr></thead><tbody><tr><td><a href='models/geforce_rtx3060_12gb.html'>GeForce RTX 3060 12GB</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2021-01</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='rtx3060_12gb'>63 件</button></td></tr><tr><td><a href='models/geforce_rtx4060ti_16gb.html'>GeForce RTX 4060 Ti 16GB</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2023-07</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='rtx4060ti_16gb'>4 件</button></td></tr><tr><td><a href='models/geforce_rtx4070ti_super.html'>GeForce RTX 4070 Ti SUPER</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2024-01</td><td><span class='chip unverified'>未検証</span></td><td class='num'>—</td></tr><tr><td><a href='models/vaio_pro_pk_vjpk21.html'>VAIO Pro PK (VJPK21)</a></td><td>VAIO株式会社</td><td>2021-10-22</td><td><span class='chip unverified'>未検証</span></td><td class='num'>—</td></tr><tr><td><a href='models/dynabook_g83hu.html'>dynabook G83/HU</a></td><td>Dynabook株式会社</td><td>2022-03</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='dynabook_g83hu'>4 件</button></td></tr></tbody></table></div>
 <!--CATALOG:END--></div>
   </section>
 
@@ -282,13 +282,20 @@
     else if (sort === 'price_desc') items.sort((a, b) => b.price_yen - a.price_yen);
     else items.sort((a, b) => (b.observed_at || '').localeCompare(a.observed_at || ''));
 
-    el.count.textContent = items.length + ' 件';
     syncToggle();
 
     if (!items.length) {
+      el.count.textContent = '0 件';
       el.results.innerHTML = '<div class="empty">条件に合う出品が見つかりませんでした。</div>';
       return;
     }
+
+    const found = items.length;
+    items = groupDuplicates(items);
+    // 出品の件数と行数がずれる理由(同一機種が複数台)を見える形にしておく
+    el.count.textContent = items.length < found
+      ? found + ' 件（同一機種をまとめて ' + items.length + ' 行）'
+      : found + ' 件';
 
     if (state.view !== 'table') {
       el.results.innerHTML = cardsHtml(items, req);
@@ -299,16 +306,35 @@
     const pcs = items.filter(l => l.category === 'pc');
     const parts = items.filter(l => l.category !== 'pc');
     const split = pcs.length && parts.length;
+    const total = g => g.reduce((n, l) => n + l.count, 0);
     let html = '';
     if (pcs.length) {
-      html += (split ? '<h2 class="section-h">パソコン ' + pcs.length + '件</h2>' : '')
+      html += (split ? '<h2 class="section-h">パソコン ' + total(pcs) + '件</h2>' : '')
             + tableHtml(pcs, req);
     }
     if (parts.length) {
-      html += (split ? '<h2 class="section-h">パーツ ' + parts.length + '件</h2>' : '')
+      html += (split ? '<h2 class="section-h">パーツ ' + total(parts) + '件</h2>' : '')
             + cardsHtml(parts, req);
     }
     el.results.innerHTML = html;
+  }
+
+  // 同じ店が同一機種を複数台出していることがある(中古なので1台ずつ別の出品)。
+  // 表にすると同じ行が並んで見分けが付かないため、1行にまとめて台数を添える。
+  // 価格・状態が違えば別の行として残す(比較の対象が変わるため)。
+  function groupDuplicates(items) {
+    const map = new Map();
+    for (const l of items) {
+      const key = [l.source, l.title, l.price_yen, l.condition_rank || ''].join(' ');
+      const seen = map.get(key);
+      if (seen) seen.count += 1;
+      else map.set(key, Object.assign({}, l, { count: 1 }));
+    }
+    return [...map.values()];
+  }
+
+  function stockBadge(l) {
+    return l.count > 1 ? '<span class="chip stock">' + l.count + '台</span>' : '';
   }
 
   // --- 表 ---------------------------------------------------------------
@@ -337,6 +363,7 @@
         // 3行で打ち切って表示するため、全文は title 属性にも持たせる
         '<td class="col-name"><a href="' + esc(l.url) + '" target="_blank" rel="noopener"' +
           ' title="' + esc(l.title) + '">' + esc(l.title) + '</a>' +
+          stockBadge(l) +
           (l.is_affiliate ? ' <span class="chip pr">PR</span>' : '') + '</td>' +
         '<td class="num price-cell">' + yen(l.price_yen) + priceDelta(l) + '</td>' +
         '<td>' + est(p.cpu) + '</td>' +
@@ -362,6 +389,7 @@
       const spec = l.spec_id ? state.data.specs[l.spec_id] : null;
       const watchLabel = (state.data.watches[l.watch_name] || {}).display_name || l.watch_name;
       const chips = [];
+      if (l.count > 1) chips.push('<span class="chip stock">' + l.count + '台</span>');
       if (l.condition_rank) chips.push('<span class="chip rank">' + esc(l.condition_rank) + '</span>');
       if (l.shipping) chips.push('<span class="chip ship">' + esc(l.shipping) + '</span>');
       chips.push('<span class="chip">' + esc(l.source) + '</span>');

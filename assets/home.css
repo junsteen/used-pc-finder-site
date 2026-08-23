@@ -119,6 +119,8 @@ font-family:var(--mono)}
 .chip{border:1px solid var(--surface-line);border-radius:999px;padding:.15rem .6rem;
 color:var(--text-muted)}
 .chip.rank{color:var(--accent);border-color:var(--accent-soft)}
+/* 同一機種が複数台出ているときの台数 */
+.chip.stock{color:var(--text);border-color:var(--text-muted);margin-left:.4rem}
 .chip.ship{color:var(--ok)}
 .chip.fit{color:var(--ok);border-color:var(--ok)}
 .chip.unfit{color:var(--up);border-color:var(--up)}

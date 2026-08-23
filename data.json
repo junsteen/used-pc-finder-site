@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 14:45:01+09:00",
+  "generated_at": "2026-08-23 14:49:52+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1714,6 +1714,7 @@
       "shop_id": null,
       "category": "pc",
       "parsed": {
+        "cpu": "Core i3（第9世代）",
         "memory_gb": 16,
         "storage": "SSD 256GB + HDD 500GB",
         "os": "Windows 11"
@@ -3082,6 +3083,7 @@
       "shop_id": null,
       "category": "pc",
       "parsed": {
+        "cpu": "Core i5（第7世代）",
         "memory_gb": 8,
         "storage": "SSD 480GB",
         "os": "Windows 11"
@@ -3399,7 +3401,7 @@
       "shop_id": null,
       "category": "pc",
       "parsed": {
-        "cpu": "Core i3",
+        "cpu": "Core i3（第9世代）",
         "memory_gb": 8,
         "storage": "SSD 128GB",
         "os": "Windows 11"
@@ -3552,7 +3554,7 @@
       "shop_id": null,
       "category": "pc",
       "parsed": {
-        "cpu": "Core i5",
+        "cpu": "Core i5（第7世代）",
         "memory_gb": 8
       },
       "title": "デスクトップ パソコン office Win11搭載 国産大手メーカー 高性能第4〜7世代 Core i5 3.7GHz  デスクトップpc メモリー:8GB SDD:512GB mh-dtpci5457爆買",
@@ -3868,7 +3870,7 @@
       "shop_id": null,
       "category": "pc",
       "parsed": {
-        "cpu": "Core i7",
+        "cpu": "Core i7（第7世代）",
         "memory_gb": 8,
         "storage": "SSD 240GB",
         "os": "Windows 11"
@@ -3895,7 +3897,7 @@
       "shop_id": null,
       "category": "pc",
       "parsed": {
-        "cpu": "Core i3",
+        "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
         "storage": "SSD 240GB",
         "os": "Windows 11"
@@ -3922,7 +3924,7 @@
       "shop_id": null,
       "category": "pc",
       "parsed": {
-        "cpu": "Core i3",
+        "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
         "storage": "SSD 240GB",
         "os": "Windows 11"
