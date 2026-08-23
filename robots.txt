@@ -1,6 +1,8 @@
 # 検索エンジン・AIクローラーいずれも歓迎します。
 # 掲載しているのは公開情報の集約と、自ら調査・構造化したスペックデータです。
 
+Sitemap: https://used-pc-finder-site.pages.dev/sitemap.xml
+
 User-agent: *
 Allow: /
 
