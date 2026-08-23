@@ -7,7 +7,7 @@
 // なお、ページには生成時刻が埋め込まれているため、キャッシュから表示された
 // 場合でも「最終更新」の表示で古さが利用者に伝わる。
 
-const VERSION = 'v2';
+const VERSION = 'v3';
 const SHELL_CACHE = `shell-${VERSION}`;
 const DATA_CACHE = `data-${VERSION}`;
 
@@ -18,8 +18,10 @@ const SHELL_ASSETS = [
   './assets/base.css',
   './assets/home.css',
   './manifest.webmanifest',
+  './favicon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './icons/apple-touch-icon.png',
 ];
 
 self.addEventListener('install', (event) => {
