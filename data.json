@@ -1,23 +1,10 @@
 {
-  "generated_at": "2026-08-24 03:44:39+09:00",
+  "generated_at": "2026-08-24 05:24:36+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
-    "recently_closed": [
-      {
-        "number": 2,
-        "title": "[調査] GeForce RTX 4070 Ti SUPER",
-        "url": "https://github.com/junsteen/used-pc-finder-site/issues/2",
-        "closed_at": "2026-08-23T02:26:20Z"
-      },
-      {
-        "number": 1,
-        "title": "[調査] RTX 4070 Ti SUPER",
-        "url": "https://github.com/junsteen/used-pc-finder-site/issues/1",
-        "closed_at": "2026-08-23T00:06:09Z"
-      }
-    ],
-    "error": null
+    "recently_closed": [],
+    "error": "HTTP Error 504: Gateway Timeout"
   },
   "watches": {
     "rtx4060ti_16gb": {
@@ -1129,36 +1116,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "janpara:10835166",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大阪本店】保証期間1週間",
-      "price_yen": 44980,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tw8so.2lytq590.g00tw8so.2lytrc99/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjanpara%2F127326275-127%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjanpara%2Fi%2F10835166%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-22 17:52:27",
-      "price_history": [
-        {
-          "price_yen": 44980,
-          "observed_at": "2026-08-22 17:52:27"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "kadekaden:10459498",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
@@ -1215,164 +1172,6 @@
         {
           "price_yen": 42600,
           "observed_at": "2026-08-22 17:52:27"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "sunday-morning:10071947",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3"
-      },
-      "title": "インテルE97379-003 Core i3/i5/i7 ソケット1150/1155/1156 デスクトップPCコンピュータ用アルミヒートシンクと3.5インチのファン付き4ピンコネクタCPUクーラー",
-      "price_yen": 2091,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00txx3o.2lytqfdd.g00txx3o.2lytre43/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsunday-morning%2Fwss201501b01lwmgrx6%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsunday-morning%2Fi%2F10071947%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-23 14:22:50",
-      "price_history": [
-        {
-          "price_yen": 2091,
-          "observed_at": "2026-08-23 14:22:50"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "ujmacs:10058808",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-7360U",
-        "cpu_generation": 7,
-        "memory_gb": 8,
-        "storage": "HDD 1TB"
-      },
-      "title": "【中古】 Apple iMac 18.1(21.5-inch,2017) / A1418 iMac 18.1 CPUCore i5 7360U / 2.3GHz メモリ8GB HDD1TB OSMacOS13",
-      "price_yen": 21700,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pstqo.2lytq497.g00pstqo.2lytr347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fujmacs%2F932827%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fujmacs%2Fi%2F10058808%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-23 14:22:50",
-      "price_history": [
-        {
-          "price_yen": 21700,
-          "observed_at": "2026-08-23 14:22:50"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "ujmacs:10058810",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-4570S",
-        "cpu_generation": 4,
-        "memory_gb": 8,
-        "storage": "HDD 1TB"
-      },
-      "title": "【中古】 Apple iMac 14.3 (21.5-inch,Late 2013) / A1418 iMac 14.3 CPUCore i5 4570S / 2.9GHz メモリ8GB HDD1TB OSMacOS10.15",
-      "price_yen": 16200,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pstqo.2lytq497.g00pstqo.2lytr347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fujmacs%2F933047%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fujmacs%2Fi%2F10058810%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-23 14:22:50",
-      "price_history": [
-        {
-          "price_yen": 16200,
-          "observed_at": "2026-08-23 14:22:50"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "ujmacs:10058840",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-7360U",
-        "cpu_generation": 7,
-        "memory_gb": 16,
-        "storage": "HDD 1TB"
-      },
-      "title": "【中古】 Apple iMac 18.1(21.5-inch,2017) / A1418 iMac 18.1 CPUCore i5 7360U / 2.3GHz メモリ16GB HDD1TB OSMacOS13",
-      "price_yen": 25000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pstqo.2lytq497.g00pstqo.2lytr347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fujmacs%2F932974%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fujmacs%2Fi%2F10058840%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-23 14:22:50",
-      "price_history": [
-        {
-          "price_yen": 25000,
-          "observed_at": "2026-08-23 14:22:50"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "ujmacs:10059044",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-9100",
-        "cpu_generation": 9,
-        "memory_gb": 4,
-        "storage": "HDD 1TB",
-        "os": "Windows 11 Home"
-      },
-      "title": "【中古】 DELL Vostro 3471 D13S003 CPUCore i3 9100 / 3.6GHz メモリ4GB HDD1TB OSWindows 11 Home",
-      "price_yen": 20500,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pstqo.2lytq497.g00pstqo.2lytr347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fujmacs%2F934406%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fujmacs%2Fi%2F10059044%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-23 14:22:50",
-      "price_history": [
-        {
-          "price_yen": 20500,
-          "observed_at": "2026-08-23 14:22:50"
         }
       ]
     },
