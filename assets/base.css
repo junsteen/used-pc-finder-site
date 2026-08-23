@@ -80,7 +80,7 @@ background:var(--surface)}
    全列を一度に見せる。表の値打ちは横に並べて見比べられることなので、
    ここだけは読み物としての行長より一覧性を優先する。 */
 @media(min-width:1024px){
-  .table-wrap{--tw:min(1240px,calc(100vw - 3rem));
+  .table-wrap{--tw:min(1500px,calc(100vw - 3rem));
   width:var(--tw);margin-inline:calc((100% - var(--tw)) / 2)}
 }
 .listing-table{width:100%;border-collapse:collapse;font-size:.82rem}
@@ -96,6 +96,8 @@ white-space:nowrap}
 /* 商品名だけ width:100% にして余白を吸わせ、他の列は中身なりの幅に収める */
 .listing-table .col-name{width:100%;min-width:16rem;overflow-wrap:anywhere}
 .listing-table td:not(.col-name){white-space:nowrap}
+/* 収集元と状態は語が長く、折り返せたほうが表全体が縮まる */
+.listing-table td.col-wrap{white-space:normal;min-width:6rem}
 /* 出品タイトルは非常に長いものがあり、素直に折り返すと1行が10行分の高さになって
    表として見比べられなくなる。3行で打ち切り、全文はリンク先とtitle属性に残す。 */
 .listing-table .col-name a{display:-webkit-box;-webkit-line-clamp:3;
@@ -109,6 +111,19 @@ color:var(--text-muted)}
 /* 出品タイトルから推定した値であることを、見出しとセルの両方で示す */
 .listing-table th.est{border-bottom-style:dashed}
 .est-val{border-bottom:1px dotted var(--text-muted)}
+
+/* 列見出しでの並べ替え。見出し全体をボタンにして押しやすくする */
+.listing-table th{padding:0}
+.sort-btn{display:flex;align-items:center;gap:.35rem;width:100%;
+font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;
+background:none;border:none;cursor:pointer;text-align:left;padding:.55rem .7rem}
+.listing-table th.num .sort-btn{justify-content:flex-end}
+.sort-btn:hover{color:var(--accent)}
+.sort-btn:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+/* 未選択の列は矢印を薄く出しておく(押せることが分かるように) */
+.sort-arrow{opacity:.35;font-size:.85em}
+.listing-table th.sorted .sort-btn{color:var(--accent)}
+.listing-table th.sorted .sort-arrow{opacity:1}
 .chip{display:inline-block;border:1px solid var(--surface-line);border-radius:999px;
 padding:.15rem .6rem;color:var(--text-muted);
 font-family:var(--mono);font-size:.75rem}

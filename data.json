@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 15:45:56+09:00",
+  "generated_at": "2026-08-23 16:00:59+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -720,7 +720,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "中古  各社 GeForce RTX3060 (12GB PCI-E) 144786",
       "price_yen": 38900,
       "url": "https://www.dospara.co.jp/SBR1522/IC603040.html",
@@ -746,7 +749,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 4060 Ti",
+        "vram_gb": 16
+      },
       "title": "中古  iGame GeForce RTX4060Ti Ultra W OC 16GB(RTX4060Ti 16GB) 3410014222",
       "price_yen": 97900,
       "url": "https://www.dospara.co.jp/SBR1522/IC622702.html",
@@ -776,7 +782,9 @@
         "cpu": "Ryzen 5 3500",
         "memory_gb": 16,
         "storage": "SSD 500GB + HDD 500GB",
-        "os": "Windows 11 Home"
+        "os": "Windows 11 Home",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "中古  GALLERIA RM5R-R36(Ryzen 5 3500/16GB/SSD500GB/HDD500GB+500GB/RTX3060 12GB/W11H) 3290007411",
       "price_yen": 79800,
@@ -807,7 +815,8 @@
         "cpu": "Core i5-8400",
         "memory_gb": 8,
         "storage": "HDD 500GB",
-        "os": "なし"
+        "os": "なし",
+        "gpu": "内蔵GPU"
       },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
@@ -838,7 +847,8 @@
         "cpu": "Core i5-8400",
         "memory_gb": 8,
         "storage": "HDD 500GB",
-        "os": "なし"
+        "os": "なし",
+        "gpu": "内蔵GPU"
       },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
@@ -869,7 +879,8 @@
         "cpu": "Core i5-8400",
         "memory_gb": 8,
         "storage": "HDD 500GB",
-        "os": "なし"
+        "os": "なし",
+        "gpu": "内蔵GPU"
       },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
@@ -900,7 +911,8 @@
         "cpu": "Core i5-8400",
         "memory_gb": 8,
         "storage": "HDD 500GB",
-        "os": "なし"
+        "os": "なし",
+        "gpu": "内蔵GPU"
       },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
@@ -927,7 +939,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 4060 Ti",
+        "vram_gb": 16
+      },
       "title": "中古  MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC (RTX4060Ti 16GB) 1230010736",
       "price_yen": 93900,
       "url": "https://www.dospara.co.jp/SBR1522/IC653281.html",
@@ -986,7 +1001,9 @@
       "parsed": {
         "cpu": "Ryzen 7 3700X",
         "memory_gb": 16,
-        "storage": "SSD 512GB + HDD 2TB"
+        "storage": "SSD 512GB + HDD 2TB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "中古  自作パソコン(Ryzen 7 3700X/16GB/SSD512GB/HDD2TB/RTX3060 12GB) 4990001629",
       "price_yen": 77000,
@@ -1014,7 +1031,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【1日と5.0のつく日、18日はポイント3倍！】【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42800,
@@ -1042,7 +1061,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【1日と5.0のつく日、18日はポイント3倍！】【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42600,
@@ -1070,7 +1091,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42800,
@@ -1098,7 +1121,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42600,
@@ -1125,7 +1150,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大阪本店】保証期間1週間",
       "price_yen": 44980,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00tw8so.2lytq590.g00tw8so.2lytrc99/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjanpara%2F127326275-127%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjanpara%2Fi%2F10835166%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -1152,7 +1180,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42800,
@@ -1180,7 +1210,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42600,
@@ -1238,7 +1270,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "GeForce RTX 3060 Dual OC 12GB NE63060T19K9-190AD LHR版",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=2000331111022&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1264,7 +1299,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "GEFORCE RTX 3060 GHOST 12GB",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4710562242430&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1290,7 +1328,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "GK-RTX3060-E12GB／OC／WHITE",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4988755057653&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1316,7 +1357,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "GALAKURO GAMING GG-RTX3060-E12GB／OC／DF",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4988755057660&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1831,7 +1875,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "数量限定 中古 おまかせグラボ NVIDIA GeForce RTX3060 12GB GDDR6",
       "price_yen": 31800,
       "url": "https://store.shopping.yahoo.co.jp/atriopc/1450.html",
@@ -1947,7 +1994,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42200,
@@ -1975,7 +2024,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42000,
@@ -2003,7 +2054,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり【いつでも+1％！5のつく日と日曜日は+2%！】　爆買",
       "price_yen": 42800,
@@ -2031,7 +2084,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり【いつでも+1％！5のつく日と日曜日は+2%！】　爆買",
       "price_yen": 42600,
@@ -2090,7 +2145,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】ASUS DUAL-RTX3060-O12G-V2 RTX3060(LHR)/12GB(GDDR6)【ECセンター】保証期間１週間",
       "price_yen": 29980,
@@ -2118,7 +2174,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.2.0（GV-N3060GAMING OC-12GD） RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 37980,
@@ -2146,7 +2203,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 42980,
@@ -2174,7 +2233,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】ZOTAC GAMING GeForce RTX 3060 Twin Edge OC (ZT-A30600H-10M) RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 39980,
@@ -2202,7 +2262,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 42980,
@@ -2230,7 +2292,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】ZOTAC GAMING GeForce RTX 3060 Twin Edge OC (ZT-A30600H-10M) RTX3060/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 43980,
@@ -2258,7 +2321,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 GK-RTX3060-E12GB/OC/WHITE RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 42980,
@@ -2286,7 +2351,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】Palit GeForce RTX 3060 Dual OC (NE63060T19K9-190AD) RTX3060/12GB(GDDR6)/PCI-E【静岡】保証期間１週間",
       "price_yen": 34980,
@@ -2313,7 +2379,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大阪本店】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/127326275-127.html",
@@ -2340,7 +2409,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】Palit GeForce RTX 3060 Dual OC 12GB LHR（NE63060T19K9-190AD）RTX3060(LHR)/12GB(GDDR6)【熊本】保証期間１週間",
       "price_yen": 30980,
@@ -2367,7 +2438,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【大宮東口】保証期間１週間",
       "price_yen": 41980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/216064654-216.html",
@@ -2394,7 +2468,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】MSI GeForce RTX 3060 VENTUS 2X 12G OC RTX3060/12GB(GDDR6)/PCI-E【大宮東口】保証期間１週間",
       "price_yen": 36980,
@@ -2421,7 +2496,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【立川フロム中武】保証期間１週間",
       "price_yen": 43980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/219064246-219.html",
@@ -2447,7 +2525,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【立川フロム中武】保証期間１週間",
       "price_yen": 43980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/219069534-219.html",
@@ -2473,7 +2554,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【立川フロム中武】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/219072512-219.html",
@@ -2499,7 +2583,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【川越クレアモール】保証期間１週間",
       "price_yen": 40980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/220056188-230.html",
@@ -2526,7 +2613,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】NVIDIA GeForce RTX3060 (LHR) 12GB (GDDR6)/PCI-E【東池袋1丁目】保証期間１週間",
       "price_yen": 31980,
@@ -2553,7 +2641,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【福岡天神】保証期間１週間",
       "price_yen": 30980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/225025615-225.html",
@@ -2579,7 +2670,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【福岡天神】保証期間１週間",
       "price_yen": 32980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/225026035-225.html",
@@ -2605,7 +2699,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【福岡天神】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/225034358-225.html",
@@ -2631,7 +2728,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【津田沼】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/228020936-228.html",
@@ -2657,7 +2757,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】Palit GeForce RTX 3060 StormX 12GB(NE63060019K9-190AF) LHR RTX3060/12G【大須アメ横】保証期間１週間",
       "price_yen": 41980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/232012866-232.html",
@@ -2683,7 +2786,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大須アメ横】保証期間１週間",
       "price_yen": 38980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/232012894-232.html",
@@ -2710,7 +2816,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060/12GB(GDDR6)/PCI-E【新宿】保証期間１週間",
       "price_yen": 36980,
@@ -2738,7 +2846,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】ZOTAC GAMING GeForce RTX 3060 Twin Edge(ZT-A30600E-10M) RTX3060/12GB(GDDR6)/PCI-E【新宿】保証期間１週間",
       "price_yen": 41980,
@@ -2766,7 +2875,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060/12GB(GDDR6)【戸塚】保証期間１週間",
       "price_yen": 28980,
@@ -2794,7 +2904,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060/12GB(GDDR6)【戸塚】保証期間１週間",
       "price_yen": 28980,
@@ -2822,7 +2933,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.1.0(GV-N3060GAMING OC-12GD) RTX3060/12GB(GDDR6)/PCI-E【戸塚】保証期間１週間",
       "price_yen": 26980,
@@ -2849,7 +2961,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】ZOTAC GeForce RTX 3060 12GB/ZT-A30600A-10B【仙台駅東口】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/64254249-64.html",
@@ -2876,7 +2991,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】Palit GeForce RTX 3060 Dual 12GB（NE63060019K9-190AD）RTX3060/12GB(GDDR6)【大須】保証期間１週間",
       "price_yen": 31980,
@@ -2903,7 +3020,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【秋葉3号】保証期間１週間",
       "price_yen": 34980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/66418596-66.html",
@@ -2930,7 +3050,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060(LHR)/12GB(GDDR6)【秋葉3号】保証期間１週間",
       "price_yen": 33980,
@@ -2958,7 +3079,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060/12GB(GDDR6)/PCI-E【京都】保証期間１週間",
       "price_yen": 30980,
@@ -2986,7 +3109,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】MSI GeForce RTX 3060 VENTUS 2X 12G OC RTX3060(LHR)/12GB(GDDR6)/PCI-E【秋葉2号】保証期間１週間",
       "price_yen": 33980,
@@ -3014,7 +3138,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 16
+        "memory_gb": 16,
+        "gpu": "RTX 4060 Ti",
+        "vram_gb": 16
       },
       "title": "【中古】Inno3D GeForce RTX 4060 Ti 16GB TWIN X2 OC N406T2-16D6X-178055N RTX4060Ti/16GB(GDDR6)【秋葉2号】保証期間１週間",
       "price_yen": 99980,
@@ -3042,7 +3168,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】MSI GeForce RTX 3060 VENTUS 2X 12G OC RTX3060/12GB(GDDR6)/PCI-E【秋葉2号】保証期間１週間",
       "price_yen": 44980,
@@ -3069,7 +3196,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【秋葉4号】保証期間１週間",
       "price_yen": 33980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/68447668-68.html",
@@ -3096,7 +3226,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】NVIDIA GeForce RTX3060 (LHR) 12GB (GDDR6)/PCI-E【博多】保証期間１週間",
       "price_yen": 32980,
@@ -3124,7 +3255,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】NVIDIA GeForce RTX3060(LHR) 12GB(GDDR6)/PCI-E【川崎】保証期間１週間",
       "price_yen": 27980,
@@ -3152,7 +3284,9 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
       "title": "【中古】Palit GeForce RTX 3060 Dual 12GB（NE63060019K9-190AD）RTX3060(LHR)/12GB(GDDR6)【札幌】保証期間１週間",
       "price_yen": 35980,
@@ -3179,7 +3313,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 4060 Ti",
+        "vram_gb": 16
+      },
       "title": "【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
       "price_yen": 71980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/83287558-83.html",
@@ -3206,7 +3343,8 @@
       "model_slug": null,
       "model_name": null,
       "parsed": {
-        "memory_gb": 12
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
       },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060(LHR)/12GB(GDDR6)【福岡筑紫】保証期間１週間",
       "price_yen": 32980,
@@ -3233,7 +3371,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 29980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/871034661-222.html",
@@ -3259,7 +3400,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【広島】保証期間１週間",
       "price_yen": 33980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/88235592-88.html",
@@ -3285,7 +3429,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【広島本通】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/88250042-233.html",
@@ -3311,7 +3458,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【熊本】保証期間１週間",
       "price_yen": 34980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/91047311-91.html",
@@ -3337,7 +3487,10 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
-      "parsed": {},
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【吉祥寺】保証期間１週間",
       "price_yen": 38980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/96097161-96.html",

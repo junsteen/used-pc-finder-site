@@ -41,7 +41,7 @@
     <h1>中古PC・パーツ横断検索</h1>
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視しています。用途を選ぶと必要スペックの下限が表示され、各出品が要件を満たすか判定します。</p>
     <div class="updated" id="updated-at"><!--UPDATED:START-->
-最終更新: 2026-08-23 15:45:56+09:00
+最終更新: 2026-08-23 16:00:59+09:00
 <!--UPDATED:END--></div>
   </header>
 
@@ -81,6 +81,8 @@
         <option value="price_asc">価格が安い順</option>
         <option value="price_desc">価格が高い順</option>
         <option value="newest">新着順</option>
+        <!-- 表の列見出しで並べ替えたときの表示。選択肢としては出さない -->
+        <option value="" hidden>表の列で並べ替え中</option>
       </select>
     </div>
   </div>
@@ -175,7 +177,23 @@
   el.keyword.value = params.get('q') || '';
   el.category.value = params.get('cat') || '';
   el.max.value = params.get('max') || '';
-  el.sort.value = params.get('sort') || 'price_asc';
+
+  // 並べ替えは、絞り込みの select と表の列見出しの2か所から操作する。
+  // どちらも同じ状態を書き換え、URLには "price_asc" / "vram_desc" の形で残す。
+  // "newest" は観測日時の降順で、列としては表に出ていない。
+  function parseSort(text) {
+    if (!text || text === 'newest') return { key: 'observed', dir: 'desc' };
+    const i = text.lastIndexOf('_');
+    const dir = text.slice(i + 1);
+    return { key: text.slice(0, i), dir: dir === 'desc' ? 'desc' : 'asc' };
+  }
+  function formatSort(s) {
+    return s.key === 'observed' ? 'newest' : s.key + '_' + s.dir;
+  }
+  state.sort = parseSort(params.get('sort') || 'price_asc');
+  // select にない並び順(列見出しで指定したもの)は、隠しオプション側を選ぶ
+  el.sort.value = ['price_asc', 'price_desc', 'newest'].includes(formatSort(state.sort))
+    ? formatSort(state.sort) : '';
 
   function yen(n) { return '¥' + n.toLocaleString('ja-JP'); }
 
@@ -278,10 +296,6 @@
       return true;
     });
 
-    if (sort === 'price_asc') items.sort((a, b) => a.price_yen - b.price_yen);
-    else if (sort === 'price_desc') items.sort((a, b) => b.price_yen - a.price_yen);
-    else items.sort((a, b) => (b.observed_at || '').localeCompare(a.observed_at || ''));
-
     syncToggle();
 
     if (!items.length) {
@@ -292,6 +306,7 @@
 
     const found = items.length;
     items = groupDuplicates(items);
+    sortItems(items);
     // 出品の件数と行数がずれる理由(同一機種が複数台)を見える形にしておく
     el.count.textContent = items.length < found
       ? found + ' 件（同一機種をまとめて ' + items.length + ' 行）'
@@ -349,20 +364,107 @@
   }
 
   // --- 表 ---------------------------------------------------------------
-  // CPU・メモリ・ストレージ・OSは出品タイトルから機械的に抽出した推定値。
-  // 検証済みスペックと見分けが付くよう、列見出しとセルの両方に印を付ける。
+  // CPU・メモリ・ストレージ・OS・GPU・VRAMは出品タイトルから機械的に抽出した
+  // 推定値。検証済みスペックと見分けが付くよう、列見出しとセルの両方に印を付ける。
+  //
+  // key   : ソート時の識別子
+  // value : 並べ替えに使う値。null/undefined は常に末尾へ送る
+  // cell  : 表示するセルの中身(HTML)
+  // est   : 推定値の列かどうか(見出しを破線にする)
+  const COLUMNS = [
+    { key: 'name', label: '商品名', cls: 'col-name',
+      value: l => l.title,
+      cell: l => nameLink(l) + stockBadge(l) +
+        (l.is_affiliate ? ' <span class="chip pr">PR</span>' : '') },
+    { key: 'price', label: '価格', cls: 'num price-cell', num: true,
+      value: l => l.price_yen,
+      cell: l => yen(l.price_yen) + priceDelta(l) },
+    { key: 'cpu', label: 'CPU', est: true,
+      value: l => l.parsed.cpu, cell: l => est(l.parsed.cpu) },
+    { key: 'gpu', label: 'GPU', est: true,
+      value: l => gpuOf(l), cell: l => est(gpuOf(l)) },
+    { key: 'vram', label: 'VRAM', cls: 'num', num: true, est: true,
+      value: l => vramOf(l),
+      cell: l => est(vramOf(l) ? vramOf(l) + 'GB' : null) },
+    { key: 'memory', label: 'メモリ', cls: 'num', num: true, est: true,
+      value: l => l.parsed.memory_gb,
+      cell: l => est(l.parsed.memory_gb ? l.parsed.memory_gb + 'GB' : null) },
+    { key: 'storage', label: 'ストレージ', est: true,
+      value: l => storageGb(l.parsed.storage), num: true,
+      cell: l => est(l.parsed.storage) },
+    { key: 'os', label: 'OS', est: true,
+      value: l => l.parsed.os, cell: l => est(l.parsed.os) },
+    { key: 'condition', label: '状態',
+      value: l => l.condition_rank, cell: l => esc(l.condition_rank || '—') },
+    { key: 'shipping', label: '送料',
+      value: l => l.shipping, cell: l => esc(l.shipping_label) },
+    { key: 'source', label: '収集元', cls: 'col-wrap',
+      value: l => l.source_label, cell: l => esc(l.source_label) },
+  ];
+
+  function est(v) {
+    return v ? '<span class="est-val">' + esc(v) + '</span>' : '—';
+  }
+
+  // GPU/VRAMは、カタログに収録済みの製品(グラボ単体など)ならその値を使う。
+  // 出品タイトルからの推定より確かなため。
+  function catalogSpec(l) {
+    return l.spec_id ? (state.data.specs[l.spec_id] || null) : null;
+  }
+  function gpuOf(l) {
+    const s = catalogSpec(l);
+    if (s && s.category === 'gpu') return s.display_name;
+    return l.parsed.gpu || null;
+  }
+  function vramOf(l) {
+    const s = catalogSpec(l);
+    if (s && s.spec && s.spec.vram_gb) return s.spec.vram_gb;
+    return l.parsed.vram_gb || null;
+  }
+
+  // 「SSD 512GB + HDD 2TB」を合計GBにする。並べ替えのためだけの値。
+  function storageGb(text) {
+    if (!text || text === 'なし') return text === 'なし' ? 0 : null;
+    let total = 0;
+    for (const m of text.matchAll(/([0-9]+)\s*(TB|GB)/gi)) {
+      total += parseInt(m[1], 10) * (m[2].toUpperCase() === 'TB' ? 1024 : 1);
+    }
+    return total || null;
+  }
+
+  // 表に列としては出ていないが、絞り込みの「新着順」で使う
+  const OBSERVED_COL = { key: 'observed', num: false,
+                         value: l => l.observed_at || '' };
+
+  function sortItems(items) {
+    const col = state.sort.key === 'observed' ? OBSERVED_COL
+      : (COLUMNS.find(c => c.key === state.sort.key) || COLUMNS[1]);
+    const dir = state.sort.dir === 'desc' ? -1 : 1;
+    items.sort((a, b) => {
+      const x = col.value(a), y = col.value(b);
+      // 値がない行は、昇順でも降順でも末尾に置く(「—」が先頭に溜まるのを防ぐ)
+      const xn = x === null || x === undefined || x === '';
+      const yn = y === null || y === undefined || y === '';
+      if (xn && yn) return 0;
+      if (xn) return 1;
+      if (yn) return -1;
+      if (col.num) return (x - y) * dir;
+      return String(x).localeCompare(String(y), 'ja') * dir;
+    });
+  }
+
   function tableHtml(items, req) {
     const showFit = !!req;
-    const head =
-      '<tr><th>商品名</th><th class="num">価格</th>' +
-      '<th class="est">CPU</th><th class="est">メモリ</th>' +
-      '<th class="est">ストレージ</th><th class="est">OS</th>' +
-      '<th>状態</th><th>送料</th><th>収集元</th>' +
-      (showFit ? '<th>用途適合</th>' : '') + '</tr>';
+    const head = COLUMNS.map(c => {
+      const active = state.sort.key === c.key;
+      const arrow = active ? (state.sort.dir === 'desc' ? '▼' : '▲') : '';
+      return '<th class="' + [c.cls, c.est ? 'est' : '', active ? 'sorted' : ''].filter(Boolean).join(' ') + '">' +
+        '<button type="button" class="sort-btn" data-sort="' + c.key + '"' +
+        ' aria-label="' + c.label + 'で並べ替え">' + c.label +
+        '<span class="sort-arrow">' + (arrow || '⇅') + '</span></button></th>';
+    }).join('') + (showFit ? '<th>用途適合</th>' : '');
 
     const rows = items.map(l => {
-      const p = l.parsed || {};
-      const est = v => v ? '<span class="est-val">' + esc(v) + '</span>' : '—';
       const fit = showFit ? judgeFit(l, req) : null;
       // 列幅を抑えるため記号だけを出し、理由は title 属性に持たせる
       const fitCell = fit
@@ -370,31 +472,38 @@
           (fit.verdict === 'fit' ? '◎ 適合' : fit.verdict === 'unfit' ? '× 不適合' : '? 判定不可') +
           '</span></td>'
         : '';
-      return '<tr>' +
-        // 型番が判定できたものは、いきなり販売元へ飛ばさず詳細ページを挟む。
-        // 同じ型番の他店の出品や、グラボが載る筐体かどうかをそこで見比べられる。
-        // 3行で打ち切って表示するため、全文は title 属性にも持たせる
-        '<td class="col-name">' + nameLink(l) + stockBadge(l) +
-          (l.is_affiliate ? ' <span class="chip pr">PR</span>' : '') + '</td>' +
-        '<td class="num price-cell">' + yen(l.price_yen) + priceDelta(l) + '</td>' +
-        '<td>' + est(p.cpu) + '</td>' +
-        '<td class="num">' + est(p.memory_gb ? p.memory_gb + 'GB' : null) + '</td>' +
-        '<td>' + est(p.storage) + '</td>' +
-        '<td>' + est(p.os) + '</td>' +
-        '<td>' + esc(l.condition_rank || '—') + '</td>' +
-        '<td>' + esc(l.shipping_label) + '</td>' +
-        '<td>' + esc(l.source_label) + '</td>' +
-        fitCell + '</tr>';
+      return '<tr>' + COLUMNS.map(c =>
+        '<td' + (c.cls ? ' class="' + c.cls + '"' : '') + '>' + c.cell(l) + '</td>'
+      ).join('') + fitCell + '</tr>';
     }).join('');
 
     return '<p class="est-note muted">' +
-      '<span class="est-val">点線</span>の列（CPU・メモリ・ストレージ・OS）は' +
-      '出品タイトルから機械的に抽出した推定値です。販売元のページで必ずご確認ください。</p>' +
+      '<span class="est-val">点線</span>の列（CPU・GPU・VRAM・メモリ・ストレージ・OS）は' +
+      '出品タイトルから機械的に抽出した推定値です。販売元のページで必ずご確認ください。' +
+      '列見出しをクリックすると並べ替えできます。</p>' +
       '<div class="table-wrap"><table class="listing-table">' +
-      '<thead>' + head + '</thead><tbody>' + rows + '</tbody></table></div>';
+      '<thead><tr>' + head + '</tr></thead><tbody>' + rows + '</tbody></table></div>';
   }
 
   // --- カード -----------------------------------------------------------
+  // カード表示(狭い画面の既定)では表の列が見えないので、抽出した構成をここに出す。
+  // 表と同じく点線で推定値であることを示す。
+  function parsedFacts(l) {
+    const p = l.parsed || {};
+    const facts = [
+      ['CPU', p.cpu],
+      ['GPU', gpuOf(l)],
+      ['VRAM', vramOf(l) ? vramOf(l) + 'GB' : null],
+      ['メモリ', p.memory_gb ? p.memory_gb + 'GB' : null],
+      ['ストレージ', p.storage],
+      ['OS', p.os],
+    ].filter(f => f[1]);
+    if (!facts.length) return '';
+    return '<div class="spec-row parsed">' + facts.map(f =>
+      '<span>' + f[0] + ': <b class="est-val">' + esc(f[1]) + '</b></span>'
+    ).join('') + '</div>';
+  }
+
   function cardsHtml(items, req) {
     return '<div class="cards">' + items.map(l => {
       const spec = l.spec_id ? state.data.specs[l.spec_id] : null;
@@ -422,9 +531,10 @@
       chips.push('<span class="chip">' + watchLabel + '</span>');
 
       return '<div class="card">' +
-        '<div class="card-title"><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.title) + '</a></div>' +
+        '<div class="card-title">' + nameLink(l) + '</div>' +
         '<div class="price-block"><div class="price">' + yen(l.price_yen) + '</div>' + priceDelta(l) + '</div>' +
         '<div class="meta-row">' + chips.join('') + '</div>' +
+        parsedFacts(l) +
         specFacts(spec) +
         '</div>';
     }).join('') + '</div>';
@@ -492,19 +602,46 @@
       ).join('') + '</ul>';
   }
 
+  // 列見出しのクリックで並べ替える。同じ列をもう一度押すと昇順/降順が入れ替わる。
+  el.results.addEventListener('click', (e) => {
+    const btn = e.target.closest('.sort-btn');
+    if (!btn) return;
+    const key = btn.dataset.sort;
+    const col = COLUMNS.find(c => c.key === key);
+    if (state.sort.key === key) {
+      state.sort.dir = state.sort.dir === 'asc' ? 'desc' : 'asc';
+    } else {
+      // 価格や容量は「安い順・大きい順」から見たいことが多いので既定を分ける
+      state.sort = { key, dir: col && col.num && key !== 'price' ? 'desc' : 'asc' };
+    }
+    // 絞り込みの select に対応する並び順なら表示を合わせる(合わなければ既定に戻す)
+    const text = formatSort(state.sort);
+    el.sort.value = ['price_asc', 'price_desc', 'newest'].includes(text) ? text : '';
+    render();
+    syncUrl();
+  });
+
   function syncUrl() {
     const p = new URLSearchParams();
     if (el.purpose.value) p.set('use', el.purpose.value);
     if (el.keyword.value) p.set('q', el.keyword.value);
     if (el.category.value) p.set('cat', el.category.value);
     if (el.max.value) p.set('max', el.max.value);
-    if (el.sort.value !== 'price_asc') p.set('sort', el.sort.value);
+    const sortText = formatSort(state.sort);
+    if (sortText !== 'price_asc') p.set('sort', sortText);
     const qs = p.toString();
     history.replaceState(null, '', qs ? '?' + qs : location.pathname);
   }
 
-  [el.purpose, el.keyword, el.category, el.max, el.sort].forEach(input => {
+  [el.purpose, el.keyword, el.category, el.max].forEach(input => {
     input.addEventListener('input', () => { render(); syncUrl(); });
+  });
+
+  el.sort.addEventListener('input', () => {
+    if (!el.sort.value) return;  // 列見出しで並べ替えたときの空選択
+    state.sort = parseSort(el.sort.value);
+    render();
+    syncUrl();
   });
 
   fetch('data.json')
