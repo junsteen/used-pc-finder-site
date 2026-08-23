@@ -47,8 +47,57 @@ text-transform:uppercase;color:var(--accent);margin:0 0 .5rem}
 border:1px solid var(--surface-line);border-radius:4px;padding:.2rem .55rem}
 .purpose-panel .src{color:var(--text-muted);font-size:.75rem;margin:.6rem 0 0}
 
+.result-bar{display:flex;align-items:center;justify-content:space-between;
+gap:1rem;flex-wrap:wrap;margin:0 0 .75rem}
 .result-count{font-family:var(--mono);font-size:.85rem;color:var(--text-muted);
-margin:0 0 .75rem}
+margin:0}
+.view-toggle{display:flex;border:1px solid var(--surface-line);border-radius:6px;
+overflow:hidden}
+.view-toggle button{font:inherit;font-family:var(--mono);font-size:.78rem;
+background:var(--surface);color:var(--text-muted);border:none;cursor:pointer;
+padding:.35rem .9rem}
+.view-toggle button+button{border-left:1px solid var(--surface-line)}
+.view-toggle button[aria-pressed="true"]{background:var(--accent);
+color:var(--accent-on-accent);font-weight:600}
+.view-toggle button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+/* 出品一覧の表。列が多いので、狭い画面では表だけを横スクロールさせる
+   (ページ全体が横に動くと他の内容まで読めなくなるため) */
+.est-note{font-size:.78rem;margin:0 0 .6rem}
+.table-wrap{overflow-x:auto;border:1px solid var(--surface-line);border-radius:10px;
+background:var(--surface)}
+/* 9列あると本文幅(980px)には収まらない。広い画面では表だけを本文からはみ出させて
+   全列を一度に見せる。表の値打ちは横に並べて見比べられることなので、
+   ここだけは読み物としての行長より一覧性を優先する。 */
+@media(min-width:1024px){
+  .table-wrap{--tw:min(1240px,calc(100vw - 3rem));
+  width:var(--tw);margin-inline:calc((100% - var(--tw)) / 2)}
+}
+.listing-table{width:100%;border-collapse:collapse;font-size:.82rem}
+.listing-table th{position:sticky;top:0;z-index:1;background:var(--surface);
+text-align:left;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;
+text-transform:uppercase;color:var(--text-muted);font-weight:500;white-space:nowrap;
+border-bottom:1px solid var(--surface-line);padding:.55rem .7rem}
+.listing-table td{padding:.55rem .7rem;border-bottom:1px solid var(--surface-line);
+vertical-align:top}
+.listing-table tr:last-child td{border-bottom:none}
+.listing-table .num{font-variant-numeric:tabular-nums;text-align:right;
+white-space:nowrap}
+/* 商品名だけ width:100% にして余白を吸わせ、他の列は中身なりの幅に収める */
+.listing-table .col-name{width:100%;min-width:16rem;overflow-wrap:anywhere}
+.listing-table td:not(.col-name){white-space:nowrap}
+/* 出品タイトルは非常に長いものがあり、素直に折り返すと1行が10行分の高さになって
+   表として見比べられなくなる。3行で打ち切り、全文はリンク先とtitle属性に残す。 */
+.listing-table .col-name a{display:-webkit-box;-webkit-line-clamp:3;
+-webkit-box-orient:vertical;overflow:hidden}
+.listing-table .col-name a{color:var(--text);text-decoration:none}
+.listing-table .col-name a:hover{color:var(--accent);text-decoration:underline}
+.listing-table .price-cell{font-family:var(--mono);font-weight:600}
+.listing-table .price-delta{font-weight:400}
+/* 出品タイトルから推定した値であることを、見出しとセルの両方で示す */
+.listing-table th.est{border-bottom-style:dashed}
+.est-val{border-bottom:1px dotted var(--text-muted)}
+
 .cards{display:flex;flex-direction:column;gap:.75rem}
 .card-title{font-weight:500;font-size:.98rem;text-wrap:pretty;overflow-wrap:anywhere}
 .card-title a{color:var(--text);text-decoration:none}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 14:07:03+09:00",
+  "generated_at": "2026-08-23 14:20:18+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -22,27 +22,33 @@
   "watches": {
     "bonsai_gpu_pc": {
       "display_name": "RTX 4060 Ti 16GB搭載PC",
-      "spec_id": "geforce_rtx4060ti_16gb"
+      "spec_id": "geforce_rtx4060ti_16gb",
+      "category": "pc"
     },
     "dynabook_g83hu": {
       "display_name": "dynabook G83/HU",
-      "spec_id": "dynabook_g83hu"
+      "spec_id": "dynabook_g83hu",
+      "category": "pc"
     },
     "vaio_pro_pk_vjpk21_32gb": {
       "display_name": "VAIO Pro PK (VJPK21・32GB)",
-      "spec_id": "vaio_pro_pk_vjpk21"
+      "spec_id": "vaio_pro_pk_vjpk21",
+      "category": "pc"
     },
     "rtx3060_12gb": {
       "display_name": "RTX 3060 12GB（カード単体）",
-      "spec_id": "geforce_rtx3060_12gb"
+      "spec_id": "geforce_rtx3060_12gb",
+      "category": "part"
     },
     "rtx3060_12gb_pc": {
       "display_name": "RTX 3060 12GB搭載PC",
-      "spec_id": "geforce_rtx3060_12gb"
+      "spec_id": "geforce_rtx3060_12gb",
+      "category": "pc"
     },
     "bare_desktop_for_gpu": {
       "display_name": "素体デスクトップPC（GPU後付け用）",
-      "spec_id": null
+      "spec_id": null,
+      "category": "pc"
     }
   },
   "manufacturers": {
@@ -670,6 +676,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "dospara",
+      "category": "part",
+      "parsed": {},
       "title": "中古  各社 GeForce RTX3060 (12GB PCI-E) 144786",
       "price_yen": 38900,
       "url": "https://www.dospara.co.jp/SBR1522/IC603040.html",
@@ -690,6 +698,8 @@
       "watch_name": "bonsai_gpu_pc",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {},
       "title": "中古  iGame GeForce RTX4060Ti Ultra W OC 16GB(RTX4060Ti 16GB) 3410014222",
       "price_yen": 97900,
       "url": "https://www.dospara.co.jp/SBR1522/IC622702.html",
@@ -710,6 +720,13 @@
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {
+        "cpu": "Ryzen 5 3500",
+        "memory_gb": 16,
+        "storage": "SSD 500GB + HDD 500GB",
+        "os": "Windows 11 Home"
+      },
       "title": "中古  GALLERIA RM5R-R36(Ryzen 5 3500/16GB/SSD500GB/HDD500GB+500GB/RTX3060 12GB/W11H) 3290007411",
       "price_yen": 79800,
       "url": "https://www.dospara.co.jp/SBR1391/IC643210.html",
@@ -730,6 +747,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "なし"
+      },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
       "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
@@ -750,6 +774,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "なし"
+      },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
       "url": "https://www.dospara.co.jp/SBR1391/IC653189.html",
@@ -770,6 +801,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "なし"
+      },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
       "url": "https://www.dospara.co.jp/SBR1391/IC653190.html",
@@ -790,6 +828,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "なし"
+      },
       "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
       "price_yen": 10000,
       "url": "https://www.dospara.co.jp/SBR1391/IC653192.html",
@@ -810,6 +855,8 @@
       "watch_name": "bonsai_gpu_pc",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {},
       "title": "中古  MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC (RTX4060Ti 16GB) 1230010736",
       "price_yen": 93900,
       "url": "https://www.dospara.co.jp/SBR1522/IC653281.html",
@@ -830,6 +877,12 @@
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-1335U",
+        "memory_gb": 16,
+        "storage": "SSD 512GB"
+      },
       "title": "中古  Dynabook dynabook G83/HU Portege X30L-J (i5 1335U/16GB/SSD512GB/WLAN/13.3FHD) 3280023543",
       "price_yen": 34700,
       "url": "https://www.dospara.co.jp/SBR1392/IC661818.html",
@@ -850,6 +903,12 @@
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "dospara",
+      "category": "pc",
+      "parsed": {
+        "cpu": "Ryzen 7 3700X",
+        "memory_gb": 16,
+        "storage": "SSD 512GB + HDD 2TB"
+      },
       "title": "中古  自作パソコン(Ryzen 7 3700X/16GB/SSD512GB/HDD2TB/RTX3060 12GB) 4990001629",
       "price_yen": 77000,
       "url": "https://www.dospara.co.jp/SBR1391/IC663385.html",
@@ -870,6 +929,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【1日と5.0のつく日、18日はポイント3倍！】【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00q4p0o.2lytq5a2.g00q4p0o.2lytr36f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexcellar%2F1050019023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fexcellar%2Fi%2F13518014%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -890,6 +953,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【1日と5.0のつく日、18日はポイント3倍！】【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42600,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00q4p0o.2lytq5a2.g00q4p0o.2lytr36f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexcellar%2F1050028802%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fexcellar%2Fi%2F13673738%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -910,6 +977,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00s75po.2lytq2b2.g00s75po.2lytr35e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhome-carpentry%2F1050019023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhome-carpentry%2Fi%2F10620189%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -930,6 +1001,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42600,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00s75po.2lytq2b2.g00s75po.2lytr35e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhome-carpentry%2F1050028802%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhome-carpentry%2Fi%2F10620887%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -950,6 +1025,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大阪本店】保証期間1週間",
       "price_yen": 44980,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00tw8so.2lytq590.g00tw8so.2lytrc99/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjanpara%2F127326275-127%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjanpara%2Fi%2F10835166%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -970,6 +1047,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0xno.2lytqfc3.g00s0xno.2lytr7b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkadekaden%2F1050019023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkadekaden%2Fi%2F10459498%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -990,6 +1071,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42600,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0xno.2lytqfc3.g00s0xno.2lytr7b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkadekaden%2F1050028802%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkadekaden%2Fi%2F10655331%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -1010,6 +1095,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i7-8700",
+        "memory_gb": 8,
+        "storage": "なし",
+        "os": "なし"
+      },
       "title": "【中古】EPSON Endeavor AT994E Core i7-8700 3.20GHz 第8世代 メモリ8GB　ノーストレージ　OSなし　DVD　RS232Cパラレル",
       "price_yen": 14800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00q9f6o.2lytq36e.g00q9f6o.2lytr670/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frestation%2F0-200001069487-21%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frestation%2Fi%2F10077989%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
@@ -1030,6 +1122,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
+      "category": "part",
+      "parsed": {},
       "title": "GeForce RTX 3060 Dual OC 12GB NE63060T19K9-190AD LHR版",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=2000331111022&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1050,6 +1144,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
+      "category": "part",
+      "parsed": {},
       "title": "GEFORCE RTX 3060 GHOST 12GB",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4710562242430&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1070,6 +1166,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
+      "category": "part",
+      "parsed": {},
       "title": "GK-RTX3060-E12GB／OC／WHITE",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4988755057653&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1090,6 +1188,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
+      "category": "part",
+      "parsed": {},
       "title": "GALAKURO GAMING GG-RTX3060-E12GB／OC／DF",
       "price_yen": 44980,
       "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4988755057660&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
@@ -1110,6 +1210,10 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-4590"
+      },
       "title": "NEC Mate PC-MK33MLZX1ASN マザーボード Core i5 4590 純正 中古品 MK33ML-N 5-0630-3 Windows パーツ 部品 交換用",
       "price_yen": 16300,
       "url": "https://store.shopping.yahoo.co.jp/aidemac/tw202506301723105158757.html",
@@ -1130,6 +1234,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-4130",
+        "memory_gb": 4,
+        "os": "Windows 8.1 Pro"
+      },
       "title": "Windows8.1 Pro 64bit Lenovo ThinkCentre E73 Small 10AU-0066JP Core i3-4130 3.4GHz 4GB 500GB DVDマルチ 中古パソコン デスクトップ",
       "price_yen": 16800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/13613.html",
@@ -1150,6 +1260,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-3240",
+        "memory_gb": 8,
+        "os": "Windows 7 Pro"
+      },
       "title": "Windows7 Pro 64bit Windows8 Pro 64bitリカバリー付き NEC Mate MJ34LB-G (PC-MJ34LBZNG) Core i3-3240 3.4GHz 8GB 500GB マルチ 外観難あり",
       "price_yen": 22800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/14301.html",
@@ -1170,6 +1286,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-4170",
+        "memory_gb": 4,
+        "storage": "SSD 128GB",
+        "os": "Windows 10 Pro"
+      },
       "title": "Windows10 Pro 64bit Lenovo ThinkCentre M73 Small 10B7-007NJP Core i3-4170 3.7GHz 4GB 128GB(SSD) DVDマルチ 中古パソコン デスクトップ 本体のみ",
       "price_yen": 19800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/14461-3.html",
@@ -1190,6 +1313,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-6100",
+        "memory_gb": 4,
+        "os": "Windows 10 Pro"
+      },
       "title": "NEC Mate MK37LL-T (PC-MK37LLZNCPST) Windows10 Pro 64bit 第6世代 Core i3-6100 3.7GHz 4GB 500GB DVDマルチ 中古パソコン デスクトップ 中古PC 本体のみ",
       "price_yen": 24800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/14989.html",
@@ -1210,6 +1339,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-4170",
+        "memory_gb": 4,
+        "os": "Windows 10 Pro"
+      },
       "title": "Windows10 Pro 64bit NEC Mate MK37LL-N (PC-MK37LLZN1ASN) Core i3-4170 3.7GHz 4GB 500GB DVDマルチ 本体のみ",
       "price_yen": 24800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/14990.html",
@@ -1230,6 +1365,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "Windows11 Pro 64bit NEC Mate MKL36B-4 (PC-MKL36BZG4) 第8世代 Core i3-8100 3.6GHz メモリ 8GB 256GB(新品SSD) DVDマルチ 本体のみ",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/19273.html",
@@ -1250,6 +1392,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
       "title": "パソコン 中古 Windows11 NEC Mate MUL36L-4 (PC-MUL36LZ6ACS4) 第8世代 Core i3-8100 3.6GHz メモリ 8GB 256GB(新品SSD) DVDマルチ デスクトップ 本体のみ",
       "price_yen": 19800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/19565.html",
@@ -1270,6 +1419,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i7-7700",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "パソコン 中古 Windows11 Pro 64bit NEC Mate MK36HB-V (PC-MK36HBZGV) Core i7-7700 3.6GHz メモリ 8GB HDD 500GB(SATA) デスクトップ CPUファン異音あり",
       "price_yen": 17800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/19782.html",
@@ -1290,6 +1446,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-210",
+        "memory_gb": 8,
+        "storage": "HDD 320GB",
+        "os": "Windows 7 Pro"
+      },
       "title": "パソコン 中古 Windows7 Pro 64bit Lenovo ThinkCentre M71e Small 3157-D2J Core i3-210 3.1GHz メモリ 8GB HDD 320GB(SATA) DVDマルチ デスクトップ 本体のみ",
       "price_yen": 17800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/20161.html",
@@ -1310,6 +1473,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-3470",
+        "memory_gb": 8,
+        "storage": "HDD 250GB",
+        "os": "Windows 8.1 Pro"
+      },
       "title": "Windows8.1 Pro 64bit NEC Mate MK32MB-F (PC-MK32MBZNF) Corei5 3470 3.2GHz メモリ 8GB HDD 250GB(SATA) DVD-ROM 前カバー黄ばみあり",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/20537.html",
@@ -1330,6 +1500,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-3240",
+        "memory_gb": 4,
+        "storage": "HDD 250GB",
+        "os": "Windows 8.1 Pro"
+      },
       "title": "Windows8.1 Pro 64bit Lenovo ThinkCentre M72e Small 3578-HQJ Core i3-3240 3.4GHz メモリ 4GB HDD 250GB(SATA) DVDマルチ 外観難あり(筐体サビ)",
       "price_yen": 7980,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/21086.html",
@@ -1350,6 +1527,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-7500",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "Windows 10 Pro"
+      },
       "title": "Windows10 Pro 64bit EPSON Endeavor AT10 Core i5-7500 3.4GHz メモリー 8GB HDD 500GB(SATA) 光学ドライブ不良 筐体黄ばみあり",
       "price_yen": 13800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/21931.html",
@@ -1370,6 +1554,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-650",
+        "memory_gb": 2,
+        "storage": "HDD 160GB",
+        "os": "Windows 7 Pro"
+      },
       "title": "Windows7 Pro 32bit NEC Mate MK32ME-B (PC-MK32MEZCB) Corei5 650 3.2GHz メモリ 2GB HDD 160GB(SATA) DVD-ROM 筐体黄ばみあり",
       "price_yen": 24800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/21963.html",
@@ -1390,6 +1581,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-2120",
+        "memory_gb": 2,
+        "storage": "HDD 250GB",
+        "os": "Windows 7 Pro"
+      },
       "title": "Windows7 Pro 32bit NEC Mate MK33LB-E (PC-MK33LBZCE) Core i3-2120 3.3GHz メモリ 2GB HDD 250GB(SATA) DVD-ROM 筐体黄ばみあり",
       "price_yen": 22800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/21964.html",
@@ -1410,6 +1608,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-2120",
+        "memory_gb": 2,
+        "storage": "HDD 250GB",
+        "os": "Windows 7 Pro"
+      },
       "title": "Windows7 Pro 32bit NEC Mate MK33LB-E (PC-MK33LBZCE) Core i3-2120 3.3GHz メモリ 2GB HDD 250GB(SATA) DVD-ROM 筐体黄ばみあり",
       "price_yen": 22800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/21966.html",
@@ -1430,6 +1635,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "数量限定 中古 おまかせグラボ NVIDIA GeForce RTX3060 12GB GDDR6",
       "price_yen": 31800,
       "url": "https://store.shopping.yahoo.co.jp/atriopc/1450.html",
@@ -1450,6 +1657,11 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
       "title": "中古 デスクトップ NEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 Core i5 メモリ：8GB 256GB Win11 ランクA 動作A 6ヶ月保証",
       "price_yen": 22700,
       "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/n-pc-mkm21czc4-a005.html",
@@ -1470,6 +1682,11 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
       "title": "中古 デスクトップ Lenovo レノボ ThinkCentre M720s 10SUA03GJP Core i5 メモリ：8GB 6ヶ月保証",
       "price_yen": 21600,
       "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/ud10sua03g-a001.html",
@@ -1490,6 +1707,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "memory_gb": 16,
+        "storage": "SSD 256GB + HDD 500GB",
+        "os": "Windows 11"
+      },
       "title": "デスクトップパソコン windows11 office2024 DELL HP NEC等から 最大第九世代Corei3可 最大メモリ16GB変更可 SSD256GB+HDD500GB 中古デスクトップパソコン",
       "price_yen": 18800,
       "url": "https://store.shopping.yahoo.co.jp/eco-stage-japan/dt-i5-008.html",
@@ -1510,6 +1733,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
       "price_yen": 42200,
       "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1050019023.html",
@@ -1530,6 +1757,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり",
       "price_yen": 42000,
       "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1050028802.html",
@@ -1550,6 +1781,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり【いつでも+1％！5のつく日と日曜日は+2%！】　爆買",
       "price_yen": 42800,
       "url": "https://store.shopping.yahoo.co.jp/excellar/1050019023.html",
@@ -1570,6 +1805,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり【いつでも+1％！5のつく日と日曜日は+2%！】　爆買",
       "price_yen": 42600,
       "url": "https://store.shopping.yahoo.co.jp/excellar/1050028802.html",
@@ -1590,6 +1829,13 @@
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-1135G",
+        "memory_gb": 16,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
       "title": "東芝 TOSHIBA dynabook G83/HU 第11世代 Core i5 1135G7 2.40GHz メモリ 16GB NVMeSSD256GB 無線 カメラ 指紋 Office フルHD 13.3型ワイド Windows 11 64bit",
       "price_yen": 32480,
       "url": "https://store.shopping.yahoo.co.jp/genel/n-toshiba-g83hu.html",
@@ -1610,6 +1856,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】ASUS DUAL-RTX3060-O12G-V2 RTX3060(LHR)/12GB(GDDR6)【ECセンター】保証期間１週間",
       "price_yen": 29980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/108173376-222.html",
@@ -1630,6 +1880,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.2.0（GV-N3060GAMING OC-12GD） RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 37980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/108181035-222.html",
@@ -1650,6 +1904,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 42980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/108183459-222.html",
@@ -1670,6 +1928,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】ZOTAC GAMING GeForce RTX 3060 Twin Edge OC (ZT-A30600H-10M) RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 39980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/108185031-222.html",
@@ -1690,6 +1952,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 42980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/108189136-222.html",
@@ -1710,6 +1976,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】ZOTAC GAMING GeForce RTX 3060 Twin Edge OC (ZT-A30600H-10M) RTX3060/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 43980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/108200079-222.html",
@@ -1730,6 +2000,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 GK-RTX3060-E12GB/OC/WHITE RTX3060(LHR)/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 42980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/108202711-222.html",
@@ -1750,6 +2024,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】Palit GeForce RTX 3060 Dual OC (NE63060T19K9-190AD) RTX3060/12GB(GDDR6)/PCI-E【静岡】保証期間１週間",
       "price_yen": 34980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/114086557-114.html",
@@ -1770,6 +2048,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大阪本店】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/127326275-127.html",
@@ -1790,6 +2070,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】Palit GeForce RTX 3060 Dual OC 12GB LHR（NE63060T19K9-190AD）RTX3060(LHR)/12GB(GDDR6)【熊本】保証期間１週間",
       "price_yen": 30980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/216053743-91.html",
@@ -1810,6 +2094,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【大宮東口】保証期間１週間",
       "price_yen": 41980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/216064654-216.html",
@@ -1830,6 +2116,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】MSI GeForce RTX 3060 VENTUS 2X 12G OC RTX3060/12GB(GDDR6)/PCI-E【大宮東口】保証期間１週間",
       "price_yen": 36980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/216065335-216.html",
@@ -1850,6 +2140,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【立川フロム中武】保証期間１週間",
       "price_yen": 43980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/219064246-219.html",
@@ -1870,6 +2162,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【立川フロム中武】保証期間１週間",
       "price_yen": 43980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/219069534-219.html",
@@ -1890,6 +2184,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【立川フロム中武】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/219072512-219.html",
@@ -1910,6 +2206,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【川越クレアモール】保証期間１週間",
       "price_yen": 40980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/220056188-230.html",
@@ -1930,6 +2228,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 (LHR) 12GB (GDDR6)/PCI-E【東池袋1丁目】保証期間１週間",
       "price_yen": 31980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/221034202-221.html",
@@ -1950,6 +2252,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【福岡天神】保証期間１週間",
       "price_yen": 30980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/225025615-225.html",
@@ -1970,6 +2274,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【福岡天神】保証期間１週間",
       "price_yen": 32980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/225026035-225.html",
@@ -1990,6 +2296,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【福岡天神】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/225034358-225.html",
@@ -2010,6 +2318,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【津田沼】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/228020936-228.html",
@@ -2030,6 +2340,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】Palit GeForce RTX 3060 StormX 12GB(NE63060019K9-190AF) LHR RTX3060/12G【大須アメ横】保証期間１週間",
       "price_yen": 41980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/232012866-232.html",
@@ -2050,6 +2362,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大須アメ横】保証期間１週間",
       "price_yen": 38980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/232012894-232.html",
@@ -2070,6 +2384,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060/12GB(GDDR6)/PCI-E【新宿】保証期間１週間",
       "price_yen": 36980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/49309911-49.html",
@@ -2090,6 +2408,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】ZOTAC GAMING GeForce RTX 3060 Twin Edge(ZT-A30600E-10M) RTX3060/12GB(GDDR6)/PCI-E【新宿】保証期間１週間",
       "price_yen": 41980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/49319924-49.html",
@@ -2110,6 +2432,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060/12GB(GDDR6)【戸塚】保証期間１週間",
       "price_yen": 28980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/59062963-59.html",
@@ -2130,6 +2456,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060/12GB(GDDR6)【戸塚】保証期間１週間",
       "price_yen": 28980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/59062964-59.html",
@@ -2150,6 +2480,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.1.0(GV-N3060GAMING OC-12GD) RTX3060/12GB(GDDR6)/PCI-E【戸塚】保証期間１週間",
       "price_yen": 26980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/59062968-59.html",
@@ -2170,6 +2504,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】ZOTAC GeForce RTX 3060 12GB/ZT-A30600A-10B【仙台駅東口】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/64254249-64.html",
@@ -2190,6 +2526,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【秋葉3号】保証期間１週間",
       "price_yen": 34980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/66418596-66.html",
@@ -2210,6 +2548,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060(LHR)/12GB(GDDR6)【秋葉3号】保証期間１週間",
       "price_yen": 33980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/66420634-66.html",
@@ -2230,6 +2572,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】玄人志向 GG-RTX3060-E12GB/OC/DF RTX3060/12GB(GDDR6)/PCI-E【京都】保証期間１週間",
       "price_yen": 30980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/67684882-69.html",
@@ -2250,6 +2596,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】MSI GeForce RTX 3060 VENTUS 2X 12G OC RTX3060(LHR)/12GB(GDDR6)/PCI-E【秋葉2号】保証期間１週間",
       "price_yen": 33980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/67686467-67.html",
@@ -2270,6 +2620,10 @@
       "watch_name": "bonsai_gpu_pc",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "memory_gb": 16
+      },
       "title": "【中古】Inno3D GeForce RTX 4060 Ti 16GB TWIN X2 OC N406T2-16D6X-178055N RTX4060Ti/16GB(GDDR6)【秋葉2号】保証期間１週間",
       "price_yen": 99980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/67697744-67.html",
@@ -2290,6 +2644,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】MSI GeForce RTX 3060 VENTUS 2X 12G OC RTX3060/12GB(GDDR6)/PCI-E【秋葉2号】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/67699028-67.html",
@@ -2310,6 +2668,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【秋葉4号】保証期間１週間",
       "price_yen": 33980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/68447668-68.html",
@@ -2330,6 +2690,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060 (LHR) 12GB (GDDR6)/PCI-E【博多】保証期間１週間",
       "price_yen": 32980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/71186393-71.html",
@@ -2350,6 +2714,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】NVIDIA GeForce RTX3060(LHR) 12GB(GDDR6)/PCI-E【川崎】保証期間１週間",
       "price_yen": 27980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/72351461-72.html",
@@ -2370,6 +2738,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】Palit GeForce RTX 3060 Dual 12GB（NE63060019K9-190AD）RTX3060(LHR)/12GB(GDDR6)【札幌】保証期間１週間",
       "price_yen": 35980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/83284988-83.html",
@@ -2390,6 +2762,8 @@
       "watch_name": "bonsai_gpu_pc",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
+      "category": "pc",
+      "parsed": {},
       "title": "【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
       "price_yen": 71980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/83287558-83.html",
@@ -2410,6 +2784,10 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {
+        "memory_gb": 12
+      },
       "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060(LHR)/12GB(GDDR6)【福岡筑紫】保証期間１週間",
       "price_yen": 32980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/85111313-85.html",
@@ -2430,6 +2808,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 29980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/871034661-222.html",
@@ -2450,6 +2830,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【広島】保証期間１週間",
       "price_yen": 33980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/88235592-88.html",
@@ -2470,6 +2852,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【広島本通】保証期間１週間",
       "price_yen": 44980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/88250042-233.html",
@@ -2490,6 +2874,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【熊本】保証期間１週間",
       "price_yen": 34980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/91047311-91.html",
@@ -2510,6 +2896,8 @@
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
+      "category": "part",
+      "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【吉祥寺】保証期間１週間",
       "price_yen": 38980,
       "url": "https://store.shopping.yahoo.co.jp/janpara/96097161-96.html",
@@ -2530,6 +2918,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
       "title": "デスクトップパソコン lenovo ThinkCentre M720e 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i3 メモリ8GB 高速 SSD 1235011",
       "price_yen": 14800,
       "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1235011.html",
@@ -2550,6 +2944,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
       "title": "デスクトップパソコン EPSON Endeavor JM4800 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ8GB 高速 SSD M.2-NVMe  1235036",
       "price_yen": 22800,
       "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1235036.html",
@@ -2570,6 +2970,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
       "title": "デスクトップパソコン EPSON Endeavor JM4800 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ8GB 高速 SSD M.2-NVMe  1235041",
       "price_yen": 22800,
       "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1235041.html",
@@ -2590,6 +2996,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
       "title": "デスクトップパソコン EPSON Endeavor JM4800 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ8GB 高速 SSD M.2-NVMe  1235045",
       "price_yen": 22800,
       "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1235045.html",
@@ -2610,6 +3022,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
       "title": "デスクトップパソコン lenovo ThinkCentre M720e 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ8GB 高速 SSD 20006253",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/20006253.html",
@@ -2630,6 +3048,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-9100",
+        "memory_gb": 8,
+        "storage": "SSD 240GB",
+        "os": "Windows 11"
+      },
       "title": "Windows11 第9世代CPU搭載 高速SSD使用 ★ NEC Mate MRL36L-5 Core i3-9100(3.6G/4コア) メモリ8GB SSD240GB DVD-RW VGA/DP",
       "price_yen": 19800,
       "url": "https://store.shopping.yahoo.co.jp/kdc-3/2-2874y2.html",
@@ -2650,6 +3075,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "memory_gb": 8,
+        "storage": "SSD 480GB",
+        "os": "Windows 11"
+      },
       "title": "【Core i5-7世代】【大容量SSD480GB搭載】中古パソコン Lenovo ThinkCentre M710s Windows11 メモリ8GB デスクトップPC USB3.0搭載【H26021909】",
       "price_yen": 13800,
       "url": "https://store.shopping.yahoo.co.jp/nabekin/h26021909.html",
@@ -2670,6 +3101,11 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-4100M",
+        "memory_gb": 8
+      },
       "title": "デスクトップパソコン 中古 超ミニ型 EPSON Endeavor ST170E Office 2019 WIfI対応 Win10 Pro 高性能CPU-第4世代Core i3-4100M 2.5GHz 8GB 128GB SSD",
       "price_yen": 15800,
       "url": "https://store.shopping.yahoo.co.jp/notepc-store/desktop-epson-st170.html",
@@ -2690,6 +3126,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-9400T",
+        "memory_gb": 16,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "Lenovo ThinkCentre M720q Core i5-9400T 1.8GHz 16GB SSD256GB 中古 デスクトップ Windows 11Pro 64bit ちょいキズ",
       "price_yen": 17600,
       "url": "https://store.shopping.yahoo.co.jp/oastation2014/m720q-w11.html",
@@ -2710,6 +3153,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3（第6世代）",
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
       "title": "爆買 中古PC ディスクトップパソコン 中古パソコン 第六世代Corei3 メモリ8GB SSD128GB MSoffice2021 Windows11 USB3.0 無線 NEC Mate タイプ ML / MB シリーズ",
       "price_yen": 16980,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202505271.html",
@@ -2730,6 +3180,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3（第7世代）",
+        "memory_gb": 8,
+        "storage": "SSD 128GB + HDD 500GB",
+        "os": "Windows 11"
+      },
       "title": "ディスクトップパソコン 中古パソコン 中古PC 第7世代Corei3 メモリ8GB SSD128GB+HDD500GB MSoffice2024 Windows11 DVD-ROM USB3.0 無線LAN DELL OptiPlex 3050",
       "price_yen": 21980,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202506303.html",
@@ -2750,6 +3207,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "中古パソコン 中古PC ディスクトップパソコン 第八世代Corei3 メモリ8GB 高速SSD128GB MSoffice2024 Windows11Pro DVD-ROM USB3.0 無線 NEC Mate シリーズ",
       "price_yen": 22990,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202508071.html",
@@ -2770,6 +3234,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "memory_gb": 8,
+        "storage": "SSD 256GB"
+      },
       "title": "爆買 デスクトップパソコン minPC 中古pc 中古 パソコン 第八世代Corei3 SSD256GB メモリー8GB Window11 MSoffice2024 NEC Mate MC-4 無線 type-C HDMI DVD-RW",
       "price_yen": 22980,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202510172.html",
@@ -2790,6 +3260,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "memory_gb": 8,
+        "storage": "SSD 128GB + HDD 500GB"
+      },
       "title": "爆買 中古PC デスクトップパソコン minPC 第八世代Corei3 SSD128GB+HDD500GB メモリー8GB Window11 MSoffice2024 NEC Mate MC-4 無線 USB3.0 type-C HDMI DVD-RW",
       "price_yen": 22980,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202510173.html",
@@ -2810,6 +3286,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-7500T",
+        "memory_gb": 8,
+        "storage": "SSD 128GB + HDD 500GB"
+      },
       "title": "デスクトップパソコン 中古PC Window11 MSoffice2024 minPC 第七世代Corei5-7500T 2.70GHz SSD128GB+HDD500GB メモリー8GB NEC Mate MC-1 PC-MKM27CZG1 無線",
       "price_yen": 21990,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202601083.html",
@@ -2830,6 +3312,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-7500T",
+        "memory_gb": 8,
+        "storage": "SSD 256GB"
+      },
       "title": "デスクトップパソコン 中古パソコン 中古minPC 高速SSD256GB メモリ8GB 第七世代Corei5-7500T 2.70GHz Window11 MSoffice2024 NEC Mate MC-1 PC-MKM27CZG1 無線",
       "price_yen": 22990,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202601272.html",
@@ -2850,6 +3338,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5（第7世代）",
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
       "title": "中古PC ディスクトップパソコン 第七世代Corei5 メモリ8GB SSD128GB MSoffice2024 Windows11 DVD-ROM HDMI 無線 DELL OptiPlex 5050 /3050",
       "price_yen": 24980,
       "url": "https://store.shopping.yahoo.co.jp/pc-stp/202607232.html",
@@ -2870,6 +3365,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
       "price_yen": 20200,
       "url": "https://store.shopping.yahoo.co.jp/pon-junkshop/55c252774.html",
@@ -2890,6 +3392,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3",
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
       "title": "ミニデスクトップパソコン本体 中古 Office搭載 富士通 Esprimo Q558 第8/9世代 Core i3 メモリ8GB SSD128GB/256GB PC Windows11",
       "price_yen": 24800,
       "url": "https://store.shopping.yahoo.co.jp/rinkai-store/esprimoq558-i39.html",
@@ -2910,6 +3419,10 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-6200U"
+      },
       "title": "EPSON Endeavor NY2500S【Core i5 6200U】電源投入可／HDMI ジャンクPC 送料無料 [94864]",
       "price_yen": 3850,
       "url": "https://store.shopping.yahoo.co.jp/risemark/94864.html",
@@ -2930,6 +3443,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-9100",
+        "memory_gb": 8,
+        "storage": "HDD 500GB"
+      },
       "title": "【中古】NEC Mate MKL36E-5/ Corei3-9100 /HDD500GB /8GB /DVD /win11/(ysde0082",
       "price_yen": 11550,
       "url": "https://store.shopping.yahoo.co.jp/seathedemi/ysde0082.html",
@@ -2950,6 +3469,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-8100T",
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB"
+      },
       "title": "【中古良品】EPSON Endeavor ST190E Core i3-8100T 3.1Ghz 8GB M.2 SSD256GB+HDD500GB Win11 pro 64bit 外付け無線LAN付 VGA DP HDMI USB-C",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/seikishoji/p260603731.html",
@@ -2970,6 +3495,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-6100T",
+        "memory_gb": 16,
+        "storage": "SSD 256GB"
+      },
       "title": "富士通 ミニデスクトップ PC FUJITSU ESPRIMO Q556 インテル Core i3-6100T/DVI/DisplayPort/4K HDR対応/MS Office2021/Win11Pro /RAM16GB/高速SSD256GB",
       "price_yen": 19800,
       "url": "https://store.shopping.yahoo.co.jp/senrakuen/q556minib.html",
@@ -2990,6 +3521,10 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5（第6世代）"
+      },
       "title": "ミニデスクトップPC EPSON Endeavor ST180E Core i5 第6世代CPU搭載 dvi minihdmi vga",
       "price_yen": 16800,
       "url": "https://store.shopping.yahoo.co.jp/sintatu1688/epsonendeavorst190e.html",
@@ -3010,6 +3545,11 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
       "title": "デスクトップ パソコン office Win11搭載 国産大手メーカー 高性能第4〜7世代 Core i5 3.7GHz  デスクトップpc メモリー:8GB SDD:512GB mh-dtpci5457爆買",
       "price_yen": 19990,
       "url": "https://store.shopping.yahoo.co.jp/sowa-shop/esprimoi36-4g128.html",
@@ -3030,6 +3570,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8500",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ Lenovo ThinkCentre M920s Core i5-8500 3GHz 8GB 256GB(SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit(MAR)",
       "price_yen": 24000,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/54c259410.html",
@@ -3050,6 +3597,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ NEC Mate MRL36/L-4 Core i3-8100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
       "price_yen": 14500,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/54c259452.html",
@@ -3070,6 +3624,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ Lenovo ThinkCentre M720s Core i3-8100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
       "price_yen": 12900,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/553266346.html",
@@ -3090,6 +3651,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ Lenovo ThinkCentre M720e Small Core i5-8400 2.80GHz 8GB 256GB(新品NVMe SSD) DisplayPort/アナログRGB出力 DVD+-RW Windows11 Pro",
       "price_yen": 16600,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/556258835.html",
@@ -3110,6 +3677,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
       "price_yen": 21900,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/55c252770.html",
@@ -3130,6 +3704,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
       "price_yen": 19200,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/55c252774.html",
@@ -3150,6 +3731,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
       "title": "デスクトップ Lenovo ThinkCentre M720e Core i3-8100 3.6GHz 8GB 256GB(SSD) DisplayPort/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
       "price_yen": 17700,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/56c254336.html",
@@ -3170,6 +3758,12 @@
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i7-1165G",
+        "memory_gb": 16,
+        "storage": "SSD 256GB"
+      },
       "title": "ノートパソコン dynabook Dynabook G83/HU Core i7 1165G7 2.8GHz/16GB/256GB(SSD)/13.3W/FHD(1920x1080)/Win11 キーボード痕あり",
       "price_yen": 31300,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/con556262377.html",
@@ -3190,6 +3784,12 @@
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i7-1165G",
+        "memory_gb": 16,
+        "storage": "SSD 256GB"
+      },
       "title": "ノートパソコン dynabook Dynabook G83/HU Core i7 1165G7 2.8GHz/16GB/256GB(SSD)/13.3W/FHD(1920x1080)/Win11  画面シミあり",
       "price_yen": 31300,
       "url": "https://store.shopping.yahoo.co.jp/tce-direct/con556262392.html",
@@ -3210,6 +3810,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3-6100",
+        "storage": "HDD 500GB",
+        "os": "Windows 7 Pro"
+      },
       "title": "中古パソコン デスクトップ Windows 7 Pro 32Bit DELL OptiPlex 5040 Core i3 6100 3.7GHz/メモリ4G/HDD500GB/WPS Office付属",
       "price_yen": 19800,
       "url": "https://store.shopping.yahoo.co.jp/touhou-shop/260326.html",
@@ -3230,6 +3836,11 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 4
+      },
       "title": "ポイント10倍 Windows XP Pro NEC Mate タイプME Core i5 3.20GHz 4GB 160GB DVD 中古パソコン デスクトップ",
       "price_yen": 16800,
       "url": "https://store.shopping.yahoo.co.jp/tsutae/20210907d.html",
@@ -3250,6 +3861,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i7",
+        "memory_gb": 8,
+        "storage": "SSD 240GB",
+        "os": "Windows 11"
+      },
       "title": "今日も当日発送 デスクトップ PC パソコン 富士通 7世代 COREi7 8GB SSD 240GB Windows11 本体のみ おしゃれ 安い",
       "price_yen": 24800,
       "url": "https://store.shopping.yahoo.co.jp/ugreen-oaplaza/de-21-i707-8-256-fujitsu.html",
@@ -3270,6 +3888,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3",
+        "memory_gb": 8,
+        "storage": "SSD 240GB",
+        "os": "Windows 11"
+      },
       "title": "今日も当日発送 デスクトップ PC パソコン 富士通 8世代 COREi3 COREi5 メモリ 8GB SSD 240GB Windows11 本体のみ おしゃれ 安い",
       "price_yen": 20800,
       "url": "https://store.shopping.yahoo.co.jp/ugreen-oaplaza/desk-dell990.html",
@@ -3290,6 +3915,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3",
+        "memory_gb": 8,
+        "storage": "SSD 240GB",
+        "os": "Windows 11"
+      },
       "title": "今日も当日発送 デスクトップ PC パソコン 富士通 8世代 COREi3 メモリ 8GB SSD 240GB Windows11 本体のみ おしゃれ 安い",
       "price_yen": 20800,
       "url": "https://store.shopping.yahoo.co.jp/ugreen-oaplaza/hp-gaming-pc-g11.html",
@@ -3310,6 +3942,12 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "memory_gb": 32,
+        "storage": "SSD 1TB"
+      },
       "title": "爆買【中古PC】【整備済み品】EPSON Endeavor AT994E デスクトップ パソコン Core i3 i5 i7 第8世代 最大32GB 最大SSD1TB 動作確認済 Win11 Pro 搭載 爆買",
       "price_yen": 22000,
       "url": "https://store.shopping.yahoo.co.jp/yellowspotjapanstore/epsonendeavorat994e.html",
@@ -3330,6 +3968,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-7400T",
+        "memory_gb": 4,
+        "storage": "HDD 500GB",
+        "os": "Windows 11"
+      },
       "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/yuukou-store2/lenovo-m710q-i5.html",
@@ -3350,6 +3995,13 @@
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
+      "category": "pc",
+      "parsed": {
+        "cpu": "Core i5-7400T",
+        "memory_gb": 4,
+        "storage": "HDD 500GB",
+        "os": "Windows 11"
+      },
       "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/yuukou-store/lenovo-m710q-i5.html",

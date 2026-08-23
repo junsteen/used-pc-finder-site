@@ -41,7 +41,7 @@
     <h1>中古PC・パーツ横断検索</h1>
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視しています。用途を選ぶと必要スペックの下限が表示され、各出品が要件を満たすか判定します。</p>
     <div class="updated" id="updated-at"><!--UPDATED:START-->
-最終更新: 2026-08-23 14:07:03+09:00
+最終更新: 2026-08-23 14:20:18+09:00
 <!--UPDATED:END--></div>
   </header>
 
@@ -86,8 +86,14 @@
   </div>
 
   <div id="purpose-panel" class="purpose-panel" hidden></div>
-  <p class="result-count" id="result-count"></p>
-  <div class="cards" id="cards"></div>
+  <div class="result-bar">
+    <p class="result-count" id="result-count"></p>
+    <div class="view-toggle" id="view-toggle" role="group" aria-label="表示形式">
+      <button type="button" data-view="table" aria-pressed="false">表</button>
+      <button type="button" data-view="cards" aria-pressed="false">カード</button>
+    </div>
+  </div>
+  <div id="results"></div>
 
   <section class="queue-section">
     <h2 class="section-h">収録済みカタログ</h2>
@@ -149,10 +155,22 @@
     category: document.getElementById('f-category'),
     max: document.getElementById('f-max'),
     sort: document.getElementById('f-sort'),
-    cards: document.getElementById('cards'),
+    results: document.getElementById('results'),
     count: document.getElementById('result-count'),
+    toggle: document.getElementById('view-toggle'),
     updated: document.getElementById('updated-at'),
   };
+
+  // 表示形式。表は列が多く狭い画面では読めないため、初期値は画面幅で決める。
+  // 一度でも自分で選んだ人はその選択を優先する。
+  const VIEW_KEY = 'view-mode';
+  const VIEW_MIN_WIDTH = 900;
+  function initialView() {
+    const saved = localStorage.getItem(VIEW_KEY);
+    if (saved === 'table' || saved === 'cards') return saved;
+    return window.innerWidth >= VIEW_MIN_WIDTH ? 'table' : 'cards';
+  }
+  state.view = initialView();
 
   el.keyword.value = params.get('q') || '';
   el.category.value = params.get('cat') || '';
@@ -160,6 +178,14 @@
   el.sort.value = params.get('sort') || 'price_asc';
 
   function yen(n) { return '¥' + n.toLocaleString('ja-JP'); }
+
+  // 出品タイトルやリクエストの本文は外部(各ショップ・GitHub Issue)由来の文字列で、
+  // innerHTML に流し込んでいる。HTMLとして解釈されないよう必ずここを通すこと。
+  function esc(v) {
+    return String(v == null ? '' : v)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
 
   function specFacts(spec) {
     if (!spec || !spec.spec) return '';
@@ -257,19 +283,88 @@
     else items.sort((a, b) => (b.observed_at || '').localeCompare(a.observed_at || ''));
 
     el.count.textContent = items.length + ' 件';
+    syncToggle();
 
     if (!items.length) {
-      el.cards.innerHTML = '<div class="empty">条件に合う出品が見つかりませんでした。</div>';
+      el.results.innerHTML = '<div class="empty">条件に合う出品が見つかりませんでした。</div>';
       return;
     }
 
-    el.cards.innerHTML = items.map(l => {
+    if (state.view !== 'table') {
+      el.results.innerHTML = cardsHtml(items, req);
+      return;
+    }
+
+    // 表はパソコン向けの列構成なので、グラボ等の単体パーツはカードのまま出す。
+    const pcs = items.filter(l => l.category === 'pc');
+    const parts = items.filter(l => l.category !== 'pc');
+    const split = pcs.length && parts.length;
+    let html = '';
+    if (pcs.length) {
+      html += (split ? '<h2 class="section-h">パソコン ' + pcs.length + '件</h2>' : '')
+            + tableHtml(pcs, req);
+    }
+    if (parts.length) {
+      html += (split ? '<h2 class="section-h">パーツ ' + parts.length + '件</h2>' : '')
+            + cardsHtml(parts, req);
+    }
+    el.results.innerHTML = html;
+  }
+
+  // --- 表 ---------------------------------------------------------------
+  // CPU・メモリ・ストレージ・OSは出品タイトルから機械的に抽出した推定値。
+  // 検証済みスペックと見分けが付くよう、列見出しとセルの両方に印を付ける。
+  function tableHtml(items, req) {
+    const showFit = !!req;
+    const head =
+      '<tr><th>商品名</th><th class="num">価格</th>' +
+      '<th class="est">CPU</th><th class="est">メモリ</th>' +
+      '<th class="est">ストレージ</th><th class="est">OS</th>' +
+      '<th>状態</th><th>送料</th><th>収集元</th>' +
+      (showFit ? '<th>用途適合</th>' : '') + '</tr>';
+
+    const rows = items.map(l => {
+      const p = l.parsed || {};
+      const est = v => v ? '<span class="est-val">' + esc(v) + '</span>' : '—';
+      const fit = showFit ? judgeFit(l, req) : null;
+      // 列幅を抑えるため記号だけを出し、理由は title 属性に持たせる
+      const fitCell = fit
+        ? '<td><span class="chip ' + fit.verdict + '" title="' + fit.reason + '">' +
+          (fit.verdict === 'fit' ? '◎ 適合' : fit.verdict === 'unfit' ? '× 不適合' : '? 判定不可') +
+          '</span></td>'
+        : '';
+      return '<tr>' +
+        // 3行で打ち切って表示するため、全文は title 属性にも持たせる
+        '<td class="col-name"><a href="' + esc(l.url) + '" target="_blank" rel="noopener"' +
+          ' title="' + esc(l.title) + '">' + esc(l.title) + '</a>' +
+          (l.is_affiliate ? ' <span class="chip pr">PR</span>' : '') + '</td>' +
+        '<td class="num price-cell">' + yen(l.price_yen) + priceDelta(l) + '</td>' +
+        '<td>' + est(p.cpu) + '</td>' +
+        '<td class="num">' + est(p.memory_gb ? p.memory_gb + 'GB' : null) + '</td>' +
+        '<td>' + est(p.storage) + '</td>' +
+        '<td>' + est(p.os) + '</td>' +
+        '<td>' + esc(l.condition_rank || '—') + '</td>' +
+        '<td>' + esc(l.shipping || '—') + '</td>' +
+        '<td>' + esc(l.source) + '</td>' +
+        fitCell + '</tr>';
+    }).join('');
+
+    return '<p class="est-note muted">' +
+      '<span class="est-val">点線</span>の列（CPU・メモリ・ストレージ・OS）は' +
+      '出品タイトルから機械的に抽出した推定値です。販売元のページで必ずご確認ください。</p>' +
+      '<div class="table-wrap"><table class="listing-table">' +
+      '<thead>' + head + '</thead><tbody>' + rows + '</tbody></table></div>';
+  }
+
+  // --- カード -----------------------------------------------------------
+  function cardsHtml(items, req) {
+    return '<div class="cards">' + items.map(l => {
       const spec = l.spec_id ? state.data.specs[l.spec_id] : null;
       const watchLabel = (state.data.watches[l.watch_name] || {}).display_name || l.watch_name;
       const chips = [];
-      if (l.condition_rank) chips.push('<span class="chip rank">' + l.condition_rank + '</span>');
-      if (l.shipping) chips.push('<span class="chip ship">' + l.shipping + '</span>');
-      chips.push('<span class="chip">' + l.source + '</span>');
+      if (l.condition_rank) chips.push('<span class="chip rank">' + esc(l.condition_rank) + '</span>');
+      if (l.shipping) chips.push('<span class="chip ship">' + esc(l.shipping) + '</span>');
+      chips.push('<span class="chip">' + esc(l.source) + '</span>');
       // アフィリエイトリンクの商品は個別にも明示する(景品表示法のステマ規制対応)
       if (l.is_affiliate) chips.push('<span class="chip pr">PR</span>');
       // スペックがAI調査のみ(人による検証なし)であることを明示する
@@ -286,13 +381,41 @@
       chips.push('<span class="chip">' + watchLabel + '</span>');
 
       return '<div class="card">' +
-        '<div class="card-title"><a href="' + l.url + '" target="_blank" rel="noopener">' + l.title + '</a></div>' +
+        '<div class="card-title"><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.title) + '</a></div>' +
         '<div class="price-block"><div class="price">' + yen(l.price_yen) + '</div>' + priceDelta(l) + '</div>' +
         '<div class="meta-row">' + chips.join('') + '</div>' +
         specFacts(spec) +
         '</div>';
-    }).join('');
+    }).join('') + '</div>';
   }
+
+  function syncToggle() {
+    el.toggle.querySelectorAll('button').forEach(b => {
+      b.setAttribute('aria-pressed', String(b.dataset.view === state.view));
+    });
+  }
+
+  el.toggle.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-view]');
+    if (!btn || btn.dataset.view === state.view) return;
+    state.view = btn.dataset.view;
+    localStorage.setItem(VIEW_KEY, state.view);
+    render();
+  });
+
+  // 自分で選んでいない間は、幅の変化(端末の回転・ウィンドウ操作)に追従する。
+  // 一度選んだ人の意思は上書きしない。
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    if (localStorage.getItem(VIEW_KEY)) return;
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      const next = window.innerWidth >= VIEW_MIN_WIDTH ? 'table' : 'cards';
+      if (next === state.view || !state.data) return;
+      state.view = next;
+      render();
+    }, 150);
+  });
 
   // カタログ表はビルド時にHTMLへ直接書き込まれている(JSなしのクローラー対策)。
   // ここでは既存DOMに絞り込みのハンドラを付けるだけで、描画はしない。
@@ -324,7 +447,7 @@
     box.innerHTML = '<p class="queue-empty">順番待ち ' + open.length + ' 件</p>' +
       '<ul class="queue-list">' + open.map((item, i) =>
         '<li><span class="pos">' + (i + 1) + '.</span>' +
-        '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></li>'
+        '<a href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(item.title) + '</a></li>'
       ).join('') + '</ul>';
   }
 
