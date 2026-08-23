@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-08-24 05:24:36+09:00",
+  "generated_at": "2026-08-24 05:44:37+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
-    "recently_closed": [],
-    "error": "HTTP Error 504: Gateway Timeout"
+    "recently_closed": [
+      {
+        "number": 2,
+        "title": "[調査] GeForce RTX 4070 Ti SUPER",
+        "url": "https://github.com/junsteen/used-pc-finder-site/issues/2",
+        "closed_at": "2026-08-23T02:26:20Z"
+      },
+      {
+        "number": 1,
+        "title": "[調査] RTX 4070 Ti SUPER",
+        "url": "https://github.com/junsteen/used-pc-finder-site/issues/1",
+        "closed_at": "2026-08-23T00:06:09Z"
+      }
+    ],
+    "error": null
   },
   "watches": {
     "rtx4060ti_16gb": {
