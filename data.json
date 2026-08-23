@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 15:04:52+09:00",
+  "generated_at": "2026-08-23 15:19:41+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -711,11 +711,14 @@
   "listings": [
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC603040",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "dospara",
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "中古  各社 GeForce RTX3060 (12GB PCI-E) 144786",
       "price_yen": 38900,
@@ -723,6 +726,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:38",
       "price_history": [
         {
@@ -733,11 +737,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC622702",
       "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": "dospara",
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "中古  iGame GeForce RTX4060Ti Ultra W OC 16GB(RTX4060Ti 16GB) 3410014222",
       "price_yen": 97900,
@@ -745,6 +752,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:51:38",
       "price_history": [
         {
@@ -755,11 +763,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC643210",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "dospara",
       "category": "pc",
+      "model_slug": "galleria-rm5r-r36",
+      "model_name": "GALLERIA RM5R-R36",
       "parsed": {
         "cpu": "Ryzen 5 3500",
         "memory_gb": 16,
@@ -772,6 +783,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:59",
       "price_history": [
         {
@@ -782,11 +794,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC653187",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
       "category": "pc",
+      "model_slug": "nec-mate-pc-mrm28lz6acs4",
+      "model_name": "Mate PC-MRM28LZ6ACS4",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -799,6 +814,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:54:14",
       "price_history": [
         {
@@ -809,11 +825,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC653189",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
       "category": "pc",
+      "model_slug": "nec-mate-pc-mrm28lz6acs4",
+      "model_name": "Mate PC-MRM28LZ6ACS4",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -826,6 +845,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:54:14",
       "price_history": [
         {
@@ -836,11 +856,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC653190",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
       "category": "pc",
+      "model_slug": "nec-mate-pc-mrm28lz6acs4",
+      "model_name": "Mate PC-MRM28LZ6ACS4",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -853,6 +876,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:54:14",
       "price_history": [
         {
@@ -863,11 +887,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC653192",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": "dospara",
       "category": "pc",
+      "model_slug": "nec-mate-pc-mrm28lz6acs4",
+      "model_name": "Mate PC-MRM28LZ6ACS4",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -880,6 +907,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:54:14",
       "price_history": [
         {
@@ -890,11 +918,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC653281",
       "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": "dospara",
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "中古  MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC (RTX4060Ti 16GB) 1230010736",
       "price_yen": 93900,
@@ -902,6 +933,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:51:38",
       "price_history": [
         {
@@ -912,11 +944,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC661818",
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": "dospara",
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i5-1335U",
         "memory_gb": 16,
@@ -928,6 +963,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:51:59",
       "price_history": [
         {
@@ -938,11 +974,14 @@
     },
     {
       "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC663385",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "dospara",
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Ryzen 7 3700X",
         "memory_gb": 16,
@@ -954,6 +993,7 @@
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 21:59:42",
       "price_history": [
         {
@@ -964,11 +1004,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "excellar:13518014",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -978,6 +1021,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
+      "shipping_label": "送料込み",
       "observed_at": "2026-08-22 17:52:27",
       "price_history": [
         {
@@ -988,11 +1032,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "excellar:13673738",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1002,6 +1049,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
+      "shipping_label": "送料込み",
       "observed_at": "2026-08-22 17:52:27",
       "price_history": [
         {
@@ -1012,11 +1060,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "home-carpentry:10620189",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1026,6 +1077,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
+      "shipping_label": "送料込み",
       "observed_at": "2026-08-22 17:52:27",
       "price_history": [
         {
@@ -1036,11 +1088,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "home-carpentry:10620887",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1050,6 +1105,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
+      "shipping_label": "送料込み",
       "observed_at": "2026-08-22 17:52:27",
       "price_history": [
         {
@@ -1060,11 +1116,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "janpara:10835166",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大阪本店】保証期間1週間",
       "price_yen": 44980,
@@ -1072,6 +1131,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料別",
+      "shipping_label": "送料別",
       "observed_at": "2026-08-22 17:52:27",
       "price_history": [
         {
@@ -1082,11 +1142,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "kadekaden:10459498",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1096,6 +1159,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
+      "shipping_label": "送料込み",
       "observed_at": "2026-08-22 17:52:27",
       "price_history": [
         {
@@ -1106,11 +1170,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "kadekaden:10655331",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1120,6 +1187,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
+      "shipping_label": "送料込み",
       "observed_at": "2026-08-22 17:52:27",
       "price_history": [
         {
@@ -1130,11 +1198,14 @@
     },
     {
       "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "restation:10077989",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-at994e",
+      "model_name": "Endeavor AT994E",
       "parsed": {
         "cpu": "Core i7-8700",
         "memory_gb": 8,
@@ -1147,6 +1218,7 @@
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
+      "shipping_label": "送料込み",
       "observed_at": "2026-08-23 00:01:36",
       "price_history": [
         {
@@ -1157,11 +1229,14 @@
     },
     {
       "source": "sofmap",
+      "source_label": "ソフマップ",
       "listing_id": "2000331111022",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "GeForce RTX 3060 Dual OC 12GB NE63060T19K9-190AD LHR版",
       "price_yen": 44980,
@@ -1169,6 +1244,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:35",
       "price_history": [
         {
@@ -1179,11 +1255,14 @@
     },
     {
       "source": "sofmap",
+      "source_label": "ソフマップ",
       "listing_id": "4710562242430",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "GEFORCE RTX 3060 GHOST 12GB",
       "price_yen": 44980,
@@ -1191,6 +1270,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:35",
       "price_history": [
         {
@@ -1201,11 +1281,14 @@
     },
     {
       "source": "sofmap",
+      "source_label": "ソフマップ",
       "listing_id": "4988755057653",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "GK-RTX3060-E12GB／OC／WHITE",
       "price_yen": 44980,
@@ -1213,6 +1296,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:35",
       "price_history": [
         {
@@ -1223,11 +1307,14 @@
     },
     {
       "source": "sofmap",
+      "source_label": "ソフマップ",
       "listing_id": "4988755057660",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": "sofmap",
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "GALAKURO GAMING GG-RTX3060-E12GB／OC／DF",
       "price_yen": 44980,
@@ -1235,6 +1322,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": null,
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:35",
       "price_history": [
         {
@@ -1245,11 +1333,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aidemac_tw202506301723105158757",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-pc-mk33mlzx1asn",
+      "model_name": "Mate PC-MK33MLZX1ASN",
       "parsed": {
         "cpu": "Core i5-4590"
       },
@@ -1259,6 +1350,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-23 01:22:16",
       "price_history": [
         {
@@ -1269,11 +1361,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_13613",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-e73",
+      "model_name": "ThinkCentre E73",
       "parsed": {
         "cpu": "Core i3-4130",
         "memory_gb": 4,
@@ -1285,6 +1380,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -1295,11 +1391,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_14301",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mj34lb-g",
+      "model_name": "Mate MJ34LB-G",
       "parsed": {
         "cpu": "Core i3-3240",
         "memory_gb": 8,
@@ -1311,6 +1410,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1321,11 +1421,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_14461-3",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m73",
+      "model_name": "ThinkCentre M73",
       "parsed": {
         "cpu": "Core i3-4170",
         "memory_gb": 4,
@@ -1338,6 +1441,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -1348,11 +1452,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_14989",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mk37ll-t",
+      "model_name": "Mate MK37LL-T",
       "parsed": {
         "cpu": "Core i3-6100",
         "memory_gb": 4,
@@ -1364,6 +1471,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1374,11 +1482,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_14990",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mk37ll-n",
+      "model_name": "Mate MK37LL-N",
       "parsed": {
         "cpu": "Core i3-4170",
         "memory_gb": 4,
@@ -1390,6 +1501,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1400,11 +1512,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_19273",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mkl36b-4",
+      "model_name": "Mate MKL36B-4",
       "parsed": {
         "cpu": "Core i3-8100",
         "memory_gb": 8,
@@ -1417,6 +1532,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1427,11 +1543,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_19565",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mul36l-4",
+      "model_name": "Mate MUL36L-4",
       "parsed": {
         "cpu": "Core i3-8100",
         "memory_gb": 8,
@@ -1444,6 +1563,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1454,11 +1574,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_19782",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mk36hb-v",
+      "model_name": "Mate MK36HB-V",
       "parsed": {
         "cpu": "Core i7-7700",
         "memory_gb": 8,
@@ -1471,6 +1594,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1481,11 +1605,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_20161",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m71e",
+      "model_name": "ThinkCentre M71e",
       "parsed": {
         "cpu": "Core i3-210",
         "memory_gb": 8,
@@ -1498,6 +1625,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -1508,11 +1636,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_20537",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mk32mb-f",
+      "model_name": "Mate MK32MB-F",
       "parsed": {
         "cpu": "Core i5-3470",
         "memory_gb": 8,
@@ -1525,6 +1656,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1535,11 +1667,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21086",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m72e",
+      "model_name": "ThinkCentre M72e",
       "parsed": {
         "cpu": "Core i3-3240",
         "memory_gb": 4,
@@ -1552,6 +1687,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -1562,11 +1698,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21931",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-at10",
+      "model_name": "Endeavor AT10",
       "parsed": {
         "cpu": "Core i5-7500",
         "memory_gb": 8,
@@ -1579,6 +1718,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -1589,11 +1729,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21963",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mk32me-b",
+      "model_name": "Mate MK32ME-B",
       "parsed": {
         "cpu": "Core i5-650",
         "memory_gb": 2,
@@ -1606,6 +1749,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1616,11 +1760,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21964",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mk33lb-e",
+      "model_name": "Mate MK33LB-E",
       "parsed": {
         "cpu": "Core i3-2120",
         "memory_gb": 2,
@@ -1633,6 +1780,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1643,11 +1791,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21966",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mk33lb-e",
+      "model_name": "Mate MK33LB-E",
       "parsed": {
         "cpu": "Core i3-2120",
         "memory_gb": 2,
@@ -1660,6 +1811,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1670,11 +1822,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "atriopc_1450",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "数量限定 中古 おまかせグラボ NVIDIA GeForce RTX3060 12GB GDDR6",
       "price_yen": 31800,
@@ -1682,6 +1837,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1692,11 +1848,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "be-stocktsb_n-pc-mkm21czc4-a005",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i5",
         "memory_gb": 8
@@ -1707,6 +1866,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -1717,11 +1877,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "be-stocktsb_ud10sua03g-a001",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
       "parsed": {
         "cpu": "Core i5",
         "memory_gb": 8
@@ -1732,6 +1895,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -1742,11 +1906,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "eco-stage-japan_dt-i5-008",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第9世代）",
         "memory_gb": 16,
@@ -1759,6 +1926,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -1769,11 +1937,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "excellar-plus_1050019023",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1783,6 +1954,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1793,11 +1965,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "excellar-plus_1050028802",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1807,6 +1982,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1817,11 +1993,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "excellar_1050019023",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1831,6 +2010,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1841,11 +2021,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "excellar_1050028802",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1855,6 +2038,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1865,11 +2049,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "genel_n-toshiba-g83hu",
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i5-1135G",
         "memory_gb": 16,
@@ -1882,6 +2069,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:51:49",
       "price_history": [
         {
@@ -1892,11 +2080,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108173376-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1906,6 +2097,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1916,11 +2108,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108181035-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1930,6 +2125,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1940,11 +2136,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108183459-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1954,6 +2153,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1964,11 +2164,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108185031-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -1978,6 +2181,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -1988,11 +2192,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108189136-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2002,6 +2209,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2012,11 +2220,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108200079-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2026,6 +2237,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2036,11 +2248,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108202711-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2050,6 +2265,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2060,11 +2276,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_114086557-114",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2074,6 +2293,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2084,11 +2304,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_127326275-127",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大阪本店】保証期間１週間",
       "price_yen": 44980,
@@ -2096,6 +2319,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2106,11 +2330,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_216053743-91",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2120,6 +2347,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2130,11 +2358,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_216064654-216",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【大宮東口】保証期間１週間",
       "price_yen": 41980,
@@ -2142,6 +2373,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2152,11 +2384,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_216065335-216",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2166,6 +2401,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2176,11 +2412,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_219064246-219",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【立川フロム中武】保証期間１週間",
       "price_yen": 43980,
@@ -2188,6 +2427,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2198,11 +2438,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_219069534-219",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【立川フロム中武】保証期間１週間",
       "price_yen": 43980,
@@ -2210,6 +2453,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2220,11 +2464,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_219072512-219",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【立川フロム中武】保証期間１週間",
       "price_yen": 44980,
@@ -2232,6 +2479,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2242,11 +2490,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_220056188-230",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【川越クレアモール】保証期間１週間",
       "price_yen": 40980,
@@ -2254,6 +2505,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2264,11 +2516,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_221034202-221",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2278,6 +2533,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2288,11 +2544,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_225025615-225",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【福岡天神】保証期間１週間",
       "price_yen": 30980,
@@ -2300,6 +2559,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2310,11 +2570,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_225026035-225",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【福岡天神】保証期間１週間",
       "price_yen": 32980,
@@ -2322,6 +2585,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2332,11 +2596,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_225034358-225",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【福岡天神】保証期間１週間",
       "price_yen": 44980,
@@ -2344,6 +2611,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2354,11 +2622,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_228020936-228",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【津田沼】保証期間１週間",
       "price_yen": 44980,
@@ -2366,6 +2637,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2376,11 +2648,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_232012866-232",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】Palit GeForce RTX 3060 StormX 12GB(NE63060019K9-190AF) LHR RTX3060/12G【大須アメ横】保証期間１週間",
       "price_yen": 41980,
@@ -2388,6 +2663,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2398,11 +2674,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_232012894-232",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【大須アメ横】保証期間１週間",
       "price_yen": 38980,
@@ -2410,6 +2689,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2420,11 +2700,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_49309911-49",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2434,6 +2717,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2444,11 +2728,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_49319924-49",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2458,6 +2745,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2468,11 +2756,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_59062963-59",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2482,6 +2773,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-23 00:20:58",
       "price_history": [
         {
@@ -2492,11 +2784,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_59062964-59",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2506,6 +2801,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2516,11 +2812,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_59062968-59",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2530,6 +2829,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2540,11 +2840,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_64254249-64",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】ZOTAC GeForce RTX 3060 12GB/ZT-A30600A-10B【仙台駅東口】保証期間１週間",
       "price_yen": 44980,
@@ -2552,6 +2855,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2562,11 +2866,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_66418596-66",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【秋葉3号】保証期間１週間",
       "price_yen": 34980,
@@ -2574,6 +2881,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-23 02:49:23",
       "price_history": [
         {
@@ -2584,11 +2892,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_66420634-66",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2598,6 +2909,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2608,11 +2920,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_67684882-69",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2622,6 +2937,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2632,11 +2948,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_67686467-67",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2646,6 +2965,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2656,11 +2976,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_67697744-67",
       "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 16
       },
@@ -2670,6 +2993,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:51:28",
       "price_history": [
         {
@@ -2680,11 +3004,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_67699028-67",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2694,6 +3021,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-23 00:20:58",
       "price_history": [
         {
@@ -2704,11 +3032,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_68447668-68",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【秋葉4号】保証期間１週間",
       "price_yen": 33980,
@@ -2716,6 +3047,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2726,11 +3058,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_71186393-71",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2740,6 +3075,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2750,11 +3086,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_72351461-72",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2764,6 +3103,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2774,11 +3114,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_83284988-83",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2788,6 +3131,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2798,11 +3142,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_83287558-83",
       "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
       "price_yen": 71980,
@@ -2810,6 +3157,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:51:28",
       "price_history": [
         {
@@ -2820,11 +3168,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_85111313-85",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "memory_gb": 12
       },
@@ -2834,6 +3185,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2844,11 +3196,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_871034661-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
       "price_yen": 29980,
@@ -2856,6 +3211,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2866,11 +3222,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_88235592-88",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB (GDDR6)/PCI-E【広島】保証期間１週間",
       "price_yen": 33980,
@@ -2878,6 +3237,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2888,11 +3248,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_88250042-233",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【広島本通】保証期間１週間",
       "price_yen": 44980,
@@ -2900,6 +3263,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2910,11 +3274,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_91047311-91",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【熊本】保証期間１週間",
       "price_yen": 34980,
@@ -2922,6 +3289,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2932,11 +3300,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_96097161-96",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "part",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {},
       "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【吉祥寺】保証期間１週間",
       "price_yen": 38980,
@@ -2944,6 +3315,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:52:28",
       "price_history": [
         {
@@ -2954,11 +3326,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1235011",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
       "parsed": {
         "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
@@ -2970,6 +3345,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -2980,11 +3356,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1235036",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
       "parsed": {
         "cpu": "Core i5（第8世代）",
         "memory_gb": 8,
@@ -2996,6 +3375,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -3006,11 +3386,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1235041",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
       "parsed": {
         "cpu": "Core i5（第8世代）",
         "memory_gb": 8,
@@ -3022,6 +3405,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -3032,11 +3416,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1235045",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
       "parsed": {
         "cpu": "Core i5（第8世代）",
         "memory_gb": 8,
@@ -3048,6 +3435,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -3058,11 +3446,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_20006253",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
       "parsed": {
         "cpu": "Core i5（第8世代）",
         "memory_gb": 8,
@@ -3074,6 +3465,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3084,11 +3476,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "kdc-3_2-2874y2",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mrl36l-5",
+      "model_name": "Mate MRL36L-5",
       "parsed": {
         "cpu": "Core i3-9100",
         "memory_gb": 8,
@@ -3101,6 +3496,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3111,11 +3507,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "nabekin_h26021909",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m710s",
+      "model_name": "ThinkCentre M710s",
       "parsed": {
         "cpu": "Core i5（第7世代）",
         "memory_gb": 8,
@@ -3128,6 +3527,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -3138,11 +3538,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "notepc-store_desktop-epson-st170",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-st170e",
+      "model_name": "Endeavor ST170E",
       "parsed": {
         "cpu": "Core i3-4100M",
         "memory_gb": 8
@@ -3153,6 +3556,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -3163,11 +3567,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "oastation2014_m720q-w11",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
       "parsed": {
         "cpu": "Core i5-9400T",
         "memory_gb": 16,
@@ -3180,6 +3587,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3190,11 +3598,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202505271",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第6世代）",
         "memory_gb": 8,
@@ -3207,6 +3618,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3217,11 +3629,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202506303",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "dell-optiplex-3050",
+      "model_name": "OptiPlex 3050",
       "parsed": {
         "cpu": "Core i3（第7世代）",
         "memory_gb": 8,
@@ -3234,6 +3649,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:21",
       "price_history": [
         {
@@ -3244,11 +3660,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202508071",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
@@ -3261,6 +3680,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3271,11 +3691,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202510172",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
@@ -3287,6 +3710,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3297,11 +3721,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202510173",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
@@ -3313,6 +3740,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3323,11 +3751,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202601083",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i5-7500T",
         "memory_gb": 8,
@@ -3339,6 +3770,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3349,11 +3781,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202601272",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i5-7500T",
         "memory_gb": 8,
@@ -3365,6 +3800,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3375,11 +3811,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202607232",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "dell-optiplex-5050",
+      "model_name": "OptiPlex 5050",
       "parsed": {
         "cpu": "Core i5（第7世代）",
         "memory_gb": 8,
@@ -3392,6 +3831,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:21",
       "price_history": [
         {
@@ -3402,11 +3842,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pon-junkshop_55c252774",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -3419,6 +3862,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3429,11 +3873,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "rinkai-store_esprimoq558-i39",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第9世代）",
         "memory_gb": 8,
@@ -3446,6 +3893,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -3456,11 +3904,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "risemark_94864",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-ny2500s",
+      "model_name": "Endeavor NY2500S",
       "parsed": {
         "cpu": "Core i5-6200U"
       },
@@ -3470,6 +3921,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -3480,11 +3932,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "seathedemi_ysde0082",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "nec-mate-mkl36e-5",
+      "model_name": "Mate MKL36E-5",
       "parsed": {
         "cpu": "Core i3-9100",
         "memory_gb": 8,
@@ -3496,6 +3951,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3506,11 +3962,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "seikishoji_p260603731",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-st190e",
+      "model_name": "Endeavor ST190E",
       "parsed": {
         "cpu": "Core i3-8100T",
         "memory_gb": 8,
@@ -3522,6 +3981,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -3532,11 +3992,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "senrakuen_q556minib",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3-6100T",
         "memory_gb": 16,
@@ -3548,6 +4011,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -3558,11 +4022,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "sintatu1688_epsonendeavorst190e",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-st180e",
+      "model_name": "Endeavor ST180E",
       "parsed": {
         "cpu": "Core i5（第6世代）"
       },
@@ -3572,6 +4039,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:25",
       "price_history": [
         {
@@ -3582,11 +4050,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "sowa-shop_esprimoi36-4g128",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i5（第7世代）",
         "memory_gb": 8
@@ -3597,6 +4068,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -3607,11 +4079,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_54c259410",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m920s",
+      "model_name": "ThinkCentre M920s",
       "parsed": {
         "cpu": "Core i5-8500",
         "memory_gb": 8,
@@ -3624,6 +4099,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3634,11 +4110,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_54c259452",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3-8100",
         "memory_gb": 8,
@@ -3651,6 +4130,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3661,11 +4141,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_553266346",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
       "parsed": {
         "cpu": "Core i3-8100",
         "memory_gb": 8,
@@ -3678,6 +4161,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3688,11 +4172,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_556258835",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -3704,6 +4191,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3714,11 +4202,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_55c252770",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -3731,6 +4222,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3741,11 +4233,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_55c252774",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
       "parsed": {
         "cpu": "Core i5-8400",
         "memory_gb": 8,
@@ -3758,6 +4253,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3768,11 +4264,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_56c254336",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
       "parsed": {
         "cpu": "Core i3-8100",
         "memory_gb": 8,
@@ -3785,6 +4284,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -3795,11 +4295,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_con556262377",
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i7-1165G",
         "memory_gb": 16,
@@ -3811,6 +4314,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:51:49",
       "price_history": [
         {
@@ -3821,11 +4325,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_con556262392",
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i7-1165G",
         "memory_gb": 16,
@@ -3837,6 +4344,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
+      "shipping_label": "—（未記載）",
       "observed_at": "2026-08-22 17:51:49",
       "price_history": [
         {
@@ -3847,11 +4355,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "touhou-shop_260326",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "dell-optiplex-5040",
+      "model_name": "OptiPlex 5040",
       "parsed": {
         "cpu": "Core i3-6100",
         "storage": "HDD 500GB",
@@ -3863,6 +4374,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:21",
       "price_history": [
         {
@@ -3873,11 +4385,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tsutae_20210907d",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i5",
         "memory_gb": 4
@@ -3888,6 +4403,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:23",
       "price_history": [
         {
@@ -3898,11 +4414,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "ugreen-oaplaza_de-21-i707-8-256-fujitsu",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i7（第7世代）",
         "memory_gb": 8,
@@ -3915,6 +4434,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -3925,11 +4445,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "ugreen-oaplaza_desk-dell990",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
@@ -3942,6 +4465,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -3952,11 +4476,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "ugreen-oaplaza_hp-gaming-pc-g11",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": null,
+      "model_name": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
         "memory_gb": 8,
@@ -3969,6 +4496,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -3979,11 +4507,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "yellowspotjapanstore_epsonendeavorat994e",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "endeavor-at994e",
+      "model_name": "Endeavor AT994E",
       "parsed": {
         "cpu": "Core i3（第8世代）",
         "memory_gb": 32,
@@ -3995,6 +4526,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:17",
       "price_history": [
         {
@@ -4005,11 +4537,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "yuukou-store2_lenovo-m710q-i5",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m710q",
+      "model_name": "ThinkCentre M710q",
       "parsed": {
         "cpu": "Core i5-7400T",
         "memory_gb": 4,
@@ -4022,6 +4557,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {
@@ -4032,11 +4568,14 @@
     },
     {
       "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "yuukou-store_lenovo-m710q-i5",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m710q",
+      "model_name": "ThinkCentre M710q",
       "parsed": {
         "cpu": "Core i5-7400T",
         "memory_gb": 4,
@@ -4049,6 +4588,7 @@
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
+      "shipping_label": "送料無料",
       "observed_at": "2026-08-22 17:53:19",
       "price_history": [
         {

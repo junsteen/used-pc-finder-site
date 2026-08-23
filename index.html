@@ -41,7 +41,7 @@
     <h1>中古PC・パーツ横断検索</h1>
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視しています。用途を選ぶと必要スペックの下限が表示され、各出品が要件を満たすか判定します。</p>
     <div class="updated" id="updated-at"><!--UPDATED:START-->
-最終更新: 2026-08-23 15:04:05+09:00
+最終更新: 2026-08-23 15:19:41+09:00
 <!--UPDATED:END--></div>
   </header>
 
@@ -337,6 +337,17 @@
     return l.count > 1 ? '<span class="chip stock">' + l.count + '台</span>' : '';
   }
 
+  // 型番が判定できていれば型番の詳細ページへ、できなければ販売元へ直接。
+  function nameLink(l) {
+    const label = esc(l.title);
+    if (l.model_slug) {
+      return '<a href="pc/' + esc(l.model_slug) + '.html" title="' + label + '">' +
+        label + '</a><br><small class="model-code">' + esc(l.model_name) + ' の詳細</small>';
+    }
+    return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener" title="' +
+      label + '">' + label + '</a>';
+  }
+
   // --- 表 ---------------------------------------------------------------
   // CPU・メモリ・ストレージ・OSは出品タイトルから機械的に抽出した推定値。
   // 検証済みスペックと見分けが付くよう、列見出しとセルの両方に印を付ける。
@@ -360,10 +371,10 @@
           '</span></td>'
         : '';
       return '<tr>' +
+        // 型番が判定できたものは、いきなり販売元へ飛ばさず詳細ページを挟む。
+        // 同じ型番の他店の出品や、グラボが載る筐体かどうかをそこで見比べられる。
         // 3行で打ち切って表示するため、全文は title 属性にも持たせる
-        '<td class="col-name"><a href="' + esc(l.url) + '" target="_blank" rel="noopener"' +
-          ' title="' + esc(l.title) + '">' + esc(l.title) + '</a>' +
-          stockBadge(l) +
+        '<td class="col-name">' + nameLink(l) + stockBadge(l) +
           (l.is_affiliate ? ' <span class="chip pr">PR</span>' : '') + '</td>' +
         '<td class="num price-cell">' + yen(l.price_yen) + priceDelta(l) + '</td>' +
         '<td>' + est(p.cpu) + '</td>' +
@@ -371,8 +382,8 @@
         '<td>' + est(p.storage) + '</td>' +
         '<td>' + est(p.os) + '</td>' +
         '<td>' + esc(l.condition_rank || '—') + '</td>' +
-        '<td>' + esc(l.shipping || '—') + '</td>' +
-        '<td>' + esc(l.source) + '</td>' +
+        '<td>' + esc(l.shipping_label) + '</td>' +
+        '<td>' + esc(l.source_label) + '</td>' +
         fitCell + '</tr>';
     }).join('');
 
@@ -391,8 +402,10 @@
       const chips = [];
       if (l.count > 1) chips.push('<span class="chip stock">' + l.count + '台</span>');
       if (l.condition_rank) chips.push('<span class="chip rank">' + esc(l.condition_rank) + '</span>');
-      if (l.shipping) chips.push('<span class="chip ship">' + esc(l.shipping) + '</span>');
-      chips.push('<span class="chip">' + esc(l.source) + '</span>');
+      if (l.shipping && l.shipping === l.shipping_label) {
+        chips.push('<span class="chip ship">' + esc(l.shipping) + '</span>');
+      }
+      chips.push('<span class="chip">' + esc(l.source_label) + '</span>');
       // アフィリエイトリンクの商品は個別にも明示する(景品表示法のステマ規制対応)
       if (l.is_affiliate) chips.push('<span class="chip pr">PR</span>');
       // スペックがAI調査のみ(人による検証なし)であることを明示する

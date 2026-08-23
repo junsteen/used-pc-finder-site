@@ -61,42 +61,6 @@ padding:.35rem .9rem}
 color:var(--accent-on-accent);font-weight:600}
 .view-toggle button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 
-/* 出品一覧の表。列が多いので、狭い画面では表だけを横スクロールさせる
-   (ページ全体が横に動くと他の内容まで読めなくなるため) */
-.est-note{font-size:.78rem;margin:0 0 .6rem}
-.table-wrap{overflow-x:auto;border:1px solid var(--surface-line);border-radius:10px;
-background:var(--surface)}
-/* 9列あると本文幅(980px)には収まらない。広い画面では表だけを本文からはみ出させて
-   全列を一度に見せる。表の値打ちは横に並べて見比べられることなので、
-   ここだけは読み物としての行長より一覧性を優先する。 */
-@media(min-width:1024px){
-  .table-wrap{--tw:min(1240px,calc(100vw - 3rem));
-  width:var(--tw);margin-inline:calc((100% - var(--tw)) / 2)}
-}
-.listing-table{width:100%;border-collapse:collapse;font-size:.82rem}
-.listing-table th{position:sticky;top:0;z-index:1;background:var(--surface);
-text-align:left;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;
-text-transform:uppercase;color:var(--text-muted);font-weight:500;white-space:nowrap;
-border-bottom:1px solid var(--surface-line);padding:.55rem .7rem}
-.listing-table td{padding:.55rem .7rem;border-bottom:1px solid var(--surface-line);
-vertical-align:top}
-.listing-table tr:last-child td{border-bottom:none}
-.listing-table .num{font-variant-numeric:tabular-nums;text-align:right;
-white-space:nowrap}
-/* 商品名だけ width:100% にして余白を吸わせ、他の列は中身なりの幅に収める */
-.listing-table .col-name{width:100%;min-width:16rem;overflow-wrap:anywhere}
-.listing-table td:not(.col-name){white-space:nowrap}
-/* 出品タイトルは非常に長いものがあり、素直に折り返すと1行が10行分の高さになって
-   表として見比べられなくなる。3行で打ち切り、全文はリンク先とtitle属性に残す。 */
-.listing-table .col-name a{display:-webkit-box;-webkit-line-clamp:3;
--webkit-box-orient:vertical;overflow:hidden}
-.listing-table .col-name a{color:var(--text);text-decoration:none}
-.listing-table .col-name a:hover{color:var(--accent);text-decoration:underline}
-.listing-table .price-cell{font-family:var(--mono);font-weight:600}
-.listing-table .price-delta{font-weight:400}
-/* 出品タイトルから推定した値であることを、見出しとセルの両方で示す */
-.listing-table th.est{border-bottom-style:dashed}
-.est-val{border-bottom:1px dotted var(--text-muted)}
 
 .cards{display:flex;flex-direction:column;gap:.75rem}
 .card-title{font-weight:500;font-size:.98rem;text-wrap:pretty;overflow-wrap:anywhere}
@@ -116,22 +80,6 @@ border-top:1px dashed var(--surface-line);padding-top:.5rem;margin-top:.15rem}
 .empty{text-align:center;color:var(--text-muted);padding:3rem 1rem;
 font-family:var(--mono)}
 
-.chip{border:1px solid var(--surface-line);border-radius:999px;padding:.15rem .6rem;
-color:var(--text-muted)}
-.chip.rank{color:var(--accent);border-color:var(--accent-soft)}
-/* 同一機種が複数台出ているときの台数 */
-.chip.stock{color:var(--text);border-color:var(--text-muted);margin-left:.4rem}
-.chip.ship{color:var(--ok)}
-.chip.fit{color:var(--ok);border-color:var(--ok)}
-.chip.unfit{color:var(--up);border-color:var(--up)}
-.chip.unknown{color:var(--text-muted)}
-.chip.unverified{color:var(--text-muted);border-style:dashed}
-.pr-notice{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
-.pr-badge,.chip.pr{border:1px solid var(--accent-soft);
-background:color-mix(in srgb,var(--accent) 10%,transparent);color:var(--accent);
-border-radius:4px;padding:.1rem .4rem;font-size:.7rem;letter-spacing:.06em;
-font-weight:600}
-.chip.pr{border-radius:999px}
 
 .queue-section{margin-top:2.5rem;padding:1.25rem 1.4rem;background:var(--surface);
 border:1px solid var(--surface-line);border-radius:10px}
@@ -160,11 +108,6 @@ font-size:.88rem;font-weight:600}
 .preset-summary small{color:var(--text-muted);font-family:var(--mono);
 font-size:.75rem}
 
-.btn{display:inline-block;background:var(--accent);color:var(--accent-on-accent);
-text-decoration:none;font-weight:600;font-size:.9rem;padding:.5rem 1.1rem;
-border-radius:6px}
-.btn:hover{filter:brightness(1.08)}
-.btn:focus-visible{outline:2px solid var(--text);outline-offset:2px}
 
 .catalog-table{width:100%;border-collapse:collapse;font-size:.85rem}
 .catalog-table th{text-align:left;font-family:var(--mono);font-size:.7rem;
