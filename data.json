@@ -1,23 +1,10 @@
 {
-  "generated_at": "2026-08-24 06:44:38+09:00",
+  "generated_at": "2026-08-24 08:04:37+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
-    "recently_closed": [
-      {
-        "number": 2,
-        "title": "[調査] GeForce RTX 4070 Ti SUPER",
-        "url": "https://github.com/junsteen/used-pc-finder-site/issues/2",
-        "closed_at": "2026-08-23T02:26:20Z"
-      },
-      {
-        "number": 1,
-        "title": "[調査] RTX 4070 Ti SUPER",
-        "url": "https://github.com/junsteen/used-pc-finder-site/issues/1",
-        "closed_at": "2026-08-23T00:06:09Z"
-      }
-    ],
-    "error": null
+    "recently_closed": [],
+    "error": "HTTP Error 504: Gateway Timeout"
   },
   "watches": {
     "rtx4060ti_16gb": {
@@ -57,6 +44,17 @@
     }
   },
   "manufacturers": {
+    "dell": {
+      "manufacturer_id": "dell",
+      "display_name": "デル・テクノロジーズ株式会社",
+      "corporate_number": "9020001071212",
+      "corporate_number_source": "https://houjin.jp/c/9020001071212",
+      "address": "〒100-0004 東京都千代田区大手町1-2-1 Otemachi Oneタワー",
+      "official_site": "https://www.dell.com/ja-jp",
+      "tokushoho_url": "https://www.dell.com/ja-jp/lp/legal/art-into-information-required-by-specified-commercial-transactions-dhs",
+      "note": "OptiPlex等の製造・販売元。旧名称デル株式会社。",
+      "fetched_at": "2026-08-24"
+    },
     "dynabook": {
       "manufacturer_id": "dynabook",
       "display_name": "Dynabook株式会社",
@@ -68,6 +66,36 @@
       "note": "旧・東芝クライアントソリューション株式会社/東芝情報機器株式会社",
       "fetched_at": "2026-08-23"
     },
+    "epson_direct": {
+      "manufacturer_id": "epson_direct",
+      "display_name": "エプソンダイレクト株式会社",
+      "corporate_number": "8100001016663",
+      "corporate_number_source": "https://houjin.jp/c/8100001016663",
+      "address": "〒399-0785 長野県塩尻市大門八番町1-2",
+      "official_site": "https://www.epsondirect.co.jp/",
+      "note": "「Endeavor」シリーズの製造・販売元。セイコーエプソングループの一員。特定商取引法ページのURLは確実な出典が見つからず未収録。",
+      "fetched_at": "2026-08-24"
+    },
+    "lenovo": {
+      "manufacturer_id": "lenovo",
+      "display_name": "レノボ・ジャパン合同会社",
+      "corporate_number": "2010401057479",
+      "corporate_number_source": "https://houjin.jp/c/2010401057479",
+      "address": "〒101-0021 東京都千代田区外神田4-14-1 秋葉原UDX",
+      "official_site": "https://www.lenovo.com/jp/ja/",
+      "note": "ThinkCentre等の法人向けデスクトップPCのブランド元。旧名称レノボ・ジャパン株式会社。",
+      "fetched_at": "2026-08-24"
+    },
+    "nec_pc": {
+      "manufacturer_id": "nec_pc",
+      "display_name": "NECパーソナルコンピュータ株式会社",
+      "corporate_number": "8010701025295",
+      "corporate_number_source": "https://houjin.jp/c/8010701025295",
+      "address": "〒101-0021 東京都千代田区外神田4-14-1 秋葉原UDX",
+      "official_site": "https://jpn.nec.com/products/bizpc/",
+      "note": "「NEC Mate」等の製造・販売元。NECブランドを冠するが、Lenovo傘下のNECレノボ・ジャパングループに属する別会社(日本電気株式会社そのものではない)。dynabook株式会社・VAIO株式会社と同様、電機メーカー本体からPC事業が分社化した例。",
+      "fetched_at": "2026-08-24"
+    },
     "nvidia": {
       "manufacturer_id": "nvidia",
       "display_name": "エヌビディア合同会社（NVIDIA Corporation日本法人）",
@@ -77,6 +105,16 @@
       "official_site": "https://www.nvidia.com/ja-jp/",
       "note": "GPUチップの設計元。日本国内では直販ではなく、MSI・ASUS・玄人志向等のAIBパートナー経由で販売される。",
       "fetched_at": "2026-08-23"
+    },
+    "thirdwave": {
+      "manufacturer_id": "thirdwave",
+      "display_name": "株式会社サードウェーブ",
+      "corporate_number": "4010001018053",
+      "corporate_number_source": "https://houjin.jp/c/4010001018053",
+      "address": "〒101-0021 東京都千代田区外神田3-12-8 住友不動産秋葉原ビル19階",
+      "official_site": "https://www.dospara.co.jp/galleria-pc",
+      "note": "「GALLERIA」ブランドの製造・販売元。中古出品を直接収集している店舗ドスパラ(dospara)と同一法人(shops/dospara.jsonと同じ法人番号)。",
+      "fetched_at": "2026-08-24"
     },
     "vaio": {
       "manufacturer_id": "vaio",
@@ -773,6 +811,40 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
+      "listing_id": "IC640170",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-11400",
+        "cpu_generation": 11,
+        "memory_gb": 16,
+        "storage": "SSD 1TB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  iiyama LEVEL ∞(Intel Core i5 11400/16GB DDR4 (PC4)/SSD1TB/DVDマルチ/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 196731",
+      "price_yen": 88800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC640170.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-23 23:02:11",
+      "price_history": [
+        {
+          "price_yen": 88800,
+          "observed_at": "2026-08-23 23:02:11"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC643210",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -801,6 +873,40 @@
         {
           "price_yen": 79800,
           "observed_at": "2026-08-22 17:52:59"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC645705",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-12400",
+        "cpu_generation": 12,
+        "memory_gb": 16,
+        "storage": "SSD 1TB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD1TB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 199640【8/20値下げ!】",
+      "price_yen": 92800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC645705.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-23 23:02:11",
+      "price_history": [
+        {
+          "price_yen": 92800,
+          "observed_at": "2026-08-23 23:02:11"
         }
       ]
     },
@@ -967,6 +1073,40 @@
         {
           "price_yen": 93900,
           "observed_at": "2026-08-22 17:51:38"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC654482",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 5800",
+        "memory_gb": 16,
+        "storage": "SSD 256GB + HDD 2TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  Lenovo(Ryzen 7 5800/16GB/SSD256GB/HDD2TB/RTX3060 12GB/W11H) 4510002964",
+      "price_yen": 99800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC654482.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-23 23:02:11",
+      "price_history": [
+        {
+          "price_yen": 99800,
+          "observed_at": "2026-08-23 23:02:11"
         }
       ]
     },
