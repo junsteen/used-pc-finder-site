@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 13:01:17+09:00",
+  "generated_at": "2026-08-23 13:04:22+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1101,6 +1101,26 @@
         {
           "price_yen": 44980,
           "observed_at": "2026-08-22 17:52:35"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "listing_id": "aidemac_tw202506301723105158757",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "title": "NEC Mate PC-MK33MLZX1ASN マザーボード Core i5 4590 純正 中古品 MK33ML-N 5-0630-3 Windows パーツ 部品 交換用",
+      "price_yen": 16300,
+      "url": "https://store.shopping.yahoo.co.jp/aidemac/tw202506301723105158757.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "observed_at": "2026-08-23 01:22:16",
+      "price_history": [
+        {
+          "price_yen": 16300,
+          "observed_at": "2026-08-23 01:22:16"
         }
       ]
     },
