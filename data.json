@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 12:08:04+09:00",
+  "generated_at": "2026-08-23 12:16:34+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -85,6 +85,8 @@
       "operator": "アイ・ティー・エス・ジャパン株式会社",
       "corporate_number": "1010401000621",
       "corporate_number_source": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=1010401000621",
+      "corporate_number_basis": "inferred",
+      "corporate_number_note": "特商法ページに法人番号の記載がないため、社名と所在地(東京都港区新橋5-13-1)がgBizINFOの登録と一致することから同定した。類似商号の法人が複数存在するため要注意。",
       "address": "〒105-0004 東京都港区新橋5-13-1 新橋菊栄ビル9F",
       "representative": "代表取締役 塚田直之",
       "used_dealer_license": "301099702023（東京都公安委員会）",
