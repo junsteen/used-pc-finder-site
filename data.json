@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-08-23 11:26:01+09:00",
+  "generated_at": "2026-08-23 11:37:25+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
-    "open": [
+    "open": [],
+    "recently_closed": [
       {
         "number": 2,
         "title": "[調査] GeForce RTX 4070 Ti SUPER",
         "url": "https://github.com/junsteen/used-pc-finder-site/issues/2",
-        "created_at": "2026-08-23T02:24:26Z"
-      }
-    ],
-    "recently_closed": [
+        "closed_at": "2026-08-23T02:26:20Z"
+      },
       {
         "number": 1,
         "title": "[調査] RTX 4070 Ti SUPER",

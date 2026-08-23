@@ -191,6 +191,22 @@
   .queue-list .pos { color: var(--accent); min-width: 2.2em; }
   .queue-list a { color: var(--text); }
   .queue-empty { color: var(--text-muted); font-size: 0.82rem; margin: 0.8rem 0 0; font-family: "IBM Plex Mono", ui-monospace, monospace; }
+  .catalog-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  .catalog-table th {
+    text-align: left; font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-muted); font-weight: 500;
+    border-bottom: 1px solid var(--surface-line); padding: 0.4rem 0.6rem 0.4rem 0;
+  }
+  .catalog-table td {
+    padding: 0.5rem 0.6rem 0.5rem 0; border-bottom: 1px solid var(--surface-line);
+    vertical-align: baseline;
+  }
+  .catalog-table tr:last-child td { border-bottom: none; }
+  .catalog-table .num { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  .catalog-wrap { overflow-x: auto; margin-top: 0.8rem; }
+  .cat-link { background: none; border: none; padding: 0; font: inherit; color: var(--accent); cursor: pointer; text-decoration: underline; text-align: left; }
+  .cat-link:hover { filter: brightness(1.1); }
   .footer-h {
     font-family: "IBM Plex Mono", ui-monospace, monospace;
     font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase;
@@ -241,8 +257,14 @@
   <div class="cards" id="cards"></div>
 
   <section class="queue-section">
+    <h2 class="section-h">収録済みカタログ</h2>
+    <p class="queue-lede">メーカー公式ページ等から調査した製品スペックです。ここに収録されている製品は、出品一覧でもスペックが表示され、用途プリセットでの適合判定が効きます。</p>
+    <div id="catalog-list"></div>
+  </section>
+
+  <section class="queue-section">
     <h2 class="section-h">スペック調査のリクエスト</h2>
-    <p class="queue-lede">お探しの製品がカタログにない場合、型番を送っていただければ公式スペックを調査して追加します。調査結果は誰でも見られる形で公開されます。</p>
+    <p class="queue-lede">お探しの製品が上のカタログにない場合、型番を送っていただければ公式スペックを調査して追加します。調査結果は誰でも見られる形で公開されます。</p>
     <p><a class="btn" id="request-link" href="https://github.com/junsteen/used-pc-finder-site/issues/new?template=spec-request.yml" target="_blank" rel="noopener">型番をリクエストする</a></p>
     <p class="queue-note">GitHubアカウントが必要です。送信後に作られるページをブックマークしておくと、完了時に確認できます。手作業を含むため完了時期はお約束できません。</p>
     <div id="queue-status"></div>
@@ -420,6 +442,65 @@
     }).join('');
   }
 
+  // 収録済みカタログの一覧。ユーザーが「自分の機種が既にあるか」を確認し、
+  // なければリクエストする、という流れを成立させるために表示する。
+  function renderCatalog() {
+    const box = document.getElementById('catalog-list');
+    const specs = state.data.specs || {};
+    const ids = Object.keys(specs);
+    if (!ids.length) {
+      box.innerHTML = '<p class="queue-empty">まだ収録されている製品はありません。</p>';
+      return;
+    }
+
+    // spec_id ごとに、現在出品が何件あるかを数える
+    const counts = {};
+    state.data.listings.forEach(l => {
+      if (l.spec_id) counts[l.spec_id] = (counts[l.spec_id] || 0) + 1;
+    });
+    // spec_id からカテゴリ(watch)を逆引きし、クリック時の絞り込み先にする
+    const watchOf = {};
+    Object.keys(state.data.watches).forEach(name => {
+      const sid = state.data.watches[name].spec_id;
+      if (sid && !watchOf[sid]) watchOf[sid] = name;
+    });
+
+    const rows = ids.sort((a, b) =>
+      specs[a].display_name.localeCompare(specs[b].display_name, 'ja')
+    ).map(id => {
+      const s = specs[id];
+      const maker = (state.data.manufacturers[s.manufacturer_id] || {}).display_name || '—';
+      const n = counts[id] || 0;
+      const nameCell = watchOf[id]
+        ? '<button class="cat-link" data-watch="' + watchOf[id] + '">' + s.display_name + '</button>'
+        : s.display_name;
+      return '<tr>' +
+        '<td>' + nameCell + '</td>' +
+        '<td>' + maker + '</td>' +
+        '<td>' + (s.release_date || '—') + '</td>' +
+        '<td>' + (s.verified ? '確認済み' : '<span class="chip unverified">未検証</span>') + '</td>' +
+        '<td class="num">' + (n ? n + ' 件' : '—') + '</td>' +
+        '</tr>';
+    }).join('');
+
+    box.innerHTML =
+      '<p class="queue-empty">' + ids.length + ' 製品を収録</p>' +
+      '<div class="catalog-wrap"><table class="catalog-table">' +
+      '<thead><tr><th>製品</th><th>メーカー</th><th>発売</th><th>スペック</th><th class="num">現在の出品</th></tr></thead>' +
+      '<tbody>' + rows + '</tbody></table></div>';
+
+    box.querySelectorAll('.cat-link').forEach(btn => {
+      btn.addEventListener('click', () => {
+        el.category.value = btn.dataset.watch;
+        el.keyword.value = '';
+        el.max.value = '';
+        render();
+        syncUrl();
+        document.getElementById('result-count').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
+
   function renderQueue(queue) {
     const box = document.getElementById('queue-status');
     if (!queue) return;
@@ -460,6 +541,7 @@
       state.data = data;
       el.updated.textContent = '最終更新: ' + data.generated_at;
 
+      renderCatalog();
       renderQueue(data.request_queue);
 
       if (data.correction_url) {
