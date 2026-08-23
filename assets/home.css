@@ -7,9 +7,56 @@ gap:.5rem 1rem;align-items:start}
 @media(max-width:640px){.hero h1{font-size:22px}.hero-br{display:none}}
 .lede{color:var(--text-muted);max-width:60ch;margin:12px 0 0;font-size:14px}
 
-/* 検索条件のパネル */
-.search-panel{background:var(--surface);border:1px solid var(--surface-line);
-border-radius:var(--radius-card);padding:20px;margin-bottom:16px}
+/* --- 検索条件と結果の2カラム ---------------------------------------------
+   広い画面では条件を左に置いたままにして、結果を見ながら絞り込めるようにする。
+   1024px未満では条件が上、結果が下の1カラムに戻す。 */
+.search-layout{display:grid;grid-template-columns:240px minmax(0,1fr);
+gap:24px;align-items:start}
+/* 1fr は実質 minmax(auto,1fr) で、autoの下限が中身のmin-content幅になる。
+   表が入ると列がその幅まで広がってページごと横に伸びるため下限を0にする。 */
+@media(max-width:1023px){
+  .search-layout{grid-template-columns:minmax(0,1fr);gap:16px}
+}
+/* 表は12列あって本文幅(1280px)には収まらない。広い画面では2カラムごと
+   本文からはみ出させ、結果側に使える幅を増やす。 */
+@media(min-width:1400px){
+  .search-layout{--sl:min(1560px,calc(100vw - 3rem));
+  width:var(--sl);margin-inline:calc((100% - var(--sl)) / 2)}
+}
+
+/* 条件パネルは畳める。表を全列見たいときに幅を取り戻せるようにするため。 */
+.filter-collapse{display:none}
+@media(min-width:1024px){
+  .filter-collapse{display:inline-block;font:inherit;font-size:12px;
+  background:none;border:none;color:var(--accent);cursor:pointer;padding:0}
+  .filter-collapse:hover{text-decoration:underline}
+  .search-layout.is-collapsed{grid-template-columns:minmax(0,1fr)}
+  .search-layout.is-collapsed .filter-side .filter-bar,
+  .search-layout.is-collapsed .filter-reset{display:none}
+  .search-layout.is-collapsed .filter-side{padding:8px 12px}
+  .search-layout.is-collapsed .filter-head{padding-bottom:0;margin:0;border:none}
+}
+
+.filter-side{background:var(--surface);border:1px solid var(--surface-line);
+border-radius:var(--radius-card);padding:16px}
+/* ヘッダーが72pxで固定なので、その下に貼り付ける */
+@media(min-width:1024px){.filter-side{position:sticky;top:88px;
+max-height:calc(100vh - 104px);overflow-y:auto}}
+.filter-head{display:flex;align-items:baseline;justify-content:space-between;
+gap:8px;padding-bottom:12px;margin-bottom:4px;
+border-bottom:1px solid var(--surface-line)}
+.filter-title{font-size:14px;font-weight:700;margin:0}
+.filter-reset{font:inherit;font-size:12px;background:none;border:none;
+color:var(--accent);cursor:pointer;padding:0}
+.filter-reset:hover{color:var(--accent-hover);text-decoration:underline}
+/* サイドバーの中では条件を縦に積む */
+.filter-side .filter-bar{display:flex;flex-direction:column;gap:14px;
+background:none;border:none;border-radius:0;padding:0;margin:0}
+.filter-side .field-wide{grid-column:auto}
+@media(max-width:1023px){
+  .filter-side .filter-bar{display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+}
 
 /* 収集の状況。3つ並べ、狭い画面では縦に積む */
 .info-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;

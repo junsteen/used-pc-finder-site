@@ -182,6 +182,9 @@ background:var(--surface)}
 @media(min-width:1024px){
   .table-wrap{--tw:min(1500px,calc(100vw - 3rem));
   width:var(--tw);margin-inline:calc((100% - var(--tw)) / 2)}
+  /* 2カラムの中では、はみ出させると左の条件パネルに重なる。
+     列が収まらないぶんは表の中だけを横スクロールさせる。 */
+  .results-col .table-wrap{width:auto;margin-inline:0}
 }
 .listing-table{width:100%;border-collapse:collapse;font-size:.82rem}
 .listing-table th{position:sticky;top:0;z-index:1;background:var(--surface);
