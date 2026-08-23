@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 15:24:41+09:00",
+  "generated_at": "2026-08-23 15:44:49+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -303,6 +303,7 @@
       "summary": "After Effectsを見据えて、VRAM12GB以上のGPUを積んだ中古デスクトップPCと、素体PCにカードを後付けする構成を同じ土俵で比較しました。",
       "intro": "先に前提を1つ。After EffectsのAdobe公式要件はVRAM最小4GB・推奨8GBで、12GB以上はAEが求める水準ではありません。AEの体感を決めるのはCPUのコア数（マルチフレームレンダリングがコア数にほぼ比例する）とシステムメモリで、GPUの寄与は限定的です。それでもVRAM12GB以上を狙う理由は、3Dレイヤーやレイトレース系のエフェクトで余裕が効くこと、そしてDaVinci ResolveやローカルLLMなど同じ機体で回す別の用途がVRAM容量で頭打ちになりやすいことです。AEだけが目的なら、同じ予算はCPUとメモリに寄せたほうが効きます。",
       "note": "掲載は編集者(サイト運営者)の主観的な評価です。価格・在庫は常に変動するため、必ず各機種のページで最新の出品状況をご確認ください。素体PCへのカード後付けは、電源容量・筐体サイズ・補助電源コネクタの3点が合って初めて成立します。購入前に必ず現物の仕様をご確認ください。本文中のGPUの数値は当サイトのカタログに基づきますが、いずれも人による検証を経ていません（各機種ページに「未検証」と表示しています）。",
+      "listing_focus": "pc",
       "items": [
         {
           "spec_id": "geforce_rtx3060_12gb",
