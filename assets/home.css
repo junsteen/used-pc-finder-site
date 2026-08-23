@@ -102,6 +102,15 @@ font-family:var(--mono)}
 .queue-section{margin-top:32px;padding:20px;background:var(--surface);
 border:1px solid var(--surface-line);border-radius:var(--radius-card)}
 .section-h{font-size:20px;font-weight:700;color:var(--text);margin:0 0 12px}
+/* このサイトでできること。3つに絞り、装飾を足さず文章で説明する */
+.feature-section{margin-top:32px}
+.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media(max-width:900px){.feature-grid{grid-template-columns:1fr}}
+.feature{background:var(--surface);border:1px solid var(--surface-line);
+border-radius:var(--radius-card);padding:20px}
+.feature-title{font-size:16px;font-weight:700;margin:0 0 8px;color:var(--text)}
+.feature p{margin:0;font-size:13px;color:var(--text-muted)}
+
 .queue-lede{margin:0 0 .9rem;font-size:.92rem}
 .queue-note{color:var(--text-muted);font-size:.8rem;margin:.6rem 0 0}
 .queue-list{list-style:none;padding:0;margin:.8rem 0 0;display:flex;

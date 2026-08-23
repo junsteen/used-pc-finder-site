@@ -165,7 +165,7 @@ vertical-align:top}
 white-space:nowrap}
 /* 商品名だけ width:100% にして余白を吸わせ、他の列は中身なりの幅に収める */
 .listing-table .col-name{width:100%;min-width:16rem;overflow-wrap:anywhere}
-.listing-table td:not(.col-name){white-space:nowrap}
+.listing-table td:not(.col-name):not(.col-wrap){white-space:nowrap}
 /* 収集元と状態は語が長く、折り返せたほうが表全体が縮まる */
 .listing-table td.col-wrap{white-space:normal;min-width:6rem}
 /* 出品タイトルは非常に長いものがあり、素直に折り返すと1行が10行分の高さになって
@@ -178,6 +178,43 @@ white-space:nowrap}
 .listing-table .model-code{font-family:var(--mono);font-size:.7rem;
 color:var(--text-muted)}
 .listing-table .price-delta{font-weight:400}
+/* --- ステータス --------------------------------------------------------
+   「スペック判定」と「データ信頼性」は別軸。どちらも記号+文言を併記し、
+   色だけに意味を持たせない(色覚特性への配慮と、モノクロ印刷への配慮)。 */
+.status{display:inline-block;font-size:12px;line-height:1.6;white-space:nowrap;
+border-radius:999px;padding:1px 10px;border:1px solid transparent}
+.status-ok{color:var(--ok);background:var(--ok-soft);border-color:var(--ok)}
+.status-danger{color:var(--danger);background:var(--danger-soft);
+border-color:var(--danger)}
+.status-neutral{color:var(--text-muted);border-color:var(--surface-line-strong)}
+/* データ信頼性。判定と同じ色を使うと「検証済み=買っていい」と読まれるため、
+   こちらは彩度を持たせず、記号と枠線の描き方だけで3段階を区別する。 */
+.status-verified{color:var(--text);border-color:var(--text-muted)}
+.status-unverified{color:var(--text-muted);border-style:dashed;
+border-color:var(--surface-line-strong)}
+.status-estimated{color:var(--text-muted);border-style:dotted;
+border-color:var(--surface-line-strong)}
+
+/* 商品タイプ。完成品とパーツと組み合わせを取り違えさせないための表示なので、
+   派手さで差をつけず、文字で読ませる。 */
+.type-badge{display:inline-block;font-size:11px;line-height:1.6;padding:0 8px;
+border-radius:4px;background:var(--surface-2);color:var(--text-muted);
+border:1px solid var(--surface-line)}
+.type-combo{border-style:dashed}
+.row-tags{margin-top:6px;display:flex;gap:6px;flex-wrap:wrap}
+
+/* 組み合わせの内訳。合計だけを見せると完成品の価格と同じ意味に見えてしまう */
+.combo-title{font-weight:700}
+.combo-breakdown{list-style:none;margin:8px 0 0;padding:0;font-size:12px;
+border-left:2px solid var(--surface-line-strong);padding-left:10px}
+.combo-breakdown li{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;
+margin:2px 0;white-space:normal}
+.combo-role{color:var(--text-muted);min-width:3.2em}
+.combo-price{font-variant-numeric:tabular-nums;font-weight:700}
+.combo-shop{color:var(--text-muted)}
+.combo-note{font-size:11px;margin:6px 0 0;white-space:normal}
+.combo-wrap{grid-column:1 / -1}
+
 /* 出品タイトルから推定した値であることを、見出しとセルの両方で示す */
 .listing-table th.est{border-bottom-style:dashed}
 .est-val{border-bottom:1px dotted var(--text-muted)}

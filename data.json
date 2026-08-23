@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 16:46:01+09:00",
+  "generated_at": "2026-08-23 16:55:09+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -4778,6 +4778,96 @@
           "observed_at": "2026-08-22 17:53:19"
         }
       ]
+    },
+    {
+      "source": "combo",
+      "source_label": "組み合わせ（2店）",
+      "listing_id": "dospara:IC653187+yahoo_shopping:janpara_59062968-59",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "combo",
+      "model_slug": null,
+      "model_name": null,
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "なし",
+        "gpu": "GeForce RTX 3060 12GB",
+        "vram_gb": 12
+      },
+      "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863 ＋ 【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.1.0(GV-N3060GAMING OC-12GD) RTX3060/12GB(GDDR6)/PCI-E【戸塚】保証期間１週間",
+      "price_yen": 36980,
+      "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": null,
+      "shipping_label": "—（2件分の送料が別途)",
+      "observed_at": "2026-08-22 17:54:14",
+      "price_history": [],
+      "combo": {
+        "base": {
+          "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
+          "price_yen": 10000,
+          "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+          "source_label": "ドスパラ",
+          "chassis": "不明",
+          "gpu_fit": "unknown"
+        },
+        "card": {
+          "title": "【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.1.0(GV-N3060GAMING OC-12GD) RTX3060/12GB(GDDR6)/PCI-E【戸塚】保証期間１週間",
+          "price_yen": 26980,
+          "url": "https://store.shopping.yahoo.co.jp/janpara/59062968-59.html",
+          "source_label": "Yahoo!ショッピング"
+        },
+        "note": "筐体が判別できませんでした。増設の可否は販売元のページでご確認ください。"
+      }
+    },
+    {
+      "source": "combo",
+      "source_label": "組み合わせ（2店）",
+      "listing_id": "dospara:IC653187+yahoo_shopping:janpara_83287558-83",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": "geforce_rtx4060ti_16gb",
+      "shop_id": null,
+      "category": "combo",
+      "model_slug": null,
+      "model_name": null,
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "なし",
+        "gpu": "GeForce RTX 4060 Ti 16GB",
+        "vram_gb": 16
+      },
+      "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863 ＋ 【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
+      "price_yen": 81980,
+      "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": null,
+      "shipping_label": "—（2件分の送料が別途)",
+      "observed_at": "2026-08-22 17:54:14",
+      "price_history": [],
+      "combo": {
+        "base": {
+          "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
+          "price_yen": 10000,
+          "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+          "source_label": "ドスパラ",
+          "chassis": "不明",
+          "gpu_fit": "unknown"
+        },
+        "card": {
+          "title": "【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
+          "price_yen": 71980,
+          "url": "https://store.shopping.yahoo.co.jp/janpara/83287558-83.html",
+          "source_label": "Yahoo!ショッピング"
+        },
+        "note": "筐体が判別できませんでした。増設の可否は販売元のページでご確認ください。"
+      }
     }
   ]
 }
