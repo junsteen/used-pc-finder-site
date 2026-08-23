@@ -1,0 +1,44 @@
+name: 製品スペックの調査リクエスト
+description: 特定の製品型番について、公式スペックの調査を依頼します
+title: "[調査] "
+labels: ["調査リクエスト"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        調査した結果は公開カタログに追加され、その機種の出品に対してスペック情報が表示されるようになります。
+
+        **このIssueをブックマークしてください。** 調査が完了するとここにコメントが付き、Issueがクローズされます。
+
+        処理は手作業を含むため、完了までの時間はお約束できません。順番待ちの状況はサイト上で確認できます。
+  - type: input
+    id: model
+    attributes:
+      label: 製品型番
+      description: メーカーの型番を正確にご記入ください
+      placeholder: 例) dynabook G83/HU、VJPK21、RTX 4070 Ti SUPER
+    validations:
+      required: true
+  - type: input
+    id: maker
+    attributes:
+      label: メーカー名
+      placeholder: 例) Dynabook、VAIO、NVIDIA
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: 参考URL
+      description: メーカー公式のスペックページをご存知なら教えてください（調査が速くなります）
+      placeholder: https://
+    validations:
+      required: false
+  - type: textarea
+    id: note
+    attributes:
+      label: 補足
+      description: 特に知りたいスペック項目があればご記入ください
+      placeholder: 例) ケースにGPUが入るか知りたい／メモリの増設可否を知りたい
+    validations:
+      required: false

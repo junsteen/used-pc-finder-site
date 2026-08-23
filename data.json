@@ -1,10 +1,17 @@
 {
-  "generated_at": "2026-08-23 09:03:13+09:00",
-  "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues",
+  "generated_at": "2026-08-23 09:06:33+09:00",
+  "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
-    "recently_closed": [],
-    "error": "'ascii' codec can't encode characters in position 65-71: ordinal not in range(128)"
+    "recently_closed": [
+      {
+        "number": 1,
+        "title": "[調査] RTX 4070 Ti SUPER",
+        "url": "https://github.com/junsteen/used-pc-finder-site/issues/1",
+        "closed_at": "2026-08-23T00:06:09Z"
+      }
+    ],
+    "error": null
   },
   "watches": {
     "bonsai_gpu_pc": {

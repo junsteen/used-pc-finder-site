@@ -165,6 +165,32 @@
   }
   .chip.pr { border-radius: 999px; }
   .chip.unverified { color: var(--text-muted); border-style: dashed; }
+  .queue-section {
+    margin-top: 2.5rem; padding: 1.25rem 1.4rem;
+    background: var(--surface); border: 1px solid var(--surface-line); border-radius: 10px;
+  }
+  .section-h {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 0.6rem;
+  }
+  .queue-lede { margin: 0 0 0.9rem; font-size: 0.92rem; }
+  .queue-note { color: var(--text-muted); font-size: 0.8rem; margin: 0.6rem 0 0; }
+  .btn {
+    display: inline-block; background: var(--accent); color: var(--accent-on-accent);
+    text-decoration: none; font-weight: 600; font-size: 0.9rem;
+    padding: 0.5rem 1.1rem; border-radius: 6px;
+  }
+  .btn:hover { filter: brightness(1.08); }
+  .btn:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+  .queue-list { list-style: none; padding: 0; margin: 0.8rem 0 0; display: flex; flex-direction: column; gap: 0.35rem; }
+  .queue-list li {
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.8rem;
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .queue-list .pos { color: var(--accent); min-width: 2.2em; }
+  .queue-list a { color: var(--text); }
+  .queue-empty { color: var(--text-muted); font-size: 0.82rem; margin: 0.8rem 0 0; font-family: "IBM Plex Mono", ui-monospace, monospace; }
   .footer-h {
     font-family: "IBM Plex Mono", ui-monospace, monospace;
     font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase;
@@ -213,6 +239,14 @@
   <div id="purpose-panel" class="purpose-panel" hidden></div>
   <p class="result-count" id="result-count"></p>
   <div class="cards" id="cards"></div>
+
+  <section class="queue-section">
+    <h2 class="section-h">スペック調査のリクエスト</h2>
+    <p class="queue-lede">お探しの製品がカタログにない場合、型番を送っていただければ公式スペックを調査して追加します。調査結果は誰でも見られる形で公開されます。</p>
+    <p><a class="btn" id="request-link" href="https://github.com/junsteen/used-pc-finder-site/issues/new?template=spec-request.yml" target="_blank" rel="noopener">型番をリクエストする</a></p>
+    <p class="queue-note">GitHubアカウントが必要です。送信後に作られるページをブックマークしておくと、完了時に確認できます。手作業を含むため完了時期はお約束できません。</p>
+    <div id="queue-status"></div>
+  </section>
 
   <footer>
     <h2 class="footer-h">免責事項</h2>
@@ -386,6 +420,25 @@
     }).join('');
   }
 
+  function renderQueue(queue) {
+    const box = document.getElementById('queue-status');
+    if (!queue) return;
+    if (queue.error) {
+      box.innerHTML = '<p class="queue-empty">順番待ちの状況を取得できませんでした。</p>';
+      return;
+    }
+    const open = queue.open || [];
+    if (!open.length) {
+      box.innerHTML = '<p class="queue-empty">現在、順番待ちはありません。</p>';
+      return;
+    }
+    box.innerHTML = '<p class="queue-empty">順番待ち ' + open.length + ' 件</p>' +
+      '<ul class="queue-list">' + open.map((item, i) =>
+        '<li><span class="pos">' + (i + 1) + '.</span>' +
+        '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></li>'
+      ).join('') + '</ul>';
+  }
+
   function syncUrl() {
     const p = new URLSearchParams();
     if (el.purpose.value) p.set('use', el.purpose.value);
@@ -406,6 +459,8 @@
     .then(data => {
       state.data = data;
       el.updated.textContent = '最終更新: ' + data.generated_at;
+
+      renderQueue(data.request_queue);
 
       if (data.correction_url) {
         const link = document.getElementById('correction-link');

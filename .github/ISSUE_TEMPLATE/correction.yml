@@ -1,0 +1,35 @@
+name: 掲載情報の誤りを報告
+description: スペック・価格・判定などに誤りを見つけた場合
+title: "[訂正] "
+labels: ["訂正報告"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        掲載情報の一部はAIによる調査結果で、人による検証を経ていないものがあります（「スペック未検証」と表示されているもの）。誤りのご指摘は歓迎します。
+  - type: input
+    id: target
+    attributes:
+      label: 対象
+      description: どの製品・どの項目が誤っていますか
+      placeholder: 例) dynabook G83/HU の本体重量
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 誤りの内容
+      description: 掲載されている内容と、正しいと思われる内容をご記入ください
+      placeholder: |
+        掲載: 記載なし
+        正: 約979g
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 出典
+      description: 根拠となる公式ページ等があれば
+      placeholder: https://
+    validations:
+      required: false
