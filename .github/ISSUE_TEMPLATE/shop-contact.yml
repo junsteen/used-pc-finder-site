@@ -1,0 +1,45 @@
+name: ショップの方からのご連絡
+description: 掲載内容の訂正・削除、ショップからのコメント掲載のご依頼
+title: "[ショップ] "
+labels: ["ショップ連絡"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        当サイトは、公開情報（各店舗の特定商取引法に基づく表示、国税庁法人番号公表サイト等）をもとに店舗情報を掲載しています。
+
+        **掲載の停止をご希望の場合も、こちらからご連絡ください。速やかに対応します。**
+
+        なりすまし防止のため、ご依頼内容によっては本人確認をお願いする場合があります（貴社ドメインのメールアドレスからのご連絡、公式サイト上での確認など）。
+  - type: input
+    id: shop
+    attributes:
+      label: 店舗名
+      placeholder: 例) Be-Stock
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: ご依頼の種類
+      options:
+        - 掲載内容の訂正
+        - ショップからのコメント掲載
+        - 掲載の停止・削除
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容
+      description: 訂正の場合は「現在の掲載内容」と「正しい内容」をご記入ください
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: ご連絡先・確認方法
+      description: 本人確認のためにご利用いただける手段（公式サイト上の記載ページ、貴社ドメインのメールアドレス等）
+    validations:
+      required: false

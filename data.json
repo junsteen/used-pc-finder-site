@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 11:58:56+09:00",
+  "generated_at": "2026-08-23 12:08:04+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -79,6 +79,28 @@
     }
   },
   "shops": {
+    "be_stock": {
+      "shop_id": "be_stock",
+      "display_name": "Be-Stock（中古パソコン通販専門店）",
+      "operator": "アイ・ティー・エス・ジャパン株式会社",
+      "corporate_number": "1010401000621",
+      "corporate_number_source": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=1010401000621",
+      "address": "〒105-0004 東京都港区新橋5-13-1 新橋菊栄ビル9F",
+      "representative": "代表取締役 塚田直之",
+      "used_dealer_license": "301099702023（東京都公安委員会）",
+      "official_site": "https://www.be-stock.com/",
+      "tokushoho_url": "https://www.be-stock.com/shop2/used-dealing-act",
+      "is_data_source": false,
+      "shipping_note": "購入から30日間交換自由。送料の詳細は公式サイトの支払い・配送ページを参照。",
+      "fetched_at": "2026-08-23",
+      "comments": [
+        {
+          "author": "editor",
+          "date": "2026-08-23",
+          "body": "Lenovo ThinkPadの取り扱いに強い中古PC専門店。価格.comの中古パソコンカテゴリでも上位に出品が並ぶ。当サイトはこの店舗を直接監視していないため、出品は掲載されない（価格.com等でご確認ください）。"
+        }
+      ]
+    },
     "dospara": {
       "shop_id": "dospara",
       "display_name": "ドスパラ（dospara.co.jp）",
@@ -87,6 +109,7 @@
       "corporate_number_source": "https://houjin.jp/c/4010001018053",
       "address": "〒101-0021 東京都千代田区外神田3-12-8 住友不動産秋葉原ビル19階",
       "tokushoho_url": "https://www.dospara.co.jp/5info/cts_sc_law.html",
+      "is_data_source": true,
       "shipping_note": "顧客都合による返品は原則不可。注文確定後30日以内に出荷できない場合はメールで連絡あり。送料は商品・配送方法ごとに異なる。",
       "fetched_at": "2026-08-23"
     },
@@ -98,6 +121,7 @@
       "corporate_number_source": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2120001037218",
       "address": "大阪府大阪市浪速区日本橋4-16-1",
       "tokushoho_url": "https://www.pc-koubou.jp/shop_guide/tokusyouhou.php",
+      "is_data_source": true,
       "shipping_note": "消費税・送料・手数料は商品代金とは別途。送料の詳細は「配送料金について」ページで確認が必要。顧客都合の返品・交換は不可（不良品は修理/交換対応）。",
       "fetched_at": "2026-08-23"
     },
@@ -109,6 +133,7 @@
       "corporate_number_source": "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=9010001145446",
       "address": "〒101-8610 東京都千代田区神田小川町1-16-9 住友2号館ビルB1F",
       "tokushoho_url": "https://www.sofmap.com/contents/?id=regulation&sid=low",
+      "is_data_source": true,
       "shipping_note": "送料は商品ごとに異なり、公式サイトの「配送料金について」ページで確認が必要。返品は到着後10日以内・未開封品のみ。",
       "fetched_at": "2026-08-23"
     }
