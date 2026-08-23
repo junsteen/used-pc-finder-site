@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 12:16:34+09:00",
+  "generated_at": "2026-08-23 12:19:55+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -92,8 +92,11 @@
       "used_dealer_license": "301099702023（東京都公安委員会）",
       "official_site": "https://www.be-stock.com/",
       "tokushoho_url": "https://www.be-stock.com/shop2/used-dealing-act",
+      "contact_email": "info@be-stock.com",
+      "contact_tel": "0994-41-5249（受付 10:30-18:00 土日祝除く）",
       "is_data_source": false,
-      "shipping_note": "購入から30日間交換自由。送料の詳細は公式サイトの支払い・配送ページを参照。",
+      "warranty_note": "PC・タブレットは1年保証。30日以内は交換自由。15時までの注文で即日発送。",
+      "shipping_note": "送料の詳細は公式サイトの「お支払いについて」「配送について」を参照。",
       "fetched_at": "2026-08-23",
       "comments": [
         {
