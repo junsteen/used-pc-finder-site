@@ -92,7 +92,7 @@ aria-hidden="true" focusable="false">
   <div class="info-strip">
     <div class="info-item"><span class="info-label">最終更新</span>
       <span class="info-value" id="updated-at"><!--UPDATED:START-->
-2026-08-23 16:55:09+09:00
+2026-08-23 18:08:06+09:00
 <!--UPDATED:END--></span></div>
     <div class="info-item"><span class="info-label">対象サイト</span>
       <span class="info-value">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房</span></div>
@@ -100,6 +100,13 @@ aria-hidden="true" focusable="false">
       <span class="info-value">検証済みの情報と推定値を区別して表示しています
         <a href="#data-notes">データの見方</a></span></div>
   </div>
+
+  <section class="cat-section" aria-label="カテゴリ">
+    <h2 class="section-h">カテゴリから探す</h2>
+    <!--CATEGORIES:START-->
+<div class='cat-grid'><button class='cat-card cat-link' data-watch='bare_desktop_for_gpu'><span class='cat-name'>素体デスクトップPC（GPU後付け用）</span><span class='cat-meta'>完成品・素体PC</span><span class='cat-count'>64 件</span></button><button class='cat-card cat-link' data-watch='rtx3060_12gb'><span class='cat-name'>RTX 3060 12GB（カード単体）</span><span class='cat-meta'>パーツ</span><span class='cat-count'>62 件</span></button><button class='cat-card cat-link' data-watch='rtx4060ti_16gb'><span class='cat-name'>RTX 4060 Ti 16GB（カード単体）</span><span class='cat-meta'>パーツ</span><span class='cat-count'>4 件</span></button><button class='cat-card cat-link' data-watch='dynabook_g83hu'><span class='cat-name'>dynabook G83/HU</span><span class='cat-meta'>完成品・素体PC</span><span class='cat-count'>4 件</span></button><button class='cat-card cat-link' data-watch='rtx3060_12gb_pc'><span class='cat-name'>RTX 3060 12GB搭載PC</span><span class='cat-meta'>完成品・素体PC</span><span class='cat-count'>2 件</span></button><button class='cat-card cat-link' data-watch='bonsai_gpu_pc'><span class='cat-name'>RTX 4060 Ti 16GB搭載PC</span><span class='cat-meta'>完成品・素体PC</span><span class='cat-count'>0 件</span></button><button class='cat-card cat-link' data-watch='vaio_pro_pk_vjpk21_32gb'><span class='cat-name'>VAIO Pro PK (VJPK21・32GB)</span><span class='cat-meta'>完成品・素体PC</span><span class='cat-count'>0 件</span></button></div>
+<!--CATEGORIES:END-->
+  </section>
 
   <div id="purpose-panel" class="purpose-panel" hidden></div>
   <div class="result-bar">
@@ -191,7 +198,7 @@ aria-hidden="true" focusable="false">
   <circle cx="28" cy="19" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/>
   <path d="M32.5 23.5 37 28" stroke="var(--accent)" stroke-width="2.5"
         stroke-linecap="round"/>
-</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a></nav></div><p class="footer-updated">最終更新: 2026-08-23 16:55:09+09:00（20分ごとに更新）</p>
+</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a></nav></div><p class="footer-updated">最終更新: 2026-08-23 18:08:06+09:00（20分ごとに更新）</p>
 <!--SITEFOOTER:END-->
   <div id="data-notes">
     <h2 class="footer-h">免責事項</h2>
@@ -287,31 +294,79 @@ aria-hidden="true" focusable="false">
     ).join('') + '</div>';
   }
 
-  // 出品が用途プリセットの要件を満たすか判定する。
-  // 判定に必要なスペックが分からない場合は「不適合」ではなく「不明」を返す（欠損を一級市民として扱う）。
+  // 出品が用途プリセットの要件を満たすか、条件ごとに判定する。
+  //
+  // 「AIが総合判定しました」ではなく、どの条件をどの値で満たしたのかを
+  // 全部見せる。根拠が見えないと、判定を信じるかどうかを利用者が決められない。
+  //
+  // 判定に必要な値が分からない場合は「不適合」ではなく「不明」を返す。
+  // 欠損を不適合に丸めると、情報が少ない出品が不当に落ちる。
+  //
+  // CPUのコア数は当サイトが持っていないため、条件に含めない(型番からコア数を
+  // 引く表を持てば判定できるが、現状は推測になるので出さない)。
+  function fitChecks(listing, req) {
+    const s = (req && req.specs) || {};
+    const p = listing.parsed || {};
+    const checks = [];
+
+    if (s.ram_gb && s.ram_gb.min) {
+      checks.push(compare('メモリ', s.ram_gb.min + 'GB 以上', p.memory_gb,
+                          s.ram_gb.min, v => v + 'GB'));
+    }
+    if (s.vram_gb && s.vram_gb.min) {
+      checks.push(compare('VRAM', s.vram_gb.min + 'GB 以上', vramOf(listing),
+                          s.vram_gb.min, v => v + 'GB'));
+    }
+    // required と preferred は意味が違う。preferred を満たさないことを
+    // 「不足」と判定すると、推奨にすぎない条件で候補を落としてしまう。
+    const gv = s.gpu_vendor || {};
+    const vendor = gv.required || gv.preferred;
+    if (vendor) checks.push(vendorCheck(listing, vendor, !!gv.required));
+    // ストレージ種別は requirements 側が「あると体感が変わる」という助言として
+    // 書いているもので、満たさないと動かない条件ではないため判定に含めない。
+    return checks;
+  }
+
+  function compare(label, need, actual, min, fmt) {
+    if (actual === null || actual === undefined) {
+      return { label, need, actual: null, status: 'unknown' };
+    }
+    return { label, need, actual: fmt(actual), status: actual >= min ? 'ok' : 'ng' };
+  }
+
+  function vendorCheck(listing, vendor, isRequired) {
+    const gpu = gpuOf(listing) || '';
+    const known = { NVIDIA: /nvidia|geforce|rtx|gtx|quadro/i,
+                    AMD: /radeon|rx\s?\d/i, Intel: /arc|iris|uhd|hd graphics/i };
+    const need = vendor + (isRequired ? '' : '（推奨）');
+    // 推奨どまりの条件は、外れていても不足にはしない
+    const miss = isRequired ? 'ng' : 'unknown';
+    if (!gpu) return { label: 'GPU', need, actual: null, status: 'unknown' };
+    if (gpu === '内蔵GPU') {
+      return { label: 'GPU', need, actual: gpu,
+               status: vendor === 'NVIDIA' ? miss : 'unknown' };
+    }
+    const rx = known[vendor];
+    if (!rx) return { label: 'GPU', need, actual: gpu, status: 'unknown' };
+    return { label: 'GPU', need, actual: gpu,
+             status: rx.test(gpu) ? 'ok' : miss };
+  }
+
   function judgeFit(listing, req) {
     if (!req) return null;
-    const spec = listing.spec_id ? (state.data.specs[listing.spec_id] || {}).spec : null;
-    if (!spec) return { verdict: 'unknown', reason: 'スペック情報なし' };
-
-    const needVram = req.specs && req.specs.vram_gb && req.specs.vram_gb.min;
-    if (needVram) {
-      if (spec.vram_gb === undefined) return { verdict: 'unknown', reason: 'VRAM不明' };
-      if (spec.vram_gb < needVram) {
-        return { verdict: 'unfit', reason: 'VRAM ' + spec.vram_gb + 'GB < 必要' + needVram + 'GB' };
-      }
+    const checks = fitChecks(listing, req);
+    if (!checks.length) return { verdict: 'unknown', reason: '判定条件がありません', checks };
+    const ng = checks.filter(c => c.status === 'ng');
+    const unknown = checks.filter(c => c.status === 'unknown');
+    const detail = c => c.label + ' ' + (c.actual || '不明') + '（必要: ' + c.need + '）';
+    if (ng.length) {
+      return { verdict: 'unfit', reason: ng.map(detail).join(' / '), checks };
     }
-
-    const needVendor = req.specs && req.specs.gpu_vendor &&
-      (req.specs.gpu_vendor.required || req.specs.gpu_vendor.preferred);
-    if (needVendor && spec.vram_gb !== undefined) {
-      const isNvidia = /nvidia|geforce|rtx|gtx/i.test(listing.title);
-      if (needVendor === 'NVIDIA' && !isNvidia) {
-        return { verdict: 'unknown', reason: 'GPUベンダー要確認' };
-      }
+    if (unknown.length) {
+      return { verdict: 'unknown',
+               reason: unknown.map(c => c.label + 'が不明').join(' / '), checks };
     }
-
-    return { verdict: 'fit', reason: '要件を満たす' };
+    return { verdict: 'fit', reason: checks.map(detail).join(' / '), checks };
   }
 
   function renderPurposePanel(req) {
@@ -331,6 +386,8 @@ aria-hidden="true" focusable="false">
       '<h2>' + req.display_name + '</h2>' +
       '<div>' + (req.summary || '') + '</div>' +
       '<div class="purpose-req">' + rows.map(r => '<span>' + r + '</span>').join('') + '</div>' +
+      '<p class="src muted">CPUのコア数は当サイトで把握していないため、判定には含めていません。' +
+      'メモリ・VRAM・GPUベンダー・ストレージ種別のうち、出品から読み取れた項目だけを突き合わせています。</p>' +
       (src ? '<p class="src">' + src + '</p>' : '');
     el.purposePanel.hidden = false;
   }
@@ -546,8 +603,22 @@ aria-hidden="true" focusable="false">
     };
     const [cls, mark, label] = map[fit.verdict] || map.unknown;
     const text = (opts && opts.short) ? mark : mark + ' ' + label;
-    return '<span class="status status-' + cls + '" title="' + esc(fit.reason) + '">' +
+    const badge = '<span class="status status-' + cls + '" title="' + esc(fit.reason) + '">' +
       text + '</span>';
+    if (opts && opts.detail === false) return badge;
+    return badge + checkList(fit.checks);
+  }
+
+  // どの条件をどの値で満たしたのかを並べる。総合判定だけだと、
+  // 何を根拠にそう言っているのかが利用者に分からない。
+  function checkList(checks) {
+    if (!checks || !checks.length) return '';
+    const icon = { ok: '✓', ng: '!', unknown: '?' };
+    return '<ul class="check-list">' + checks.map(c =>
+      '<li class="check-' + c.status + '"><span class="check-icon">' + icon[c.status] +
+      '</span><span class="check-need">' + esc(c.label + ' ' + c.need) + '</span>' +
+      '<span class="check-actual">' + esc(c.actual || '不明') + '</span></li>'
+    ).join('') + '</ul>';
   }
   function gpuOf(l) {
     const s = catalogSpec(l);
@@ -656,7 +727,7 @@ aria-hidden="true" focusable="false">
       if (spec && spec.verified === false) {
         chips.push('<span class="chip unverified">スペック未検証</span>');
       }
-      const fitHtml = fitBadge(l, req);
+      const fitHtml = fitBadge(l, req, { detail: false });
       if (fitHtml) chips.push(fitHtml);
       chips.push('<span class="chip">' + watchLabel + '</span>');
 
@@ -702,7 +773,8 @@ aria-hidden="true" focusable="false">
   // カタログ表はビルド時にHTMLへ直接書き込まれている(JSなしのクローラー対策)。
   // ここでは既存DOMに絞り込みのハンドラを付けるだけで、描画はしない。
   function attachCatalogHandlers() {
-    document.querySelectorAll('#catalog-list .cat-link').forEach(btn => {
+    // カタログ表とカテゴリ一覧の両方に置いてあるので、ページ全体から拾う
+    document.querySelectorAll('.cat-link').forEach(btn => {
       btn.addEventListener('click', () => {
         el.category.value = btn.dataset.watch;
         el.keyword.value = '';

@@ -195,6 +195,17 @@ border-color:var(--surface-line-strong)}
 .status-estimated{color:var(--text-muted);border-style:dotted;
 border-color:var(--surface-line-strong)}
 
+/* 用途判定の内訳。総合判定の下に、条件ごとの必要値と実際の値を並べる */
+.check-list{list-style:none;margin:6px 0 0;padding:0;font-size:11px;
+white-space:normal}
+.check-list li{display:flex;gap:6px;align-items:baseline;margin:1px 0}
+.check-icon{width:1em;flex-shrink:0;font-weight:700}
+.check-need{color:var(--text-muted)}
+.check-actual{font-variant-numeric:tabular-nums}
+.check-ok .check-icon{color:var(--ok)}
+.check-ng .check-icon,.check-ng .check-actual{color:var(--danger)}
+.check-unknown{color:var(--text-subtle)}
+
 /* 商品タイプ。完成品とパーツと組み合わせを取り違えさせないための表示なので、
    派手さで差をつけず、文字で読ませる。 */
 .type-badge{display:inline-block;font-size:11px;line-height:1.6;padding:0 8px;

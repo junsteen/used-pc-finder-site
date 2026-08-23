@@ -102,6 +102,20 @@ font-family:var(--mono)}
 .queue-section{margin-top:32px;padding:20px;background:var(--surface);
 border:1px solid var(--surface-line);border-radius:var(--radius-card)}
 .section-h{font-size:20px;font-weight:700;color:var(--text);margin:0 0 12px}
+/* カテゴリの入口。件数の多い順に並べるだけで、「人気」とは名乗らない
+   (参照数を記録していないため) */
+.cat-section{margin:0 0 32px}
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+gap:8px}
+.cat-card{display:flex;flex-direction:column;gap:2px;align-items:flex-start;
+text-align:left;font:inherit;cursor:pointer;padding:12px 14px;
+background:var(--surface);border:1px solid var(--surface-line);
+border-radius:var(--radius-card);color:var(--text)}
+.cat-card:hover{border-color:var(--accent);color:var(--accent)}
+.cat-name{font-size:13px;font-weight:700;line-height:1.4}
+.cat-meta{font-size:11px;color:var(--text-muted)}
+.cat-count{font-size:12px;color:var(--text-muted);font-variant-numeric:tabular-nums}
+
 /* このサイトでできること。3つに絞り、装飾を足さず文章で説明する */
 .feature-section{margin-top:32px}
 .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
