@@ -8,3 +8,22 @@
 # HTMLも頻繁に変わるわけではないが、更新が反映されない事故を避けるため短めにする。
 /index.html
   Cache-Control: public, max-age=600
+
+# 拡張子を持たないためCloudflareがtext/htmlと判定してしまう。PWAとして
+# 認識されるよう正しいMIMEを明示する。
+/manifest.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+# Service Workerは常に最新を取りに行かせる。古いSWが残るとキャッシュ戦略の
+# 変更が反映されず、価格が古いまま表示され続ける事故につながる。
+/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /
+
+/feed.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=300
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
