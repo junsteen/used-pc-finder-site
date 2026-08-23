@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150" class="hero-art"
+role="img" aria-label="価格を横断して比べる様子のイラスト">
+  <rect x="18" y="12" width="128" height="88" rx="6"
+        fill="none" stroke="currentColor" stroke-width="7"/>
+  <path d="M4 116h156l-9 10H13z" fill="currentColor"/>
+  <rect x="72" y="106" width="20" height="4" rx="2" fill="#ffffff"/>
+  <rect x="40"  y="66" width="17" height="22" fill="#2563eb"/>
+  <rect x="64"  y="52" width="17" height="36" fill="#2563eb"/>
+  <rect x="88"  y="38" width="17" height="50" fill="#2563eb"/>
+  <rect x="112" y="24" width="17" height="64" fill="#2563eb"/>
+  <circle cx="124" cy="86" r="30" fill="#ffffff"/>
+  <circle cx="124" cy="86" r="24" fill="none" stroke="currentColor" stroke-width="8"/>
+  <path d="M142 104 163 125" stroke="currentColor" stroke-width="10"
+        stroke-linecap="round"/>
+  <path d="M160 96h26a4 4 0 0 1 4 4v22a4 4 0 0 1-4 4h-26l-12-15z"
+        fill="#2563eb"/>
+  <circle cx="163" cy="103" r="2.6" fill="#ffffff"/>
+  <path d="M166 108l6 7 6-7M172 115v9M167.5 118.5h9" stroke="#ffffff"
+        stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

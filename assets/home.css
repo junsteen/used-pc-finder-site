@@ -2,10 +2,15 @@
 gap:.5rem 1rem;align-items:start}
 
 /* ヒーロー。売り文句ではなく、何を集めているかを述べるだけにする */
-.hero{margin:8px 0 24px;max-width:52rem}
+.hero{margin:8px 0 24px;display:flex;align-items:center;gap:40px}
+.hero-text{max-width:44rem;flex:1 1 auto;min-width:0}
 .hero h1{font-size:28px;line-height:1.45}
 @media(max-width:640px){.hero h1{font-size:22px}.hero-br{display:none}}
 .lede{color:var(--text-muted);max-width:60ch;margin:12px 0 0;font-size:14px}
+.hero-art{flex:0 0 auto;width:200px;height:150px;color:var(--text)}
+/* イラストは補助。狭い画面では検索を優先し、先に隠す */
+@media(max-width:900px){.hero-art{width:150px;height:113px}}
+@media(max-width:640px){.hero-art{display:none}}
 
 /* --- 検索条件と結果の2カラム ---------------------------------------------
    広い画面では条件を左に置いたままにして、結果を見ながら絞り込めるようにする。
@@ -189,6 +194,8 @@ text-align:left;font:inherit;cursor:pointer;padding:12px 14px;
 background:var(--surface);border:1px solid var(--surface-line);
 border-radius:var(--radius-card);color:var(--text)}
 .cat-card:hover{border-color:var(--accent);color:var(--accent)}
+.cat-icon{width:24px;height:24px;color:var(--text-muted);margin-bottom:4px}
+.cat-card:hover .cat-icon{color:var(--accent)}
 .cat-name{font-size:13px;font-weight:700;line-height:1.4}
 .cat-meta{font-size:11px;color:var(--text-muted)}
 .cat-count{font-size:12px;color:var(--text-muted);font-variant-numeric:tabular-nums}
