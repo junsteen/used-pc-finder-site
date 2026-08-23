@@ -104,14 +104,44 @@ padding-left:16px;border-left:1px solid var(--surface-line)}
 border-bottom:2px solid transparent}
 .header-nav a:hover{color:var(--accent)}
 .header-nav a.is-current{color:var(--accent);border-bottom-color:var(--accent)}
-/* 狭い画面では説明文を落とし、ナビは横スクロールさせる。
-   ハンバーガーを出すほど項目数が多くないため、この形にしている。 */
+.nav-burger{display:none}
+/* 狭い画面ではナビをたたみ、ハンバーガーで開く。
+   JSを持たない静的ページでも同じ動きにしたいので、チェックボックスで開閉する。 */
 @media(max-width:1024px){.header-tagline{display:none}}
-@media(max-width:640px){
-  .header-inner{min-height:56px;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){
+  .header-inner{min-height:56px;gap:12px;flex-wrap:wrap;position:relative}
   .logo-ja{font-size:17px}.logo-en{font-size:8px}
-  .header-nav{margin-left:0;width:100%;gap:16px;overflow-x:auto;
-  padding-bottom:6px;font-size:13px}
+  .nav-burger{display:flex;flex-direction:column;justify-content:center;gap:4px;
+  margin-left:auto;width:40px;height:40px;padding:10px;cursor:pointer;
+  border-radius:var(--radius-btn)}
+  .nav-burger span{display:block;height:2px;background:var(--text);border-radius:1px}
+  .nav-burger:hover span{background:var(--accent)}
+  .nav-toggle:focus-visible+.nav-burger{outline:2px solid var(--accent);
+  outline-offset:2px}
+  .header-nav{display:none;order:3;width:100%;flex-direction:column;gap:0;
+  border-top:1px solid var(--surface-line);margin:0 -16px;padding:4px 16px 8px;
+  width:calc(100% + 32px)}
+  .nav-toggle:checked~.header-nav{display:flex}
+  .header-nav a{padding:10px 0;border-bottom:1px solid var(--surface-line);
+  border-left:2px solid transparent}
+  .header-nav a:last-child{border-bottom:none}
+  .header-nav a.is-current{border-bottom-color:var(--surface-line)}
+}
+
+/* 下部固定ナビ。片手で届く位置に、よく使う項目だけを薄く置く */
+.bottom-nav{display:none}
+@media(max-width:640px){
+  .bottom-nav{display:grid;grid-template-columns:repeat(4,1fr);
+  position:fixed;left:0;right:0;bottom:0;z-index:30;
+  background:var(--surface);border-top:1px solid var(--surface-line);
+  padding-bottom:env(safe-area-inset-bottom)}
+  .bottom-nav a,.bottom-nav label{display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:2px;padding:8px 2px;
+  font-size:10px;color:var(--text-muted);text-decoration:none;cursor:pointer}
+  .bottom-nav svg{width:18px;height:18px}
+  .bottom-nav a:hover,.bottom-nav label:hover{color:var(--accent)}
+  /* 固定ナビの分だけ本文の下に余白を足し、最後の行が隠れないようにする */
+  body{padding-bottom:58px}
 }
 
 .footer-top{display:flex;gap:40px;flex-wrap:wrap;justify-content:space-between;

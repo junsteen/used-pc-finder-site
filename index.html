@@ -49,7 +49,7 @@ aria-hidden="true" focusable="false">
   <circle cx="28" cy="19" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/>
   <path d="M32.5 23.5 37 28" stroke="var(--accent)" stroke-width="2.5"
         stroke-linecap="round"/>
-</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><span class="header-tagline"><b>中古PC・パーツの価格を横断検索・比較</b><br>楽天・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を20分ごとに自動巡回</span></div><nav class="header-nav" aria-label="サイト内"><a href="./" class="is-current">検索</a><a href="./#use-cases">用途から探す</a><a href="./#collections-section">特集</a><a href="./#catalog-list">カタログ</a><a href="./shops/">ショップ</a></nav></div></header>
+</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><span class="header-tagline"><b>中古PC・パーツの価格を横断検索・比較</b><br>楽天・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を20分ごとに自動巡回</span></div><input type="checkbox" id="nav-toggle" class="nav-toggle" hidden><label for="nav-toggle" class="nav-burger" aria-label="メニューを開く"><span></span><span></span><span></span></label><nav class="header-nav" aria-label="サイト内"><a href="./" class="is-current">検索</a><a href="./#use-cases">用途から探す</a><a href="./#collections-section">特集</a><a href="./#catalog-list">カタログ</a><a href="./shops/">ショップ</a></nav></div></header>
 <!--HEADER:END-->
 <main class="wrap">
   <section class="hero">
@@ -57,7 +57,7 @@ aria-hidden="true" focusable="false">
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房の5サイトを20分ごとに自動巡回しています。用途を選ぶと必要スペックの下限が示され、各出品がそれを満たすかを判定します。</p>
   </section>
 
-  <section class="search-panel" aria-label="検索条件">
+  <section class="search-panel" id="search-panel" aria-label="検索条件">
   <div class="filter-bar">
     <div class="field field-wide">
       <label for="f-purpose">用途プリセット</label>
@@ -92,7 +92,7 @@ aria-hidden="true" focusable="false">
   <div class="info-strip">
     <div class="info-item"><span class="info-label">最終更新</span>
       <span class="info-value" id="updated-at"><!--UPDATED:START-->
-2026-08-23 18:08:06+09:00
+2026-08-23 18:19:21+09:00
 <!--UPDATED:END--></span></div>
     <div class="info-item"><span class="info-label">対象サイト</span>
       <span class="info-value">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房</span></div>
@@ -111,6 +111,7 @@ aria-hidden="true" focusable="false">
   <div id="purpose-panel" class="purpose-panel" hidden></div>
   <div class="result-bar">
     <p class="result-count" id="result-count"></p>
+    <a class="change-cond" href="#search-panel">条件を変更</a>
     <div class="view-toggle" id="view-toggle" role="group" aria-label="表示形式">
       <button type="button" data-view="table" aria-pressed="false">表</button>
       <button type="button" data-view="cards" aria-pressed="false">カード</button>
@@ -198,7 +199,7 @@ aria-hidden="true" focusable="false">
   <circle cx="28" cy="19" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/>
   <path d="M32.5 23.5 37 28" stroke="var(--accent)" stroke-width="2.5"
         stroke-linecap="round"/>
-</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a></nav></div><p class="footer-updated">最終更新: 2026-08-23 18:08:06+09:00（20分ごとに更新）</p>
+</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a></nav></div><p class="footer-updated">最終更新: 2026-08-23 18:19:21+09:00（20分ごとに更新）</p>
 <!--SITEFOOTER:END-->
   <div id="data-notes">
     <h2 class="footer-h">免責事項</h2>
@@ -216,6 +217,9 @@ aria-hidden="true" focusable="false">
     <p>店舗の方へ: 掲載内容の訂正・削除、コメント掲載のご依頼は <a id="shop-contact-link" href="https://github.com/junsteen/used-pc-finder-site/issues/new?template=shop-contact.yml" target="_blank" rel="noopener">こちら</a> から承ります。</p>
   </div>
 </div></footer>
+<!--BOTTOMNAV:START-->
+<nav class="bottom-nav" aria-label="主要メニュー"><a href="./"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M7 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm3.2 7.5 3.3 3.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>検索</span></a><a href="./#use-cases"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 2v12M2 8h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>用途</span></a><a href="./#collections-section"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 3h10v10H3zM3 6h10M6 6v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>特集</span></a><label for="nav-toggle"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 4h12M2 8h12M2 12h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>メニュー</span></label></nav>
+<!--BOTTOMNAV:END-->
 
 <script>
 (function () {
@@ -714,30 +718,40 @@ aria-hidden="true" focusable="false">
     return '<div class="cards">' + items.map(l => {
       const spec = l.spec_id ? state.data.specs[l.spec_id] : null;
       const watchLabel = (state.data.watches[l.watch_name] || {}).display_name || l.watch_name;
-      const chips = [typeBadge(l), trustBadge(l)];
-      if (l.count > 1) chips.push('<span class="chip stock">' + l.count + '台</span>');
-      if (l.condition_rank) chips.push('<span class="chip rank">' + esc(l.condition_rank) + '</span>');
+
+      // 販売元より後でよい情報。狭い画面では最後にまとめる。
+      const meta = [];
+      if (l.count > 1) meta.push('<span class="chip stock">' + l.count + '台</span>');
+      if (l.condition_rank) meta.push('<span class="chip rank">' + esc(l.condition_rank) + '</span>');
       if (l.shipping && l.shipping === l.shipping_label) {
-        chips.push('<span class="chip ship">' + esc(l.shipping) + '</span>');
+        meta.push('<span class="chip ship">' + esc(l.shipping) + '</span>');
       }
-      chips.push('<span class="chip">' + esc(l.source_label) + '</span>');
       // アフィリエイトリンクの商品は個別にも明示する(景品表示法のステマ規制対応)
-      if (l.is_affiliate) chips.push('<span class="chip pr">PR</span>');
+      if (l.is_affiliate) meta.push('<span class="chip pr">PR</span>');
       // スペックがAI調査のみ(人による検証なし)であることを明示する
       if (spec && spec.verified === false) {
-        chips.push('<span class="chip unverified">スペック未検証</span>');
+        meta.push('<span class="chip unverified">スペック未検証</span>');
       }
-      const fitHtml = fitBadge(l, req, { detail: false });
-      if (fitHtml) chips.push(fitHtml);
-      chips.push('<span class="chip">' + watchLabel + '</span>');
+      meta.push('<span class="chip">' + watchLabel + '</span>');
 
+      // 狭い画面ではDOMの順番がそのまま表示順になる。
+      // 商品名 → 構成 → 種別 → 価格 → 販売元 → 判定 → 検証 の順に読ませたいので
+      // その順に出し、広い画面ではグリッドで価格だけ右上へ寄せる。
+      const fitHtml = fitBadge(l, req, { detail: false });
       return '<div class="card">' +
         '<div class="card-title">' + nameLink(l) + '</div>' +
-        '<div class="price-block"><div class="price">' + yen(l.price_yen) + '</div>' + priceDelta(l) + '</div>' +
-        '<div class="meta-row">' + chips.join('') + '</div>' +
-        (l.combo ? '<div class="combo-wrap">' + comboBreakdown(l) + '</div>' : '') +
         parsedFacts(l) +
         specFacts(spec) +
+        '<div class="card-type">' + typeBadge(l) + '</div>' +
+        '<div class="price-block"><div class="price">' + yen(l.price_yen) + '</div>' +
+          priceDelta(l) +
+          '<div class="card-seller">' + esc(l.source_label) + '</div></div>' +
+        '<div class="status-row">' + (fitHtml || '') + trustBadge(l) + '</div>' +
+        (l.combo ? '<div class="combo-wrap">' + comboBreakdown(l) + '</div>' : '') +
+        '<div class="meta-row">' + meta.join('') + '</div>' +
+        (l.model_slug
+          ? '<p class="card-more"><a href="pc/' + esc(l.model_slug) + '.html">詳細 &rarr;</a></p>'
+          : '') +
         '</div>';
     }).join('') + '</div>';
   }
