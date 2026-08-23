@@ -1,0 +1,48 @@
+{
+  "name": "中古PC・パーツ横断検索",
+  "short_name": "中古PC検索",
+  "description": "用途から必要スペックを判定し、部品構成と完成品を同じ土俵で比較する中古PC検索。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1321",
+  "theme_color": "#0d1321",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "収録済みカタログ",
+      "url": "./#catalog-list"
+    },
+    {
+      "name": "ショップ一覧",
+      "url": "./shops/"
+    }
+  ]
+}

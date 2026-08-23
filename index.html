@@ -7,6 +7,13 @@
 <meta name="description" content="楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視。After EffectsやローカルLLMなど用途から必要スペックを判定し、部品構成と完成品を同じ土俵で比較します。">
 <link rel="canonical" href="https://used-pc-finder-site.pages.dev/">
 <link rel="alternate" type="application/rss+xml" title="新着と値下げ" href="feed.xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1321" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="中古PC検索">
 <meta property="og:title" content="中古PC・パーツ横断検索">
 <meta property="og:description" content="用途から必要スペックを判定し、部品構成と完成品を同じ土俵で比較する中古PC検索。">
 <meta property="og:type" content="website">
@@ -235,7 +242,7 @@
     <h1>中古PC・パーツ横断検索</h1>
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視しています。用途を選ぶと必要スペックの下限が表示され、各出品が要件を満たすか判定します。</p>
     <div class="updated" id="updated-at"><!--UPDATED:START-->
-最終更新: 2026-08-23 13:01:17+09:00
+最終更新: 2026-08-23 13:09:09+09:00
 <!--UPDATED:END--></div>
   </header>
 
@@ -577,6 +584,18 @@
       console.error(err);
     });
 })();
+</script>
+<script>
+// PWAとしてインストール可能にする。オフラインでも直近の内容が読める。
+// 価格データはService Worker側でネットワーク優先にしてあるため、
+// オンラインなら常に最新を取得する。
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(err => {
+      console.warn('Service Workerの登録に失敗しました', err);
+    });
+  });
+}
 </script>
 </body>
 </html>
