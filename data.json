@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 18:19:21+09:00",
+  "generated_at": "2026-08-23 19:24:32+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1230,37 +1230,6 @@
       ]
     },
     {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "restation:10077989",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-at994e",
-      "model_name": "Endeavor AT994E",
-      "parsed": {
-        "cpu": "Core i7-8700",
-        "memory_gb": 8,
-        "storage": "なし",
-        "os": "なし"
-      },
-      "title": "【中古】EPSON Endeavor AT994E Core i7-8700 3.20GHz 第8世代 メモリ8GB　ノーストレージ　OSなし　DVD　RS232Cパラレル",
-      "price_yen": 14800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q9f6o.2lytq36e.g00q9f6o.2lytr670/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frestation%2F0-200001069487-21%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frestation%2Fi%2F10077989%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-23 00:01:36",
-      "price_history": [
-        {
-          "price_yen": 14800,
-          "observed_at": "2026-08-23 00:01:36"
-        }
-      ]
-    },
-    {
       "source": "sofmap",
       "source_label": "ソフマップ",
       "listing_id": "2000331111022",
@@ -1461,6 +1430,36 @@
         {
           "price_yen": 22800,
           "observed_at": "2026-08-22 17:53:23"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_14461-2",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m73",
+      "model_name": "ThinkCentre M73",
+      "parsed": {
+        "cpu": "Core i3-4170",
+        "memory_gb": 4,
+        "os": "Windows 10"
+      },
+      "title": "Windows10 Lenovo ThinkCentre M73 Small 10B7-007NJP Core i3-4170 3.7GHz 4GB 500GB DVDマルチ 中古パソコン デスクトップ 中古PC 本体のみ",
+      "price_yen": 19800,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/14461-2.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-23 10:22:28",
+      "price_history": [
+        {
+          "price_yen": 19800,
+          "observed_at": "2026-08-23 10:22:28"
         }
       ]
     },
