@@ -36,8 +36,14 @@ outline-offset:2px}
 /* 本文の左右余白は 32/24/16px。読み物のページは .wrap-narrow で幅を絞る */
 .wrap{max-width:var(--wrap-max);margin:0 auto;padding:32px}
 .wrap-narrow{max-width:880px}
-@media(max-width:1024px){.wrap{padding:24px}}
-@media(max-width:640px){.wrap{padding:16px}}
+/* 検索の帯だけは画面いっぱいに広げる。左の条件を固定幅、右の結果を残り全部に
+   したいため。100vw だとスクロールバーの分はみ出すので、幅の指定はせず
+   入れ子の階層を変えて実現している。 */
+.wide{max-width:none;margin:0;padding:0 32px}
+@media(max-width:1024px){.wrap,.wide{padding-left:24px;padding-right:24px}}
+@media(max-width:640px){.wrap,.wide{padding-left:16px;padding-right:16px}}
+@media(max-width:1024px){.wrap{padding-top:24px;padding-bottom:24px}}
+@media(max-width:640px){.wrap{padding-top:16px;padding-bottom:16px}}
 .back{font-size:12px}
 
 h1{font-size:28px;font-weight:700;line-height:1.4;margin:0 0 8px;text-wrap:balance}

@@ -51,7 +51,8 @@ aria-hidden="true" focusable="false">
         stroke-linecap="round"/>
 </svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><span class="header-tagline"><b>中古PC・パーツの価格を横断検索・比較</b><br>楽天・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を20分ごとに自動巡回</span></div><input type="checkbox" id="nav-toggle" class="nav-toggle" hidden><label for="nav-toggle" class="nav-burger" aria-label="メニューを開く"><span></span><span></span><span></span></label><nav class="header-nav" aria-label="サイト内"><a href="./" class="is-current">検索</a><a href="./#use-cases">用途から探す</a><a href="./#collections-section">特集</a><a href="./#catalog-list">カタログ</a><a href="./shops/">ショップ</a></nav></div></header>
 <!--HEADER:END-->
-<main class="wrap">
+<main>
+<div class="wrap">
   <section class="hero">
     <h1>中古PC・パーツの価格を<br class="hero-br">横断検索・比較</h1>
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房の5サイトを20分ごとに自動巡回しています。用途を選ぶと必要スペックの下限が示され、各出品がそれを満たすかを判定します。</p>
@@ -62,7 +63,7 @@ aria-hidden="true" focusable="false">
   <div class="info-strip">
     <div class="info-item"><span class="info-label">最終更新</span>
       <span class="info-value" id="updated-at"><!--UPDATED:START-->
-2026-08-23 22:04:29+09:00
+2026-08-23 22:14:55+09:00
 <!--UPDATED:END--></span></div>
     <div class="info-item"><span class="info-label">対象サイト</span>
       <span class="info-value">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房</span></div>
@@ -78,6 +79,9 @@ aria-hidden="true" focusable="false">
 <!--CATEGORIES:END-->
   </section>
 
+</div>
+
+<div class="wide">
   <div class="search-layout">
     <aside class="filter-side" id="search-panel" aria-label="検索条件">
       <div class="filter-head">
@@ -104,6 +108,26 @@ aria-hidden="true" focusable="false">
       <input type="number" id="f-max" placeholder="円" min="0" step="1000">
     </div>
     <div class="field">
+      <label for="f-os">OS</label>
+      <select id="f-os"><option value="">指定なし</option></select>
+    </div>
+    <div class="field">
+      <label for="f-cpu">CPU</label>
+      <select id="f-cpu"><option value="">指定なし</option></select>
+    </div>
+    <div class="field">
+      <label for="f-mem">メモリ</label>
+      <select id="f-mem"><option value="">指定なし</option></select>
+    </div>
+    <div class="field">
+      <label for="f-storage">ストレージ</label>
+      <select id="f-storage"><option value="">指定なし</option></select>
+    </div>
+    <div class="field">
+      <label for="f-maker">メーカー</label>
+      <select id="f-maker"><option value="">指定なし</option></select>
+    </div>
+    <div class="field">
       <label for="f-sort">並び替え</label>
       <select id="f-sort">
         <option value="price_asc">価格が安い順</option>
@@ -128,7 +152,9 @@ aria-hidden="true" focusable="false">
   <div id="results"></div>
     </div>
   </div>
+</div>
 
+<div class="wrap">
   <section class="feature-section" aria-label="このサイトでできること">
     <div class="feature-grid">
       <div class="feature">
@@ -193,6 +219,7 @@ aria-hidden="true" focusable="false">
     <div id="queue-status"></div>
   </section>
 
+</div>
 </main>
 
 <footer><div class="wrap">
@@ -209,7 +236,7 @@ aria-hidden="true" focusable="false">
   <circle cx="28" cy="19" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/>
   <path d="M32.5 23.5 37 28" stroke="var(--accent)" stroke-width="2.5"
         stroke-linecap="round"/>
-</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a></nav></div><p class="footer-updated">最終更新: 2026-08-23 22:04:29+09:00（20分ごとに更新）</p>
+</svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a></nav></div><p class="footer-updated">最終更新: 2026-08-23 22:14:55+09:00（20分ごとに更新）</p>
 <!--SITEFOOTER:END-->
   <div id="data-notes">
     <h2 class="footer-h">免責事項</h2>
@@ -242,6 +269,11 @@ aria-hidden="true" focusable="false">
     keyword: document.getElementById('f-keyword'),
     category: document.getElementById('f-category'),
     max: document.getElementById('f-max'),
+    os: document.getElementById('f-os'),
+    cpu: document.getElementById('f-cpu'),
+    mem: document.getElementById('f-mem'),
+    storage: document.getElementById('f-storage'),
+    maker: document.getElementById('f-maker'),
     sort: document.getElementById('f-sort'),
     results: document.getElementById('results'),
     count: document.getElementById('result-count'),
@@ -263,6 +295,9 @@ aria-hidden="true" focusable="false">
   el.keyword.value = params.get('q') || '';
   el.category.value = params.get('cat') || '';
   el.max.value = params.get('max') || '';
+  ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
+    el[k].dataset.param = k;
+  });
 
   // 並べ替えは、絞り込みの select と表の列見出しの2か所から操作する。
   // どちらも同じ状態を書き換え、URLには "price_asc" / "vram_desc" の形で残す。
@@ -425,10 +460,22 @@ aria-hidden="true" focusable="false">
     const req = el.purpose.value ? state.data.requirements[el.purpose.value] : null;
     renderPurposePanel(req);
 
+    const os = el.os.value, cpuSeries = el.cpu.value, maker = el.maker.value;
+    const minMem = parseInt(el.mem.value, 10);
+    const minStorage = parseInt(el.storage.value, 10);
+
     let items = state.data.listings.filter(l => {
       if (kw && !l.title.toLowerCase().includes(kw)) return false;
       if (cat && l.watch_name !== cat) return false;
       if (!isNaN(max) && max > 0 && l.price_yen > max) return false;
+      // スペックでの絞り込みは、値が読み取れなかった出品を落とす。
+      // 「確認できていない」ものを条件に合うとは言えないため。
+      const p = l.parsed || {};
+      if (os && p.os !== os) return false;
+      if (cpuSeries && cpuOf(l) !== cpuSeries) return false;
+      if (maker && l.model_maker !== maker) return false;
+      if (!isNaN(minMem) && !(p.memory_gb >= minMem)) return false;
+      if (!isNaN(minStorage) && !(storageGb(p.storage) >= minStorage)) return false;
       return true;
     });
 
@@ -645,6 +692,14 @@ aria-hidden="true" focusable="false">
     return l.parsed.vram_gb || null;
   }
 
+  // CPUは型番まで分けると選択肢が数十個になるので、シリーズ単位でまとめる。
+  function cpuOf(l) {
+    const cpu = (l.parsed || {}).cpu;
+    if (!cpu) return null;
+    const m = cpu.match(/^(Core i[3579]|Ryzen [3579]|Xeon|Celeron|Pentium|Athlon)/);
+    return m ? m[1] : cpu;
+  }
+
   // 「SSD 512GB + HDD 2TB」を合計GBにする。並べ替えのためだけの値。
   function storageGb(text) {
     if (!text || text === 'なし') return text === 'なし' ? 0 : null;
@@ -766,6 +821,38 @@ aria-hidden="true" focusable="false">
     }).join('') + '</div>';
   }
 
+  // 絞り込みの選択肢は実データから作る。手で書くと収集対象が増えたときにずれる。
+  // 出品数が1件しかない値は候補に出さない(選んでも比較にならないため)。
+  function buildSpecFilters(listings) {
+    const fill = (sel, pairs) => {
+      pairs.forEach(([value, label]) => {
+        const o = document.createElement('option');
+        o.value = value;
+        o.textContent = label;
+        sel.appendChild(o);
+      });
+    };
+    const tally = (fn) => {
+      const m = new Map();
+      listings.forEach(l => { const v = fn(l); if (v) m.set(v, (m.get(v) || 0) + 1); });
+      return m;
+    };
+    const byCount = (m, min) => [...m.entries()]
+      .filter(([, n]) => n >= (min || 1))
+      .sort((a, b) => b[1] - a[1])
+      .map(([v, n]) => [v, v + '（' + n + '）']);
+
+    fill(el.os, byCount(tally(l => (l.parsed || {}).os), 2));
+    fill(el.cpu, byCount(tally(cpuOf), 2));
+    fill(el.maker, byCount(tally(l => l.model_maker), 1));
+    // 容量は「以上」で絞る。実在する刻みだけを出す。
+    const mem = [...new Set(listings.map(l => (l.parsed || {}).memory_gb).filter(Boolean))]
+      .sort((a, b) => a - b);
+    fill(el.mem, mem.map(v => [String(v), v + 'GB 以上']));
+    fill(el.storage, [128, 256, 512, 1024].map(v =>
+      [String(v), (v >= 1024 ? (v / 1024) + 'TB' : v + 'GB') + ' 以上']));
+  }
+
   function syncToggle() {
     el.toggle.querySelectorAll('button').forEach(b => {
       b.setAttribute('aria-pressed', String(b.dataset.view === state.view));
@@ -854,13 +941,17 @@ aria-hidden="true" focusable="false">
     if (el.keyword.value) p.set('q', el.keyword.value);
     if (el.category.value) p.set('cat', el.category.value);
     if (el.max.value) p.set('max', el.max.value);
+    ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
+      if (el[k].value) p.set(k, el[k].value);
+    });
     const sortText = formatSort(state.sort);
     if (sortText !== 'price_asc') p.set('sort', sortText);
     const qs = p.toString();
     history.replaceState(null, '', qs ? '?' + qs : location.pathname);
   }
 
-  [el.purpose, el.keyword, el.category, el.max].forEach(input => {
+  [el.purpose, el.keyword, el.category, el.max,
+   el.os, el.cpu, el.mem, el.storage, el.maker].forEach(input => {
     input.addEventListener('input', () => { render(); syncUrl(); });
   });
 
@@ -888,6 +979,7 @@ aria-hidden="true" focusable="false">
     el.keyword.value = '';
     el.category.value = '';
     el.max.value = '';
+    ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => { el[k].value = ''; });
     render();
     syncUrl();
   });
@@ -932,10 +1024,15 @@ aria-hidden="true" focusable="false">
       });
       el.category.value = params.get('cat') || '';
 
+      buildSpecFilters(data.listings);
+      ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
+        el[k].value = params.get(k) || '';
+      });
+
       render();
     })
     .catch(err => {
-      el.cards.innerHTML = '<div class="empty">データの読み込みに失敗しました。</div>';
+      el.results.innerHTML = '<div class="empty">データの読み込みに失敗しました。</div>';
       console.error(err);
     });
 })();
