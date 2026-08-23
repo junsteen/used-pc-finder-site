@@ -7,13 +7,16 @@
 // なお、ページには生成時刻が埋め込まれているため、キャッシュから表示された
 // 場合でも「最終更新」の表示で古さが利用者に伝わる。
 
-const VERSION = 'v1';
+const VERSION = 'v2';
 const SHELL_CACHE = `shell-${VERSION}`;
 const DATA_CACHE = `data-${VERSION}`;
 
 const SHELL_ASSETS = [
   './',
   './index.html',
+  // CSSを入れ忘れるとオフライン時に無スタイルのページが出るため必ず含める
+  './assets/base.css',
+  './assets/home.css',
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
