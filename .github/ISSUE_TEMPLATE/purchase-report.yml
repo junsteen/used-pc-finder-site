@@ -1,0 +1,65 @@
+name: 購入報告
+description: 実際に購入した中古PC・パーツの感想をお寄せください
+title: "[購入報告] "
+labels: ["購入報告"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **当サイトは販売に関与していないため、購入の事実そのものを確認する手段がありません。**
+
+        いただいた購入日と価格は、当サイトが記録している同時期の出品価格と突き合わせ、「価格記録と整合」「価格記録と不一致」「照合できず」のいずれかを添えて掲載します。これは購入の証明ではなく、あくまで整合性の確認です。
+
+        特に知りたいのは **商品説明と実物のギャップ** です（「難あり」「ムラあり」といった記載が、実際どの程度だったか）。ここは購入した人にしか分からず、他のどこにも載っていない情報です。
+  - type: input
+    id: model
+    attributes:
+      label: 製品名・型番
+      placeholder: 例) dynabook G83/HU
+    validations:
+      required: true
+  - type: input
+    id: shop
+    attributes:
+      label: 購入した店舗
+      placeholder: 例) Be-Stock、ドスパラ、楽天市場の◯◯店
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 購入日
+      description: YYYY-MM-DD の形式でご記入ください
+      placeholder: "2026-08-20"
+    validations:
+      required: true
+  - type: input
+    id: price
+    attributes:
+      label: 支払った金額（円）
+      description: 数字のみ。クーポンやポイントを使った場合は実際の支払額をご記入ください
+      placeholder: "30500"
+    validations:
+      required: true
+  - type: input
+    id: condition_note
+    attributes:
+      label: 商品ページに書かれていた状態
+      description: 「難あり」「液晶にムラあり」など、購入前に気になった記載があれば
+      placeholder: 例) 液晶にムラあり
+    validations:
+      required: false
+  - type: textarea
+    id: body
+    attributes:
+      label: 実際どうだったか
+      description: 届いた状態、梱包、対応など。よかった点も気になった点もそのままお書きください
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 掲載について
+      options:
+        - label: 内容が当サイトに掲載されることに同意します（GitHubのアカウント名は掲載しません）
+          required: true

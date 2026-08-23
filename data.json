@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 12:51:31+09:00",
+  "generated_at": "2026-08-23 13:01:17+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -99,17 +99,6 @@
       "shipping_note": "送料の詳細は公式サイトの「お支払いについて」「配送について」を参照。",
       "fetched_at": "2026-08-23",
       "comments": [
-        {
-          "author": "editor",
-          "date": "2026-08-23",
-          "kind": "purchase_experience",
-          "purchased": {
-            "model": "dynabook G83/HU",
-            "price_yen": 30500,
-            "condition_note": "商品ページに「液晶にムラあり」との記載あり"
-          },
-          "body": "実際に購入しました。商品ページに「液晶にムラあり」と記載があり、どの程度なのか不安でしたが、届いたものは実用上まったく問題のない状態でした。本体・キーボード・画面とも清掃済みで、ノートPC専用の段ボールで梱包されて届きます。1年保証・30日以内の交換自由に加えAmazon Payにも対応しているため、初めての取引でも不安が少なかったです。初回登録クーポンも使えました。当サイトの監視システムを作った後も、ここが最安のままでした（30,500円）。"
-        },
         {
           "author": "editor",
           "date": "2026-08-23",
@@ -297,6 +286,23 @@
       ]
     }
   },
+  "reports": [
+    {
+      "report_id": "2026-08-23-dynabook-g83hu-bestock",
+      "reporter": "editor",
+      "reported_at": "2026-08-23",
+      "spec_id": "dynabook_g83hu",
+      "shop_id": "be_stock",
+      "purchase_date": "2026-08-20",
+      "price_yen": 30500,
+      "listing_condition_note": "商品ページに「液晶にムラあり」との記載あり",
+      "body": "商品ページに「液晶にムラあり」と記載があり、どの程度なのか不安でしたが、届いたものは実用上まったく問題のない状態でした。本体・キーボード・画面とも清掃済みで、ノートPC専用の段ボールで梱包されて届きます。1年保証・30日以内の交換自由に加えAmazon Payにも対応しているため、初めての取引でも不安が少なかったです。初回登録クーポンも使えました。",
+      "verification": {
+        "verdict": "not_checked",
+        "reason": "当サイトの価格記録開始(2026-08-22)より前の購入のため照合できません。運営者本人による報告です。"
+      }
+    }
+  ],
   "specs": {
     "dynabook_g83hu": {
       "model_id": "dynabook_g83hu",
