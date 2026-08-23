@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23 14:20:18+09:00",
+  "generated_at": "2026-08-23 14:45:01+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -20,6 +20,11 @@
     "error": null
   },
   "watches": {
+    "rtx4060ti_16gb": {
+      "display_name": "RTX 4060 Ti 16GB（カード単体）",
+      "spec_id": "geforce_rtx4060ti_16gb",
+      "category": "part"
+    },
     "bonsai_gpu_pc": {
       "display_name": "RTX 4060 Ti 16GB搭載PC",
       "spec_id": "geforce_rtx4060ti_16gb",
@@ -695,10 +700,10 @@
     {
       "source": "dospara",
       "listing_id": "IC622702",
-      "watch_name": "bonsai_gpu_pc",
+      "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": "dospara",
-      "category": "pc",
+      "category": "part",
       "parsed": {},
       "title": "中古  iGame GeForce RTX4060Ti Ultra W OC 16GB(RTX4060Ti 16GB) 3410014222",
       "price_yen": 97900,
@@ -852,10 +857,10 @@
     {
       "source": "dospara",
       "listing_id": "IC653281",
-      "watch_name": "bonsai_gpu_pc",
+      "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": "dospara",
-      "category": "pc",
+      "category": "part",
       "parsed": {},
       "title": "中古  MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC (RTX4060Ti 16GB) 1230010736",
       "price_yen": 93900,
@@ -2617,10 +2622,10 @@
     {
       "source": "yahoo_shopping",
       "listing_id": "janpara_67697744-67",
-      "watch_name": "bonsai_gpu_pc",
+      "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
-      "category": "pc",
+      "category": "part",
       "parsed": {
         "memory_gb": 16
       },
@@ -2759,10 +2764,10 @@
     {
       "source": "yahoo_shopping",
       "listing_id": "janpara_83287558-83",
-      "watch_name": "bonsai_gpu_pc",
+      "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
-      "category": "pc",
+      "category": "part",
       "parsed": {},
       "title": "【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
       "price_yen": 71980,
