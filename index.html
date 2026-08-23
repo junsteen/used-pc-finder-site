@@ -222,8 +222,17 @@
     <span class="eyebrow"><span class="blip"></span> 常時監視中</span>
     <h1>中古PC・パーツ横断検索</h1>
     <p class="lede">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房を横断監視しています。用途を選ぶと必要スペックの下限が表示され、各出品が要件を満たすか判定します。</p>
-    <div class="updated" id="updated-at">読み込み中...</div>
+    <div class="updated" id="updated-at"><!--UPDATED:START-->
+最終更新: 2026-08-23 11:58:56+09:00
+<!--UPDATED:END--></div>
   </header>
+
+  <section class="queue-section" id="collections-section">
+    <h2 class="section-h">特集</h2>
+    <!--COLLECTIONS:START-->
+<ul class='preset-summary'><li><a href='collections/2026-08-cospa-used-laptop.html'>2026年8月 コスパのいい中古ノートPC</a><br><small>実際に中古市場を横断監視した中から、価格に対して内容が良いと判断したノートPCをまとめました。</small></li></ul>
+<!--COLLECTIONS:END-->
+  </section>
 
   <div class="filter-bar">
     <div class="field field-wide">
@@ -259,7 +268,17 @@
   <section class="queue-section">
     <h2 class="section-h">収録済みカタログ</h2>
     <p class="queue-lede">メーカー公式ページ等から調査した製品スペックです。ここに収録されている製品は、出品一覧でもスペックが表示され、用途プリセットでの適合判定が効きます。</p>
-    <div id="catalog-list"></div>
+    <div id="catalog-list"><!--CATALOG:START-->
+<p class='queue-empty'>5 製品を収録</p><div class='catalog-wrap'><table class='catalog-table'><thead><tr><th>製品</th><th>メーカー</th><th>発売</th><th>スペック</th><th class='num'>現在の出品</th></tr></thead><tbody><tr><td><a href='models/geforce_rtx3060_12gb.html'>GeForce RTX 3060 12GB</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2021-01</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='rtx3060_12gb'>68 件</button></td></tr><tr><td><a href='models/geforce_rtx4060ti_16gb.html'>GeForce RTX 4060 Ti 16GB</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2023-07</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='bonsai_gpu_pc'>4 件</button></td></tr><tr><td><a href='models/geforce_rtx4070ti_super.html'>GeForce RTX 4070 Ti SUPER</a></td><td>エヌビディア合同会社（NVIDIA Corporation日本法人）</td><td>2024-01</td><td><span class='chip unverified'>未検証</span></td><td class='num'>—</td></tr><tr><td><a href='models/vaio_pro_pk_vjpk21.html'>VAIO Pro PK (VJPK21)</a></td><td>VAIO株式会社</td><td>2021-10-22</td><td><span class='chip unverified'>未検証</span></td><td class='num'>—</td></tr><tr><td><a href='models/dynabook_g83hu.html'>dynabook G83/HU</a></td><td>Dynabook株式会社</td><td>2022-03</td><td><span class='chip unverified'>未検証</span></td><td class='num'><button class='cat-link' data-watch='dynabook_g83hu'>4 件</button></td></tr></tbody></table></div>
+<!--CATALOG:END--></div>
+  </section>
+
+  <section class="queue-section">
+    <h2 class="section-h">用途プリセット</h2>
+    <p class="queue-lede">用途を選ぶと、必要スペックの下限が表示され、各出品が要件を満たすかを判定します。</p>
+    <!--PRESETS:START-->
+<ul class='preset-summary'><li><strong>After Effects（動画編集・モーショングラフィックス）</strong><br>Adobe After Effectsを快適に動かすための構成。CPUのコア数とメモリ量が支配的で、GPUは補助的。<br><small>VRAM 最低4GB / メモリ 最低16GB / GPU NVIDIA</small></li><li><strong>ゲーム動画配信（実況・ライブ配信）</strong><br>ゲーム描画とエンコードを同時に行うため、GPUのハードウェアエンコーダの有無が効く。CPUエンコード(x264)を使う場合はコア数が支配的。<br><small>VRAM 最低8GB / メモリ 最低16GB</small></li><li><strong>ローカルLLM（自分のPCで言語モデルを動かす）</strong><br>VRAM容量がほぼ全てを決める。CPUの世代・コア数は影響が小さい。GPUに載り切らないとCPU実行に落ちて極端に遅くなる。<br><small>VRAM 最低8GB / メモリ 最低16GB / GPU NVIDIA</small></li></ul>
+<!--PRESETS:END-->
   </section>
 
   <section class="queue-section">
@@ -442,55 +461,10 @@
     }).join('');
   }
 
-  // 収録済みカタログの一覧。ユーザーが「自分の機種が既にあるか」を確認し、
-  // なければリクエストする、という流れを成立させるために表示する。
-  function renderCatalog() {
-    const box = document.getElementById('catalog-list');
-    const specs = state.data.specs || {};
-    const ids = Object.keys(specs);
-    if (!ids.length) {
-      box.innerHTML = '<p class="queue-empty">まだ収録されている製品はありません。</p>';
-      return;
-    }
-
-    // spec_id ごとに、現在出品が何件あるかを数える
-    const counts = {};
-    state.data.listings.forEach(l => {
-      if (l.spec_id) counts[l.spec_id] = (counts[l.spec_id] || 0) + 1;
-    });
-    // spec_id からカテゴリ(watch)を逆引きし、クリック時の絞り込み先にする
-    const watchOf = {};
-    Object.keys(state.data.watches).forEach(name => {
-      const sid = state.data.watches[name].spec_id;
-      if (sid && !watchOf[sid]) watchOf[sid] = name;
-    });
-
-    const rows = ids.sort((a, b) =>
-      specs[a].display_name.localeCompare(specs[b].display_name, 'ja')
-    ).map(id => {
-      const s = specs[id];
-      const maker = (state.data.manufacturers[s.manufacturer_id] || {}).display_name || '—';
-      const n = counts[id] || 0;
-      // 製品名はスペック詳細ページへ。出品件数はその機種の出品への絞り込み。
-      const countCell = (n && watchOf[id])
-        ? '<button class="cat-link" data-watch="' + watchOf[id] + '">' + n + ' 件</button>'
-        : (n ? n + ' 件' : '—');
-      return '<tr>' +
-        '<td><a href="models/' + id + '.html">' + s.display_name + '</a></td>' +
-        '<td>' + maker + '</td>' +
-        '<td>' + (s.release_date || '—') + '</td>' +
-        '<td>' + (s.verified ? '確認済み' : '<span class="chip unverified">未検証</span>') + '</td>' +
-        '<td class="num">' + countCell + '</td>' +
-        '</tr>';
-    }).join('');
-
-    box.innerHTML =
-      '<p class="queue-empty">' + ids.length + ' 製品を収録</p>' +
-      '<div class="catalog-wrap"><table class="catalog-table">' +
-      '<thead><tr><th>製品</th><th>メーカー</th><th>発売</th><th>スペック</th><th class="num">現在の出品</th></tr></thead>' +
-      '<tbody>' + rows + '</tbody></table></div>';
-
-    box.querySelectorAll('.cat-link').forEach(btn => {
+  // カタログ表はビルド時にHTMLへ直接書き込まれている(JSなしのクローラー対策)。
+  // ここでは既存DOMに絞り込みのハンドラを付けるだけで、描画はしない。
+  function attachCatalogHandlers() {
+    document.querySelectorAll('#catalog-list .cat-link').forEach(btn => {
       btn.addEventListener('click', () => {
         el.category.value = btn.dataset.watch;
         el.keyword.value = '';
@@ -540,9 +514,8 @@
     .then(r => r.json())
     .then(data => {
       state.data = data;
-      el.updated.textContent = '最終更新: ' + data.generated_at;
 
-      renderCatalog();
+      attachCatalogHandlers();
       renderQueue(data.request_queue);
 
       if (data.correction_url) {
