@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 14:21:30+09:00",
+  "generated_at": "2026-08-24 14:44:34+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -886,40 +886,6 @@
         {
           "price_yen": 88800,
           "observed_at": "2026-08-23 23:02:11"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC643210",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": "galleria-rm5r-r36",
-      "model_name": "GALLERIA RM5R-R36",
-      "model_maker": "サードウェーブ",
-      "parsed": {
-        "cpu": "Ryzen 5 3500",
-        "memory_gb": 16,
-        "storage": "SSD 500GB + HDD 500GB",
-        "os": "Windows 11 Home",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  GALLERIA RM5R-R36(Ryzen 5 3500/16GB/SSD500GB/HDD500GB+500GB/RTX3060 12GB/W11H) 3290007411",
-      "price_yen": 79800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC643210.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:52:59",
-      "price_history": [
-        {
-          "price_yen": 79800,
-          "observed_at": "2026-08-22 17:52:59"
         }
       ]
     },
