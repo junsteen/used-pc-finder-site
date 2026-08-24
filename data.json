@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 22:52:02+09:00",
+  "generated_at": "2026-08-24 23:04:39+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1129,39 +1129,6 @@
         {
           "price_yen": 34700,
           "observed_at": "2026-08-22 17:51:59"
-        }
-      ]
-    },
-    {
-      "source": "pc_koubou",
-      "source_label": "パソコン工房",
-      "listing_id": "1253647",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": "pc_koubou",
-      "category": "pc",
-      "model_slug": "dell-optiplex-5070",
-      "model_name": "OptiPlex 5070",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5",
-        "memory_gb": 8,
-        "os": "Windows 11 Pro",
-        "gpu": "内蔵GPU"
-      },
-      "title": "DELL  〔中古〕Optiplex 5070 Core i5 プロセッサー  9500 (3GHz)/8GB/128GB SSD/Intel UHD Graphics 630(CPU内蔵)/Windows 11 Pro MAR(中古1ヶ月保証)",
-      "price_yen": 28980,
-      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1253647",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-24 02:24:24",
-      "price_history": [
-        {
-          "price_yen": 28980,
-          "observed_at": "2026-08-24 02:24:24"
         }
       ]
     },
