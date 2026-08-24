@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 20:44:36+09:00",
+  "generated_at": "2026-08-24 21:04:41+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1473,6 +1473,39 @@
         {
           "price_yen": 21500,
           "observed_at": "2026-08-24 09:02:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "chisaya:10004156",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-9500",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "＼抽選で最大10万P／富士通 ESPRIMO D588 デスクトップパソコン Core i5-9500 第9世代 メモリ8GB SSD 256GB Wi-Fi Bluetooth Windows 11 Pro Office 中古 Aランク 整備済み品 送料無料",
+      "price_yen": 29800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u2c1o.2lytq95b.g00u2c1o.2lytr24a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchisaya%2Fd588b-i5-9th-8g-256g-wifi%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchisaya%2Fi%2F10004156%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-24 12:02:23",
+      "price_history": [
+        {
+          "price_yen": 29800,
+          "observed_at": "2026-08-24 12:02:23"
         }
       ]
     },
