@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 18:44:36+09:00",
+  "generated_at": "2026-08-24 19:04:37+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1742,7 +1742,7 @@
         "storage": "SSD 128GB",
         "os": "Windows 11 Pro"
       },
-      "title": "中古パソコン デスクトップPC EPSON Endeavor ST190E Core i3 8100T メモリ8GB / 16GB 中古SSD128GB / 256GB Windows11 Pro 64bit【送料無料】【1年保証】",
+      "title": "★【今だけ】全品ポイント10倍 お買い物マラソン★中古パソコン デスクトップPC EPSON Endeavor ST190E Core i3 8100T メモリ8GB / 16GB 中古SSD128GB / 256GB Windows11 Pro 64bit【送料無料】【1年保証】",
       "price_yen": 22800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh260305a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018695%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -1754,6 +1754,39 @@
         {
           "price_yen": 22800,
           "observed_at": "2026-08-24 09:22:31"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "nabekin:10018810",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-9100",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "中古パソコン デスクトップPC NEC Mate MB-5 PC-MKL36BZG5 Core i3 9100 メモリ8GB / 16GB 中古SSD128GB /256GB / 512GB Windows11 Pro 64bit【送料無料】【1年保証】",
+      "price_yen": 12800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh260413a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018810%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 10:02:22",
+      "price_history": [
+        {
+          "price_yen": 12800,
+          "observed_at": "2026-08-24 10:02:22"
         }
       ]
     },
@@ -1774,7 +1807,7 @@
         "memory_gb": 8,
         "os": "Windows 11 Pro"
       },
-      "title": "中古パソコン デスクトップPC DELL OptiPlex 3060 Core i5 8400 メモリ8GB 中古SSD 2.5インチ128GB Windows11 Pro 64bit【送料無料】【1年保証】",
+      "title": "★【今だけ】全品ポイント10倍 お買い物マラソン★中古パソコン デスクトップPC DELL OptiPlex 3060 Core i5 8400 メモリ8GB 中古SSD 2.5インチ128GB Windows11 Pro 64bit【送料無料】【1年保証】",
       "price_yen": 23800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26061716%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10019032%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -1786,6 +1819,38 @@
         {
           "price_yen": 23800,
           "observed_at": "2026-08-24 09:42:24"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "nabekin:10019226",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5-9500",
+        "cpu_generation": 9,
+        "memory_gb": 16,
+        "os": "Windows 11 Pro"
+      },
+      "title": "中古パソコン デスクトップPC DELL OptiPlex 3070 Core i5 9500 メモリ16GB 中古SSD M.2 PCIe256GB Windows11 Pro 64bit【送料無料】【1年保証】",
+      "price_yen": 27800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26080801%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10019226%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 10:02:25",
+      "price_history": [
+        {
+          "price_yen": 27800,
+          "observed_at": "2026-08-24 10:02:25"
         }
       ]
     },
