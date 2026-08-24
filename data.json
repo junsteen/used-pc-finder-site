@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 16:24:40+09:00",
+  "generated_at": "2026-08-24 16:44:37+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1370,6 +1370,39 @@
         {
           "price_yen": 42600,
           "observed_at": "2026-08-22 17:52:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pasonette:10000764",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3020",
+      "model_name": "OptiPlex 3020",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5（第4世代）",
+        "cpu_generation": 4,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 10 Pro"
+      },
+      "title": "【大決算セール】 中古パソコン DELL Optiplex 3020 SF 第4世代 Core i5 メモリ 8GB 高速 SSD 256GB DVDマルチ 外付けWiFi 5対応 Windows10 Pro 64bit デスクトップ パソコン PC デル 3020 中古PC 11年以上の運営実績 PasonetTE",
+      "price_yen": 17800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s7j1o.2lytq021.g00s7j1o.2lytr311/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpasonette%2F20260306-02%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpasonette%2Fi%2F10000764%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 07:42:25",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-24 07:42:25"
         }
       ]
     },
