@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-08-25 06:24:37+09:00",
+  "generated_at": "2026-08-25 06:44:36+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
-    "recently_closed": [],
-    "error": "HTTP Error 504: Gateway Timeout"
+    "recently_closed": [
+      {
+        "number": 2,
+        "title": "[調査] GeForce RTX 4070 Ti SUPER",
+        "url": "https://github.com/junsteen/used-pc-finder-site/issues/2",
+        "closed_at": "2026-08-23T02:26:20Z"
+      },
+      {
+        "number": 1,
+        "title": "[調査] RTX 4070 Ti SUPER",
+        "url": "https://github.com/junsteen/used-pc-finder-site/issues/1",
+        "closed_at": "2026-08-23T00:06:09Z"
+      }
+    ],
+    "error": null
   },
   "watches": {
     "rtx4060ti_16gb": {
@@ -1094,41 +1107,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC629682",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-12400",
-        "cpu_generation": 12,
-        "memory_gb": 16,
-        "storage": "SSD 512GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD512GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 194186",
-      "price_yen": 95800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC629682.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-24 00:02:11",
-      "price_history": [
-        {
-          "price_yen": 95800,
-          "observed_at": "2026-08-24 00:02:11"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC640170",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -1887,40 +1865,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_19127",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mjl36e-4",
-      "model_name": "Mate MJL36E-4",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "Windows11 Pro 64bit NEC Mate MJL36E-4 (PC-MJL36EZG4) 第8世代 Core i3-8100 3.6GHz メモリ 8GB 500GB(SATA)+256GB(新品SSD) DVD-ROM 本体のみ",
-      "price_yen": 26800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/19127.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:51",
-      "price_history": [
-        {
-          "price_yen": 26800,
-          "observed_at": "2026-08-24 02:22:51"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_19273",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -1948,40 +1892,6 @@
       "price_history": [
         {
           "price_yen": 23800,
-          "observed_at": "2026-08-22 17:53:23"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_19565",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mul36l-4",
-      "model_name": "Mate MUL36L-4",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "パソコン 中古 Windows11 NEC Mate MUL36L-4 (PC-MUL36LZ6ACS4) 第8世代 Core i3-8100 3.6GHz メモリ 8GB 256GB(新品SSD) DVDマルチ デスクトップ 本体のみ",
-      "price_yen": 19800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/19565.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 19800,
           "observed_at": "2026-08-22 17:53:23"
         }
       ]
@@ -2023,40 +1933,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_20652",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk34me-g",
-      "model_name": "Mate MK34ME-G",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i5-4670",
-        "cpu_generation": 4,
-        "memory_gb": 16,
-        "storage": "SSD 240GB",
-        "os": "Windows 10 Pro"
-      },
-      "title": "Windows10 Pro 64bit NEC Mate MK34ME-G (PC-MK34MEZDG) Core i5-4670 3.4GHz メモリー 16GB SSD 240GB DVD-ROM 前カバー黄ばみあり",
-      "price_yen": 29800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/20652.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:51",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-24 02:22:51"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21086",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -2085,39 +1961,6 @@
         {
           "price_yen": 7980,
           "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_21963",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk32me-b",
-      "model_name": "Mate MK32ME-B",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i5-650",
-        "memory_gb": 2,
-        "storage": "HDD 160GB",
-        "os": "Windows 7 Pro"
-      },
-      "title": "Windows7 Pro 32bit NEC Mate MK32ME-B (PC-MK32MEZCB) Corei5 650 3.2GHz メモリ 2GB HDD 160GB(SATA) DVD-ROM 筐体黄ばみあり",
-      "price_yen": 24800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21963.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-08-22 17:53:23"
         }
       ]
     },
@@ -3996,37 +3839,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "janpara_85111313-85",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060"
-      },
-      "title": "【中古】MSI GeForce RTX 3060 AERO ITX 12G OC RTX3060(LHR)/12GB(GDDR6)【福岡筑紫】保証期間１週間",
-      "price_yen": 32980,
-      "url": "https://store.shopping.yahoo.co.jp/janpara/85111313-85.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:52:28",
-      "price_history": [
-        {
-          "price_yen": 32980,
-          "observed_at": "2026-08-22 17:52:28"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_871034661-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
@@ -4144,37 +3956,6 @@
       "price_history": [
         {
           "price_yen": 34980,
-          "observed_at": "2026-08-22 17:52:28"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "janpara_96097161-96",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【吉祥寺】保証期間１週間",
-      "price_yen": 38980,
-      "url": "https://store.shopping.yahoo.co.jp/janpara/96097161-96.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:52:28",
-      "price_history": [
-        {
-          "price_yen": 38980,
           "observed_at": "2026-08-22 17:52:28"
         }
       ]
@@ -5173,39 +4954,6 @@
         {
           "price_yen": 29500,
           "observed_at": "2026-08-24 02:22:48"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "senrakuen_dell3050",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-6400",
-        "cpu_generation": 6,
-        "memory_gb": 8,
-        "storage": "SSD 256GB + HDD 500GB"
-      },
-      "title": "デスクトップパソコンDELL　Optiplex3050 MSOffice第6世代Corei5-6400　M.2SSD256GB+HDD500GB メモリ8GB DVD Win11 USB3.0 WIFI/Bluetooth/HDMI",
-      "price_yen": 25980,
-      "url": "https://store.shopping.yahoo.co.jp/senrakuen/dell3050.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:50",
-      "price_history": [
-        {
-          "price_yen": 25980,
-          "observed_at": "2026-08-24 02:22:50"
         }
       ]
     },
