@@ -7,7 +7,7 @@
 // なお、ページには生成時刻が埋め込まれているため、キャッシュから表示された
 // 場合でも「最終更新」の表示で古さが利用者に伝わる。
 
-const VERSION = 'v5';
+const VERSION = 'v6';
 const SHELL_CACHE = `shell-${VERSION}`;
 const DATA_CACHE = `data-${VERSION}`;
 
@@ -17,10 +17,13 @@ const SHELL_ASSETS = [
   // CSSを入れ忘れるとオフライン時に無スタイルのページが出るため必ず含める
   './assets/base.css',
   './assets/home.css',
-  // 検索ロジックはCSPのためインラインからここへ外出しした。入れ忘れると
-  // オフライン時に検索UIが動かないページが出る。
+  // 検索ロジック・お気に入り等はCSPのためインラインからここへ外出しした。
+  // 入れ忘れるとオフライン時に該当機能が動かないページが出る。
   './assets/app.js',
   './assets/register-sw.js',
+  './assets/local-store.js',
+  './assets/preset-ui.js',
+  './assets/record-view.js',
   './manifest.webmanifest',
   './favicon.ico',
   './favicon.svg',

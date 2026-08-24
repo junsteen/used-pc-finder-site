@@ -8,6 +8,8 @@
     keyword: document.getElementById('f-keyword'),
     category: document.getElementById('f-category'),
     form: document.getElementById('f-form'),
+    chassis: document.getElementById('f-chassis'),
+    gpuOnly: document.getElementById('f-gpu-only'),
     max: document.getElementById('f-max'),
     os: document.getElementById('f-os'),
     cpu: document.getElementById('f-cpu'),
@@ -35,6 +37,8 @@
   el.keyword.value = params.get('q') || '';
   el.category.value = params.get('cat') || '';
   el.form.value = params.get('form') || '';
+  el.chassis.value = params.get('chassis') || '';
+  el.gpuOnly.checked = params.get('gpu') === '1';
   el.max.value = params.get('max') || '';
   ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
     el[k].dataset.param = k;
@@ -203,6 +207,8 @@
     const kw = el.keyword.value.trim().toLowerCase().normalize('NFKC');
     const cat = el.category.value;
     const form = el.form.value;
+    const chassis = el.chassis.value;
+    const gpuOnly = el.gpuOnly.checked;
     const max = parseInt(el.max.value, 10);
     const sort = el.sort.value;
     const req = el.purpose.value ? state.data.requirements[el.purpose.value] : null;
@@ -220,6 +226,8 @@
       // どちらを選んでも除外する。
       if (form === 'laptop' && !isLaptopListing(l)) return false;
       if (form === 'desktop' && !(l.category === 'combo' || (l.category === 'pc' && !isLaptopListing(l)))) return false;
+      if (chassis && l.chassis_gpu_fit !== chassis) return false;
+      if (gpuOnly && !hasGpu(l)) return false;
       if (!isNaN(max) && max > 0 && l.price_yen > max) return false;
       // スペックでの絞り込みは、値が読み取れなかった出品を落とす。
       // 「確認できていない」ものを条件に合うとは言えないため。
@@ -351,11 +359,8 @@
     if (l.category !== 'pc') return (s && ROW_ICONS[s.category]) || 'desktop';
 
     const isLaptop = isLaptopListing(l);
-    // spec_idがGPUチップのスペックを指している完成品PC = そのGPUを搭載済みと
-    // 分かっている(catalogSpec()はカタログ収録済みのGPUだけを返す)。
-    const hasGpuSpec = s && s.category === 'gpu';
-    if (isLaptop) return hasGpuSpec ? 'laptop_gpu' : 'laptop';
-    if (hasGpuSpec) return 'tower_gpu';
+    if (isLaptop) return hasGpu(l) ? 'laptop_gpu' : 'laptop';
+    if (hasGpu(l)) return 'tower_gpu';
     return CHASSIS_ICON_BY_FIT[l.chassis_gpu_fit] || 'desktop';
   }
 
@@ -364,8 +369,10 @@
   }
 
   // 型番が判定できていれば型番の詳細ページへ、できなければ販売元へ直接。
-  function nameLink(l) {
-    const icon = rowIcon(l);
+  // opts.icon === false でアイコンを省く(カードでは大きいcardThumb()を
+  // 別に置くため、行頭の小さいアイコンと二重表示になるのを避ける)。
+  function nameLink(l, opts) {
+    const icon = (opts && opts.icon === false) ? '' : rowIcon(l);
     if (l.category === 'combo') {
       return icon + '<span class="combo-title">素体PC + グラフィックカード</span>';
     }
@@ -434,6 +441,15 @@
   // 出品タイトルからの推定より確かなため。
   function catalogSpec(l) {
     return l.spec_id ? (state.data.specs[l.spec_id] || null) : null;
+  }
+
+  // GPUを搭載している(組み合わせは構成上必ずGPU搭載、それ以外はspec_idが
+  // GPUチップのスペックを指しているかで判定する)。render_index.pyの
+  // _device_type_counts()と同じ考え方を絞り込みロジック側でも使う。
+  function hasGpu(l) {
+    if (l.category === 'combo') return true;
+    const s = catalogSpec(l);
+    return !!(s && s.category === 'gpu');
   }
 
   // --- ステータス ---------------------------------------------------------
@@ -598,6 +614,25 @@
     ).join('') + '</div>';
   }
 
+  // カードの見出しに置く大きめのカテゴリ画像。行アイコン(rowIcon、20px用)と
+  // 中身は同じだが、CSS側で表示サイズだけ変える(アイコンをサイズ別に
+  // 二重に持たないため)。
+  function cardThumb(l) {
+    return '<div class="card-thumb">' + (ROW_ICONS[rowIconName(l)] || ROW_ICONS.desktop) + '</div>';
+  }
+
+  // お気に入りボタン。この端末のlocalStorageだけに保存し、サーバーには送らない
+  // (local-store.jsのpcFinder.toggleFavorite)。出品は売り切れると消えるため、
+  // お気に入り一覧側では「現在は出品されていません」的な扱いになりうる。
+  function favoriteButton(l) {
+    if (l.category === 'combo') return '';  // 組み合わせは実在する1出品ではないため対象外
+    const key = l.source + ':' + l.listing_id;
+    const on = window.pcFinder && pcFinder.isFavorite(key);
+    return '<button type="button" class="fav-btn' + (on ? ' is-active' : '') + '" data-fav-key="' +
+      esc(key) + '" aria-pressed="' + (on ? 'true' : 'false') + '" aria-label="お気に入りに追加">' +
+      (on ? '♥' : '♡') + '</button>';
+  }
+
   function cardsHtml(items, req) {
     return '<div class="cards">' + items.map(l => {
       const spec = l.spec_id ? state.data.specs[l.spec_id] : null;
@@ -623,7 +658,8 @@
       // その順に出し、広い画面ではグリッドで価格だけ右上へ寄せる。
       const fitHtml = fitBadge(l, req, { detail: false });
       return '<div class="card">' +
-        '<div class="card-title">' + nameLink(l) + '</div>' +
+        '<div class="card-head">' + cardThumb(l) + favoriteButton(l) + '</div>' +
+        '<div class="card-title">' + nameLink(l, { icon: false }) + '</div>' +
         parsedFacts(l) +
         specFacts(spec) +
         '<div class="card-type">' + typeBadge(l) + '</div>' +
@@ -717,6 +753,37 @@
     });
   }
 
+  // 「PCの種類から探す」グリッド。render_index.pyの_DEVICE_TYPESと対応させる
+  // (件数0のタイルは<button>ではなく<span>で出しているので、そちらはそもそも
+  // data-deviceを持たずクリックハンドラの対象にならない=押せない)。
+  const DEVICE_FILTERS = {
+    laptop_gpu: { form: 'laptop', gpu: true },
+    desktop_gpu: { form: 'desktop', gpu: true },
+    laptop: { form: 'laptop' },
+    desktop: { form: 'desktop' },
+    tiny: { form: 'desktop', chassis: 'no' },
+    sff: { form: 'desktop', chassis: 'low_profile' },
+    tower: { form: 'desktop', chassis: 'maybe' },
+  };
+
+  function attachDeviceGridHandlers() {
+    document.querySelectorAll('[data-device]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const f = DEVICE_FILTERS[btn.dataset.device];
+        if (!f) return;
+        el.category.value = '';
+        el.form.value = f.form || '';
+        el.chassis.value = f.chassis || '';
+        el.gpuOnly.checked = !!f.gpu;
+        el.keyword.value = '';
+        el.max.value = '';
+        render();
+        syncUrl();
+        document.getElementById('result-count').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
+
   function renderQueue(queue) {
     const box = document.getElementById('queue-status');
     if (!queue) return;
@@ -738,6 +805,20 @@
 
   // 列見出しのクリックで並べ替える。同じ列をもう一度押すと昇順/降順が入れ替わる。
   el.results.addEventListener('click', (e) => {
+    // お気に入りは一覧全体を再描画せず、押したボタンだけ見た目を切り替える
+    // (件数が多いと全体render()での再描画がスクロール位置を崩すため)。
+    const favBtn = e.target.closest('.fav-btn');
+    if (favBtn) {
+      if (!window.pcFinder) return;
+      const key = favBtn.dataset.favKey;
+      const listing = state.data.listings.find(x => (x.source + ':' + x.listing_id) === key);
+      if (!listing) return;
+      const isOn = pcFinder.toggleFavorite(listing);
+      favBtn.classList.toggle('is-active', isOn);
+      favBtn.setAttribute('aria-pressed', String(isOn));
+      favBtn.textContent = isOn ? '♥' : '♡';
+      return;
+    }
     const btn = e.target.closest('.sort-btn');
     if (!btn) return;
     const key = btn.dataset.sort;
@@ -761,6 +842,8 @@
     if (el.keyword.value) p.set('q', el.keyword.value);
     if (el.category.value) p.set('cat', el.category.value);
     if (el.form.value) p.set('form', el.form.value);
+    if (el.chassis.value) p.set('chassis', el.chassis.value);
+    if (el.gpuOnly.checked) p.set('gpu', '1');
     if (el.max.value) p.set('max', el.max.value);
     ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
       if (el[k].value) p.set(k, el[k].value);
@@ -771,7 +854,7 @@
     history.replaceState(null, '', qs ? '?' + qs : location.pathname);
   }
 
-  [el.purpose, el.keyword, el.category, el.form, el.max,
+  [el.purpose, el.keyword, el.category, el.form, el.chassis, el.gpuOnly, el.max,
    el.os, el.cpu, el.mem, el.storage, el.maker].forEach(input => {
     input.addEventListener('input', () => { render(); syncUrl(); });
   });
@@ -800,6 +883,8 @@
     el.keyword.value = '';
     el.category.value = '';
     el.form.value = '';
+    el.chassis.value = '';
+    el.gpuOnly.checked = false;
     el.max.value = '';
     ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => { el[k].value = ''; });
     render();
@@ -827,6 +912,7 @@
       state.data = data;
 
       attachCatalogHandlers();
+      attachDeviceGridHandlers();
       renderQueue(data.request_queue);
 
       if (data.correction_url) {

@@ -10,6 +10,8 @@
   var HISTORY_MAX = 200;
   var PRESET_KEY = 'pcfinder:presets';
   var PRESET_MAX = 50;
+  var FAVORITE_KEY = 'pcfinder:favorites';
+  var FAVORITE_MAX = 200;
 
   function safeGet(key) {
     try {
@@ -83,6 +85,48 @@
     safeSet(PRESET_KEY, safeGet(PRESET_KEY).filter(function (p) { return p.id !== id; }));
   }
 
+  // --- お気に入り ---------------------------------------------------------
+  // 出品(個体)そのものをキーにする。閲覧履歴が型番ページ(売れても残る)を
+  // 対象にしているのとは違い、お気に入りは個々の出品を指すため、売り切れる
+  // と元の出品ページには無くなる。表示側は「現在は出品されていません」等の
+  // 扱いをすること(このファイルは保存時点の情報を返すだけで、現存確認はしない)。
+  function _favoriteKey(listing) {
+    return listing.source + ':' + listing.listing_id;
+  }
+
+  function isFavorite(key) {
+    return safeGet(FAVORITE_KEY).some(function (f) { return f.key === key; });
+  }
+
+  function toggleFavorite(listing) {
+    var key = _favoriteKey(listing);
+    var list = safeGet(FAVORITE_KEY);
+    var without = list.filter(function (f) { return f.key !== key; });
+    if (without.length !== list.length) {
+      safeSet(FAVORITE_KEY, without);
+      return false;  // 削除した(お気に入りではなくなった)
+    }
+    without.unshift({
+      key: key,
+      title: listing.title || '',
+      url: listing.url || '',
+      price_yen: listing.price_yen,
+      source_label: listing.source_label || '',
+      favorited_at: new Date().toISOString(),
+    });
+    if (without.length > FAVORITE_MAX) without.length = FAVORITE_MAX;
+    safeSet(FAVORITE_KEY, without);
+    return true;  // 追加した
+  }
+
+  function getFavorites() {
+    return safeGet(FAVORITE_KEY);
+  }
+
+  function removeFavorite(key) {
+    safeSet(FAVORITE_KEY, safeGet(FAVORITE_KEY).filter(function (f) { return f.key !== key; }));
+  }
+
   global.pcFinder = global.pcFinder || {};
   Object.assign(global.pcFinder, {
     recordView: recordView,
@@ -92,5 +136,10 @@
     savePreset: savePreset,
     getPresets: getPresets,
     removePreset: removePreset,
+    favoriteKey: _favoriteKey,
+    isFavorite: isFavorite,
+    toggleFavorite: toggleFavorite,
+    getFavorites: getFavorites,
+    removeFavorite: removeFavorite,
   });
 })(window);
