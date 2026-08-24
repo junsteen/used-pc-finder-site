@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 16:59:42+09:00",
+  "generated_at": "2026-08-24 17:04:42+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1845,39 +1845,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_14461-3",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m73",
-      "model_name": "ThinkCentre M73",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-4170",
-        "cpu_generation": 4,
-        "memory_gb": 4,
-        "storage": "SSD 128GB",
-        "os": "Windows 10 Pro"
-      },
-      "title": "Windows10 Pro 64bit Lenovo ThinkCentre M73 Small 10B7-007NJP Core i3-4170 3.7GHz 4GB 128GB(SSD) DVDマルチ 中古パソコン デスクトップ 本体のみ",
-      "price_yen": 19800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/14461-3.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_14989",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -1895,38 +1862,6 @@
       "title": "NEC Mate MK37LL-T (PC-MK37LLZNCPST) Windows10 Pro 64bit 第6世代 Core i3-6100 3.7GHz 4GB 500GB DVDマルチ 中古パソコン デスクトップ 中古PC 本体のみ",
       "price_yen": 24800,
       "url": "https://store.shopping.yahoo.co.jp/aqua-light/14989.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-08-22 17:53:23"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_14990",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk37ll-n",
-      "model_name": "Mate MK37LL-N",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i3-4170",
-        "cpu_generation": 4,
-        "memory_gb": 4,
-        "os": "Windows 10 Pro"
-      },
-      "title": "Windows10 Pro 64bit NEC Mate MK37LL-N (PC-MK37LLZN1ASN) Core i3-4170 3.7GHz 4GB 500GB DVDマルチ 本体のみ",
-      "price_yen": 24800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/14990.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
@@ -2106,71 +2041,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_20161",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m71e",
-      "model_name": "ThinkCentre M71e",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-210",
-        "memory_gb": 8,
-        "storage": "HDD 320GB",
-        "os": "Windows 7 Pro"
-      },
-      "title": "パソコン 中古 Windows7 Pro 64bit Lenovo ThinkCentre M71e Small 3157-D2J Core i3-210 3.1GHz メモリ 8GB HDD 320GB(SATA) DVDマルチ デスクトップ 本体のみ",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/20161.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_20537",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk32mb-f",
-      "model_name": "Mate MK32MB-F",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i5-3470",
-        "cpu_generation": 3,
-        "memory_gb": 8,
-        "storage": "HDD 250GB",
-        "os": "Windows 8.1 Pro"
-      },
-      "title": "Windows8.1 Pro 64bit NEC Mate MK32MB-F (PC-MK32MBZNF) Corei5 3470 3.2GHz メモリ 8GB HDD 250GB(SATA) DVD-ROM 前カバー黄ばみあり",
-      "price_yen": 23800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/20537.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 23800,
-          "observed_at": "2026-08-22 17:53:23"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_20652",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -2237,39 +2107,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_21931",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-at10",
-      "model_name": "Endeavor AT10",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i5-7500",
-        "cpu_generation": 7,
-        "memory_gb": 8,
-        "storage": "HDD 500GB",
-        "os": "Windows 10 Pro"
-      },
-      "title": "Windows10 Pro 64bit EPSON Endeavor AT10 Core i5-7500 3.4GHz メモリー 8GB HDD 500GB(SATA) 光学ドライブ不良 筐体黄ばみあり",
-      "price_yen": 13800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21931.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:25",
-      "price_history": [
-        {
-          "price_yen": 13800,
-          "observed_at": "2026-08-22 17:53:25"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21963",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -2295,39 +2132,6 @@
       "price_history": [
         {
           "price_yen": 24800,
-          "observed_at": "2026-08-22 17:53:23"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_21964",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk33lb-e",
-      "model_name": "Mate MK33LB-E",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i3-2120",
-        "cpu_generation": 2,
-        "memory_gb": 2,
-        "storage": "HDD 250GB",
-        "os": "Windows 7 Pro"
-      },
-      "title": "Windows7 Pro 32bit NEC Mate MK33LB-E (PC-MK33LBZCE) Core i3-2120 3.3GHz メモリ 2GB HDD 250GB(SATA) DVD-ROM 筐体黄ばみあり",
-      "price_yen": 22800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21964.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 22800,
           "observed_at": "2026-08-22 17:53:23"
         }
       ]
@@ -4326,38 +4130,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_1235041",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-jm4800",
-      "model_name": "Endeavor JM4800",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン EPSON Endeavor JM4800 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ8GB 高速 SSD M.2-NVMe  1235041",
-      "price_yen": 22800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1235041.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:25",
-      "price_history": [
-        {
-          "price_yen": 22800,
-          "observed_at": "2026-08-22 17:53:25"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1235045",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -4480,38 +4252,6 @@
         {
           "price_yen": 25800,
           "observed_at": "2026-08-24 02:22:48"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_20006253",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン lenovo ThinkCentre M720e 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ8GB 高速 SSD 20006253",
-      "price_yen": 23800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/20006253.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 23800,
-          "observed_at": "2026-08-22 17:53:19"
         }
       ]
     },
@@ -4974,39 +4714,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "pc-stp_202506303",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3050",
-      "model_name": "OptiPlex 3050",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3（第7世代）",
-        "cpu_generation": 7,
-        "memory_gb": 8,
-        "storage": "SSD 128GB + HDD 500GB",
-        "os": "Windows 11"
-      },
-      "title": "ディスクトップパソコン 中古パソコン 中古PC 第7世代Corei3 メモリ8GB SSD128GB+HDD500GB MSoffice2024 Windows11 DVD-ROM USB3.0 無線LAN DELL OptiPlex 3050",
-      "price_yen": 21980,
-      "url": "https://store.shopping.yahoo.co.jp/pc-stp/202506303.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:21",
-      "price_history": [
-        {
-          "price_yen": 21980,
-          "observed_at": "2026-08-22 17:53:21"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-stp_202508071",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -5168,39 +4875,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "pc-stp_202607232",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-5050",
-      "model_name": "OptiPlex 5050",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第7世代）",
-        "cpu_generation": 7,
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11"
-      },
-      "title": "中古PC ディスクトップパソコン 第七世代Corei5 メモリ8GB SSD128GB MSoffice2024 Windows11 DVD-ROM HDMI 無線 DELL OptiPlex 5050 /3050",
-      "price_yen": 24980,
-      "url": "https://store.shopping.yahoo.co.jp/pc-stp/202607232.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:21",
-      "price_history": [
-        {
-          "price_yen": 24980,
-          "observed_at": "2026-08-22 17:53:21"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "pchands_y-d-313",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -5234,39 +4908,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "pon-junkshop_55c252774",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
-      "price_yen": 20200,
-      "url": "https://store.shopping.yahoo.co.jp/pon-junkshop/55c252774.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 20200,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "rinkai-store_epson-st180e-i56",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -5293,39 +4934,6 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-08-24 02:22:53"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "rinkai-store_esprimoq558-i39",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11"
-      },
-      "title": "ミニデスクトップパソコン本体 中古 Office搭載 富士通 Esprimo Q558 第8/9世代 Core i3 メモリ8GB SSD128GB/256GB PC Windows11",
-      "price_yen": 24800,
-      "url": "https://store.shopping.yahoo.co.jp/rinkai-store/esprimoq558-i39.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:17",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-08-22 17:53:17"
         }
       ]
     },
@@ -5484,38 +5092,6 @@
         {
           "price_yen": 25980,
           "observed_at": "2026-08-24 02:22:50"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "senrakuen_q556minib",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-6100T",
-        "cpu_generation": 6,
-        "memory_gb": 16,
-        "storage": "SSD 256GB"
-      },
-      "title": "富士通 ミニデスクトップ PC FUJITSU ESPRIMO Q556 インテル Core i3-6100T/DVI/DisplayPort/4K HDR対応/MS Office2021/Win11Pro /RAM16GB/高速SSD256GB",
-      "price_yen": 19800,
-      "url": "https://store.shopping.yahoo.co.jp/senrakuen/q556minib.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:17",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-22 17:53:17"
         }
       ]
     },
@@ -5869,72 +5445,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_54c259452",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ NEC Mate MRL36/L-4 Core i3-8100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
-      "price_yen": 14500,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/54c259452.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 14500,
-          "observed_at": "2026-08-22 17:53:23"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_553266346",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ Lenovo ThinkCentre M720s Core i3-8100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
-      "price_yen": 12900,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/553266346.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 12900,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_556258835",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -5993,39 +5503,6 @@
       "price_history": [
         {
           "price_yen": 21900,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_55c252774",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
-      "price_yen": 19200,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/55c252774.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 19200,
           "observed_at": "2026-08-22 17:53:19"
         }
       ]
@@ -6124,38 +5601,6 @@
         {
           "price_yen": 31300,
           "observed_at": "2026-08-22 17:51:49"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "touhou-shop_260326",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-5040",
-      "model_name": "OptiPlex 5040",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3-6100",
-        "cpu_generation": 6,
-        "storage": "HDD 500GB",
-        "os": "Windows 7 Pro"
-      },
-      "title": "中古パソコン デスクトップ Windows 7 Pro 32Bit DELL OptiPlex 5040 Core i3 6100 3.7GHz/メモリ4G/HDD500GB/WPS Office付属",
-      "price_yen": 19800,
-      "url": "https://store.shopping.yahoo.co.jp/touhou-shop/260326.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:21",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-22 17:53:21"
         }
       ]
     },
@@ -6316,39 +5761,6 @@
         {
           "price_yen": 28800,
           "observed_at": "2026-08-24 02:22:45"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "ugreen-oaplaza_de-21-i707-8-256-fujitsu",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i7（第7世代）",
-        "cpu_generation": 7,
-        "memory_gb": 8,
-        "storage": "SSD 240GB",
-        "os": "Windows 11"
-      },
-      "title": "今日も当日発送 デスクトップ PC パソコン 富士通 7世代 COREi7 8GB SSD 240GB Windows11 本体のみ おしゃれ 安い",
-      "price_yen": 24800,
-      "url": "https://store.shopping.yahoo.co.jp/ugreen-oaplaza/de-21-i707-8-256-fujitsu.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:17",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-08-22 17:53:17"
         }
       ]
     },
@@ -6535,39 +5947,6 @@
       "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/yuukou-store2/lenovo-m710q-i5.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 23800,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "yuukou-store_lenovo-m710q-i5",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m710q",
-      "model_name": "ThinkCentre M710q",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-7400T",
-        "cpu_generation": 7,
-        "memory_gb": 4,
-        "storage": "HDD 500GB",
-        "os": "Windows 11"
-      },
-      "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
-      "price_yen": 23800,
-      "url": "https://store.shopping.yahoo.co.jp/yuukou-store/lenovo-m710q-i5.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
