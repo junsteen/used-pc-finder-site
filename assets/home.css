@@ -56,6 +56,21 @@ background:none;border:none;border-radius:0;padding:0;margin:0}
   grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
 }
 
+/* 検索条件プリセット。ローカル保存のみ(サーバーには送らない)なので、
+   フィルタパネルの下に控えめに置く。 */
+.filter-presets{margin-top:14px;padding-top:14px;border-top:1px solid var(--surface-line)}
+.filter-presets-head{display:flex;align-items:baseline;justify-content:space-between;
+gap:8px;margin-bottom:8px}
+.filter-presets-head>span{font-size:12px;font-weight:700;color:var(--text-muted)}
+.preset-save-btn{font:inherit;font-size:12px;background:none;border:none;
+color:var(--accent);cursor:pointer;padding:0}
+.preset-save-btn:hover{color:var(--accent-hover);text-decoration:underline}
+.preset-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+.preset-list li{display:flex;align-items:center;justify-content:space-between;gap:4px}
+.preset-list li.muted{font-size:12px;padding:2px 0}
+.preset-list a{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;
+white-space:nowrap;font-size:13px}
+
 /* 収集の状況。3つ並べ、狭い画面では縦に積む */
 .info-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;
 background:var(--surface-line);border:1px solid var(--surface-line);

@@ -341,6 +341,18 @@ text-decoration:none;font-weight:600;font-size:.9rem;padding:.5rem 1.1rem;
 border-radius:6px}
 .btn:hover{filter:brightness(1.08)}
 .btn:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+/* 閲覧履歴・検索条件プリセットの操作ボタン。.btnより目立たせない
+   (「すべて削除」のような取り消しにくい操作を主要ボタンと同格にしないため)。 */
+.btn-secondary{display:inline-block;background:none;color:var(--text);
+text-decoration:none;font-weight:600;font-size:.85rem;padding:.4rem 1rem;
+border-radius:6px;border:1px solid var(--surface-line-strong);cursor:pointer;
+font-family:inherit}
+.btn-secondary:hover{border-color:var(--text-muted)}
+.btn-secondary:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+.btn-icon{background:none;border:none;color:var(--text-muted);font-size:1.15rem;
+line-height:1;cursor:pointer;padding:2px 8px;border-radius:4px;flex-shrink:0}
+.btn-icon:hover{color:var(--danger);background:var(--surface-2)}
+.btn-icon:focus-visible{outline:2px solid var(--text);outline-offset:2px}
 .comment{background:var(--surface);border:1px solid var(--surface-line);
 border-left:3px solid var(--accent);border-radius:8px;padding:.8rem 1rem;margin:0 0 .8rem}
 .comment p{margin:.3rem 0}

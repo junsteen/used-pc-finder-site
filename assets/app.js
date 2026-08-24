@@ -7,6 +7,7 @@
     purposePanel: document.getElementById('purpose-panel'),
     keyword: document.getElementById('f-keyword'),
     category: document.getElementById('f-category'),
+    form: document.getElementById('f-form'),
     max: document.getElementById('f-max'),
     os: document.getElementById('f-os'),
     cpu: document.getElementById('f-cpu'),
@@ -33,6 +34,7 @@
 
   el.keyword.value = params.get('q') || '';
   el.category.value = params.get('cat') || '';
+  el.form.value = params.get('form') || '';
   el.max.value = params.get('max') || '';
   ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
     el[k].dataset.param = k;
@@ -200,6 +202,7 @@
     // 両辺をNFKC正規化してから比較する。
     const kw = el.keyword.value.trim().toLowerCase().normalize('NFKC');
     const cat = el.category.value;
+    const form = el.form.value;
     const max = parseInt(el.max.value, 10);
     const sort = el.sort.value;
     const req = el.purpose.value ? state.data.requirements[el.purpose.value] : null;
@@ -212,6 +215,11 @@
     let items = state.data.listings.filter(l => {
       if (kw && !l.title.toLowerCase().normalize('NFKC').includes(kw)) return false;
       if (cat && l.watch_name !== cat) return false;
+      // 「デスクトップPC」には組み合わせ(素体+GPU、実質デスクトップ)も含める。
+      // パーツ単体(GPUカードのみ等)はノート/デスクトップどちらにも該当しないため
+      // どちらを選んでも除外する。
+      if (form === 'laptop' && !isLaptopListing(l)) return false;
+      if (form === 'desktop' && !(l.category === 'combo' || (l.category === 'pc' && !isLaptopListing(l)))) return false;
       if (!isNaN(max) && max > 0 && l.price_yen > max) return false;
       // スペックでの絞り込みは、値が読み取れなかった出品を落とす。
       // 「確認できていない」ものを条件に合うとは言えないため。
@@ -325,15 +333,24 @@
   // 筐体の形の名前ではないため、ここで読み替える。
   const CHASSIS_ICON_BY_FIT = { no: 'tiny', low_profile: 'sff', maybe: 'tower' };
 
+  // watch名・表示名にノートPC特有の語があるかで判定する。当サイトはノートPCの
+  // 型番から筐体を判定する仕組みを持たないため(model_codes.pyはデスクトップの
+  // 法人向けシリーズのみ対象)、今のところこの簡易判定が唯一の手がかり。
+  // 行アイコンの選択(rowIconName)と「本体の種類」の絞り込みの両方で使う。
+  function isLaptopListing(l) {
+    if (l.category !== 'pc') return false;
+    const w = state.data.watches[l.watch_name] || {};
+    const text = (l.watch_name + ' ' + (w.display_name || '')).toLowerCase();
+    return /dynabook|vaio|vjpk|ノート|laptop/.test(text);
+  }
+
   function rowIconName(l) {
     const s = catalogSpec(l);
     if (l.category === 'part') return 'gpu';
     if (l.category === 'combo') return 'tower_gpu';
     if (l.category !== 'pc') return (s && ROW_ICONS[s.category]) || 'desktop';
 
-    const w = state.data.watches[l.watch_name] || {};
-    const text = (l.watch_name + ' ' + (w.display_name || '')).toLowerCase();
-    const isLaptop = /dynabook|vaio|vjpk|ノート|laptop/.test(text);
+    const isLaptop = isLaptopListing(l);
     // spec_idがGPUチップのスペックを指している完成品PC = そのGPUを搭載済みと
     // 分かっている(catalogSpec()はカタログ収録済みのGPUだけを返す)。
     const hasGpuSpec = s && s.category === 'gpu';
@@ -743,6 +760,7 @@
     if (el.purpose.value) p.set('use', el.purpose.value);
     if (el.keyword.value) p.set('q', el.keyword.value);
     if (el.category.value) p.set('cat', el.category.value);
+    if (el.form.value) p.set('form', el.form.value);
     if (el.max.value) p.set('max', el.max.value);
     ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
       if (el[k].value) p.set(k, el[k].value);
@@ -753,7 +771,7 @@
     history.replaceState(null, '', qs ? '?' + qs : location.pathname);
   }
 
-  [el.purpose, el.keyword, el.category, el.max,
+  [el.purpose, el.keyword, el.category, el.form, el.max,
    el.os, el.cpu, el.mem, el.storage, el.maker].forEach(input => {
     input.addEventListener('input', () => { render(); syncUrl(); });
   });
@@ -781,6 +799,7 @@
     el.purpose.value = '';
     el.keyword.value = '';
     el.category.value = '';
+    el.form.value = '';
     el.max.value = '';
     ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => { el[k].value = ''; });
     render();

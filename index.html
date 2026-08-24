@@ -86,7 +86,7 @@ role="img" aria-label="価格を横断して比べる様子のイラスト">
   <div class="info-strip">
     <div class="info-item"><span class="info-label">最終更新</span>
       <span class="info-value" id="updated-at"><!--UPDATED:START-->
-2026-08-24 22:29:26+09:00
+2026-08-24 22:52:02+09:00
 <!--UPDATED:END--></span></div>
     <div class="info-item"><span class="info-label">対象サイト</span>
       <span class="info-value">楽天市場・Yahoo!ショッピング・ソフマップ・ドスパラ・パソコン工房</span></div>
@@ -127,6 +127,14 @@ role="img" aria-label="価格を横断して比べる様子のイラスト">
       <select id="f-category"><option value="">全て</option></select>
     </div>
     <div class="field">
+      <label for="f-form">本体の種類</label>
+      <select id="f-form">
+        <option value="">指定なし</option>
+        <option value="laptop">ノートPC</option>
+        <option value="desktop">デスクトップPC</option>
+      </select>
+    </div>
+    <div class="field">
       <label for="f-max">価格上限</label>
       <input type="number" id="f-max" placeholder="円" min="0" step="1000">
     </div>
@@ -160,6 +168,13 @@ role="img" aria-label="価格を横断して比べる様子のイラスト">
         <option value="" hidden>表の列で並べ替え中</option>
       </select>
     </div>
+  </div>
+  <div class="filter-presets" id="filter-presets">
+    <div class="filter-presets-head">
+      <span>保存した条件</span>
+      <button type="button" id="preset-save" class="preset-save-btn">＋ 現在の条件を保存</button>
+    </div>
+    <ul id="preset-list" class="preset-list"></ul>
   </div>
     </aside>
     <div class="results-col">
@@ -247,7 +262,7 @@ role="img" aria-label="価格を横断して比べる様子のイラスト">
 
 <footer><div class="wrap">
   <!--SITEFOOTER:START-->
-<div class="footer-top"><div class="footer-brand"><a class="logo" href="./"><svg viewBox="0 0 40 32" width="40" height="32" class="logo-mark" aria-hidden="true" focusable="false"><rect x="4" y="3" width="28" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M1 27h34l-2 2H3z" fill="currentColor"/><rect x="9" y="14" width="3.5" height="5" fill="var(--accent)"/><rect x="14.5" y="10" width="3.5" height="9" fill="var(--accent)"/><rect x="20" y="7" width="3.5" height="12" fill="var(--accent)"/><circle cx="28" cy="19" r="7" fill="var(--surface)"/><circle cx="28" cy="19" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/><path d="M32.5 23.5 37 28" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/></svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./pc/">型番一覧</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a></nav></div><p class="footer-updated">最終更新: 2026-08-24 22:29:26+09:00（20分ごとに更新）</p>
+<div class="footer-top"><div class="footer-brand"><a class="logo" href="./"><svg viewBox="0 0 40 32" width="40" height="32" class="logo-mark" aria-hidden="true" focusable="false"><rect x="4" y="3" width="28" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M1 27h34l-2 2H3z" fill="currentColor"/><rect x="9" y="14" width="3.5" height="5" fill="var(--accent)"/><rect x="14.5" y="10" width="3.5" height="9" fill="var(--accent)"/><rect x="20" y="7" width="3.5" height="12" fill="var(--accent)"/><circle cx="28" cy="19" r="7" fill="var(--surface)"/><circle cx="28" cy="19" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/><path d="M32.5 23.5 37 28" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/></svg><span class="logo-type"><span class="logo-ja">中古PC検索</span><span class="logo-en">USED PC FINDER</span></span></a><p>中古PC・パーツを、必要な用途・スペックで横断検索・比較。<br>検証済みの情報と推定値を区別して掲載しています。</p></div><nav class="footer-nav" aria-label="フッター"><a href="./#data-notes">データの見方</a><a href="./#catalog-list">収録済みカタログ</a><a href="./pc/">型番一覧</a><a href="./shops/">ショップ一覧</a><a href="./feed.xml">新着・値下げ(RSS)</a><a href="./history.html">閲覧履歴</a></nav></div><p class="footer-updated">最終更新: 2026-08-24 22:52:02+09:00（20分ごとに更新）</p>
 <!--SITEFOOTER:END-->
   <div id="data-notes">
     <h2 class="footer-h">免責事項</h2>
@@ -269,7 +284,52 @@ role="img" aria-label="価格を横断して比べる様子のイラスト">
 <nav class="bottom-nav" aria-label="主要メニュー"><a href="./"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M7 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm3.2 7.5 3.3 3.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>検索</span></a><a href="./#use-cases"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 2v12M2 8h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>用途</span></a><a href="./#collections-section"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 3h10v10H3zM3 6h10M6 6v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>特集</span></a><label for="nav-toggle"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 4h12M2 8h12M2 12h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>メニュー</span></label></nav>
 <!--BOTTOMNAV:END-->
 
+<script src="assets/local-store.js"></script>
 <script src="assets/app.js" defer></script>
 <script src="assets/register-sw.js" defer></script>
+<script>
+(function () {
+  function esc(v) {
+    return String(v == null ? '' : v)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  var listEl = document.getElementById('preset-list');
+  var saveBtn = document.getElementById('preset-save');
+
+  function render() {
+    var presets = window.pcFinder ? pcFinder.getPresets() : [];
+    if (!presets.length) {
+      listEl.innerHTML = '<li class="muted">まだありません</li>';
+      return;
+    }
+    listEl.innerHTML = presets.map(function (p) {
+      return '<li><a href="' + esc(p.query || '') + '">' + esc(p.label) + '</a>' +
+        '<button type="button" class="btn-icon" data-remove-preset="' + esc(p.id) +
+        '" aria-label="この条件を削除">&times;</button></li>';
+    }).join('');
+  }
+
+  listEl.addEventListener('click', function (ev) {
+    var btn = ev.target.closest('[data-remove-preset]');
+    if (!btn || !window.pcFinder) return;
+    ev.preventDefault();
+    pcFinder.removePreset(btn.dataset.removePreset);
+    render();
+  });
+
+  saveBtn.addEventListener('click', function () {
+    if (!window.pcFinder) return;
+    // 現在の絞り込み条件はapp.jsが常にURLのクエリ文字列(location.search)に
+    // 同期しているので、そのままラベルを付けて保存すればよい。
+    var label = window.prompt('この条件に名前を付けて保存します');
+    if (label === null) return;
+    pcFinder.savePreset(label, location.search || '');
+    render();
+  });
+
+  render();
+})();
+</script>
 </body>
 </html>
