@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25 06:44:36+09:00",
+  "generated_at": "2026-08-25 07:24:34+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1961,6 +1961,39 @@
         {
           "price_yen": 7980,
           "observed_at": "2026-08-22 17:53:19"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_21963",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mk32me-b",
+      "model_name": "Mate MK32ME-B",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5-650",
+        "memory_gb": 2,
+        "storage": "HDD 160GB",
+        "os": "Windows 7 Pro"
+      },
+      "title": "Windows7 Pro 32bit NEC Mate MK32ME-B (PC-MK32MEZCB) Corei5 650 3.2GHz メモリ 2GB HDD 160GB(SATA) DVD-ROM 筐体黄ばみあり",
+      "price_yen": 24800,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21963.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:53:23",
+      "price_history": [
+        {
+          "price_yen": 24800,
+          "observed_at": "2026-08-22 17:53:23"
         }
       ]
     },
