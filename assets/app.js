@@ -311,17 +311,35 @@
     desktop: '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M7 2h10a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M9 6h6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M9 9h6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 13.5a1.6 1.6 0 1 1 0 3.2 1.6 1.6 0 0 1 0-3.2z" fill="currentColor"/></svg>',
     laptop: '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 5h14v11H5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M2 19h20l-1.5 2H3.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M8 11h2v3H8z" fill="currentColor"/><path d="M11 9h2v5h-2z" fill="currentColor"/><path d="M14 7h2v7h-2z" fill="currentColor"/></svg>',
     gpu: '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M2 7h20v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M7.6 12a2.4 2.4 0 1 1 0 .01z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M7.6 10.1v3.8M5.7 12h3.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M16.4 12a2.4 2.4 0 1 1 0 .01z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M16.4 10.1v3.8M14.5 12h3.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><path d="M4 19h16v1.4a.6.6 0 0 1-.6.6H4.6a.6.6 0 0 1-.6-.6z" fill="currentColor"/></svg>',
+    // 以下4つは筐体の大きさ・GPU搭載の有無をillustrations.pyのchassis_art()と
+    // 同じ形で示す(サイズ違いが伝わるよう、desktop/laptopより一回り詳細な線にしてある)。
+    tiny: '<svg viewBox="0 0 48 48" width="20" height="20" aria-hidden="true"><path d="M8 20h32v10a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 24h4M12 27h4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></svg>',
+    sff: '<svg viewBox="0 0 48 48" width="20" height="20" aria-hidden="true"><path d="M20 6h12v36a2 2 0 0 1-2 2H22a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 12h4v4h-4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></svg>',
+    tower: '<svg viewBox="0 0 48 48" width="20" height="20" aria-hidden="true"><path d="M14 4h20v40a2 2 0 0 1-2 2H16a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M18 10h4M18 14h4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></svg>',
+    tower_gpu: '<svg viewBox="0 0 48 48" width="20" height="20" aria-hidden="true"><path d="M14 4h20v40a2 2 0 0 1-2 2H16a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M18 10h4M18 14h4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M15 26h18v8H15z" fill="var(--accent)"/></svg>',
+    laptop_gpu: '<svg viewBox="0 0 48 48" width="20" height="20" aria-hidden="true"><path d="M8 10h32v22H8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M4 34h40l-3 4H7z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M27 34.6h9v2.8h-9z" fill="var(--accent)"/></svg>',
   };
+
+  // gpu_fit(export_site_data.pyがmodel_codes.chassis()で計算した値)から
+  // 筐体イラストへの対応。"no/low_profile/maybe" は増設可否の判定名であって
+  // 筐体の形の名前ではないため、ここで読み替える。
+  const CHASSIS_ICON_BY_FIT = { no: 'tiny', low_profile: 'sff', maybe: 'tower' };
 
   function rowIconName(l) {
     const s = catalogSpec(l);
-    if (s && ROW_ICONS[s.category]) return s.category;
     if (l.category === 'part') return 'gpu';
-    if (l.category === 'combo') return 'desktop';
+    if (l.category === 'combo') return 'tower_gpu';
+    if (l.category !== 'pc') return (s && ROW_ICONS[s.category]) || 'desktop';
+
     const w = state.data.watches[l.watch_name] || {};
     const text = (l.watch_name + ' ' + (w.display_name || '')).toLowerCase();
-    if (/dynabook|vaio|vjpk|ノート|laptop/.test(text)) return 'laptop';
-    return 'desktop';
+    const isLaptop = /dynabook|vaio|vjpk|ノート|laptop/.test(text);
+    // spec_idがGPUチップのスペックを指している完成品PC = そのGPUを搭載済みと
+    // 分かっている(catalogSpec()はカタログ収録済みのGPUだけを返す)。
+    const hasGpuSpec = s && s.category === 'gpu';
+    if (isLaptop) return hasGpuSpec ? 'laptop_gpu' : 'laptop';
+    if (hasGpuSpec) return 'tower_gpu';
+    return CHASSIS_ICON_BY_FIT[l.chassis_gpu_fit] || 'desktop';
   }
 
   function rowIcon(l) {

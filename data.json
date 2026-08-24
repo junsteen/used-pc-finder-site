@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 22:24:50+09:00",
+  "generated_at": "2026-08-24 22:29:26+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -771,6 +771,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -801,6 +802,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 4060 Ti",
@@ -831,6 +833,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-12400",
@@ -865,6 +868,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-11400",
@@ -899,6 +903,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-12400",
@@ -933,6 +938,7 @@
       "category": "pc",
       "model_slug": "nec-mate-pc-mrm28lz6acs4",
       "model_name": "Mate PC-MRM28LZ6ACS4",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -967,6 +973,7 @@
       "category": "pc",
       "model_slug": "nec-mate-pc-mrm28lz6acs4",
       "model_name": "Mate PC-MRM28LZ6ACS4",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -1001,6 +1008,7 @@
       "category": "pc",
       "model_slug": "nec-mate-pc-mrm28lz6acs4",
       "model_name": "Mate PC-MRM28LZ6ACS4",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -1035,6 +1043,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 4060 Ti",
@@ -1065,6 +1074,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Ryzen 7 5800",
@@ -1099,6 +1109,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-1335U",
@@ -1131,6 +1142,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-5070",
       "model_name": "OptiPlex 5070",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5",
@@ -1163,6 +1175,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720q",
       "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -1196,6 +1209,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3060",
       "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1225,6 +1239,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3070",
       "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1254,6 +1269,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5"
@@ -1283,6 +1299,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3060",
       "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1312,6 +1329,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3060",
       "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1341,6 +1359,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3060",
       "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1370,6 +1389,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3070",
       "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1399,6 +1419,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3070",
       "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1428,6 +1449,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3070",
       "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1457,6 +1479,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3070",
       "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5"
@@ -1486,6 +1509,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-9500",
@@ -1519,6 +1543,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -1550,6 +1575,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -1581,6 +1607,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -1612,6 +1639,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -1643,6 +1671,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i7"
@@ -1672,6 +1701,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720q",
       "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8400T",
@@ -1705,6 +1735,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -1736,6 +1767,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -1767,6 +1799,7 @@
       "category": "pc",
       "model_slug": "endeavor-st190e",
       "model_name": "Endeavor ST190E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i3-8100T",
@@ -1800,6 +1833,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3-9100",
@@ -1833,6 +1867,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3060",
       "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -1865,6 +1900,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3070",
       "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5-9500",
@@ -1897,6 +1933,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3020",
       "model_name": "OptiPlex 3020",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5（第4世代）",
@@ -1930,6 +1967,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3",
@@ -1960,6 +1998,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3060",
       "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -1992,6 +2031,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-1145G",
@@ -2023,6 +2063,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-1135G",
@@ -2054,6 +2095,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -2084,6 +2126,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -2114,6 +2157,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -2144,6 +2188,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -2174,6 +2219,7 @@
       "category": "pc",
       "model_slug": "endeavor-st180e",
       "model_name": "Endeavor ST180E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5-6500T",
@@ -2206,6 +2252,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-e73",
       "model_name": "ThinkCentre E73",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i3-4130",
@@ -2238,6 +2285,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mk37ll-t",
       "model_name": "Mate MK37LL-T",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-6100",
@@ -2270,6 +2318,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mkm29a-6",
       "model_name": "Mate MKM29A-6",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-9400",
@@ -2302,6 +2351,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mjl36e-4",
       "model_name": "Mate MJL36E-4",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-8100",
@@ -2335,6 +2385,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mkl36b-4",
       "model_name": "Mate MKL36B-4",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-8100",
@@ -2368,6 +2419,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mul36l-4",
       "model_name": "Mate MUL36L-4",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-8100",
@@ -2401,6 +2453,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mk36hb-v",
       "model_name": "Mate MK36HB-V",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i7-7700",
@@ -2434,6 +2487,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mk34me-g",
       "model_name": "Mate MK34ME-G",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-4670",
@@ -2467,6 +2521,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m72e",
       "model_name": "ThinkCentre M72e",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i3-3240",
@@ -2500,6 +2555,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mk32me-b",
       "model_name": "Mate MK32ME-B",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-650",
@@ -2532,6 +2588,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mk33lb-e",
       "model_name": "Mate MK33LB-E",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-2120",
@@ -2565,6 +2622,7 @@
       "category": "pc",
       "model_slug": "endeavor-st180e",
       "model_name": "Endeavor ST180E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5-6500T",
@@ -2597,6 +2655,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -2627,6 +2686,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5",
@@ -2661,6 +2721,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m920s",
       "model_name": "ThinkCentre M920s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5",
@@ -2691,6 +2752,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5",
@@ -2725,6 +2787,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -2758,6 +2821,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5（第11世代）",
@@ -2790,6 +2854,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -2821,6 +2886,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -2852,6 +2918,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -2883,6 +2950,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -2914,6 +2982,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-1135G",
@@ -2947,6 +3016,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -2980,6 +3050,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -3013,6 +3084,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -3046,6 +3118,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3076,6 +3149,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3106,6 +3180,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3137,6 +3212,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3167,6 +3243,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3198,6 +3275,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3228,6 +3306,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3259,6 +3338,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3289,6 +3369,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3319,6 +3400,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3350,6 +3432,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3380,6 +3463,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3410,6 +3494,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3440,6 +3525,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3470,6 +3556,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3500,6 +3587,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3530,6 +3618,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3560,6 +3649,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3590,6 +3680,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3620,6 +3711,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3650,6 +3742,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3680,6 +3773,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3710,6 +3804,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3740,6 +3835,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3771,6 +3867,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3801,6 +3898,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3831,6 +3929,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3861,6 +3960,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3891,6 +3991,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -3921,6 +4022,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3952,6 +4054,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -3982,6 +4085,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -4013,6 +4117,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -4043,6 +4148,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 16,
@@ -4074,6 +4180,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -4104,6 +4211,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4134,6 +4242,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4164,6 +4273,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4194,6 +4304,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -4225,6 +4336,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 4060 Ti",
@@ -4255,6 +4367,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "memory_gb": 12,
@@ -4285,6 +4398,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4315,6 +4429,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4345,6 +4460,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4375,6 +4491,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4405,6 +4522,7 @@
       "category": "part",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": null,
       "model_maker": null,
       "parsed": {
         "gpu": "RTX 3060",
@@ -4435,6 +4553,7 @@
       "category": "pc",
       "model_slug": "endeavor-mr4800e",
       "model_name": "Endeavor MR4800E",
+      "chassis_gpu_fit": "maybe",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5（第9世代）",
@@ -4467,6 +4586,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720e",
       "model_name": "ThinkCentre M720e",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -4499,6 +4619,7 @@
       "category": "pc",
       "model_slug": "endeavor-jm4800",
       "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -4531,6 +4652,7 @@
       "category": "pc",
       "model_slug": "endeavor-jm4800",
       "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -4563,6 +4685,7 @@
       "category": "pc",
       "model_slug": "endeavor-mr4800e",
       "model_name": "Endeavor MR4800E",
+      "chassis_gpu_fit": "maybe",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5（第9世代）",
@@ -4595,6 +4718,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第10世代）",
@@ -4627,6 +4751,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5（第9世代）",
@@ -4659,6 +4784,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mrm29l-5",
       "model_name": "Mate MRM29L-5",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8500",
@@ -4692,6 +4818,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mrm28l-4",
       "model_name": "Mate MRM28L-4",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -4725,6 +4852,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mrl36l-5",
       "model_name": "Mate MRL36L-5",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-9100",
@@ -4758,6 +4886,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mrl36l-5",
       "model_name": "Mate MRL36L-5",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-9100",
@@ -4791,6 +4920,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -4824,6 +4954,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5",
@@ -4856,6 +4987,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m710s",
       "model_name": "ThinkCentre M710s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5（第7世代）",
@@ -4889,6 +5021,7 @@
       "category": "pc",
       "model_slug": "endeavor-st170e",
       "model_name": "Endeavor ST170E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i3-4100M",
@@ -4920,6 +5053,7 @@
       "category": "pc",
       "model_slug": "endeavor-st170e",
       "model_name": "Endeavor ST170E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5-4200M",
@@ -4951,6 +5085,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720q",
       "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-9400T",
@@ -4984,6 +5119,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5（第7世代）",
@@ -5016,6 +5152,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第6世代）",
@@ -5049,6 +5186,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -5082,6 +5220,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "no",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -5114,6 +5253,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "no",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -5146,6 +5286,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "no",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-7500T",
@@ -5178,6 +5319,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "no",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-7500T",
@@ -5210,6 +5352,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第9世代）",
@@ -5243,6 +5386,7 @@
       "category": "pc",
       "model_slug": "endeavor-st180e",
       "model_name": "Endeavor ST180E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5-6500T",
@@ -5275,6 +5419,7 @@
       "category": "pc",
       "model_slug": "endeavor-ny2500s",
       "model_name": "Endeavor NY2500S",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5-6200U",
@@ -5305,6 +5450,7 @@
       "category": "pc",
       "model_slug": "nec-mate-mkl36e-5",
       "model_name": "Mate MKL36E-5",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i3-9100",
@@ -5337,6 +5483,7 @@
       "category": "pc",
       "model_slug": "endeavor-st190e",
       "model_name": "Endeavor ST190E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i3-8100T",
@@ -5369,6 +5516,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m810z",
       "model_name": "ThinkCentre M810Z",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i3-7100",
@@ -5401,6 +5549,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5-6400",
@@ -5433,6 +5582,7 @@
       "category": "pc",
       "model_slug": "endeavor-st180e",
       "model_name": "Endeavor ST180E",
+      "chassis_gpu_fit": "no",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5（第6世代）",
@@ -5463,6 +5613,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -5493,6 +5644,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8500",
@@ -5523,6 +5675,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3070",
       "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "no",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i3（第9世代）",
@@ -5556,6 +5709,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5（第7世代）",
@@ -5587,6 +5741,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i7",
@@ -5617,6 +5772,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m810z",
       "model_name": "ThinkCentre M810Z",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i3-7100",
@@ -5649,6 +5805,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3-9100T",
@@ -5681,6 +5838,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m710e",
       "model_name": "ThinkCentre M710e",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-6400",
@@ -5714,6 +5872,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m820z",
       "model_name": "ThinkCentre M820Z",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -5747,6 +5906,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m920s",
       "model_name": "ThinkCentre M920s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8500",
@@ -5780,6 +5940,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720e",
       "model_name": "ThinkCentre M720e",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -5812,6 +5973,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -5845,6 +6007,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i7-1165G",
@@ -5877,6 +6040,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i7-1165G",
@@ -5909,6 +6073,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-7010",
       "model_name": "OptiPlex 7010",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i7-3770",
@@ -5941,6 +6106,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5",
@@ -5971,6 +6137,7 @@
       "category": "pc",
       "model_slug": "endeavor-at993e",
       "model_name": "Endeavor AT993E",
+      "chassis_gpu_fit": "maybe",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i5（第6世代）",
@@ -6003,6 +6170,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -6036,6 +6204,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -6069,6 +6238,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -6102,6 +6272,7 @@
       "category": "pc",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -6135,6 +6306,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m720s",
       "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "no",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5（第8世代）",
@@ -6166,6 +6338,7 @@
       "category": "pc",
       "model_slug": "endeavor-at994e",
       "model_name": "Endeavor AT994E",
+      "chassis_gpu_fit": "maybe",
       "model_maker": "エプソンダイレクト",
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -6198,6 +6371,7 @@
       "category": "pc",
       "model_slug": "dell-optiplex-3060",
       "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
       "model_maker": "Dell",
       "parsed": {
         "cpu": "Core i3（第8世代）",
@@ -6231,6 +6405,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m710q",
       "model_name": "ThinkCentre M710q",
+      "chassis_gpu_fit": "no",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-7400T",
@@ -6264,6 +6439,7 @@
       "category": "pc",
       "model_slug": "lenovo-thinkcentre-m710q",
       "model_name": "ThinkCentre M710q",
+      "chassis_gpu_fit": "no",
       "model_maker": "Lenovo",
       "parsed": {
         "cpu": "Core i5-7400T",
@@ -6297,6 +6473,7 @@
       "category": "combo",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",
@@ -6344,6 +6521,7 @@
       "category": "combo",
       "model_slug": null,
       "model_name": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",

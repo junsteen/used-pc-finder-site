@@ -195,6 +195,12 @@ margin:0 0 .5rem}
 .card.fit-low_profile{border-left:3px solid var(--accent)}
 .card.fit-maybe{border-left:3px solid var(--ok)}
 .fit-card p{margin:.35rem 0}
+/* 筐体イラスト。判定と同じ色にして、線画だけでも増設可否のニュアンスが伝わるようにする */
+.fit-art{float:left;width:52px;height:52px;margin:0 12px 8px 0}
+.card.fit-no .fit-art{color:var(--danger)}
+.card.fit-low_profile .fit-art{color:var(--accent)}
+.card.fit-maybe .fit-art{color:var(--ok)}
+.card.fit-unknown .fit-art{color:var(--text-muted)}
 .title-note{font-size:.78rem;margin:1rem 0 .3rem}
 .title-list{font-size:.8rem;color:var(--text-muted)}
 .title-list li{margin:.2rem 0}
