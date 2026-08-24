@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 08:24:34+09:00",
+  "generated_at": "2026-08-24 09:04:37+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -818,6 +818,40 @@
         {
           "price_yen": 97900,
           "observed_at": "2026-08-22 17:51:38"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC629682",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-12400",
+        "cpu_generation": 12,
+        "memory_gb": 16,
+        "storage": "SSD 512GB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD512GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 194186",
+      "price_yen": 95800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC629682.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-24 00:02:11",
+      "price_history": [
+        {
+          "price_yen": 95800,
+          "observed_at": "2026-08-24 00:02:11"
         }
       ]
     },
