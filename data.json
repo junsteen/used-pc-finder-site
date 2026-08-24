@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 16:04:39+09:00",
+  "generated_at": "2026-08-24 16:24:40+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1370,6 +1370,36 @@
         {
           "price_yen": 42600,
           "observed_at": "2026-08-22 17:52:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pc-good:10953400",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3",
+        "memory_gb": 8
+      },
+      "title": "中古パソコン Mac mini MRTR2J/A Late 2018【Core i3(3.6GHz)/8GB/128GB SSD】 Apple 当社3ヶ月間保証 イオシス",
+      "price_yen": 27800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q61to.2lytqe51.g00q61to.2lytrb63/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-good%2F287298%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-good%2Fi%2F10953400%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 07:22:23",
+      "price_history": [
+        {
+          "price_yen": 27800,
+          "observed_at": "2026-08-24 07:22:23"
         }
       ]
     },
