@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 19:44:43+09:00",
+  "generated_at": "2026-08-24 20:44:36+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -4667,39 +4667,6 @@
       "title": "Windows11 第8世代CPU搭載 高速M.2使用 ★ NEC Mate MRM29L-5 Core i5-8500(3.6G/4C/4T) メモリ8GB SSD256GB DVD",
       "price_yen": 29800,
       "url": "https://store.shopping.yahoo.co.jp/kdc-3/2-2871y2.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-24 02:22:51",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-24 02:22:51"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "kdc-3_2-2884y",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mrm28l-4",
-      "model_name": "Mate MRM28L-4",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "Windows11 第8世代CPU搭載 高速M.2使用 ★ NEC Mate MRM28L-4 Core i5-8400(2.8G/6C/6T) メモリ8GB SSD256GB DVD-RW",
-      "price_yen": 29800,
-      "url": "https://store.shopping.yahoo.co.jp/kdc-3/2-2884y.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "設定なし",
