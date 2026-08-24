@@ -94,9 +94,13 @@ ul.plain{margin:0;padding-left:1.1rem}
 .listing{display:flex;justify-content:space-between;gap:16px;padding:12px 0;
 border-bottom:1px solid var(--surface-line);font-size:14px}
 .listing:last-child{border-bottom:none}
-/* flexアイテムの既定 min-width:auto だと長い出品タイトルが縮まず画面をはみ出す */
-.listing>span:first-child{min-width:0;overflow-wrap:anywhere}
+/* flexアイテムの既定 min-width:auto だと長い出品タイトルが縮まず画面をはみ出す。
+   お気に入り一覧はチェックボックスが先頭に来るため:first-childではなく
+   クラスで指定する(お気に入り以外の.listingはこれまで通り最初のspan)。 */
+.listing>span:first-child,.listing .listing-text{min-width:0;overflow-wrap:anywhere}
 .listing .price{font-weight:700;white-space:nowrap}
+.listing .fav-select{flex-shrink:0;display:flex;align-items:center}
+.listing .fav-select input{width:16px;height:16px}
 
 /* 機種ページの出典URLをそのまま載せているため、狭い画面でも折り返せるようにする */
 footer{margin-top:48px;border-top:1px solid var(--surface-line);

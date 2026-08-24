@@ -127,6 +127,51 @@
     safeSet(FAVORITE_KEY, safeGet(FAVORITE_KEY).filter(function (f) { return f.key !== key; }));
   }
 
+  // --- アルバム(名前付きのお気に入りコレクション) ---------------------------
+  // お気に入りの中から選んだものをまとめて名前を付けられる。中身は
+  // お気に入りのキー(source:listing_id)の配列だけを持ち、実データは
+  // pcfinder:favorites 側を都度参照する(二重管理を避けるため)。
+  var ALBUM_KEY = 'pcfinder:albums';
+  var ALBUM_MAX = 30;
+
+  function createAlbum(name, keys) {
+    var list = safeGet(ALBUM_KEY);
+    var album = {
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+      name: (name || '').trim() || '無題のアルバム',
+      keys: (keys || []).slice(),
+      created_at: new Date().toISOString(),
+    };
+    list.unshift(album);
+    if (list.length > ALBUM_MAX) list.length = ALBUM_MAX;
+    safeSet(ALBUM_KEY, list);
+    return album.id;
+  }
+
+  function getAlbums() {
+    return safeGet(ALBUM_KEY);
+  }
+
+  function renameAlbum(id, name) {
+    var list = safeGet(ALBUM_KEY);
+    var album = list.filter(function (a) { return a.id === id; })[0];
+    if (!album) return;
+    album.name = (name || '').trim() || album.name;
+    safeSet(ALBUM_KEY, list);
+  }
+
+  function deleteAlbum(id) {
+    safeSet(ALBUM_KEY, safeGet(ALBUM_KEY).filter(function (a) { return a.id !== id; }));
+  }
+
+  function removeFromAlbum(id, key) {
+    var list = safeGet(ALBUM_KEY);
+    var album = list.filter(function (a) { return a.id === id; })[0];
+    if (!album) return;
+    album.keys = album.keys.filter(function (k) { return k !== key; });
+    safeSet(ALBUM_KEY, list);
+  }
+
   global.pcFinder = global.pcFinder || {};
   Object.assign(global.pcFinder, {
     recordView: recordView,
@@ -141,5 +186,10 @@
     toggleFavorite: toggleFavorite,
     getFavorites: getFavorites,
     removeFavorite: removeFavorite,
+    createAlbum: createAlbum,
+    getAlbums: getAlbums,
+    renameAlbum: renameAlbum,
+    deleteAlbum: deleteAlbum,
+    removeFromAlbum: removeFromAlbum,
   });
 })(window);
