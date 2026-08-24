@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 23:44:41+09:00",
+  "generated_at": "2026-08-25 00:05:04+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1625,36 +1625,6 @@
         {
           "price_yen": 42600,
           "observed_at": "2026-08-22 17:52:27"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "janpara:10845109",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i7"
-      },
-      "title": "【中古】Apple Mac mini CTO (Late 2012) Core i7(2.3G)/8G/1T/Intel HD 4000【日本橋3】保証期間1ヶ月【ランクC】",
-      "price_yen": 11980,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tw8so.2lytq590.g00tw8so.2lytrc99/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjanpara%2F57224456-57%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjanpara%2Fi%2F10845109%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-24 09:02:23",
-      "price_history": [
-        {
-          "price_yen": 11980,
-          "observed_at": "2026-08-24 09:02:23"
         }
       ]
     },
