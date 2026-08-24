@@ -192,6 +192,9 @@ margin:0 0 .5rem}
 .title-note{font-size:.78rem;margin:1rem 0 .3rem}
 .title-list{font-size:.8rem;color:var(--text-muted)}
 .title-list li{margin:.2rem 0}
+/* 出品タイトルの原文には、括弧やスラッシュを跨ぐ長い英数字の並びが
+   よくあり(型番・カード名など)、通常の折り返しでは切れずに幅を押し広げる */
+.title-list a{overflow-wrap:anywhere}
 /* 出品一覧の表。列が多いので、狭い画面では表だけを横スクロールさせる
    (ページ全体が横に動くと他の内容まで読めなくなるため) */
 .est-note{font-size:.78rem;margin:0 0 .6rem}

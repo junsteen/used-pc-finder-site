@@ -6,7 +6,6 @@ gap:.5rem 1rem;align-items:start}
 .hero-text{max-width:44rem;flex:1 1 auto;min-width:0}
 .hero h1{font-size:28px;line-height:1.45}
 @media(max-width:640px){.hero h1{font-size:22px}.hero-br{display:none}}
-.lede{color:var(--text-muted);max-width:60ch;margin:12px 0 0;font-size:14px}
 .hero-art{flex:0 0 auto;width:200px;height:150px;color:var(--text)}
 /* イラストは補助。狭い画面では検索を優先し、先に隠す */
 @media(max-width:900px){.hero-art{width:150px;height:113px}}

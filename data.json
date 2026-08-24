@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 12:24:48+09:00",
+  "generated_at": "2026-08-24 12:28:59+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -6493,12 +6493,13 @@
       "source": "combo",
       "source_label": "組み合わせ（2店）",
       "listing_id": "dospara:IC653187+yahoo_shopping:janpara_59062968-59",
-      "watch_name": "bare_desktop_for_gpu",
+      "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
       "category": "combo",
       "model_slug": null,
       "model_name": null,
+      "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",
         "cpu_generation": 8,
@@ -6539,12 +6540,13 @@
       "source": "combo",
       "source_label": "組み合わせ（2店）",
       "listing_id": "dospara:IC653187+yahoo_shopping:janpara_83287558-83",
-      "watch_name": "bare_desktop_for_gpu",
+      "watch_name": "bonsai_gpu_pc",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
       "category": "combo",
       "model_slug": null,
       "model_name": null,
+      "model_maker": "NEC",
       "parsed": {
         "cpu": "Core i5-8400",
         "cpu_generation": 8,
