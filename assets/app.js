@@ -266,10 +266,18 @@
   // 同じ店が同一機種を複数台出していることがある(中古なので1台ずつ別の出品)。
   // 表にすると同じ行が並んで見分けが付かないため、1行にまとめて台数を添える。
   // 価格・状態が違えば別の行として残す(比較の対象が変わるため)。
+  //
+  // 「同じ店」と言えるのは shop_id を持つ出品(ソフマップ等、直接収集している
+  // 実店舗)だけ。楽天・Yahoo!ショッピングの source は1つのモール名で複数の
+  // 異なる出品者をまとめてしまうため、たまたまタイトル・価格・状態が一致しても
+  // 別の店の可能性がある。ここを source でまとめると「1店で2台在庫」のように
+  // 見えてしまい、実際には別々の店の出品を誤って合算表示することになる。
   function groupDuplicates(items) {
     const map = new Map();
     for (const l of items) {
-      const key = [l.source, l.title, l.price_yen, l.condition_rank || ''].join(' ');
+      const key = l.shop_id
+        ? [l.shop_id, l.title, l.price_yen, l.condition_rank || ''].join(' ')
+        : [l.source, l.listing_id].join(' ');
       const seen = map.get(key);
       if (seen) seen.count += 1;
       else map.set(key, Object.assign({}, l, { count: 1 }));

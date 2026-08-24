@@ -10,7 +10,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   X-Frame-Options: DENY
-  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'self' https://fonts.gstatic.com; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
 
 # data.json は収集のたびに更新されるため、長時間キャッシュされると古い価格が表示される。
 # 5分でstaleとし、再検証中は古い値を返す(表示が途切れない)。
