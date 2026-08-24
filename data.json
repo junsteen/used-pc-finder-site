@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 17:04:42+09:00",
+  "generated_at": "2026-08-24 17:24:38+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1497,38 +1497,6 @@
         {
           "price_yen": 24980,
           "observed_at": "2026-08-24 04:42:21"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "pcspocket:10003857",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "【送料無料 1年保証】中古パソコン | Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 一年保証 | 第8世代 | Core i3 8100 3.6GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | Win11Pro64bit",
-      "price_yen": 24980,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0fnmcz34g%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10003857%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-24 01:02:22",
-      "price_history": [
-        {
-          "price_yen": 24980,
-          "observed_at": "2026-08-24 01:02:22"
         }
       ]
     },
