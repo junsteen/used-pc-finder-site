@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25 00:31:10+09:00",
+  "generated_at": "2026-08-25 00:45:20+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2384,6 +2384,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_21086",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m72e",
+      "model_name": "ThinkCentre M72e",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3-3240",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "storage": "HDD 250GB",
+        "os": "Windows 8.1 Pro"
+      },
+      "title": "Windows8.1 Pro 64bit Lenovo ThinkCentre M72e Small 3578-HQJ Core i3-3240 3.4GHz メモリ 4GB HDD 250GB(SATA) DVDマルチ 外観難あり(筐体サビ)",
+      "price_yen": 7980,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21086.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:53:19",
+      "price_history": [
+        {
+          "price_yen": 7980,
+          "observed_at": "2026-08-22 17:53:19"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21963",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -2509,6 +2543,37 @@
         {
           "price_yen": 31800,
           "observed_at": "2026-08-22 17:52:28"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_d-3070-3070ms-a011",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Dell デル Optiplex 3070 3070-3070MS Core i5 メモリ：8GB SSD搭載 6ヶ月保証",
+      "price_yen": 23700,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/d-3070-3070ms-a011.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-24 15:43:09",
+      "price_history": [
+        {
+          "price_yen": 23700,
+          "observed_at": "2026-08-24 15:43:09"
         }
       ]
     },
@@ -3877,6 +3942,37 @@
         {
           "price_yen": 31980,
           "observed_at": "2026-08-22 17:52:28"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_66418596-66",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【秋葉3号】保証期間１週間",
+      "price_yen": 34980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/66418596-66.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-23 02:49:23",
+      "price_history": [
+        {
+          "price_yen": 34980,
+          "observed_at": "2026-08-23 02:49:23"
         }
       ]
     },
