@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 23:04:39+09:00",
+  "generated_at": "2026-08-24 23:24:41+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2179,39 +2179,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "accessone_epson-st180e-i56",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-st180e",
-      "model_name": "Endeavor ST180E",
-      "chassis_gpu_fit": "no",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i5-6500T",
-        "cpu_generation": 6,
-        "memory_gb": 8,
-        "storage": "SSD 256GB"
-      },
-      "title": "中古デスクトップ パソコン 本体 EPSON Endeavor ST180E Core i5 6500T メモリ8GB SSD256GB Office搭載 爆買",
-      "price_yen": 29800,
-      "url": "https://store.shopping.yahoo.co.jp/accessone/epson-st180e-i56.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:53",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-24 02:22:53"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_13613",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -2475,40 +2442,6 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-08-24 02:22:51"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_21086",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m72e",
-      "model_name": "ThinkCentre M72e",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-3240",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "storage": "HDD 250GB",
-        "os": "Windows 8.1 Pro"
-      },
-      "title": "Windows8.1 Pro 64bit Lenovo ThinkCentre M72e Small 3578-HQJ Core i3-3240 3.4GHz メモリ 4GB HDD 250GB(SATA) DVDマルチ 外観難あり(筐体サビ)",
-      "price_yen": 7980,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21086.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 7980,
-          "observed_at": "2026-08-22 17:53:19"
         }
       ]
     },
@@ -5045,40 +4978,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "oastation2014_m720q-w11",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-9400T",
-        "cpu_generation": 9,
-        "memory_gb": 16,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "Lenovo ThinkCentre M720q Core i5-9400T 1.8GHz 16GB SSD256GB 中古 デスクトップ Windows 11Pro 64bit ちょいキズ",
-      "price_yen": 17600,
-      "url": "https://store.shopping.yahoo.co.jp/oastation2014/m720q-w11.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 17600,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-m_d582-4",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -5926,40 +5825,6 @@
       "price_history": [
         {
           "price_yen": 16600,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_55c252770",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
-      "price_yen": 21900,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/55c252770.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 21900,
           "observed_at": "2026-08-22 17:53:19"
         }
       ]
