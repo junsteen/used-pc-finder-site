@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25 00:17:41+09:00",
+  "generated_at": "2026-08-25 00:25:05+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1857,6 +1857,39 @@
         {
           "price_yen": 27800,
           "observed_at": "2026-08-24 10:02:25"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pasonette:10000316",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-3470",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "storage": "HDD 1TB"
+      },
+      "title": "【貴重XP搭載モデル】中古パソコン HP Compaq Pro 6300 SF Windows XP Professional 32bit SP3 Core i5-3470 メモリ 4GB HDD 1TB DVDマルチ デスクトップ パソコン PC ヒューレットパッカード 整備済み 11年以上の運営実績",
+      "price_yen": 29800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s7j1o.2lytq021.g00s7j1o.2lytr311/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpasonette%2Fr20220606-02%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpasonette%2Fi%2F10000316%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 15:22:41",
+      "price_history": [
+        {
+          "price_yen": 29800,
+          "observed_at": "2026-08-24 15:22:41"
         }
       ]
     },
