@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25 23:06:08+09:00",
+  "generated_at": "2026-08-25 23:26:09+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2772,6 +2772,239 @@
         {
           "price_yen": 19800,
           "observed_at": "2026-08-25 14:02:26"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10618969",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-3470",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "os": "Windows 10 Pro"
+      },
+      "title": "【中古】「非常に良い」 富士通 FMV-ESPRIMO D752/F デスクトップパソコン Core i5 3470 3.2GHz メモリ4GB 250GBHDD DVDスーパーマルチ Windows10 Professional 64b",
+      "price_yen": 28413,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb072v7rty1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10618969%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:22:20",
+      "price_history": [
+        {
+          "price_yen": 28413,
+          "observed_at": "2026-08-25 14:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10623421",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第3世代）",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "storage": "HDD 250GB",
+        "os": "Windows 10"
+      },
+      "title": "【中古】「非常に良い」 デスクトップパソコン（Windows10）富士通 ESPRIMO D582/G（第3世代Core i5 / メモリ 4GB / HDD 250GB / DVD-ROM）（パソコン）（パソコン販売",
+      "price_yen": 28157,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb07b91p8hs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10623421%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:22:20",
+      "price_history": [
+        {
+          "price_yen": 28157,
+          "observed_at": "2026-08-25 14:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10626025",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-3220",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "os": "Windows 10"
+      },
+      "title": "【中古】「非常に良い」パソコン Windows10 デスクトップ 一年 富士通 FMV-D551/F(FX) Core i3 3220 3.3GHz MEM:4GB HDD:250GB DVDマルチ Win10Pro64Bit",
+      "price_yen": 21014,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb07plbwzgs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10626025%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:22:20",
+      "price_history": [
+        {
+          "price_yen": 21014,
+          "observed_at": "2026-08-25 14:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10759069",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mk34lb-g",
+      "model_name": "Mate MK34LB-G",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i3-3240",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "storage": "HDD 500GB"
+      },
+      "title": "【中古】「非常に良い」[ デスクトップ/WPS ] NEC Mate MK34LB-G Win10 Pro Core i3 3240 3.40GHz メモリ4GB HDD500GB [ DVDマルチ ]",
+      "price_yen": 26565,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb084d33m79%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10759069%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:22:20",
+      "price_history": [
+        {
+          "price_yen": 26565,
+          "observed_at": "2026-08-25 14:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10759819",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-3450",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "storage": "HDD 500GB",
+        "os": "Windows 10"
+      },
+      "title": "【中古】「非常に良い」 NEC デスクトップパソコン Mate J MB-E 単体 Windows10 64bit搭載 Core i5 3450搭載 メモリー4GB搭載 HDD500GB搭載",
+      "price_yen": 28875,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb0851bvntp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10759819%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:22:20",
+      "price_history": [
+        {
+          "price_yen": 28875,
+          "observed_at": "2026-08-25 14:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10762190",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-3240",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "os": "Windows 10"
+      },
+      "title": "【中古】「非常に良い」中古パソコン Windows10 デスクトップ 富士通 ESPRIMO D551/G(GX) Core i3 3240 3.4GHz MEM:4GB HDD:500GB DVDマルチ 無線LAN:なし Win",
+      "price_yen": 23354,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb08c5gcx3w%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10762190%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:22:20",
+      "price_history": [
+        {
+          "price_yen": 23354,
+          "observed_at": "2026-08-25 14:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10762253",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3（第3世代）",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "storage": "SSD 128GB"
+      },
+      "title": "【中古】「非常に良い」富士通 ESPRIMO D582/G/Win10Pro/Core i3 第3世代/4GB/SSD/USB3.0 x4/WPS (SSD 128GB)",
+      "price_yen": 26979,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb0827kdszp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10762253%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:22:20",
+      "price_history": [
+        {
+          "price_yen": 26979,
+          "observed_at": "2026-08-25 14:22:20"
         }
       ]
     },
