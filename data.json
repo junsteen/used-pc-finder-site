@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26 06:07:14+09:00",
+  "generated_at": "2026-08-26 06:46:05+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1065,41 +1065,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC629682",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-12400",
-        "cpu_generation": 12,
-        "memory_gb": 16,
-        "storage": "SSD 512GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD512GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 194186",
-      "price_yen": 95800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC629682.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-24 00:02:11",
-      "price_history": [
-        {
-          "price_yen": 95800,
-          "observed_at": "2026-08-24 00:02:11"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC640170",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -1370,41 +1335,6 @@
         {
           "price_yen": 99800,
           "observed_at": "2026-08-23 23:02:11"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC654776",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-12400",
-        "cpu_generation": 12,
-        "memory_gb": 16,
-        "storage": "SSD 500GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD500GB/BD-RE/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 201848",
-      "price_yen": 94800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC654776.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-24 21:02:12",
-      "price_history": [
-        {
-          "price_yen": 94800,
-          "observed_at": "2026-08-24 21:02:12"
         }
       ]
     },
@@ -3247,40 +3177,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_19783",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk36hb-v",
-      "model_name": "Mate MK36HB-V",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i7-7700",
-        "cpu_generation": 7,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "パソコン 中古 Windows11 Pro 64bit NEC Mate MK36HB-V (PC-MK36HBZGV) Core i7-7700 3.6GHz メモリ 8GB SSD 256GB(新品) DisplayPort RS232C デスクトップ",
-      "price_yen": 29800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/19783.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-25 14:02:32",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-25 14:02:32"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21086",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -3309,73 +3205,6 @@
         {
           "price_yen": 7980,
           "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_21963",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk32me-b",
-      "model_name": "Mate MK32ME-B",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i5-650",
-        "memory_gb": 2,
-        "storage": "HDD 160GB",
-        "os": "Windows 7 Pro"
-      },
-      "title": "Windows7 Pro 32bit NEC Mate MK32ME-B (PC-MK32MEZCB) Corei5 650 3.2GHz メモリ 2GB HDD 160GB(SATA) DVD-ROM 筐体黄ばみあり",
-      "price_yen": 24800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21963.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-08-22 17:53:23"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_21966",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk33lb-e",
-      "model_name": "Mate MK33LB-E",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i3-2120",
-        "cpu_generation": 2,
-        "memory_gb": 2,
-        "storage": "HDD 250GB",
-        "os": "Windows 7 Pro"
-      },
-      "title": "Windows7 Pro 32bit NEC Mate MK33LB-E (PC-MK33LBZCE) Core i3-2120 3.3GHz メモリ 2GB HDD 250GB(SATA) DVD-ROM 筐体黄ばみあり",
-      "price_yen": 22800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21966.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:23",
-      "price_history": [
-        {
-          "price_yen": 22800,
-          "observed_at": "2026-08-22 17:53:23"
         }
       ]
     },
@@ -6611,39 +6440,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-premium_1243228",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243228",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243228.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_1243229",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -9760,40 +9556,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "rinkai-store_dell-3070-i59",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070",
-      "model_name": "OptiPlex 3070",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "ミニデスクトップパソコン mini PC 中古 DELL Optiplex 3070 第9世代 Core i3/5 メモリ8GB/16GB SSD256GB/512GB Office搭載 Windows11",
-      "price_yen": 29800,
-      "url": "https://store.shopping.yahoo.co.jp/rinkai-store/dell-3070-i59.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-25 15:42:34",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-25 15:42:34"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "rinkai-store_epson-st180e-i56",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -9821,37 +9583,6 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-08-24 02:22:53"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "risemark_94864",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-ny2500s",
-      "model_name": "Endeavor NY2500S",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i5-6200U",
-        "cpu_generation": 6
-      },
-      "title": "EPSON Endeavor NY2500S【Core i5 6200U】電源投入可／HDMI ジャンクPC 送料無料 [94864]",
-      "price_yen": 3850,
-      "url": "https://store.shopping.yahoo.co.jp/risemark/94864.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:25",
-      "price_history": [
-        {
-          "price_yen": 3850,
-          "observed_at": "2026-08-22 17:53:25"
         }
       ]
     },
@@ -11203,40 +10934,6 @@
       "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/yuukou-store2/lenovo-m710q-i5.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 23800,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "yuukou-store_lenovo-m710q-i5",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m710q",
-      "model_name": "ThinkCentre M710q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-7400T",
-        "cpu_generation": 7,
-        "memory_gb": 4,
-        "storage": "HDD 500GB",
-        "os": "Windows 11"
-      },
-      "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
-      "price_yen": 23800,
-      "url": "https://store.shopping.yahoo.co.jp/yuukou-store/lenovo-m710q-i5.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
