@@ -13,6 +13,7 @@
     max: document.getElementById('f-max'),
     os: document.getElementById('f-os'),
     cpu: document.getElementById('f-cpu'),
+    gen: document.getElementById('f-gen'),
     mem: document.getElementById('f-mem'),
     storage: document.getElementById('f-storage'),
     maker: document.getElementById('f-maker'),
@@ -40,7 +41,7 @@
   el.chassis.value = params.get('chassis') || '';
   el.gpuOnly.checked = params.get('gpu') === '1';
   el.max.value = params.get('max') || '';
-  ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
+  ['os', 'cpu', 'gen', 'mem', 'storage', 'maker'].forEach(k => {
     el[k].dataset.param = k;
   });
 
@@ -214,7 +215,7 @@
     const req = el.purpose.value ? state.data.requirements[el.purpose.value] : null;
     renderPurposePanel(req);
 
-    const os = el.os.value, cpuSeries = el.cpu.value, maker = el.maker.value;
+    const os = el.os.value, cpuSeries = el.cpu.value, gen = el.gen.value, maker = el.maker.value;
     const minMem = parseInt(el.mem.value, 10);
     const minStorage = parseInt(el.storage.value, 10);
 
@@ -234,6 +235,7 @@
       const p = l.parsed || {};
       if (os && p.os !== os) return false;
       if (cpuSeries && cpuOf(l) !== cpuSeries) return false;
+      if (gen && String(genOf(l)) !== gen) return false;
       if (maker && l.model_maker !== maker) return false;
       if (!isNaN(minMem) && !(p.memory_gb >= minMem)) return false;
       if (!isNaN(minStorage) && !(storageGb(p.storage) >= minStorage)) return false;
@@ -534,6 +536,12 @@
     return m ? m[1] : cpu;
   }
 
+  // CPU世代(第何世代のIntel Coreか)。Ryzen等はタイトルから世代を推定していないため
+  // parsed.cpu_generationが無い出品は絞り込みの対象から外れる(=誤って合致扱いにしない)。
+  function genOf(l) {
+    return (l.parsed || {}).cpu_generation || null;
+  }
+
   // 「SSD 512GB + HDD 2TB」を合計GBにする。並べ替えのためだけの値。
   function storageGb(text) {
     if (!text || text === 'なし') return text === 'なし' ? 0 : null;
@@ -692,13 +700,15 @@
       listings.forEach(l => { const v = fn(l); if (v) m.set(v, (m.get(v) || 0) + 1); });
       return m;
     };
-    const byCount = (m, min) => [...m.entries()]
+    const byCount = (m, min, label) => [...m.entries()]
       .filter(([, n]) => n >= (min || 1))
       .sort((a, b) => b[1] - a[1])
-      .map(([v, n]) => [v, v + '（' + n + '）']);
+      .map(([v, n]) => [v, (label || ((v, n) => v + '（' + n + '）'))(v, n)]);
 
     fill(el.os, byCount(tally(l => (l.parsed || {}).os), 2));
     fill(el.cpu, byCount(tally(cpuOf), 2));
+    // 世代は数値なので「Core i5（3）」ではなく「第8世代（3）」の形でラベルを作る。
+    fill(el.gen, byCount(tally(genOf), 2, (v, n) => '第' + v + '世代（' + n + '）'));
     fill(el.maker, byCount(tally(l => l.model_maker), 1));
     // 容量は「以上」で絞る。実在する刻みだけを出す。
     const mem = [...new Set(listings.map(l => (l.parsed || {}).memory_gb).filter(Boolean))]
@@ -845,7 +855,7 @@
     if (el.chassis.value) p.set('chassis', el.chassis.value);
     if (el.gpuOnly.checked) p.set('gpu', '1');
     if (el.max.value) p.set('max', el.max.value);
-    ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
+    ['os', 'cpu', 'gen', 'mem', 'storage', 'maker'].forEach(k => {
       if (el[k].value) p.set(k, el[k].value);
     });
     const sortText = formatSort(state.sort);
@@ -855,7 +865,7 @@
   }
 
   [el.purpose, el.keyword, el.category, el.form, el.chassis, el.gpuOnly, el.max,
-   el.os, el.cpu, el.mem, el.storage, el.maker].forEach(input => {
+   el.os, el.cpu, el.gen, el.mem, el.storage, el.maker].forEach(input => {
     input.addEventListener('input', () => { render(); syncUrl(); });
   });
 
@@ -886,7 +896,7 @@
     el.chassis.value = '';
     el.gpuOnly.checked = false;
     el.max.value = '';
-    ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => { el[k].value = ''; });
+    ['os', 'cpu', 'gen', 'mem', 'storage', 'maker'].forEach(k => { el[k].value = ''; });
     render();
     syncUrl();
   });
@@ -941,7 +951,7 @@
       el.category.value = params.get('cat') || '';
 
       buildSpecFilters(data.listings);
-      ['os', 'cpu', 'mem', 'storage', 'maker'].forEach(k => {
+      ['os', 'cpu', 'gen', 'mem', 'storage', 'maker'].forEach(k => {
         el[k].value = params.get(k) || '';
       });
 
