@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25 22:40:05+09:00",
+  "generated_at": "2026-08-25 22:44:37+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -553,6 +553,220 @@
           }
         ]
       }
+    },
+    "endeavor_jm4800": {
+      "model_id": "endeavor_jm4800",
+      "display_name": "Endeavor JM4800",
+      "manufacturer_id": "epson_direct",
+      "category": "desktop",
+      "verified": false,
+      "spec_source": {
+        "url": "https://shop.epson.jp/pc/pdf/JM4800.pdf",
+        "type": "official",
+        "fetched_at": "2026-08-25",
+        "note": "仕様書(2020年1月12日時点版)のOS記載はWindows 10 IoT Enterprise 2019 LTSCのみだが、中古出品では通常のWindows 10搭載機として流通しており、販売時期によりPro/Home等の選択肢があった可能性が高い(BTO構成の全体像は未確認)。",
+        "additional_sources": []
+      },
+      "spec": {
+        "cpu_generation": "第8/9世代 Intel Core (Coffee Lake、Core i3-9100 / i5-9400 / i7-8700 / i7-8700Kから選択)",
+        "cpu_socket": "LGA1151",
+        "chipset": "Intel H370",
+        "gpu": "CPU内蔵3Dグラフィックスの他、NVIDIA GeForceシリーズ・NVIDIA Quadroシリーズを選択搭載可能",
+        "memory_type": "PC4-2666 DDR4 SDRAM Non-ECC",
+        "memory_slots": 4,
+        "memory_max_gb": 64,
+        "storage_bays": "3.5インチHDD/2.5インチSSD x2(基本構成で空き1) + 5.25インチ光学ドライブベイx1(空き0) + M.2スロットx1",
+        "storage_interface": "SATA 600MB/s(HDD/SSD)、M.2はPCIe x4接続。一部構成でRAID 1対応",
+        "expansion_slots": "PCI Express x16 x1、PCIe x4 x1、PCIe x1 x1、PCI x1(全てロープロファイル、ボード長170mm×69mmまで)",
+        "gpu_fit": "low_profile",
+        "gpu_fit_note": "拡張スロットは全てロープロファイル。標準構成でNVIDIA GeForce/Quadroの選択肢があるため、ロープロファイル対応品なら増設可能。",
+        "dimensions_mm": "98.0 (W) x 395.5 (D) x 357.0 (H)、突起部除く(スタンド装着時 154.0 x 395.5 x 368.2mm)",
+        "weight_kg": 7.0,
+        "psu_w": "内蔵電源、容量300W(AC100V、入力波形は正弦波のみ対応)",
+        "ports": [
+          "前面: USB 3.2 Gen1 x2、ヘッドホン出力 x1、マイク入力 x1",
+          "背面: USB 3.2 Gen2 x2(オプション増設)、USB 3.2 Gen1 x2、USB 2.0 x2、ライン入力/マイク入力/ライン出力各x1、VGA x1、DVI-D x1、HDMI x1、シリアル(オプション最大2)、パラレル(オプション)、PS/2キーボード/マウス各x1",
+          "マルチモニター最大3画面(VGA・DVI-D・HDMI併用)"
+        ],
+        "os_options": [
+          "Windows 10 IoT Enterprise 2019 LTSC 64bit"
+        ]
+      },
+      "note": "参照した仕様書は2020年1月時点版のため、CPU・OS選択肢は販売期間中に変動した可能性がある。拡張スロットはロープロファイル限定で、フルサイズのグラフィックボードは物理的に搭載不可。"
+    },
+    "thinkcentre_m720e": {
+      "model_id": "thinkcentre_m720e",
+      "display_name": "ThinkCentre M720e",
+      "manufacturer_id": "lenovo",
+      "category": "desktop",
+      "verified": false,
+      "spec_source": {
+        "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M720e_SFF/ThinkCentre_M720e_SFF_Spec.PDF",
+        "type": "official",
+        "fetched_at": "2026-08-25",
+        "note": "Lenovo PSREF上の正式名称は「ThinkCentre M720e SFF」。同シリーズにM720e名義の他筐体は無く、中古出品の「M720e」表記は常にこのSFFモデルを指す。",
+        "additional_sources": [
+          "https://psref.lenovo.com/Product/ThinkCentre/ThinkCentre_M720e_SFF"
+        ]
+      },
+      "spec": {
+        "chassis": "SFF (7.4L)",
+        "cpu_generation": "第8/9世代 Intel Core (Celeron/Pentium Gold〜Core i9まで選択可)",
+        "chipset": "Intel B365",
+        "memory_type": "DDR4-2400 / DDR4-2666",
+        "memory_slots": 2,
+        "memory_max_gb": 32,
+        "storage_bays": "3.5インチHDDベイx1 + スリムODDベイx1 + M.2スロットx1(SSD用)",
+        "storage_interface": "SATA 6Gb/s、M.2はPCIe NVMe(M.2 2242=PCIe3.0x2、M.2 2280=PCIe3.0x4、Opal対応)。RAID非対応",
+        "expansion_slots": "PCIe3.0 x16ロープロファイル x1、PCIe3.0 x1ロープロファイル x1、M.2スロット(SSD用)x1",
+        "gpu_fit": "low_profile",
+        "gpu_fit_note": "拡張スロットがロープロファイル専用。標準構成の選択肢にもAMD Radeon 520 2GB(ロープロファイル)がある。",
+        "dimensions_mm": "100 (W) x 274.8 (D) x 303.5 (H)",
+        "weight_kg": 4.25,
+        "psu_w": "180W(固定、変換効率85%)",
+        "ports": [
+          "前面: USB 3.1 Gen1 x2、ヘッドホン/マイクコンボ x1、マイク x1(カードリーダーはオプション)",
+          "背面: USB 2.0 x2、USB 3.1 Gen1 x2、VGA x1、DisplayPort x1、シリアル(9pin) x1、Ethernet(RJ-45) x1、ライン出力 x1",
+          "HDMI標準搭載なし(DP-HDMI変換で対応)"
+        ],
+        "os_options": [
+          "Windows 10 Home 64bit",
+          "Windows 10 Pro 64bit",
+          "Ubuntu Linux",
+          "OSなし"
+        ]
+      },
+      "note": "同シリーズのM720s(SFF)とは拡張スロット構成が異なり、本機はPCIe x16ロープロ1本+x1ロープロ1本の計2本(M720sは3本)。チップセットもB365(M720sはB360)。"
+    },
+    "thinkcentre_m720q": {
+      "model_id": "thinkcentre_m720q",
+      "display_name": "ThinkCentre M720q",
+      "manufacturer_id": "lenovo",
+      "category": "desktop",
+      "verified": false,
+      "spec_source": {
+        "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M720_Tiny/ThinkCentre_M720_Tiny_Spec.pdf",
+        "type": "official",
+        "fetched_at": "2026-08-25",
+        "note": "Lenovo PSREF上は「ThinkCentre M720 Tiny」として掲載(型番末尾「q」表記は中古市場での慣用)。CPUはTiny筐体向けの低TDP・末尾T付きモデルのみでラインアップされる。",
+        "additional_sources": [
+          "https://psref.lenovo.com/Product/ThinkCentre/ThinkCentre_M720_Tiny"
+        ]
+      },
+      "spec": {
+        "chassis": "Tiny (1L)",
+        "cpu_generation": "第8/9世代 Intel Core省電力T付き (Celeron/Pentium Gold〜Core i9Tまで選択可)",
+        "chipset": "Intel B360",
+        "memory_type": "DDR4-2666",
+        "memory_slots": 2,
+        "memory_max_gb": 32,
+        "storage_bays": "2.5インチHDD/SSDベイx1 + M.2スロットx2(SSD用・WLAN用各1)。2.5インチドライブとPCIe拡張カードは排他利用",
+        "storage_interface": "SATA 6Gb/s、M.2はPCIe NVMe(M.2 2242=PCIe3.0x2、M.2 2280=PCIe3.0x4、Opal/Opal2.0対応)。RAID非対応",
+        "expansion_slots": "PCIe3.0 x8ロープロファイル x1(2.5インチドライブと排他)",
+        "gpu_fit": "no",
+        "gpu_fit_note": "超小型筐体(1L)のため一般的なグラフィックボードは物理的に搭載不可。唯一の拡張スロットもPCIe3.0 x8ロープロ1本で、通信/シリアル増設カード等の用途向け。",
+        "dimensions_mm": "179 (W) x 183 (D) x 34.5/37 (H)、ゴム足含む(Tiny単体、ODDボックス・VESAマウント込みは188.4 x 185.38 x 63mm)",
+        "weight_kg": 1.32,
+        "psu_w": "65W/90W/135Wのいずれか(ACアダプター方式、変換効率88%)",
+        "ports": [
+          "前面: USB 3.1 Gen1 x1(常時給電・急速充電対応)、USB-C 3.1 Gen1 x1、ヘッドホン/マイクコンボ x1、マイク x1",
+          "背面: USB 3.1 Gen1 x2、USB 3.1 Gen2 x2、HDMI x1、DisplayPort x1、Ethernet(RJ-45) x1",
+          "カードリーダーなし。オプションでVGA/2nd DP/2nd HDMI/シリアル等の追加ポートを選択可能"
+        ],
+        "os_options": [
+          "Windows 10 Pro 64bit",
+          "Windows 10 Home 64bit",
+          "Windows 10 Home 64bit (シングル言語)",
+          "Windows 10 IoT Enterprise",
+          "Ubuntu Linux",
+          "OSなし"
+        ]
+      },
+      "note": "「q」は同シリーズのTiny(超小型)筐体を指す慣用表記。SFFのM720s・M720eと異なりGPU増設は不可。CPUもTiny専用の低TDP版(型番末尾T)のみで、M720s/e用の通常版CPUとは型番が異なるため中古相場・性能を混同しないこと。"
+    },
+    "mate_mrl36l-5": {
+      "model_id": "mate_mrl36l-5",
+      "display_name": "Mate MRL36/L-5",
+      "manufacturer_id": "nec_pc",
+      "category": "desktop",
+      "verified": false,
+      "release_date": "2019-07",
+      "spec_source": {
+        "url": "https://support.nec-lavie.jp/navigate/support/productsearch/bizpc/201907//MRL36L5/spec.html",
+        "type": "official",
+        "fetched_at": "2026-08-25",
+        "note": "基本構成(Core i3-9100)の仕様一覧。中古出品もCore i3-9100搭載機が大半で本仕様と一致する。",
+        "additional_sources": [
+          "https://support.nec-lavie.jp/support/product/data/selection_menu/mrl36l5-01.html"
+        ]
+      },
+      "spec": {
+        "chassis": "タイプML(スリムタワー)",
+        "cpu_generation": "第9世代 Intel Core (Core i3-9100、3.60GHz/ターボブースト時最大4.20GHz、4コア/4スレッド)",
+        "chipset": "Intel B360",
+        "memory_type": "DDR4(メモリバス2,400MHz) Non-ECC",
+        "memory_slots": 2,
+        "memory_max_gb": 16,
+        "storage_bays": "内蔵3.5インチベイx1(基本構成はHDD選択で占有、空きスロット0)",
+        "storage_interface": "SATA。M.2 NVMeの記載なし",
+        "expansion_slots": "PCI Express x1ロープロファイル x2、PCI Express x16ロープロファイル x1",
+        "gpu_fit": "low_profile",
+        "gpu_fit_note": "拡張スロットは全てロープロファイル。標準構成にGPUの選択肢は無いが、ロープロファイル対応カードなら物理的に搭載可能。",
+        "dimensions_mm": "89 (W) x 291 (D) x 340 (H)、スタンド含まず(スタンド含む場合 159 x 291 x 358mm)",
+        "weight_kg": 5.3,
+        "psu_w": "内蔵電源、AC100-240V(PSU容量自体の記載なし。参考値: 最大消費電力 約161W)",
+        "ports": [
+          "前面: USB 3.1 Gen2 x2、USB 3.0(Gen1) x2",
+          "背面: USB 2.0 x4、シリアル(RS-232C 9pin) x1、VGA(ミニD-sub15pin) x1、DisplayPort x2(HDCP対応、変換アダプタでDVI-D/HDMI化可)、RJ45 LAN x1"
+        ],
+        "os_options": [
+          "Windows 10 Pro 64bit",
+          "Windows 10 Home 64bit"
+        ]
+      },
+      "note": "MRM28/L-4の後継世代相当機。筐体・拡張スロット構成は共通でCPU世代のみ異なる(公式仕様書はいずれもIntel B360チップセットと記載)。"
+    },
+    "mate_mrm28l-4": {
+      "model_id": "mate_mrm28l-4",
+      "display_name": "Mate MRM28/L-4",
+      "manufacturer_id": "nec_pc",
+      "category": "desktop",
+      "verified": false,
+      "release_date": "2019-01",
+      "spec_source": {
+        "url": "https://support.nec-lavie.jp/navigate/support/productsearch/old_number/MRM28L4/spec.html",
+        "type": "official",
+        "fetched_at": "2026-08-25",
+        "note": "基本構成(Core i5-8400)の仕様一覧。中古出品もCore i5-8400搭載機が大半で本仕様と一致する。",
+        "additional_sources": [
+          "https://support.nec-lavie.jp/support/product/data/selection_menu/mrm28l4-01.html"
+        ]
+      },
+      "spec": {
+        "chassis": "タイプML(スリムタワー)",
+        "cpu_generation": "第8世代 Intel Core (Core i5-8400、2.80GHz/ターボブースト時最大4.0GHz、6コア/6スレッド)",
+        "chipset": "Intel B360",
+        "memory_type": "DDR4-2666 Non-ECC",
+        "memory_slots": 2,
+        "memory_max_gb": 16,
+        "storage_bays": "内蔵3.5インチベイx1(基本構成はHDD選択で占有、空きスロット0)",
+        "storage_interface": "SATA。M.2 NVMeの記載なし(セレクションメニューにPCIe接続のSSD(128GB〜512GB)選択肢あり、接続形態の詳細は仕様書に記載なし)",
+        "expansion_slots": "PCI Express x1ロープロファイル x2、PCI Express x16ロープロファイル x1",
+        "gpu_fit": "low_profile",
+        "gpu_fit_note": "拡張スロットは全てロープロファイル。標準構成にGPUの選択肢は無いが、ロープロファイル対応カードなら物理的に搭載可能。",
+        "dimensions_mm": "89 (W) x 291 (D) x 340 (H)、スタンド含まず(スタンド含む場合 159 x 291 x 358mm)",
+        "weight_kg": 5.3,
+        "psu_w": "内蔵電源、AC100-240V(PSU容量自体の記載なし。参考値: 最大消費電力 約169W)",
+        "ports": [
+          "前面: USB 3.1 Gen2 x2、USB 3.0(Gen1) x2",
+          "背面: USB 2.0 x4、シリアル(RS-232C 9pin) x1、VGA(ミニD-sub15pin) x1、DisplayPort x2(HDCP対応、変換アダプタでDVI-D/HDMI化可)、RJ45 LAN x1"
+        ],
+        "os_options": [
+          "Windows 10 Pro 64bit",
+          "Windows 10 Home 64bit"
+        ]
+      },
+      "note": "型番表記は「MRM28/L-4」だが出品タイトルでは「MRM28L-4」と表記されることが多い。同世代のML-5(Mate MRL36/L-5)とは筐体・拡張スロット構成が共通で、CPU世代のみ異なる。"
     },
     "geforce_rtx3060_12gb": {
       "model_id": "geforce_rtx3060_12gb",
