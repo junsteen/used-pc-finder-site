@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26 00:46:07+09:00",
+  "generated_at": "2026-08-26 06:07:14+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1411,6 +1411,42 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
+      "listing_id": "IC656729",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": "galleria-rm5c-r36",
+      "model_name": "GALLERIA RM5C-R36",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "サードウェーブ",
+      "parsed": {
+        "cpu": "Core i5-12400",
+        "cpu_generation": 12,
+        "memory_gb": 16,
+        "storage": "SSD 512GB + HDD 1TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  THIRDWAVE　GALLERIA RM5C-R36 (Intel Core i5 12400 /16GB/SSD512GB/HDD1TB/RTX3060 12GB/W11H/有線LAN◯無線LAN?) 3400009447",
+      "price_yen": 89800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC656729.html",
+      "is_affiliate": false,
+      "condition_rank": "B:良品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-25 21:02:45",
+      "price_history": [
+        {
+          "price_yen": 89800,
+          "observed_at": "2026-08-25 21:02:45"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC661818",
       "watch_name": "dynabook_g83hu",
       "spec_id": "dynabook_g83hu",
@@ -1442,60 +1478,37 @@
       ]
     },
     {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "astarye:10021243",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC662494",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
       "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m710q",
-      "model_name": "ThinkCentre M710q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
       "parsed": {
-        "cpu_generation": 9
+        "cpu": "Core i5-10400",
+        "cpu_generation": 10,
+        "memory_gb": 16,
+        "storage": "SSD 1TB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
       },
-      "title": "新品 NEC Mate タイプMC（第7〜第9世代CPUモデル用） SATA接続ケーブル 00XL211 ＆ マウンタ / Lenovo ThinkCentre M710q/M720q",
-      "price_yen": 2400,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uk2io.2lytq2bf.g00uk2io.2lytr233/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fastarye%2Fpx-00138%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fastarye%2Fi%2F10021243%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
+      "title": "中古  TSUKUMO G-gear(Intel Core i5 10400/16GB DDR4 (PC4)/SSD1TB/DVDマルチ/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 202590",
+      "price_yen": 85800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC662494.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-25 21:02:45",
       "price_history": [
         {
-          "price_yen": 2400,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "astershop:10249261",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 2391,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqv2o.2lytqc4f.g00uqv2o.2lytr137/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fastershop%2F2nmu5qqelsbwv537tuw52rivsi%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fastershop%2Fi%2F10249261%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 2391,
-          "observed_at": "2026-08-25 14:04:53"
+          "price_yen": 85800,
+          "observed_at": "2026-08-25 21:02:45"
         }
       ]
     },
@@ -1604,146 +1617,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "boardermkt:10015270",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "Tiny5 PCI E 16XグラフィックアダプターThinkCentre M920Q M920X M910X M720Q P330用 4ポートアダプターボード転送可能なグラフィックス サポート良好な電気伝導率",
-      "price_yen": 5000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ux4no.2lytq28d.g00ux4no.2lytrfe8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fboardermkt%2Fhhqau3uajkvyvkufyzsxioyeze%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fboardermkt%2Fi%2F10015270%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 5000,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "boardermkt:10026813",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI EグラフィックカードアダプターThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350 T4 FOR PORT NIC用",
-      "price_yen": 4400,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ux4no.2lytq28d.g00ux4no.2lytrfe8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fboardermkt%2Fnp3xm77v3f5qxnia26wnyxkjua%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fboardermkt%2Fi%2F10026813%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4400,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "cocohi-nata:10303256",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用 (バックプレート付き)",
-      "price_yen": 4346,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ukjoo.2lytqce2.g00ukjoo.2lytrf46/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcocohi-nata%2F2accqvnnjsslnqwkja3k3jz2zu%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcocohi-nata%2Fi%2F10303256%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4346,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "colorsstorenigoten:10244628",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "no",
-      "model_maker": null,
-      "parsed": {},
-      "title": "HSSDTECH WIFI アンテナ 00XJ126 00XJ095 03T7203 Lenovo 用 ThinkCentre TINY 5 M920q 10RR 10RS 10RT 10RU 10SY 10T1 10V8 M920x 10S0 10S1 10S2 10S3 M720q 10T7 10T8 10T9 10TA 10TC 10U8 10U9 P330",
-      "price_yen": 3914,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umxlo.2lytq566.g00umxlo.2lytr7e5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcolorsstorenigoten%2F65078109820%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcolorsstorenigoten%2Fi%2F10244628%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 3914,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "colorsstorenigoten:10262635",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "Tiny5 PCI-E 16X グラフィックアダプター 4ポート アダプターボード ThinkCentre M920Q M920X M910X M720Q P330 対応 転送可能 グラフィックス サポート 良好 電気伝導率 バックプレート 付き",
-      "price_yen": 5757,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umxlo.2lytq566.g00umxlo.2lytr7e5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcolorsstorenigoten%2F65081489563%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcolorsstorenigoten%2Fi%2F10262635%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 5757,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "comfull-premium:10104334",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -1804,62 +1677,6 @@
         {
           "price_yen": 28400,
           "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "costmarket:10392790",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4346,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ukv5o.2lytqcdc.g00ukv5o.2lytr4d9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcostmarket%2Fyipl2v5upjfhdsjl62pddmfrae%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcostmarket%2Fi%2F10392790%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4346,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "emuland-store:10698909",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4504,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00unf6o.2lytq27e.g00unf6o.2lytr44f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femuland-store%2Fwqogomotf3e2tubwru37idlziy%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Femuland-store%2Fi%2F10698909%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4504,
-          "observed_at": "2026-08-25 14:04:53"
         }
       ]
     },
@@ -1958,62 +1775,6 @@
         {
           "price_yen": 42800,
           "observed_at": "2026-08-22 17:52:27"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "flowing-ando:10287156",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4296,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uj4go.2lytqe5e.g00uj4go.2lytr561/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fflowing-ando%2Fldhdyts6a4pgu2egkzbdwkmqk4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fflowing-ando%2Fi%2F10287156%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4296,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "flowing2:10159509",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4296,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9oo.2lytq381.g00uq9oo.2lytrbc1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fflowing2%2Fsfql3ffxd7cl3wn7d7yyvyg4bi%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fflowing2%2Fi%2F10159509%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4296,
-          "observed_at": "2026-08-25 14:04:53"
         }
       ]
     },
@@ -2628,447 +2389,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "la-graine:12031402",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4348,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tvteo.2lytq858.g00tvteo.2lytr9ae/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fla-graine%2Fmzyzsnbq235jjob3h6pptievgy%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fla-graine%2Fi%2F12031402%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4348,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "lapistores:10030561",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4400,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uv50o.2lytq63e.g00uv50o.2lytr467/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flapistores%2Fdhg3g7rzuikx4cgmrrk7xzdtjm%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flapistores%2Fi%2F10030561%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4400,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "lilishop6-store:10996036",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 2446,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umoio.2lytqc67.g00umoio.2lytr8c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flilishop6-store%2F2aqlmxb2r2qcd7vyzye7mfz67m%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flilishop6-store%2Fi%2F10996036%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 2446,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "mabashistore:10415862",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m710q",
-      "model_name": "ThinkCentre M710q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "HSSDTECH WIFI アンテナケーブル 01YW377 SA30R11507 00XJ095 00XJ139 Lenovo 用 ThinkCentre M710q M920q M920x M710q M910q M910x M720q M625q Think Station P320 Tiny5 10Mq 10MR 10MS 10MT 10N3 10QR 10MU 10MV 10MW",
-      "price_yen": 5588,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ui3fo.2lytqfc7.g00ui3fo.2lytr2c1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmabashistore%2F59082037336%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmabashistore%2Fi%2F10415862%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 5588,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10018695",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-st190e",
-      "model_name": "Endeavor ST190E",
-      "chassis_gpu_fit": "no",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i3-8100T",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "★【今だけ】全品ポイント10倍 お買い物マラソン★中古パソコン デスクトップPC EPSON Endeavor ST190E Core i3 8100T メモリ8GB / 16GB 中古SSD128GB / 256GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 19800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh260305a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018695%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:02:26",
-      "price_history": [
-        {
-          "price_yen": 22800,
-          "observed_at": "2026-08-24 09:22:31"
-        },
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-25 14:02:26"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10618969",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-3470",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "os": "Windows 10 Pro"
-      },
-      "title": "【中古】「非常に良い」 富士通 FMV-ESPRIMO D752/F デスクトップパソコン Core i5 3470 3.2GHz メモリ4GB 250GBHDD DVDスーパーマルチ Windows10 Professional 64b",
-      "price_yen": 28413,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb072v7rty1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10618969%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:22:20",
-      "price_history": [
-        {
-          "price_yen": 28413,
-          "observed_at": "2026-08-25 14:22:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10623421",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5（第3世代）",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "storage": "HDD 250GB",
-        "os": "Windows 10"
-      },
-      "title": "【中古】「非常に良い」 デスクトップパソコン（Windows10）富士通 ESPRIMO D582/G（第3世代Core i5 / メモリ 4GB / HDD 250GB / DVD-ROM）（パソコン）（パソコン販売",
-      "price_yen": 28157,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb07b91p8hs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10623421%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:22:20",
-      "price_history": [
-        {
-          "price_yen": 28157,
-          "observed_at": "2026-08-25 14:22:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10626025",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-3220",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "os": "Windows 10"
-      },
-      "title": "【中古】「非常に良い」パソコン Windows10 デスクトップ 一年 富士通 FMV-D551/F(FX) Core i3 3220 3.3GHz MEM:4GB HDD:250GB DVDマルチ Win10Pro64Bit",
-      "price_yen": 21014,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb07plbwzgs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10626025%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:22:20",
-      "price_history": [
-        {
-          "price_yen": 21014,
-          "observed_at": "2026-08-25 14:22:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10759069",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mk34lb-g",
-      "model_name": "Mate MK34LB-G",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i3-3240",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "storage": "HDD 500GB"
-      },
-      "title": "【中古】「非常に良い」[ デスクトップ/WPS ] NEC Mate MK34LB-G Win10 Pro Core i3 3240 3.40GHz メモリ4GB HDD500GB [ DVDマルチ ]",
-      "price_yen": 26565,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb084d33m79%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10759069%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:22:20",
-      "price_history": [
-        {
-          "price_yen": 26565,
-          "observed_at": "2026-08-25 14:22:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10759819",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-3450",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "storage": "HDD 500GB",
-        "os": "Windows 10"
-      },
-      "title": "【中古】「非常に良い」 NEC デスクトップパソコン Mate J MB-E 単体 Windows10 64bit搭載 Core i5 3450搭載 メモリー4GB搭載 HDD500GB搭載",
-      "price_yen": 28875,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb0851bvntp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10759819%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:22:20",
-      "price_history": [
-        {
-          "price_yen": 28875,
-          "observed_at": "2026-08-25 14:22:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10762190",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-3240",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "os": "Windows 10"
-      },
-      "title": "【中古】「非常に良い」中古パソコン Windows10 デスクトップ 富士通 ESPRIMO D551/G(GX) Core i3 3240 3.4GHz MEM:4GB HDD:500GB DVDマルチ 無線LAN:なし Win",
-      "price_yen": 23354,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb08c5gcx3w%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10762190%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:22:20",
-      "price_history": [
-        {
-          "price_yen": 23354,
-          "observed_at": "2026-08-25 14:22:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10762253",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3（第3世代）",
-        "cpu_generation": 3,
-        "memory_gb": 4,
-        "storage": "SSD 128GB"
-      },
-      "title": "【中古】「非常に良い」富士通 ESPRIMO D582/G/Win10Pro/Core i3 第3世代/4GB/SSD/USB3.0 x4/WPS (SSD 128GB)",
-      "price_yen": 26979,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fhb0827kdszp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10762253%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:22:20",
-      "price_history": [
-        {
-          "price_yen": 26979,
-          "observed_at": "2026-08-25 14:22:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "omatsuri-life2:10981437",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3"
-      },
-      "title": "【中古】「ほぼ新品」インテルE97379-003 Core i3/i5/i7 ソケット1150/1155/1156 デスクトップPCコンピュータ用アルミヒートシンクと3.5インチのファン付き4ピンコネ",
-      "price_yen": 7480,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fssb01lwmgrx6%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10981437%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-25 14:42:20",
-      "price_history": [
-        {
-          "price_yen": 7480,
-          "observed_at": "2026-08-25 14:42:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "orange-island:10533071",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4502,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00sw4vo.2lytq4b4.g00sw4vo.2lytref7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Forange-island%2Fcf2mxqlpcummsc4yuqosdptjpe%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Forange-island%2Fi%2F10533071%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4502,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "pc-r-cube:10016487",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -3333,62 +2653,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "putera:10143962",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4436,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uroxo.2lytqfac.g00uroxo.2lytr119/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fputera%2F4urbi5evcvtkdi2zkowcsvl57q%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fputera%2Fi%2F10143962%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4436,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "root-house:10121989",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4346,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur5no.2lytqeb3.g00ur5no.2lytr949/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froot-house%2Fl43ni3frt77wncuvauzk3oduwa%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froot-house%2Fi%2F10121989%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4346,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "ruitasu-r:10009908",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -3516,204 +2780,6 @@
         {
           "price_yen": 27000,
           "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "tomy-shopr:11323218",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4491,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uksro.2lytq418.g00uksro.2lytrf1e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftomy-shopr%2Fl7ynuy26ukbj56bnqix6qtpuqq%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftomy-shopr%2Fi%2F11323218%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4491,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "vision-stores:10431953",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 2391,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00urovo.2lytqb4b.g00urovo.2lytrc97/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvision-stores%2F4ed42dfmmaypves2ykc4ohiro4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvision-stores%2Fi%2F10431953%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 2391,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "whitehalca:10228145",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m920q",
-      "model_name": "ThinkCentre M920q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "PCI Eグラフィックカードアダプター、ThinkCentre M920Q M920X M910X M720Q P330 TINY5シリーズ転送可能なグラフィックアダプターI350-T4 FOR PORT NIC用",
-      "price_yen": 4346,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umtno.2lytq831.g00umtno.2lytrf99/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwhitehalca%2F6h4khokl2f3djdldwpsw5mcmlq%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwhitehalca%2Fi%2F10228145%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 4346,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "xinjianda:10018476",
-      "watch_name": "thinkcentre_m720e",
-      "spec_id": "thinkcentre_m720e",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "☆ 新品 ThinkCentre M720e Small 11BD0024JP 11BD0025JP 11BD0027JP 11BD0026JP 11BD0028JP 内蔵電源ユニット (180W/80PLUS、効率85%)",
-      "price_yen": 6000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umiko.2lytq8f8.g00umiko.2lytr974/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxinjianda%2Fps-00059180w%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fxinjianda%2Fi%2F10018476%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:34",
-      "price_history": [
-        {
-          "price_yen": 6000,
-          "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "xinjianda:10018477",
-      "watch_name": "thinkcentre_m720e",
-      "spec_id": "thinkcentre_m720e",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "☆新品 ThinkCentre M720e Small 11BD000TJP 11BD000JJP 11BD0011JP 11BD0012JP 内蔵電源ユニット (180W/80PLUS、効率85%)",
-      "price_yen": 6000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umiko.2lytq8f8.g00umiko.2lytr974/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxinjianda%2Fps-00060180w%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fxinjianda%2Fi%2F10018477%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:34",
-      "price_history": [
-        {
-          "price_yen": 6000,
-          "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "xinjianda:10018478",
-      "watch_name": "thinkcentre_m720e",
-      "spec_id": "thinkcentre_m720e",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "☆ 新品 ThinkCentre M720e 11BD000KJP 11BD000LJP 11BD000UJP 11BD000VJP 11BD000MJP 内蔵電源ユニット (180W/80PLUS、効率85%)",
-      "price_yen": 6000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umiko.2lytq8f8.g00umiko.2lytr974/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxinjianda%2Fps-00061180w%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fxinjianda%2Fi%2F10018478%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:34",
-      "price_history": [
-        {
-          "price_yen": 6000,
-          "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "xinjianda:10021059",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m710q",
-      "model_name": "ThinkCentre M710q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu_generation": 9
-      },
-      "title": "新品 NEC Mate タイプMC（第7〜第9世代CPUモデル用） SATA接続ケーブル 00XL211 ＆ マウンタ / Lenovo ThinkCentre M710q/M720q",
-      "price_yen": 2200,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umiko.2lytq8f8.g00umiko.2lytr974/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxinjianda%2Fpx-00138%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fxinjianda%2Fi%2F10021059%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 2200,
-          "observed_at": "2026-08-25 14:04:53"
         }
       ]
     },
@@ -9160,39 +8226,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_1243229",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン lenovo ThinkCentre M720q 中古 2017年モデル 超小型デスク 単体 Windows11 64bit 第8世代 Core i3 メモリ8GB 高速 SSD 1243229",
-      "price_yen": 14800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243229.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-25 14:04:53",
-      "price_history": [
-        {
-          "price_yen": 14800,
-          "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1243231",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -9550,6 +8583,40 @@
         {
           "price_yen": 21800,
           "observed_at": "2026-08-25 14:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "kdc-3_2-2871y2",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mrm29l-5",
+      "model_name": "Mate MRM29L-5",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5-8500",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "Windows11 第8世代CPU搭載 高速M.2使用 ★ NEC Mate MRM29L-5 Core i5-8500(3.6G/4C/4T) メモリ8GB SSD256GB DVD",
+      "price_yen": 29800,
+      "url": "https://store.shopping.yahoo.co.jp/kdc-3/2-2871y2.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-08-24 02:22:51",
+      "price_history": [
+        {
+          "price_yen": 29800,
+          "observed_at": "2026-08-24 02:22:51"
         }
       ]
     },
@@ -11017,67 +10084,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "snk_ym0250",
-      "watch_name": "thinkcentre_m720e",
-      "spec_id": "thinkcentre_m720e",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu_generation": 8
-      },
-      "title": "YM0250★8世代目ThinkCentre M720e Small 0010JPマザーボードIB365CX 5B20U53926",
-      "price_yen": 5500,
-      "url": "https://store.shopping.yahoo.co.jp/snk/ym0250.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-25 14:04:34",
-      "price_history": [
-        {
-          "price_yen": 5500,
-          "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "snk_ym0254",
-      "watch_name": "mate_mrm28l-4",
-      "spec_id": "mate_mrm28l-4",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8
-      },
-      "title": "YM0254★デスクトップパソコン NEC Mate MRM28/L-4 第8世代  マザーボードI3X0MS",
-      "price_yen": 5000,
-      "url": "https://store.shopping.yahoo.co.jp/snk/ym0254.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-25 14:05:29",
-      "price_history": [
-        {
-          "price_yen": 5000,
-          "observed_at": "2026-08-25 14:05:29"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "sowa-shop_dell-3070-i59",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -11578,39 +10584,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_55a254242",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-8500",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ NEC Mate MKM30/E-4 PC-MKM30EZG4 Core i5-8500 3GHz 8GB 256GB(NVMeSSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
-      "price_yen": 18700,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/55a254242.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-25 14:02:32",
-      "price_history": [
-        {
-          "price_yen": 18700,
-          "observed_at": "2026-08-25 14:02:32"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_55c252770",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -12105,34 +11078,6 @@
         {
           "price_yen": 20800,
           "observed_at": "2026-08-22 17:53:17"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "wonderrex-ec_9200102804921",
-      "watch_name": "thinkcentre_m720e",
-      "spec_id": "thinkcentre_m720e",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {},
-      "title": "Lenovo レノボ/Win11デスクトップPC/ThinkCentre M720e Small/11BD0027JP/Bランク/25【中古】",
-      "price_yen": 19900,
-      "url": "https://store.shopping.yahoo.co.jp/wonderrex-ec/9200102804921.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-25 14:04:35",
-      "price_history": [
-        {
-          "price_yen": 19900,
-          "observed_at": "2026-08-25 14:04:35"
         }
       ]
     },
