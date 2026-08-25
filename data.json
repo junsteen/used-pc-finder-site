@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25 23:26:09+09:00",
+  "generated_at": "2026-08-25 23:46:03+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3005,6 +3005,36 @@
         {
           "price_yen": 26979,
           "observed_at": "2026-08-25 14:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "omatsuri-life2:10981437",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3"
+      },
+      "title": "【中古】「ほぼ新品」インテルE97379-003 Core i3/i5/i7 ソケット1150/1155/1156 デスクトップPCコンピュータ用アルミヒートシンクと3.5インチのファン付き4ピンコネ",
+      "price_yen": 7480,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnhwo.2lytq12e.g00tnhwo.2lytrb1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomatsuri-life2%2Fssb01lwmgrx6%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomatsuri-life2%2Fi%2F10981437%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-25 14:42:20",
+      "price_history": [
+        {
+          "price_yen": 7480,
+          "observed_at": "2026-08-25 14:42:20"
         }
       ]
     },
