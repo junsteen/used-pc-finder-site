@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26 23:06:18+09:00",
+  "generated_at": "2026-08-26 23:26:11+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3250,6 +3250,40 @@
         {
           "price_yen": 27000,
           "observed_at": "2026-08-25 14:04:34"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "ujmacs:10059044",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-9100",
+        "cpu_generation": 9,
+        "memory_gb": 4,
+        "storage": "HDD 1TB",
+        "os": "Windows 11 Home"
+      },
+      "title": "【中古】 DELL Vostro 3471 D13S003 CPUCore i3 9100 / 3.6GHz メモリ4GB HDD1TB OSWindows 11 Home",
+      "price_yen": 20500,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pstqo.2lytq497.g00pstqo.2lytr347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fujmacs%2F934406%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fujmacs%2Fi%2F10059044%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-23 14:22:50",
+      "price_history": [
+        {
+          "price_yen": 20500,
+          "observed_at": "2026-08-23 14:22:50"
         }
       ]
     },
