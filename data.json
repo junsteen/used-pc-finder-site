@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26 13:26:07+09:00",
+  "generated_at": "2026-08-26 13:46:09+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -5804,6 +5804,37 @@
         {
           "price_yen": 71980,
           "observed_at": "2026-08-22 17:51:28"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_83301908-83",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "【中古】NVIDIA 【PC抜き取り品】 GeForce RTX 3060 12GB (GDDR6)【札幌】保証期間１週間",
+      "price_yen": 36980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/83301908-83.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-26 04:41:42",
+      "price_history": [
+        {
+          "price_yen": 36980,
+          "observed_at": "2026-08-26 04:41:42"
         }
       ]
     },
