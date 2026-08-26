@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26 18:26:09+09:00",
+  "generated_at": "2026-08-26 19:26:07+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -5843,37 +5843,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "janpara_67699028-67",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060"
-      },
-      "title": "【中古】MSI GeForce RTX 3060 VENTUS 2X 12G OC RTX3060/12GB(GDDR6)/PCI-E【秋葉2号】保証期間１週間",
-      "price_yen": 44980,
-      "url": "https://store.shopping.yahoo.co.jp/janpara/67699028-67.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-23 00:20:58",
-      "price_history": [
-        {
-          "price_yen": 44980,
-          "observed_at": "2026-08-23 00:20:58"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_68447668-68",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
@@ -7101,39 +7070,6 @@
         {
           "price_yen": 17800,
           "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-premium_1243230",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243230",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243230.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-26 02:44:45",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-08-26 02:44:45"
         }
       ]
     },
@@ -9416,39 +9352,6 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-08-24 02:22:45"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "marblepc_ndt012",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5",
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11"
-      },
-      "title": "中古デスクトップパソコン NEC Mate タイプMB MKM30 Windows11 Corei5 メモリ8GB SSD128GB搭載 WPS Office付き",
-      "price_yen": 25800,
-      "url": "https://store.shopping.yahoo.co.jp/marblepc/ndt012.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:51",
-      "price_history": [
-        {
-          "price_yen": 25800,
-          "observed_at": "2026-08-24 02:22:51"
         }
       ]
     },
