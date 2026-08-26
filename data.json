@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26 23:26:11+09:00",
+  "generated_at": "2026-08-26 23:46:14+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1514,40 +1514,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "alpacapc:10005926",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m710s",
-      "model_name": "ThinkCentre M710s",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-6500",
-        "cpu_generation": 6,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "【中古】 Windows11 Lenovo ThinkCentre M710s Small 第6世代 Core i5 6500 メモリ8GB SSD256GB DVDROM Windows11 Pro デスクトップパソコン Office付き",
-      "price_yen": 27720,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00surao.2lytqf8e.g00surao.2lytr6d7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpacapc%2Fd-lerm710ssmall03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpacapc%2Fi%2F10005926%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-26 06:22:22",
-      "price_history": [
-        {
-          "price_yen": 27720,
-          "observed_at": "2026-08-26 06:22:22"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "alpacapc:10005927",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -2791,40 +2757,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "lelib:10000074",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "【ポイント5倍&1500円オフ】【マウス＋キーボード付属】デスクトップパソコン 中古 パソコン Office付き SSD128GB メモリ8GB Corei5 第8世代 Lenovo Thinkcentre M720S デスクトップ 中古パソコン Windows11 Pro pc デスクトップPC 最大メモリ16GB 最大SSD1TB",
-      "price_yen": 29800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uevoo.2lytq470.g00uevoo.2lytrbe3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flelib%2Fdt-16%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flelib%2Fi%2F10000074%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-26 05:22:25",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-26 05:22:25"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "pc-r-cube:10016487",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -3117,40 +3049,6 @@
         {
           "price_yen": 24800,
           "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "soo-ya:10001611",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070",
-      "model_name": "OptiPlex 3070",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 16,
-        "storage": "SSD 512GB",
-        "os": "Windows 11"
-      },
-      "title": "中古 ミニデスクトップパソコン DELL OptiPlex 3070 第9世代 Core i5 Windows11 Office 2024付き メモリ16GB SSD512GB/1TB選択可 HDMI USB 初期設定済み マウス付属 安心保証",
-      "price_yen": 25480,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s9tko.2lytqbe8.g00s9tko.2lytr37a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsoo-ya%2Fdell-3070%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsoo-ya%2Fi%2F10001611%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-26 06:02:26",
-      "price_history": [
-        {
-          "price_yen": 25480,
-          "observed_at": "2026-08-26 06:02:26"
         }
       ]
     },
