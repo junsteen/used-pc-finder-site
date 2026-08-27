@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 22:26:27+09:00",
+  "generated_at": "2026-08-27 22:46:14+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2395,70 +2395,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "excellar:13518014",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【1日と5.0のつく日、18日はポイント3倍！】【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
-      "price_yen": 42800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q4p0o.2lytq5a2.g00q4p0o.2lytr36f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexcellar%2F1050019023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fexcellar%2Fi%2F13518014%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-22 17:52:27",
-      "price_history": [
-        {
-          "price_yen": 42800,
-          "observed_at": "2026-08-22 17:52:27"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "home-carpentry:10620189",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
-      "price_yen": 42800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s75po.2lytq2b2.g00s75po.2lytr35e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhome-carpentry%2F1050019023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhome-carpentry%2Fi%2F10620189%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-22 17:52:27",
-      "price_history": [
-        {
-          "price_yen": 42800,
-          "observed_at": "2026-08-22 17:52:27"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "junkworld2:10321772",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -2963,38 +2899,6 @@
         {
           "price_yen": 25000,
           "observed_at": "2026-08-25 14:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "kadekaden:10459498",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
-      "price_yen": 42800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0xno.2lytqfc3.g00s0xno.2lytr7b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkadekaden%2F1050019023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkadekaden%2Fi%2F10459498%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-22 17:52:27",
-      "price_history": [
-        {
-          "price_yen": 42800,
-          "observed_at": "2026-08-22 17:52:27"
         }
       ]
     },
@@ -4689,38 +4593,6 @@
         {
           "price_yen": 18180,
           "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "excellar-plus_1050019023",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり",
-      "price_yen": 42200,
-      "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1050019023.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:52:28",
-      "price_history": [
-        {
-          "price_yen": 42200,
-          "observed_at": "2026-08-22 17:52:28"
         }
       ]
     },
