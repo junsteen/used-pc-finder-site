@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 15:46:13+09:00",
+  "generated_at": "2026-08-27 16:06:06+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1472,6 +1472,346 @@
         {
           "price_yen": 17600,
           "observed_at": "2026-08-25 14:05:50"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10400343",
+      "watch_name": "thinkcentre_m720e",
+      "spec_id": "thinkcentre_m720e",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル lenovo ThinkCentre M720e 単体 Windows11 64bit 第8世代 Core i5 メモリー8GB 高速SSD256GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1234119",
+      "price_yen": 16660,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1234119%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10400343%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:20",
+      "price_history": [
+        {
+          "price_yen": 16660,
+          "observed_at": "2026-08-27 07:02:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404663",
+      "watch_name": "thinkcentre_m720e",
+      "spec_id": "thinkcentre_m720e",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル lenovo ThinkCentre M720e 単体 Windows11 64bit 第8世代 Core i3 メモリー8GB 高速SSD128GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235011",
+      "price_yen": 10360,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404663%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:20",
+      "price_history": [
+        {
+          "price_yen": 10360,
+          "observed_at": "2026-08-27 07:02:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404664",
+      "watch_name": "thinkcentre_m720e",
+      "spec_id": "thinkcentre_m720e",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル lenovo ThinkCentre M720e 単体 Windows11 64bit 第8世代 Core i3 メモリー8GB 高速SSD128GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235013",
+      "price_yen": 10360,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235013%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404664%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:20",
+      "price_history": [
+        {
+          "price_yen": 10360,
+          "observed_at": "2026-08-27 07:02:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404723",
+      "watch_name": "thinkcentre_m720e",
+      "spec_id": "thinkcentre_m720e",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720e",
+      "model_name": "ThinkCentre M720e",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル lenovo ThinkCentre M720e 単体 Windows11 64bit 第8世代 Core i3 メモリー8GB 高速SSD128GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1242897",
+      "price_yen": 10360,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1242897%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404723%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:20",
+      "price_history": [
+        {
+          "price_yen": 10360,
+          "observed_at": "2026-08-27 07:02:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404860",
+      "watch_name": "endeavor_jm4800",
+      "spec_id": "endeavor_jm4800",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル EPSON Endeavor JM4800 単体 Windows11 64bit HDMI 第8世代 Core i5 メモリー8GB 高速SSD256GB M.2-NVMe +HDD500GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235036",
+      "price_yen": 15960,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235036%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404860%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:26",
+      "price_history": [
+        {
+          "price_yen": 15960,
+          "observed_at": "2026-08-27 07:02:26"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404863",
+      "watch_name": "endeavor_jm4800",
+      "spec_id": "endeavor_jm4800",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル EPSON Endeavor JM4800 単体 Windows11 64bit HDMI 第8世代 Core i5 メモリー8GB 高速SSD256GB M.2-NVMe +HDD500GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235041",
+      "price_yen": 15960,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235041%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404863%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:26",
+      "price_history": [
+        {
+          "price_yen": 15960,
+          "observed_at": "2026-08-27 07:02:26"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404865",
+      "watch_name": "endeavor_jm4800",
+      "spec_id": "endeavor_jm4800",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル EPSON Endeavor JM4800 単体 Windows11 64bit HDMI 第8世代 Core i5 メモリー8GB 高速SSD256GB M.2-NVMe +HDD500GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235045",
+      "price_yen": 15960,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235045%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404865%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:26",
+      "price_history": [
+        {
+          "price_yen": 15960,
+          "observed_at": "2026-08-27 07:02:26"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404866",
+      "watch_name": "endeavor_jm4800",
+      "spec_id": "endeavor_jm4800",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル EPSON Endeavor JM4800 単体 Windows11 64bit HDMI 第8世代 Core i5 メモリー8GB 高速SSD256GB M.2-NVMe +HDD500GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235044",
+      "price_yen": 15960,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235044%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404866%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:26",
+      "price_history": [
+        {
+          "price_yen": 15960,
+          "observed_at": "2026-08-27 07:02:26"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404869",
+      "watch_name": "endeavor_jm4800",
+      "spec_id": "endeavor_jm4800",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル EPSON Endeavor JM4800 単体 Windows11 64bit HDMI 第8世代 Core i5 メモリー8GB 高速SSD256GB M.2-NVMe +HDD500GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235042",
+      "price_yen": 15960,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235042%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404869%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:26",
+      "price_history": [
+        {
+          "price_yen": 15960,
+          "observed_at": "2026-08-27 07:02:26"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10404870",
+      "watch_name": "endeavor_jm4800",
+      "spec_id": "endeavor_jm4800",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jm4800",
+      "model_name": "Endeavor JM4800",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB",
+        "os": "Windows 11"
+      },
+      "title": "【エントリーでポイント5倍 】【SALE期間 30%OFF】送料無料 2017年モデル EPSON Endeavor JM4800 単体 Windows11 64bit HDMI 第8世代 Core i5 メモリー8GB 高速SSD256GB M.2-NVMe +HDD500GB DVDマルチ 中古デスクトップパソコン 中古 パソコン【30日保証】1235043",
+      "price_yen": 15960,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1235043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10404870%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 07:02:26",
+      "price_history": [
+        {
+          "price_yen": 15960,
+          "observed_at": "2026-08-27 07:02:26"
         }
       ]
     },
@@ -9613,6 +9953,39 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-08-24 02:22:45"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "marblepc_ndt012",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "中古デスクトップパソコン NEC Mate タイプMB MKM30 Windows11 Corei5 メモリ8GB SSD128GB搭載 WPS Office付き",
+      "price_yen": 25800,
+      "url": "https://store.shopping.yahoo.co.jp/marblepc/ndt012.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-24 02:22:51",
+      "price_history": [
+        {
+          "price_yen": 25800,
+          "observed_at": "2026-08-24 02:22:51"
         }
       ]
     },
