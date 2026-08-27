@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 06:46:09+09:00",
+  "generated_at": "2026-08-28 07:06:10+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2753,6 +2753,40 @@
         {
           "price_yen": 18000,
           "observed_at": "2026-08-25 14:05:50"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "recyclepcseiwa:10000377",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 240GB",
+        "os": "Windows 11"
+      },
+      "title": "Lenovo ThinkCentre M720q Tiny 22型ワイド液晶セット第8世代 Core i3 メモリ8GB SSD240GB 中古PC デスクトップ 小型PC ミニPC レノボ デスクトップパソコン windows11 パソコン 中古パソコン 省スペース ミニパソコン 中古デスクトップパソコン 超小型PC あす楽",
+      "price_yen": 23800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8aao.2lytq7c8.g00u8aao.2lytr07d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frecyclepcseiwa%2Fm720q%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frecyclepcseiwa%2Fi%2F10000377%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 22:04:56",
+      "price_history": [
+        {
+          "price_yen": 23800,
+          "observed_at": "2026-08-27 22:04:56"
         }
       ]
     },
