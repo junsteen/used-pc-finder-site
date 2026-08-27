@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 21:46:14+09:00",
+  "generated_at": "2026-08-27 22:26:27+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1117,7 +1117,7 @@
         "gpu": "RTX 3060",
         "vram_gb": 12
       },
-      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD1TB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 199640【8/20値下げ!】",
+      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD1TB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 199640",
       "price_yen": 92800,
       "url": "https://www.dospara.co.jp/SBR1391/IC645705.html",
       "is_affiliate": false,
@@ -1323,18 +1323,22 @@
         "gpu": "RTX 3060",
         "vram_gb": 12
       },
-      "title": "中古  Lenovo(Ryzen 7 5800/16GB/SSD256GB/HDD2TB/RTX3060 12GB/W11H) 4510002964",
-      "price_yen": 99800,
+      "title": "中古  Lenovo(Ryzen 7 5800/16GB/SSD256GB/HDD2TB/RTX3060 12GB/W11H) 4510002964【8/27値下げ!】",
+      "price_yen": 89800,
       "url": "https://www.dospara.co.jp/SBR1391/IC654482.html",
       "is_affiliate": false,
       "condition_rank": "C:並品",
       "shipping": null,
       "shipping_label": "—",
-      "observed_at": "2026-08-23 23:02:11",
+      "observed_at": "2026-08-27 13:22:22",
       "price_history": [
         {
           "price_yen": 99800,
           "observed_at": "2026-08-23 23:02:11"
+        },
+        {
+          "price_yen": 89800,
+          "observed_at": "2026-08-27 13:22:22"
         }
       ]
     },
@@ -1370,39 +1374,6 @@
         {
           "price_yen": 94800,
           "observed_at": "2026-08-24 21:02:12"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC661818",
-      "watch_name": "dynabook_g83hu",
-      "spec_id": "dynabook_g83hu",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-1335U",
-        "cpu_generation": 13,
-        "memory_gb": 16,
-        "storage": "SSD 512GB"
-      },
-      "title": "中古  Dynabook dynabook G83/HU Portege X30L-J (i5 1335U/16GB/SSD512GB/WLAN/13.3FHD) 3280023543",
-      "price_yen": 34700,
-      "url": "https://www.dospara.co.jp/SBR1392/IC661818.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:51:59",
-      "price_history": [
-        {
-          "price_yen": 34700,
-          "observed_at": "2026-08-22 17:51:59"
         }
       ]
     },
