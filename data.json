@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 20:46:11+09:00",
+  "generated_at": "2026-08-27 21:46:14+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2507,40 +2507,6 @@
       "title": "lenovo ThinkCentre M720e 単体 Windows11 64bit Core i5 8400 メモリー8GB 高速SSD256GB DVDマルチ デスクトップパソコン【中古】【30日保証】1234119",
       "price_yen": 23800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00s3hso.2lytq976.g00s3hso.2lytr5a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjunkworld2%2F1234119%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjunkworld2%2Fi%2F10321772%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-25 14:04:34",
-      "price_history": [
-        {
-          "price_yen": 23800,
-          "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "junkworld2:10321851",
-      "watch_name": "thinkcentre_m720e",
-      "spec_id": "thinkcentre_m720e",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "lenovo ThinkCentre M720e 単体 Windows11 64bit Core i5 8400 メモリー8GB 高速SSD256GB DVDマルチ デスクトップパソコン【中古】【30日保証】20006253",
-      "price_yen": 23800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s3hso.2lytq976.g00s3hso.2lytr5a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjunkworld2%2F20006253%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjunkworld2%2Fi%2F10321851%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
       "condition_rank": null,
       "shipping": "送料込み",
