@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 10:26:10+09:00",
+  "generated_at": "2026-08-27 11:06:03+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3212,6 +3212,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_18992",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5-8400T",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "Windows 10 Pro"
+      },
+      "title": "Windows10 Pro 64bit Lenovo ThinkCentre M720q Tiny (10T7-0052JP) 第8世代 Core i5-8400T 1.7GHz メモリ 8GB HDD 500GB(SATA) 本体のみ",
+      "price_yen": 20000,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/18992.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 20000,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_19273",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -5814,6 +5848,39 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1213251",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1213251",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1213251.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_1234119",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -6408,6 +6475,39 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243111",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243111",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243111.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_1243112",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -6435,6 +6535,138 @@
         {
           "price_yen": 17800,
           "observed_at": "2026-08-25 14:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243118",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 Lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit Core i3-8100T メモリ8GB 高速 SSD 中古 124311",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243118.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243119",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 Lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit Core i3-8100T メモリ8GB 高速 SSD 中古 124311",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243119.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243132",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243132",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243132.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243135",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243135",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243135.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
         }
       ]
     },
@@ -6606,6 +6838,138 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243195",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243195",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243195.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243196",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243196",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243196.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-25 14:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-25 14:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243199",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 液晶セット 23.8インチワイド HP P24 G4 Windows11 64bit メモリ8GB",
+      "price_yen": 20800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243199.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 20800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_1243229",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 1243229",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243229.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-25 14:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-25 14:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_1243257",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -6739,6 +7103,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_20021915",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "HDD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB HDD256GB 中古 20021915",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/20021915.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_20021971",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -6757,6 +7155,39 @@
       "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 20021971",
       "price_yen": 17800,
       "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/20021971.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-25 14:04:53",
+      "price_history": [
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-08-25 14:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_4021020",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 4021020",
+      "price_yen": 17800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/4021020.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
@@ -8089,6 +8520,39 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-webshop_1243194",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン lenovo ThinkCentre M720q 中古 2017年モデル 超小型デスク 単体 Windows11 64bit 第8世代 Core i3 メモリ8GB 高速 SSD 1243194",
+      "price_yen": 14800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243194.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 14800,
+          "observed_at": "2026-08-27 02:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1243195",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -8116,6 +8580,39 @@
         {
           "price_yen": 14800,
           "observed_at": "2026-08-25 14:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-webshop_1243196",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン lenovo ThinkCentre M720q 中古 2017年モデル 超小型デスク 単体 Windows11 64bit 第8世代 Core i3 メモリ8GB 高速 SSD 1243196",
+      "price_yen": 14800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243196.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-26 08:44:57",
+      "price_history": [
+        {
+          "price_yen": 14800,
+          "observed_at": "2026-08-26 08:44:57"
         }
       ]
     },
@@ -8215,6 +8712,39 @@
         {
           "price_yen": 14800,
           "observed_at": "2026-08-25 14:04:53"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-webshop_1243230",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン lenovo ThinkCentre M720q 中古 2017年モデル 超小型デスク 単体 Windows11 64bit 第8世代 Core i3 メモリ8GB 高速 SSD 1243230",
+      "price_yen": 14800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243230.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 14800,
+          "observed_at": "2026-08-27 02:04:53"
         }
       ]
     },
@@ -8936,7 +9466,7 @@
         "storage": "SSD 256GB",
         "os": "Windows 11 Pro"
       },
-      "title": "Lenovo ThinkCentre M720q Core i5-9400T 1.8GHz 16GB SSD256GB 中古 デスクトップ Windows 11Pro ちょいキズ 小型 コンパクト",
+      "title": "Lenovo ThinkCentre M720q Core i5-9400T 1.8GHz 16GB SSD256GB 中古 デスクトップ Windows 11Pro 小型 コンパクト",
       "price_yen": 17600,
       "url": "https://store.shopping.yahoo.co.jp/oastation2014/m720q-w11.html",
       "is_affiliate": false,
@@ -10407,6 +10937,39 @@
         {
           "price_yen": 24000,
           "observed_at": "2026-08-22 17:53:19"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_553261201",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5-9400T",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ Lenovo ThinkCentre M720q Core i5-9400T 1.8GHz 8GB 256GB(NVMeSSD) HDMI/DisplayPort/アナログRGB出力 Windows11 Pro 64bit",
+      "price_yen": 25000,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/553261201.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-08-27 02:04:53",
+      "price_history": [
+        {
+          "price_yen": 25000,
+          "observed_at": "2026-08-27 02:04:53"
         }
       ]
     },
