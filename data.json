@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 16:06:06+09:00",
+  "generated_at": "2026-08-27 16:26:10+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2759,39 +2759,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "pc-stp:10000262",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 128GB"
-      },
-      "title": "中古 パソコン ディスクトップパソコン 中古PC 第八世代 Core i3 高速 SSD 128GB メモリー 8GB Window11 オフィス付き DVD-ROM 無線 OFFICE搭載 USB3.0 NEC Mate MB-シリーズ 安心保証付き アウトレット パソコン PC",
-      "price_yen": 20900,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ulelo.2lytq05a.g00ulelo.2lytrcfe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-stp%2F20250807%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-stp%2Fi%2F10000262%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-27 01:22:21",
-      "price_history": [
-        {
-          "price_yen": 20900,
-          "observed_at": "2026-08-27 01:22:21"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "pcspocket:10001236",
       "watch_name": "mate_mrl36l-5",
       "spec_id": "mate_mrl36l-5",
@@ -3017,40 +2984,6 @@
         {
           "price_yen": 18000,
           "observed_at": "2026-08-25 14:05:50"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "restation:10077989",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-at994e",
-      "model_name": "Endeavor AT994E",
-      "chassis_gpu_fit": "maybe",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i7-8700",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "なし",
-        "os": "なし"
-      },
-      "title": "【中古】EPSON Endeavor AT994E Core i7-8700 3.20GHz 第8世代 メモリ8GB　ノーストレージ　OSなし　DVD　RS232Cパラレル",
-      "price_yen": 14800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q9f6o.2lytq36e.g00q9f6o.2lytr670/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frestation%2F0-200001069487-21%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frestation%2Fi%2F10077989%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-23 00:01:36",
-      "price_history": [
-        {
-          "price_yen": 14800,
-          "observed_at": "2026-08-23 00:01:36"
         }
       ]
     },
