@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 14:46:19+09:00",
+  "generated_at": "2026-08-28 15:46:21+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -10170,6 +10170,39 @@
         {
           "price_yen": 11550,
           "observed_at": "2026-08-22 17:53:23"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "seathedemi_ysde0088",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mrm29l-5",
+      "model_name": "Mate MRM29L-5",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5-9400",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 256GB"
+      },
+      "title": "【中古】NEC Mate MRM29L-5 / Corei5-9400/SSD256GB/mem8GB/マルチ/win11/(ysde0088",
+      "price_yen": 18700,
+      "url": "https://store.shopping.yahoo.co.jp/seathedemi/ysde0088.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-08-28 06:42:41",
+      "price_history": [
+        {
+          "price_yen": 18700,
+          "observed_at": "2026-08-28 06:42:41"
         }
       ]
     },
