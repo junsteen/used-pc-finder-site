@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 17:06:16+09:00",
+  "generated_at": "2026-08-28 17:46:06+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1892,6 +1892,506 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "be-stock:10163140",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3060 3060-3060SF 【中古】 Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 24000,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3060-3060sf_0066_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10163140%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 08:42:27",
+      "price_history": [
+        {
+          "price_yen": 25300,
+          "observed_at": "2026-08-24 09:02:27"
+        },
+        {
+          "price_yen": 24000,
+          "observed_at": "2026-08-27 08:42:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10164969",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 20700,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0058_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10164969%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:22",
+      "price_history": [
+        {
+          "price_yen": 24800,
+          "observed_at": "2026-08-24 09:02:27"
+        },
+        {
+          "price_yen": 21700,
+          "observed_at": "2026-08-27 08:42:27"
+        },
+        {
+          "price_yen": 20700,
+          "observed_at": "2026-08-28 08:42:22"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10165013",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 30000,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0059_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10165013%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:22",
+      "price_history": [
+        {
+          "price_yen": 30000,
+          "observed_at": "2026-08-28 08:42:22"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10165623",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップNEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 【中古】 NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 22700,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fn-pc-mkm21czc4_0006_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10165623%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:18",
+      "price_history": [
+        {
+          "price_yen": 22700,
+          "observed_at": "2026-08-28 08:42:18"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10166028",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップLenovo ThinkCentre M720s 10SUA03GJP 【中古】 Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 21600,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fud10sua03g_0001_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10166028%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 09:02:25",
+      "price_history": [
+        {
+          "price_yen": 21600,
+          "observed_at": "2026-08-24 09:02:25"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10166228",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップNEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 【中古】 NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 22700,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fn-pc-mkm21czc4_0008_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10166228%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:18",
+      "price_history": [
+        {
+          "price_yen": 22700,
+          "observed_at": "2026-08-28 08:42:18"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10166491",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3060 3060-3060SF 【中古】 Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 18700,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3060-3060sf_0077_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10166491%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 08:42:27",
+      "price_history": [
+        {
+          "price_yen": 20100,
+          "observed_at": "2026-08-24 09:02:27"
+        },
+        {
+          "price_yen": 18700,
+          "observed_at": "2026-08-27 08:42:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10166657",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3060 3060-3060SF 【中古】 Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 20200,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3060-3060sf_0080_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10166657%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 08:42:27",
+      "price_history": [
+        {
+          "price_yen": 23100,
+          "observed_at": "2026-08-24 09:02:27"
+        },
+        {
+          "price_yen": 20200,
+          "observed_at": "2026-08-27 08:42:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167699",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3060 3060-3060MS 【中古】 Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3060 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 28600,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3060-3060ms_0051_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167699%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 09:02:27",
+      "price_history": [
+        {
+          "price_yen": 28600,
+          "observed_at": "2026-08-24 09:02:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167841",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 22000,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0067_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167841%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 08:42:27",
+      "price_history": [
+        {
+          "price_yen": 22000,
+          "observed_at": "2026-08-27 08:42:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167847",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 22000,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0068_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167847%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-27 08:42:27",
+      "price_history": [
+        {
+          "price_yen": 22000,
+          "observed_at": "2026-08-27 08:42:27"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167926",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 23400,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0006_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167926%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:22",
+      "price_history": [
+        {
+          "price_yen": 23400,
+          "observed_at": "2026-08-28 08:42:22"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167927",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 22300,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0036_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167927%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:22",
+      "price_history": [
+        {
+          "price_yen": 22300,
+          "observed_at": "2026-08-28 08:42:22"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167932",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 22300,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0009_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167932%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:22",
+      "price_history": [
+        {
+          "price_yen": 22300,
+          "observed_at": "2026-08-28 08:42:22"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167934",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070",
+      "model_name": "OptiPlex 3070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 21500,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0060_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167934%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:22",
+      "price_history": [
+        {
+          "price_yen": 21500,
+          "observed_at": "2026-08-28 08:42:22"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167946",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップLenovo T.C.M720e 11BD0014JP 【中古】 Lenovo T.C.M720e 中古デスクトップCore i5 Win11 Pro 64bit Lenovo T.C.M720e 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 19800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fud11bd0014_0001_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167946%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 08:42:18",
+      "price_history": [
+        {
+          "price_yen": 19800,
+          "observed_at": "2026-08-28 08:42:18"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "comfull-premium:10104334",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -3372,34 +3872,33 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "restation:10077989",
+      "listing_id": "ruitasu-r:10009326",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
       "shop_id": null,
       "category": "pc",
-      "model_slug": "endeavor-at994e",
-      "model_name": "Endeavor AT994E",
-      "chassis_gpu_fit": "maybe",
-      "model_maker": "エプソンダイレクト",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
       "parsed": {
-        "cpu": "Core i7-8700",
+        "cpu": "Core i5-8400",
         "cpu_generation": 8,
         "memory_gb": 8,
-        "storage": "なし",
-        "os": "なし"
+        "os": "Windows 10"
       },
-      "title": "【中古】EPSON Endeavor AT994E Core i7-8700 3.20GHz 第8世代 メモリ8GB　ノーストレージ　OSなし　DVD　RS232Cパラレル",
-      "price_yen": 14800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q9f6o.2lytq36e.g00q9f6o.2lytr670/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frestation%2F0-200001069487-21%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frestation%2Fi%2F10077989%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "title": "【中古】 Lenovo ThinkCentre M720s Intel core i5 8400 8GBRAM 500GBHD DVDマルチ Windows10",
+      "price_yen": 17400,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00slpfo.2lytqae6.g00slpfo.2lytr433/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fruitasu-r%2F1000351010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fruitasu-r%2Fi%2F10009326%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
       "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-23 00:01:36",
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-28 08:42:20",
       "price_history": [
         {
-          "price_yen": 14800,
-          "observed_at": "2026-08-23 00:01:36"
+          "price_yen": 17400,
+          "observed_at": "2026-08-28 08:42:20"
         }
       ]
     },
