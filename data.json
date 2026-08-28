@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 12:06:07+09:00",
+  "generated_at": "2026-08-28 12:26:14+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -5968,6 +5968,37 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_66418596-66",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【秋葉3号】保証期間１週間",
+      "price_yen": 34980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/66418596-66.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-23 02:49:23",
+      "price_history": [
+        {
+          "price_yen": 34980,
+          "observed_at": "2026-08-23 02:49:23"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_66420634-66",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
@@ -11279,7 +11310,7 @@
         "storage": "SSD 240GB",
         "os": "Windows 11"
       },
-      "title": "今日も当日発送 デスクトップ PC パソコン 富士通 8世代 COREi3 メモリ 8GB SSD 240GB Windows11 本体のみ おしゃれ 安い",
+      "title": "今日も当日発送 パソコン MS Office 2024H&amp;B 搭載 デスクトップ PC 新品 富士通 8世代 COREi3 メモリ 8GB SSD 240GB Windows11 オフィス Word Excel",
       "price_yen": 20800,
       "url": "https://store.shopping.yahoo.co.jp/ugreen-oaplaza/hp-gaming-pc-g11.html",
       "is_affiliate": false,
