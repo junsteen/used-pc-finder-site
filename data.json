@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 12:26:14+09:00",
+  "generated_at": "2026-08-28 13:46:12+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -9103,6 +9103,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "pasodon_675898-8100",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-at994e",
+      "model_name": "Endeavor AT994E",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "【中古デスクトップPC】EPSON Endeavor AT994E / Core i3-8100 / 8GB / 新品 2.5\" SSD 128GB / Windows 11 / WPS Office 2 / DVD-RW",
+      "price_yen": 19980,
+      "url": "https://store.shopping.yahoo.co.jp/pasodon/675898-8100.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "条件付き送料無料",
+      "shipping_label": "条件付き送料無料",
+      "observed_at": "2026-08-28 04:42:37",
+      "price_history": [
+        {
+          "price_yen": 19980,
+          "observed_at": "2026-08-28 04:42:37"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-atlantic_t05140-f",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -9731,6 +9765,40 @@
         {
           "price_yen": 15300,
           "observed_at": "2026-08-25 14:02:34"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "pon-junkshop_55c252774",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
+      "price_yen": 20200,
+      "url": "https://store.shopping.yahoo.co.jp/pon-junkshop/55c252774.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-08-22 17:53:19",
+      "price_history": [
+        {
+          "price_yen": 20200,
+          "observed_at": "2026-08-22 17:53:19"
         }
       ]
     },
@@ -10789,6 +10857,39 @@
         {
           "price_yen": 14500,
           "observed_at": "2026-08-25 14:02:34"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_55a254242",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-8500",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ NEC Mate MKM30/E-4 PC-MKM30EZG4 Core i5-8500 3GHz 8GB 256GB(NVMeSSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
+      "price_yen": 18700,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/55a254242.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-08-25 14:02:32",
+      "price_history": [
+        {
+          "price_yen": 18700,
+          "observed_at": "2026-08-25 14:02:32"
         }
       ]
     },
