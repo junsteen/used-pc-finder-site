@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 18:26:07+09:00",
+  "generated_at": "2026-08-28 19:06:10+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3200,6 +3200,40 @@
         {
           "price_yen": 27800,
           "observed_at": "2026-08-28 08:02:25"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "oastation:10000026",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5-9400T",
+        "cpu_generation": 9,
+        "memory_gb": 16,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "【中古】Lenovo ThinkCentre M720q Core i5-9400T メモリ16GB SSD256GB Windows11Pro 小型 省スペースデスクトップPC",
+      "price_yen": 19800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ux13o.2lytqaa3.g00ux13o.2lytr509/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foastation%2Fthinkcm720q%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Foastation%2Fi%2F10000026%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 10:04:57",
+      "price_history": [
+        {
+          "price_yen": 19800,
+          "observed_at": "2026-08-28 10:04:57"
         }
       ]
     },
