@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 23:26:11+09:00",
+  "generated_at": "2026-08-28 23:46:17+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1928,36 +1928,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "be-stock:10165623",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5"
-      },
-      "title": "中古デスクトップNEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 【中古】 NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit",
-      "price_yen": 22700,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fn-pc-mkm21czc4_0006_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10165623%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 08:42:18",
-      "price_history": [
-        {
-          "price_yen": 22700,
-          "observed_at": "2026-08-28 08:42:18"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "be-stock:10166028",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -1982,36 +1952,6 @@
         {
           "price_yen": 21600,
           "observed_at": "2026-08-24 09:02:25"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "be-stock:10166228",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5"
-      },
-      "title": "中古デスクトップNEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 【中古】 NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit",
-      "price_yen": 22700,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fn-pc-mkm21czc4_0008_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10166228%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 08:42:18",
-      "price_history": [
-        {
-          "price_yen": 22700,
-          "observed_at": "2026-08-28 08:42:18"
         }
       ]
     },
@@ -2290,36 +2230,6 @@
         {
           "price_yen": 21500,
           "observed_at": "2026-08-28 08:42:22"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "be-stock:10167946",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5"
-      },
-      "title": "中古デスクトップLenovo T.C.M720e 11BD0014JP 【中古】 Lenovo T.C.M720e 中古デスクトップCore i5 Win11 Pro 64bit Lenovo T.C.M720e 中古デスクトップCore i5 Win11 Pro 64bit",
-      "price_yen": 19800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fud11bd0014_0001_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167946%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 08:42:18",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-28 08:42:18"
         }
       ]
     },
@@ -3464,39 +3374,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "ruitasu-r:10009326",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 10"
-      },
-      "title": "【中古】 Lenovo ThinkCentre M720s Intel core i5 8400 8GBRAM 500GBHD DVDマルチ Windows10",
-      "price_yen": 17400,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00slpfo.2lytqae6.g00slpfo.2lytr433/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fruitasu-r%2F1000351010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fruitasu-r%2Fi%2F10009326%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-08-28 08:42:20",
-      "price_history": [
-        {
-          "price_yen": 17400,
-          "observed_at": "2026-08-28 08:42:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "ruitasu-r:10009908",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -4219,6 +4096,39 @@
         {
           "price_yen": 7980,
           "observed_at": "2026-08-22 17:53:19"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_21963",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mk32me-b",
+      "model_name": "Mate MK32ME-B",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5-650",
+        "memory_gb": 2,
+        "storage": "HDD 160GB",
+        "os": "Windows 7 Pro"
+      },
+      "title": "Windows7 Pro 32bit NEC Mate MK32ME-B (PC-MK32MEZCB) Corei5 650 3.2GHz メモリ 2GB HDD 160GB(SATA) DVD-ROM 筐体黄ばみあり",
+      "price_yen": 24800,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21963.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:53:23",
+      "price_history": [
+        {
+          "price_yen": 24800,
+          "observed_at": "2026-08-22 17:53:23"
         }
       ]
     },
