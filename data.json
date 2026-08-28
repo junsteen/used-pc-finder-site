@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29 06:06:18+09:00",
+  "generated_at": "2026-08-29 06:26:16+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1859,36 +1859,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "be-stock:10167847",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070",
-      "model_name": "OptiPlex 3070",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5"
-      },
-      "title": "中古デスクトップDell Optiplex 3070 3070-3070MS 【中古】 Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit Dell Optiplex 3070 中古デスクトップCore i5 Win11 Pro 64bit",
-      "price_yen": 22000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fd-3070-3070ms_0068_set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167847%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-27 08:42:27",
-      "price_history": [
-        {
-          "price_yen": 22000,
-          "observed_at": "2026-08-27 08:42:27"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "comfull-premium:10104334",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -2661,37 +2631,6 @@
         {
           "price_yen": 14980,
           "observed_at": "2026-08-28 05:42:34"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "pc-good:10975114",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5",
-        "memory_gb": 16
-      },
-      "title": "中古パソコン Inspiron 3470【Core i5(2.8GHz)/16GB/1TB HDD/Win11Home】 DELL 当社3ヶ月間保証 イオシス",
-      "price_yen": 29800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q61to.2lytqe51.g00q61to.2lytrb63/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-good%2F430795%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-good%2Fi%2F10975114%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 13:22:24",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-28 13:22:24"
         }
       ]
     },
