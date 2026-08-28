@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 20:06:16+09:00",
+  "generated_at": "2026-08-28 21:26:25+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1269,37 +1269,6 @@
         {
           "price_yen": 10000,
           "observed_at": "2026-08-22 17:54:14"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC653281",
-      "watch_name": "rtx4060ti_16gb",
-      "spec_id": "geforce_rtx4060ti_16gb",
-      "shop_id": "dospara",
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "gpu": "RTX 4060 Ti",
-        "vram_gb": 16
-      },
-      "title": "中古  MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC (RTX4060Ti 16GB) 1230010736",
-      "price_yen": 93900,
-      "url": "https://www.dospara.co.jp/SBR1522/IC653281.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:51:38",
-      "price_history": [
-        {
-          "price_yen": 93900,
-          "observed_at": "2026-08-22 17:51:38"
         }
       ]
     },
@@ -6013,38 +5982,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "janpara_45108392-45",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】Palit GeForce RTX 3060 Dual 12GB（NE63060019K9-190AD）RTX3060/12GB(GDDR6)【道玄坂】保証期間１週間",
-      "price_yen": 33980,
-      "url": "https://store.shopping.yahoo.co.jp/janpara/45108392-45.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-28 05:41:44",
-      "price_history": [
-        {
-          "price_yen": 33980,
-          "observed_at": "2026-08-28 05:41:44"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_49309911-49",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
@@ -9063,40 +9000,6 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-08-24 21:02:36"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "kdc-3_2-3096y",
-      "watch_name": "mate_mrl36l-5",
-      "spec_id": "mate_mrl36l-5",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mrl36l-5",
-      "model_name": "Mate MRL36L-5",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i3-9100",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 240GB",
-        "os": "Windows 11"
-      },
-      "title": "Windows11 第9世代CPU搭載 高速SSD使用 ★ NEC Mate MRL36L-5 Core i3-9100(3.6G/4コア) メモリ8GB SSD240GB DVD-RW VGA/DP",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/kdc-3/2-3096y.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-24 06:02:58",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-08-24 06:02:58"
         }
       ]
     },
