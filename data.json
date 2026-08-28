@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 15:46:21+09:00",
+  "generated_at": "2026-08-28 16:26:10+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1448,70 +1448,6 @@
       ]
     },
     {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC664409",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  ZOTAC ZT-A30600A-10B （RTX3060 12GB） 3480042462",
-      "price_yen": 36000,
-      "url": "https://www.dospara.co.jp/SBR1522/IC664409.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-27 21:02:14",
-      "price_history": [
-        {
-          "price_yen": 36000,
-          "observed_at": "2026-08-27 21:02:14"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "aqua-light:10024583",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-4160",
-        "cpu_generation": 4,
-        "memory_gb": 4,
-        "os": "Windows 8.1 Pro"
-      },
-      "title": "Windows8.1 Pro 64bit 富士通 ESPRIMO D552/KX (FMVD13028P) Core i3-4160 3.6GHz 4GB 500GB DVDマルチ 中古パソコン デスクトップ 本体のみ 中古PC 良品",
-      "price_yen": 19800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00quiho.2lytqae4.g00quiho.2lytrbdd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faqua-light%2F11921-8%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faqua-light%2Fi%2F10024583%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 01:22:20",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-28 01:22:20"
-        }
-      ]
-    },
-    {
       "source": "rakuten",
       "source_label": "楽天市場",
       "listing_id": "atland:10002213",
@@ -2016,6 +1952,40 @@
         {
           "price_yen": 28400,
           "observed_at": "2026-08-25 14:04:34"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "e-copy:10014750",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mum28l-z",
+      "model_name": "Mate MUM28L-Z",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5-9400",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "NEC Mate MUM28L-Z Corei5 9400 M.2SSD256GB 8GBメモリ Windows11 デスクトップパソコン 中古パソコン 【中古】",
+      "price_yen": 16500,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzqeo.2lytq309.g00pzqeo.2lytrcf5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-copy%2Fmatem2-256%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-copy%2Fi%2F10014750%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 07:22:22",
+      "price_history": [
+        {
+          "price_yen": 16500,
+          "observed_at": "2026-08-28 07:22:22"
         }
       ]
     },
