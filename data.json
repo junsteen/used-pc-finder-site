@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 13:46:12+09:00",
+  "generated_at": "2026-08-28 14:06:17+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3293,39 +3293,6 @@
         {
           "price_yen": 23800,
           "observed_at": "2026-08-27 22:04:56"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "restation:10077916",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-8500",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "【中古】中古パソコン 富士通 ESPRIMO D588/V(VX) Windows11 デスクトップ 第8世代 Core i5 8500 3.0(～最大4.1)GHz MEM:8GB SSD:256",
-      "price_yen": 24800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q9f6o.2lytq36e.g00q9f6o.2lytr670/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frestation%2F1-240001085956%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frestation%2Fi%2F10077916%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-24 23:02:20",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-08-24 23:02:20"
         }
       ]
     },
