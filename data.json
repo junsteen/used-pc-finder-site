@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 14:06:17+09:00",
+  "generated_at": "2026-08-28 14:46:19+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1374,6 +1374,41 @@
         {
           "price_yen": 94800,
           "observed_at": "2026-08-24 21:02:12"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC662472",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-10400F",
+        "cpu_generation": 10,
+        "memory_gb": 16,
+        "storage": "SSD 2TB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  OriginalPC(Intel Core i5 10400F/16GB DDR4 (PC4)/SSD2TB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 202568【8/27値下げ!】",
+      "price_yen": 80800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC662472.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-28 05:42:15",
+      "price_history": [
+        {
+          "price_yen": 80800,
+          "observed_at": "2026-08-28 05:42:15"
         }
       ]
     },
@@ -2962,6 +2997,40 @@
         {
           "price_yen": 24800,
           "observed_at": "2026-08-28 03:02:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pasodon:10002554",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-at994e",
+      "model_name": "Endeavor AT994E",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "【中古デスクトップPC】EPSON Endeavor AT994E / Core i3-8100 / 8GB / 新品 2.5\" SSD 128GB / Windows 11 / WPS Office 2 / DVD-RW",
+      "price_yen": 14980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u22co.2lytq46b.g00u22co.2lytrfc2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpasodon%2F675898-8100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpasodon%2Fi%2F10002554%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-08-28 05:42:34",
+      "price_history": [
+        {
+          "price_yen": 14980,
+          "observed_at": "2026-08-28 05:42:34"
         }
       ]
     },
@@ -5773,6 +5842,38 @@
         {
           "price_yen": 31980,
           "observed_at": "2026-08-26 00:21:41"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_45108392-45",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "【中古】Palit GeForce RTX 3060 Dual 12GB（NE63060019K9-190AD）RTX3060/12GB(GDDR6)【道玄坂】保証期間１週間",
+      "price_yen": 33980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/45108392-45.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-28 05:41:44",
+      "price_history": [
+        {
+          "price_yen": 33980,
+          "observed_at": "2026-08-28 05:41:44"
         }
       ]
     },
@@ -9087,17 +9188,21 @@
         "os": "Windows 11"
       },
       "title": "【中古デスクトップPC】EPSON Endeavor AT994E / Core i3-8100 / 8GB / 新品 2.5\" SSD 128GB / Windows 11 / WPS Office 2 / DVD-RW",
-      "price_yen": 19980,
+      "price_yen": 12980,
       "url": "https://store.shopping.yahoo.co.jp/pasodon/675898-8100.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "条件付き送料無料",
       "shipping_label": "条件付き送料無料",
-      "observed_at": "2026-08-28 04:42:37",
+      "observed_at": "2026-08-28 05:42:42",
       "price_history": [
         {
           "price_yen": 19980,
           "observed_at": "2026-08-28 04:42:37"
+        },
+        {
+          "price_yen": 12980,
+          "observed_at": "2026-08-28 05:42:42"
         }
       ]
     },
