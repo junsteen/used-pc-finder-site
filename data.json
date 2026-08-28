@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 19:26:10+09:00",
+  "generated_at": "2026-08-28 20:06:16+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1409,41 +1409,6 @@
         {
           "price_yen": 80800,
           "observed_at": "2026-08-28 05:42:15"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC662494",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-10400",
-        "cpu_generation": 10,
-        "memory_gb": 16,
-        "storage": "SSD 1TB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  TSUKUMO G-gear(Intel Core i5 10400/16GB DDR4 (PC4)/SSD1TB/DVDマルチ/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 202590",
-      "price_yen": 85800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC662494.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-08-25 21:02:45",
-      "price_history": [
-        {
-          "price_yen": 85800,
-          "observed_at": "2026-08-25 21:02:45"
         }
       ]
     },
