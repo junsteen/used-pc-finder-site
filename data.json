@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 17:46:06+09:00",
+  "generated_at": "2026-08-28 18:06:32+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3068,39 +3068,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "nabekin:10018568",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-9100",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC FUJITSU ESPRIMO D588/BX Core i3 9100 メモリ8GB 中古SSD 2.5インチ256GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 19800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26010714%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018568%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-28 03:02:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "nabekin:10018695",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -3133,140 +3100,6 @@
         {
           "price_yen": 19800,
           "observed_at": "2026-08-25 14:02:26"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10018702",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC DELL Vostro 3470 Core i3 8100 メモリ8GB / 16GB 中古SSD 2.5インチ128GB / 256GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 19800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh260306a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018702%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-28 03:02:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10018810",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-9100",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC NEC Mate MB-5 PC-MKL36BZG5 Core i3 9100 メモリ8GB / 16GB 中古SSD128GB /256GB / 512GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 12800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh260413a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018810%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-24 10:02:22",
-      "price_history": [
-        {
-          "price_yen": 12800,
-          "observed_at": "2026-08-24 10:02:22"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10018813",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-9500",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC FUJITSU ESPRIMO D588/B Core i5 9500 メモリ8GB 中古SSD256GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 23800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh260414b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018813%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 23800,
-          "observed_at": "2026-08-28 03:02:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10018900",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC DELL Vostro 3470 Core i5 8400 メモリ8GB 中古SSD 2.5インチ256GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 29800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26050819%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10018900%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 29800,
-          "observed_at": "2026-08-28 03:02:20"
         }
       ]
     },
@@ -3306,107 +3139,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "nabekin:10019054",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC NEC Mate ML-3 PC-MKL36LZ6AAS3 Core i3 8100 メモリ8GB 中古SSD256GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 22800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26062312%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10019054%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 22800,
-          "observed_at": "2026-08-28 03:02:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10019062",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC NEC Mate ML-3 PC-MKL36LZ6AAS3 Core i3 8100 メモリ8GB 中古SSD128GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 17800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26062504%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10019062%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-08-28 03:02:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10019208",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC NEC Mate ML-4 PC-MRL36LZGAAS4 Core i3 8100 メモリ8GB 中古SSD 2.5インチ128GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 10800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26080515%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10019208%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 10800,
-          "observed_at": "2026-08-28 03:02:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "nabekin:10019226",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -3434,39 +3166,6 @@
         {
           "price_yen": 27800,
           "observed_at": "2026-08-24 10:02:25"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "nabekin:10019232",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3-10100",
-        "cpu_generation": 10,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "中古パソコン デスクトップPC NEC Mate ML-Y PC-MRL36LZ6ACSY Core i3 10100 メモリ8GB 中古SSD 2.5インチ250GB Windows11 Pro 64bit【送料無料】【1年保証】",
-      "price_yen": 24800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ruhgo.2lytqaa7.g00ruhgo.2lytre42/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnabekin%2Fh26081219%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnabekin%2Fi%2F10019232%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 03:02:20",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-08-28 03:02:20"
         }
       ]
     },
@@ -3799,6 +3498,105 @@
         {
           "price_yen": 18000,
           "observed_at": "2026-08-25 14:05:50"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcspocket:10004534",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mke31b-3",
+      "model_name": "Mate MKE31B-3",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "送料無料 1年保証 第8世代 Core i5 NEC | Mate MKE31B-3 | Windows11 | デスクトップ | 中古パソコン | 相当 | Celeron G4900 3.1GHz | MEM:8GB | SSD:120GB | DVD-ROM | 無線LAN:なし | Win11Pro64bit",
+      "price_yen": 13980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fbdt0000059%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10004534%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 09:02:23",
+      "price_history": [
+        {
+          "price_yen": 13980,
+          "observed_at": "2026-08-28 09:02:23"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcspocket:10004536",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mkl36l-3",
+      "model_name": "Mate MKL36L-3",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "送料無料 1年保証 第8世代 Core i3 NEC | Mate MKL36L-3 | Windows11 | デスクトップ | 中古パソコン | Core i3 8100 3.6GHz | MEM:8GB | SSD:120GB | DVDマルチ | 無線LAN:なし | Win11Pro64bit",
+      "price_yen": 14980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fbdt0000061%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10004536%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 09:02:23",
+      "price_history": [
+        {
+          "price_yen": 14980,
+          "observed_at": "2026-08-28 09:02:23"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcspocket:10004626",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mkm30b-4",
+      "model_name": "Mate MKM30B-4",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "送料無料 1年保証 第8世代 Corei5 | NEC | Mate MKM30B-4 | Windows11 | デスクトップ | 中古パソコン | 第8世代 | Core i5 8500 3.0(〜最大4.1)GHz | MEM:8GB | SSD:256GB | DVD-ROM | 無線LAN:なし | Win11Pro64bit",
+      "price_yen": 21980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fbdt0000117%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10004626%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 04:42:17",
+      "price_history": [
+        {
+          "price_yen": 21980,
+          "observed_at": "2026-08-24 04:42:17"
         }
       ]
     },
