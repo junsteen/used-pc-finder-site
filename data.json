@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 08:26:09+09:00",
+  "generated_at": "2026-08-28 10:26:09+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1405,6 +1405,39 @@
         {
           "price_yen": 36000,
           "observed_at": "2026-08-27 21:02:14"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "aqua-light:10024583",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-4160",
+        "cpu_generation": 4,
+        "memory_gb": 4,
+        "os": "Windows 8.1 Pro"
+      },
+      "title": "Windows8.1 Pro 64bit 富士通 ESPRIMO D552/KX (FMVD13028P) Core i3-4160 3.6GHz 4GB 500GB DVDマルチ 中古パソコン デスクトップ 本体のみ 中古PC 良品",
+      "price_yen": 19800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00quiho.2lytqae4.g00quiho.2lytrbdd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faqua-light%2F11921-8%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faqua-light%2Fi%2F10024583%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 01:22:20",
+      "price_history": [
+        {
+          "price_yen": 19800,
+          "observed_at": "2026-08-28 01:22:20"
         }
       ]
     },
