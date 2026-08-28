@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 21:26:25+09:00",
+  "generated_at": "2026-08-28 22:26:17+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2392,40 +2392,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "e-copy:10014750",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-mum28l-z",
-      "model_name": "Mate MUM28L-Z",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i5-9400",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "NEC Mate MUM28L-Z Corei5 9400 M.2SSD256GB 8GBメモリ Windows11 デスクトップパソコン 中古パソコン 【中古】",
-      "price_yen": 16500,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzqeo.2lytq309.g00pzqeo.2lytrcf5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-copy%2Fmatem2-256%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-copy%2Fi%2F10014750%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-08-28 07:22:22",
-      "price_history": [
-        {
-          "price_yen": 16500,
-          "observed_at": "2026-08-28 07:22:22"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "etre:10054725",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -3164,6 +3130,37 @@
         {
           "price_yen": 14980,
           "observed_at": "2026-08-28 05:42:34"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pc-good:10975114",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 16
+      },
+      "title": "中古パソコン Inspiron 3470【Core i5(2.8GHz)/16GB/1TB HDD/Win11Home】 DELL 当社3ヶ月間保証 イオシス",
+      "price_yen": 29800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00q61to.2lytqe51.g00q61to.2lytrb63/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-good%2F430795%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-good%2Fi%2F10975114%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-28 13:22:24",
+      "price_history": [
+        {
+          "price_yen": 29800,
+          "observed_at": "2026-08-28 13:22:24"
         }
       ]
     },
@@ -4959,40 +4956,6 @@
         {
           "price_yen": 18180,
           "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "genel_n-toshiba-g83hu",
-      "watch_name": "dynabook_g83hu",
-      "spec_id": "dynabook_g83hu",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-1135G",
-        "cpu_generation": 11,
-        "memory_gb": 16,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "東芝 TOSHIBA dynabook G83/HU 第11世代 Core i5 1135G7 2.40GHz メモリ 16GB NVMeSSD256GB 無線 カメラ 指紋 Office フルHD 13.3型ワイド Windows 11 64bit",
-      "price_yen": 32480,
-      "url": "https://store.shopping.yahoo.co.jp/genel/n-toshiba-g83hu.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:51:49",
-      "price_history": [
-        {
-          "price_yen": 32480,
-          "observed_at": "2026-08-22 17:51:49"
         }
       ]
     },
