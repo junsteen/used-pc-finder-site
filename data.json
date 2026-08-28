@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 16:26:10+09:00",
+  "generated_at": "2026-08-28 16:46:08+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -4731,70 +4731,6 @@
         {
           "price_yen": 18180,
           "observed_at": "2026-08-25 14:04:34"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "excellar_1050019023",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり【いつでも+1％！5のつく日と日曜日は+2%！】　爆買",
-      "price_yen": 42800,
-      "url": "https://store.shopping.yahoo.co.jp/excellar/1050019023.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:52:28",
-      "price_history": [
-        {
-          "price_yen": 42800,
-          "observed_at": "2026-08-22 17:52:28"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "excellar_1050028802",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": null,
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "【中古】玄人志向 グラフィックボード GALAKURO GAMING GG-RTX3060-E12GB/OC/DF PCIExp 12GB 元箱あり【いつでも+1％！5のつく日と日曜日は+2%！】　爆買",
-      "price_yen": 42600,
-      "url": "https://store.shopping.yahoo.co.jp/excellar/1050028802.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:52:28",
-      "price_history": [
-        {
-          "price_yen": 42600,
-          "observed_at": "2026-08-22 17:52:28"
         }
       ]
     },
