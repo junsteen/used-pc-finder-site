@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 12:06:56+09:00",
+  "generated_at": "2026-09-04 13:26:40+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -6930,6 +6930,38 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_83284988-83",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 12,
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "【中古】Palit GeForce RTX 3060 Dual 12GB（NE63060019K9-190AD）RTX3060(LHR)/12GB(GDDR6)【札幌】保証期間１週間",
+      "price_yen": 35980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/83284988-83.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:52:28",
+      "price_history": [
+        {
+          "price_yen": 35980,
+          "observed_at": "2026-08-22 17:52:28"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_83287558-83",
       "watch_name": "rtx4060ti_16gb",
       "spec_id": "geforce_rtx4060ti_16gb",
@@ -10416,6 +10448,39 @@
         {
           "price_yen": 11550,
           "observed_at": "2026-08-22 17:53:23"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "seathedemi_ysde0088",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mrm29l-5",
+      "model_name": "Mate MRM29L-5",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5-9400",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 256GB"
+      },
+      "title": "【中古】NEC Mate MRM29L-5 / Corei5-9400/SSD256GB/mem8GB/マルチ/win11/(ysde0088",
+      "price_yen": 18700,
+      "url": "https://store.shopping.yahoo.co.jp/seathedemi/ysde0088.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-04 04:22:30",
+      "price_history": [
+        {
+          "price_yen": 18700,
+          "observed_at": "2026-09-04 04:22:30"
         }
       ]
     },
