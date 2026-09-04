@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 11:06:52+09:00",
+  "generated_at": "2026-09-04 12:06:56+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3328,6 +3328,40 @@
         {
           "price_yen": 17800,
           "observed_at": "2026-09-03 23:04:56"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcnext:10000120",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第12世代）",
+        "cpu_generation": 12,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "【楽天スーパーSALE】中古パソコン 関西電力グループ 中古ノートパソコン office付き 国産メーカー 富士通 Lifebook U9312/K 第12世代 Core i5 メモリ8GB 新品SSD256GB Windows11 Webカメラ 初期設定不要 すぐ使える 軽量 モバイル 13.3型 Wi-Fi 1年保証",
+      "price_yen": 74800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u3a9o.2lytq574.g00u3a9o.2lytr7e5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcnext%2F9078885810413%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcnext%2Fi%2F10000120%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 03:06:07",
+      "price_history": [
+        {
+          "price_yen": 74800,
+          "observed_at": "2026-09-04 03:06:07"
         }
       ]
     },
