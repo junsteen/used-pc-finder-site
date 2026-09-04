@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 16:06:59+09:00",
+  "generated_at": "2026-09-04 16:26:58+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -4518,7 +4518,7 @@
         "storage": "SSD 128GB",
         "os": "Windows 11"
       },
-      "title": "中古デスクトップパソコン Windows11 MicrosoftOffice2024 Lenovo ThinkCentre M720q 第8世代 Core i3 メモリ8GB SSD128GB DisplayPort HDMI VGA 3画面出力可",
+      "title": "中古デスクトップパソコン Windows11 MicrosoftOffice2024 Lenovo ThinkCentre M720q 第8世代 Core i3 メモリ8GB SSD128GB DisplayPort HDMI VGA 3画面出力対応",
       "price_yen": 16800,
       "url": "https://store.shopping.yahoo.co.jp/aoshiro/pc-desk238.html",
       "is_affiliate": false,
@@ -11488,6 +11488,39 @@
         {
           "price_yen": 24000,
           "observed_at": "2026-09-03 23:04:57"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_55a254242",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-8500",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ NEC Mate MKM30/E-4 PC-MKM30EZG4 Core i5-8500 3GHz 8GB 256GB(NVMeSSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
+      "price_yen": 18700,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/55a254242.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-08-25 13:37:53",
+      "price_history": [
+        {
+          "price_yen": 18700,
+          "observed_at": "2026-08-25 13:37:53"
         }
       ]
     },
