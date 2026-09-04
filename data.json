@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 19:46:53+09:00",
+  "generated_at": "2026-09-04 20:07:05+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2729,6 +2729,36 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "be-stock:10167139",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "中古デスクトップLenovo ThinkCentre M720s 10SUA03GJP 【中古】 Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 17200,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fud10sua03g_0001_setsp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167139%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 11:02:25",
+      "price_history": [
+        {
+          "price_yen": 17200,
+          "observed_at": "2026-09-04 11:02:25"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "be-stock:10167699",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -3649,40 +3679,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "jyunntenn:10000202",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "【全商品10%OFF+P5倍】Lenovo ThinkCentre M720q Tiny 第8世代 Core i3 メモリ 8GB 16GB SSD 256GB 512GB Windows11 Pro 搭載 WPS Office 付き Wi-Fi6付属 超小型 デスクトップ パソコン 2画面出力 ミニPC 省スペース 高性能 パソコン 在宅勤務 ビジネス 中古PC",
-      "price_yen": 25000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00upk3o.2lytq8da.g00upk3o.2lytr8b0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyunntenn%2Fjt-lnv-m720q-m-i3-8th-c%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyunntenn%2Fi%2F10000202%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-03 23:05:17",
-      "price_history": [
-        {
-          "price_yen": 25000,
-          "observed_at": "2026-09-03 23:05:17"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "konanonline:10385293",
       "watch_name": "gen12_laptop",
       "spec_id": null,
@@ -3708,6 +3704,40 @@
         {
           "price_yen": 60576,
           "observed_at": "2026-09-04 07:06:09"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "lelib:10000074",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "【ポイント5倍&1500円オフ】【マウス＋キーボード付属】デスクトップパソコン 中古 パソコン Office付き SSD128GB メモリ8GB Corei5 第8世代 Lenovo Thinkcentre M720S デスクトップ 中古パソコン Windows11 Pro pc デスクトップPC 最大メモリ16GB 最大SSD1TB",
+      "price_yen": 29800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uevoo.2lytq470.g00uevoo.2lytrbe3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flelib%2Fdt-16%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flelib%2Fi%2F10000074%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 11:02:25",
+      "price_history": [
+        {
+          "price_yen": 29800,
+          "observed_at": "2026-09-04 11:02:25"
         }
       ]
     },
@@ -5657,17 +5687,21 @@
         "os": "Windows 10 Pro"
       },
       "title": "スリムデスクトップPC NEC ★中古パソコン・Aランク★PC-MRM28LZ61CS4 [Mate MRM28/L-4(i5-8400 8GB SSD256GB Windows10Pro 30日保証)]",
-      "price_yen": 23780,
+      "price_yen": 23380,
       "url": "https://store.shopping.yahoo.co.jp/etrend-y/1296168.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:06:03",
+      "observed_at": "2026-09-04 11:05:37",
       "price_history": [
         {
           "price_yen": 23780,
           "observed_at": "2026-09-03 23:06:03"
+        },
+        {
+          "price_yen": 23380,
+          "observed_at": "2026-09-04 11:05:37"
         }
       ]
     },
@@ -5691,17 +5725,21 @@
         "os": "Windows 10 Pro"
       },
       "title": "スリムデスクトップPC NEC ★中古パソコン・Aランク★PC-MRM28LZ71CS4 [Mate MRM28/L-4(i5-8400 8GB SSD256GB Windows10Pro 30日保証)]",
-      "price_yen": 23780,
+      "price_yen": 23380,
       "url": "https://store.shopping.yahoo.co.jp/etrend-y/1296170.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:06:03",
+      "observed_at": "2026-09-04 11:05:37",
       "price_history": [
         {
           "price_yen": 23780,
           "observed_at": "2026-09-03 23:06:03"
+        },
+        {
+          "price_yen": 23380,
+          "observed_at": "2026-09-04 11:05:37"
         }
       ]
     },
@@ -5725,17 +5763,21 @@
         "os": "Windows 10 Pro"
       },
       "title": "スリムデスクトップPC NEC ★中古パソコン・Aランク★PC-MRM28LZ71CS4 [Mate MRM28/L-4(i5-8400 8GB SSD256GB Windows10Pro 30日保証)]",
-      "price_yen": 22380,
+      "price_yen": 21980,
       "url": "https://store.shopping.yahoo.co.jp/etrend-y/1296171.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:06:03",
+      "observed_at": "2026-09-04 11:05:37",
       "price_history": [
         {
           "price_yen": 22380,
           "observed_at": "2026-09-03 23:06:03"
+        },
+        {
+          "price_yen": 21980,
+          "observed_at": "2026-09-04 11:05:37"
         }
       ]
     },
@@ -5759,17 +5801,21 @@
         "os": "Windows 10 Pro"
       },
       "title": "スリムデスクトップPC NEC ★中古パソコン・Aランク★PC-MRM28LZ71CS4 [Mate MRM28/L-4(i5-8400 8GB SSD256GB Windows10Pro 30日保証)]",
-      "price_yen": 22780,
+      "price_yen": 22380,
       "url": "https://store.shopping.yahoo.co.jp/etrend-y/1296172.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:06:03",
+      "observed_at": "2026-09-04 11:05:37",
       "price_history": [
         {
           "price_yen": 22780,
           "observed_at": "2026-09-03 23:06:03"
+        },
+        {
+          "price_yen": 22380,
+          "observed_at": "2026-09-04 11:05:37"
         }
       ]
     },
@@ -5827,17 +5873,21 @@
         "os": "Windows 10 Pro"
       },
       "title": "スリムデスクトップPC NEC ★中古パソコン・Aランク★PC-MRM28LZ71CZ4 [Mate MRM28/L-4(i5-8400 8GB SSD256GB Windows10Pro 30日保証)]",
-      "price_yen": 22780,
+      "price_yen": 22380,
       "url": "https://store.shopping.yahoo.co.jp/etrend-y/1296174.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:06:03",
+      "observed_at": "2026-09-04 11:05:37",
       "price_history": [
         {
           "price_yen": 22780,
           "observed_at": "2026-09-03 23:06:03"
+        },
+        {
+          "price_yen": 22380,
+          "observed_at": "2026-09-04 11:05:37"
         }
       ]
     },
@@ -5861,17 +5911,21 @@
         "os": "Windows 10 Pro"
       },
       "title": "スリムデスクトップPC レノボ・ジャパン ★中古パソコン・Aランク★11BD000YJP [ThinkCentre M720e Small(i3-8100 8GB HDD500GB Windows10Pro 30日保証)]",
-      "price_yen": 18180,
+      "price_yen": 17800,
       "url": "https://store.shopping.yahoo.co.jp/etrend-y/1299071.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:04:56",
+      "observed_at": "2026-09-04 11:04:40",
       "price_history": [
         {
           "price_yen": 18180,
           "observed_at": "2026-09-03 23:04:56"
+        },
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-09-04 11:04:40"
         }
       ]
     },
@@ -5895,17 +5949,21 @@
         "os": "Windows 10 Pro"
       },
       "title": "スリムデスクトップPC レノボ・ジャパン ★中古パソコン・Aランク★11BD000YJP [ThinkCentre M720e Small(i3-8100 8GB HDD500GB Windows10Pro 30日保証)]",
-      "price_yen": 18180,
+      "price_yen": 17800,
       "url": "https://store.shopping.yahoo.co.jp/etrend-y/1299072.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:04:56",
+      "observed_at": "2026-09-04 11:04:40",
       "price_history": [
         {
           "price_yen": 18180,
           "observed_at": "2026-09-03 23:04:56"
+        },
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-09-04 11:04:40"
         }
       ]
     },
