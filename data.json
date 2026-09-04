@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 18:06:59+09:00",
+  "generated_at": "2026-09-04 18:46:59+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -4548,6 +4548,36 @@
       ]
     },
     {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "vlookupstore:10765713",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu_generation": 12
+      },
+      "title": "16インチノートパソコン【Win 11 Pro/MS Office 2019】第12世代Alder Lake N95 CPU (1.7-3.4Ghz)12G LPDDR5 RAM 960GB ROM 2K 1920*1200 FHD",
+      "price_yen": 66799,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u4uxo.2lytq5d8.g00u4uxo.2lytrde1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvlookupstore%2Fgr-e9zgdreuko%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvlookupstore%2Fi%2F10765713%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-09-04 09:46:09",
+      "price_history": [
+        {
+          "price_yen": 66799,
+          "observed_at": "2026-09-04 09:46:09"
+        }
+      ]
+    },
+    {
       "source": "sofmap",
       "source_label": "ソフマップ",
       "listing_id": "2000331111022",
@@ -5206,6 +5236,39 @@
       "price_history": [
         {
           "price_yen": 23800,
+          "observed_at": "2026-08-22 17:53:23"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_21963",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mk32me-b",
+      "model_name": "Mate MK32ME-B",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i5-650",
+        "memory_gb": 2,
+        "storage": "HDD 160GB",
+        "os": "Windows 7 Pro"
+      },
+      "title": "Windows7 Pro 32bit NEC Mate MK32ME-B (PC-MK32MEZCB) Corei5 650 3.2GHz メモリ 2GB HDD 160GB(SATA) DVD-ROM 筐体黄ばみあり",
+      "price_yen": 24800,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21963.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:53:23",
+      "price_history": [
+        {
+          "price_yen": 24800,
           "observed_at": "2026-08-22 17:53:23"
         }
       ]
