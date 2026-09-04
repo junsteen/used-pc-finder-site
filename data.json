@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 17:26:45+09:00",
+  "generated_at": "2026-09-04 17:46:50+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -5056,17 +5056,21 @@
         "memory_gb": 8
       },
       "title": "中古 デスクトップ Lenovo レノボ ThinkCentre M920s Small 10SKS4M300 Core i5 メモリ：8GB 6ヶ月保証",
-      "price_yen": 23800,
+      "price_yen": 19800,
       "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/ud10sks4m3-a001.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 08:42:31",
+      "observed_at": "2026-09-04 08:42:29",
       "price_history": [
         {
           "price_yen": 23800,
           "observed_at": "2026-08-24 08:42:31"
+        },
+        {
+          "price_yen": 19800,
+          "observed_at": "2026-09-04 08:42:29"
         }
       ]
     },
@@ -5087,13 +5091,13 @@
         "memory_gb": 8
       },
       "title": "中古 デスクトップ Lenovo レノボ ThinkCentre M720s 10SUA03GJP Core i5 メモリ：8GB 6ヶ月保証",
-      "price_yen": 19800,
+      "price_yen": 18700,
       "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/ud10sua03g-a001.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 08:42:31",
+      "observed_at": "2026-09-04 08:42:29",
       "price_history": [
         {
           "price_yen": 21600,
@@ -5102,6 +5106,10 @@
         {
           "price_yen": 19800,
           "observed_at": "2026-08-24 08:42:31"
+        },
+        {
+          "price_yen": 18700,
+          "observed_at": "2026-09-04 08:42:29"
         }
       ]
     },
@@ -12179,6 +12187,40 @@
       "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
       "price_yen": 23800,
       "url": "https://store.shopping.yahoo.co.jp/yuukou-store2/lenovo-m710q-i5.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:53:19",
+      "price_history": [
+        {
+          "price_yen": 23800,
+          "observed_at": "2026-08-22 17:53:19"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "yuukou-store_lenovo-m710q-i5",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m710q",
+      "model_name": "ThinkCentre M710q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5-7400T",
+        "cpu_generation": 7,
+        "memory_gb": 4,
+        "storage": "HDD 500GB",
+        "os": "Windows 11"
+      },
+      "title": "【miniデスクトップ】中古デスクトップパソコン Windows 11 Lenovo ThinkCentre M710q CPU Intel Core i5-7400T メモリ4GB 大容量HDD500GB 無線 WPS office2搭載",
+      "price_yen": 23800,
+      "url": "https://store.shopping.yahoo.co.jp/yuukou-store/lenovo-m710q-i5.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
