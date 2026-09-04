@@ -2,15 +2,17 @@
 
 # 全ページ共通のセキュリティヘッダー。取引・ログインを持たない静的な閲覧サイトなので
 # 主目的はクリックジャッキング対策とMIMEスニッフィング対策。CSPが効くのは、
-# インラインの<script>をsite/assets/app.js・register-sw.jsへ外出ししたため
+# インラインの<script>をsite/assets/app.js・register-sw.js・gtag-init.jsへ外出ししたため
 # (script-srcに'unsafe-inline'を許可せずに済む)。application/ld+jsonの
 # <script>は各ページに残っているが、script-srcの対象にならないブロックなので問題ない。
+# Google Analytics(gtag.js)はgoogletagmanager.comから読み込み、計測データを
+# google-analytics.comへ送るため、この2ドメインのみ個別に許可する。
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   X-Frame-Options: DENY
-  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'self' https://fonts.gstatic.com; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'self' https://fonts.gstatic.com https://www.google-analytics.com https://www.googletagmanager.com; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
 
 # data.json は収集のたびに更新されるため、長時間キャッシュされると古い価格が表示される。
 # 5分でstaleとし、再検証中は古い値を返す(表示が途切れない)。
