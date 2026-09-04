@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 08:27:18+09:00",
+  "generated_at": "2026-09-04 09:46:57+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -4629,6 +4629,99 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_ud10t7s3c5-a001",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Lenovo レノボ ThinkCentre M720q Small 10T7S3C500 Core i5 メモリ：8GB 6ヶ月保証",
+      "price_yen": 26000,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/ud10t7s3c5-a001.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-04 00:44:54",
+      "price_history": [
+        {
+          "price_yen": 26000,
+          "observed_at": "2026-09-04 00:44:54"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_ud10t7s3c5-a002",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Lenovo レノボ ThinkCentre M720q Small 10T7S3C500 Core i5 メモリ：8GB 6ヶ月保証",
+      "price_yen": 23800,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/ud10t7s3c5-a002.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-04 00:42:29",
+      "price_history": [
+        {
+          "price_yen": 23800,
+          "observed_at": "2026-09-04 00:42:29"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_ud10t7s3c5-a003",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Lenovo レノボ ThinkCentre M720q Small 10T7S3C500 Core i5 メモリ：8GB 6ヶ月保証",
+      "price_yen": 26000,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/ud10t7s3c5-a003.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-04 00:44:54",
+      "price_history": [
+        {
+          "price_yen": 26000,
+          "observed_at": "2026-09-04 00:44:54"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "eco-stage-japan_dt-i5-008",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -5915,6 +6008,37 @@
         {
           "price_yen": 44980,
           "observed_at": "2026-08-22 17:52:28"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_220047997-85",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
+      },
+      "title": "【中古】Gainward RTX3060 GHOST（NE63060019K9-190AU-G）RTX3060(LHR)/12GB(GDDR6)/PCI-E【福岡筑紫】保証期間１週間",
+      "price_yen": 42980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/220047997-85.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-04 00:41:40",
+      "price_history": [
+        {
+          "price_yen": 42980,
+          "observed_at": "2026-09-04 00:41:40"
         }
       ]
     },
@@ -10658,6 +10782,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_54c259460",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-9100",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ NEC Mate MKL36/A-6 Core i3-9100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
+      "price_yen": 16600,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/54c259460.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-04 00:42:33",
+      "price_history": [
+        {
+          "price_yen": 16600,
+          "observed_at": "2026-09-04 00:42:33"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_553261201",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -11215,6 +11373,39 @@
         {
           "price_yen": 16800,
           "observed_at": "2026-08-22 17:53:23"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tsutae_20220623a",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-at993e",
+      "model_name": "Endeavor AT993E",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5（第6世代）",
+        "cpu_generation": 6,
+        "memory_gb": 4,
+        "os": "Windows 10 Pro"
+      },
+      "title": "ポイント10倍 Windows10 Pro 64BIT EPSON Endeavor AT993E Core i5 第6世代 4GB 500GB DVD Office付き 中古パソコン デスクトップ",
+      "price_yen": 25800,
+      "url": "https://store.shopping.yahoo.co.jp/tsutae/20220623a.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-24 02:22:53",
+      "price_history": [
+        {
+          "price_yen": 25800,
+          "observed_at": "2026-08-24 02:22:53"
         }
       ]
     },
