@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 20:07:05+09:00",
+  "generated_at": "2026-09-04 20:27:03+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2741,7 +2741,7 @@
       "parsed": {
         "cpu": "Core i5"
       },
-      "title": "中古デスクトップLenovo ThinkCentre M720s 10SUA03GJP 【中古】 Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit",
+      "title": "【スーパーSALE割引中！】中古デスクトップLenovo ThinkCentre M720s 10SUA03GJP 【中古】 Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit Lenovo ThinkCentre M720s 中古デスクトップCore i5 Win11 Pro 64bit",
       "price_yen": 17200,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fud10sua03g_0001_setsp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167139%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -2753,6 +2753,66 @@
         {
           "price_yen": 17200,
           "observed_at": "2026-09-04 11:02:25"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167250",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "【スーパーSALE割引中！】中古デスクトップNEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 【中古】 NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 20400,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fn-pc-mkm21czc4_0008_setsp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167250%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 11:22:21",
+      "price_history": [
+        {
+          "price_yen": 20400,
+          "observed_at": "2026-09-04 11:22:21"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "be-stock:10167261",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5"
+      },
+      "title": "【スーパーSALE割引中！】中古デスクトップNEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 【中古】 NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit NEC Mate タイプMC MKM21/C-4 中古デスクトップCore i5 Win11 Pro 64bit",
+      "price_yen": 20400,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6meo.2lytqeb9.g00s6meo.2lytrf34/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbe-stock%2Fn-pc-mkm21czc4_0006_setsp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbe-stock%2Fi%2F10167261%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 11:22:21",
+      "price_history": [
+        {
+          "price_yen": 20400,
+          "observed_at": "2026-09-04 11:22:21"
         }
       ]
     },
