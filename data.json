@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 20:47:28+09:00",
+  "generated_at": "2026-09-04 21:07:35+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -10231,6 +10231,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "pasodon_674929-8500",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-8500",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "【中古デスクトップPC】dynaDesk / Core i5-8500 / 8GB / NVMe SSD 256GB / Windows 11 / WPS Office 2 / DVD-ROM",
+      "price_yen": 17980,
+      "url": "https://store.shopping.yahoo.co.jp/pasodon/674929-8500.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "条件付き送料無料",
+      "shipping_label": "条件付き送料無料",
+      "observed_at": "2026-09-04 12:02:39",
+      "price_history": [
+        {
+          "price_yen": 17980,
+          "observed_at": "2026-09-04 12:02:39"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pasodon_675898-8100",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -11024,39 +11058,6 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-08-24 02:22:53"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "seathedemi_ysde0069",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i7-8700",
-        "cpu_generation": 8,
-        "memory_gb": 16,
-        "storage": "SSD 256GB"
-      },
-      "title": "【中古】DELL Optiplex7060SF /Corei7-8700 /SSD256GB /mem16GB /マルチ /win11 /(ysde0069",
-      "price_yen": 27500,
-      "url": "https://store.shopping.yahoo.co.jp/seathedemi/ysde0069.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-04 05:22:31",
-      "price_history": [
-        {
-          "price_yen": 27500,
-          "observed_at": "2026-09-04 05:22:31"
         }
       ]
     },
@@ -12245,39 +12246,6 @@
         {
           "price_yen": 16800,
           "observed_at": "2026-08-22 17:53:23"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tsutae_20220623a",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-at993e",
-      "model_name": "Endeavor AT993E",
-      "chassis_gpu_fit": "maybe",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i5（第6世代）",
-        "cpu_generation": 6,
-        "memory_gb": 4,
-        "os": "Windows 10 Pro"
-      },
-      "title": "ポイント10倍 Windows10 Pro 64BIT EPSON Endeavor AT993E Core i5 第6世代 4GB 500GB DVD Office付き 中古パソコン デスクトップ",
-      "price_yen": 25800,
-      "url": "https://store.shopping.yahoo.co.jp/tsutae/20220623a.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:53",
-      "price_history": [
-        {
-          "price_yen": 25800,
-          "observed_at": "2026-08-24 02:22:53"
         }
       ]
     },
