@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 17:06:52+09:00",
+  "generated_at": "2026-09-04 17:26:45+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2653,6 +2653,40 @@
         {
           "price_yen": 28400,
           "observed_at": "2026-09-03 23:04:56"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "e-fellows5:10052289",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第12世代）",
+        "cpu_generation": 12,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "【エントリーでポイント5倍】 【Cランク 訳あり】富士通 LIFEBOOK U9312 第12世代 Core i5 10コア メモリ 8GB SSD 256GB NVMe Windows11 Pro 13.3インチ フルHD カメラ 顔認証 指紋 Wi-Fi6E 超軽量 ノートパソコン 中古PC",
+      "price_yen": 39800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qbu0o.2lytqee1.g00qbu0o.2lytrcb6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-fellows5%2F15011901%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-fellows5%2Fi%2F10052289%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 08:25:58",
+      "price_history": [
+        {
+          "price_yen": 39800,
+          "observed_at": "2026-09-04 08:25:58"
         }
       ]
     },
