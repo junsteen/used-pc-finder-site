@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 20:27:03+09:00",
+  "generated_at": "2026-09-04 20:47:28+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -4365,40 +4365,6 @@
         {
           "price_yen": 24800,
           "observed_at": "2026-09-03 23:04:56"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "seikishoji:10002941",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-6500",
-        "cpu_generation": 6,
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 10"
-      },
-      "title": "富士通 FUJITSU ESPRIMO D587/R Core i5-6500 3.2Ghz 8GB SSD128GB Windows 10 DVI DisplayPort DVDドライブ 外付け無線LAN付【レビュー記入で保証期間を3ヶ月に延長します。必ず商品到着後1ヶ月保証の期間中にレビューをお願いします。】",
-      "price_yen": 9500,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz9yo.2lytqda2.g00tz9yo.2lytr871/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikishoji%2Fr25052402162%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikishoji%2Fi%2F10002941%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-04 05:42:20",
-      "price_history": [
-        {
-          "price_yen": 9500,
-          "observed_at": "2026-09-04 05:42:20"
         }
       ]
     },
@@ -12656,7 +12622,7 @@
     {
       "source": "combo",
       "source_label": "組み合わせ（2店）",
-      "listing_id": "rakuten:seikishoji:10002941+yahoo_shopping:janpara_59062968-59",
+      "listing_id": "dospara:IC653187+yahoo_shopping:janpara_59062968-59",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
       "shop_id": null,
@@ -12664,31 +12630,31 @@
       "model_slug": null,
       "model_name": null,
       "chassis_gpu_fit": "unknown",
-      "model_maker": null,
+      "model_maker": "NEC",
       "parsed": {
-        "cpu": "Core i5-6500",
-        "cpu_generation": 6,
+        "cpu": "Core i5-8400",
+        "cpu_generation": 8,
         "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 10",
+        "storage": "HDD 500GB",
+        "os": "なし",
         "gpu": "GeForce RTX 3060 12GB",
         "vram_gb": 12
       },
-      "title": "富士通 FUJITSU ESPRIMO D587/R Core i5-6500 3.2Ghz 8GB SSD128GB Windows 10 DVI DisplayPort DVDドライブ 外付け無線LAN付【レビュー記入で保証期間を3ヶ月に延長します。必ず商品到着後1ヶ月保証の期間中にレビューをお願いします。】 ＋ 【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.1.0(GV-N3060GAMING OC-12GD) RTX3060/12GB(GDDR6)/PCI-E【戸塚】保証期間１週間",
-      "price_yen": 36480,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz9yo.2lytqda2.g00tz9yo.2lytr871/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikishoji%2Fr25052402162%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikishoji%2Fi%2F10002941%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
+      "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863 ＋ 【中古】GIGABYTE GeForce RTX 3060 GAMING OC 12G rev.1.0(GV-N3060GAMING OC-12GD) RTX3060/12GB(GDDR6)/PCI-E【戸塚】保証期間１週間",
+      "price_yen": 36980,
+      "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+      "is_affiliate": false,
       "condition_rank": null,
       "shipping": null,
       "shipping_label": "—",
-      "observed_at": "2026-09-04 05:42:20",
+      "observed_at": "2026-08-22 17:54:14",
       "price_history": [],
       "combo": {
         "base": {
-          "title": "富士通 FUJITSU ESPRIMO D587/R Core i5-6500 3.2Ghz 8GB SSD128GB Windows 10 DVI DisplayPort DVDドライブ 外付け無線LAN付【レビュー記入で保証期間を3ヶ月に延長します。必ず商品到着後1ヶ月保証の期間中にレビューをお願いします。】",
-          "price_yen": 9500,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz9yo.2lytqda2.g00tz9yo.2lytr871/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikishoji%2Fr25052402162%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikishoji%2Fi%2F10002941%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-          "source_label": "楽天市場",
+          "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
+          "price_yen": 10000,
+          "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+          "source_label": "ドスパラ",
           "chassis": "不明",
           "gpu_fit": "unknown"
         },
@@ -12704,7 +12670,7 @@
     {
       "source": "combo",
       "source_label": "組み合わせ（2店）",
-      "listing_id": "rakuten:seikishoji:10002941+yahoo_shopping:janpara_83287558-83",
+      "listing_id": "dospara:IC653187+yahoo_shopping:janpara_83287558-83",
       "watch_name": "bonsai_gpu_pc",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
@@ -12712,31 +12678,31 @@
       "model_slug": null,
       "model_name": null,
       "chassis_gpu_fit": "unknown",
-      "model_maker": null,
+      "model_maker": "NEC",
       "parsed": {
-        "cpu": "Core i5-6500",
-        "cpu_generation": 6,
+        "cpu": "Core i5-8400",
+        "cpu_generation": 8,
         "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 10",
+        "storage": "HDD 500GB",
+        "os": "なし",
         "gpu": "GeForce RTX 4060 Ti 16GB",
         "vram_gb": 16
       },
-      "title": "富士通 FUJITSU ESPRIMO D587/R Core i5-6500 3.2Ghz 8GB SSD128GB Windows 10 DVI DisplayPort DVDドライブ 外付け無線LAN付【レビュー記入で保証期間を3ヶ月に延長します。必ず商品到着後1ヶ月保証の期間中にレビューをお願いします。】 ＋ 【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
-      "price_yen": 81480,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz9yo.2lytqda2.g00tz9yo.2lytr871/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikishoji%2Fr25052402162%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikishoji%2Fi%2F10002941%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
+      "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863 ＋ 【中古】PNY GMR406TN4JGGTAKTB1 GeForce RTX4060Ti 16GB (GDDR6)【札幌】保証期間１週間",
+      "price_yen": 81980,
+      "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+      "is_affiliate": false,
       "condition_rank": null,
       "shipping": null,
       "shipping_label": "—",
-      "observed_at": "2026-09-04 05:42:20",
+      "observed_at": "2026-08-22 17:54:14",
       "price_history": [],
       "combo": {
         "base": {
-          "title": "富士通 FUJITSU ESPRIMO D587/R Core i5-6500 3.2Ghz 8GB SSD128GB Windows 10 DVI DisplayPort DVDドライブ 外付け無線LAN付【レビュー記入で保証期間を3ヶ月に延長します。必ず商品到着後1ヶ月保証の期間中にレビューをお願いします。】",
-          "price_yen": 9500,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz9yo.2lytqda2.g00tz9yo.2lytr871/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikishoji%2Fr25052402162%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikishoji%2Fi%2F10002941%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-          "source_label": "楽天市場",
+          "title": "中古  NEC Mate PC-MRM28LZ6ACS4 (Core i5 8400/8GB/HDD500GB/DVD-MULTI/オンボード/OS無し) 3180006863",
+          "price_yen": 10000,
+          "url": "https://www.dospara.co.jp/SBR1391/IC653187.html",
+          "source_label": "ドスパラ",
           "chassis": "不明",
           "gpu_fit": "unknown"
         },
