@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 15:26:57+09:00",
+  "generated_at": "2026-09-04 16:06:59+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2659,38 +2659,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "ecoream-pc:10004043",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-8500",
-        "cpu_generation": 8,
-        "os": "Windows 11"
-      },
-      "title": "【送料無料】【中古】【Windows11搭載】【新品SSDモデル】第8世代Corei5 8500搭載でメモリ8G！DVDマルチ搭載！デスクトップパソコン！富士通/ESPRIMO D588/T『CD書込』『DVD書込』『DVD鑑賞』『Windows11』『お買い得！通常品』",
-      "price_yen": 24800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qs7io.2lytq476.g00qs7io.2lytr172/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecoream-pc%2Fd588_11_1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fecoream-pc%2Fi%2F10004043%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-04 01:02:17",
-      "price_history": [
-        {
-          "price_yen": 24800,
-          "observed_at": "2026-09-04 01:02:17"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "etre:10054725",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -3269,6 +3237,37 @@
         {
           "price_yen": 25000,
           "observed_at": "2026-09-03 23:05:17"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "konanonline:10385293",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu_generation": 12,
+        "memory_gb": 16
+      },
+      "title": "ノートパソコン Alder Lake-N95【MS Office 2019 搭載】【Win 11搭載】 15.6インチ液晶IPS 1920*1080 メモリ:DDR4 16GB/Nvme 高速SSD:512GB パソコンノート 第12世代CPU 1.7~3",
+      "price_yen": 60576,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uisuo.2lytq056.g00uisuo.2lytr81f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonanonline%2Fsnpr-0gj5lf1vp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkonanonline%2Fi%2F10385293%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-09-04 07:06:09",
+      "price_history": [
+        {
+          "price_yen": 60576,
+          "observed_at": "2026-09-04 07:06:09"
         }
       ]
     },
