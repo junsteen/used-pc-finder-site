@@ -204,6 +204,9 @@ border-top:1px dashed var(--surface-line);padding-top:.5rem;margin-top:.15rem}
 .spec-row b{color:var(--text);font-weight:500}
 /* 出品タイトルから抽出した構成。表の推定値と同じ点線で示す */
 .spec-row.parsed{font-family:var(--mono);font-size:.75rem}
+/* 狭い画面では項目名を省き、値だけを見せて詰める。VRAMは数値だけだと
+   メモリ等の他の容量と紛らわしいため、項目名を残す(.fact-keep-label)。 */
+@media(max-width:640px){.spec-row span:not(.fact-keep-label) .fact-label{display:none}}
 .empty{text-align:center;color:var(--text-muted);padding:3rem 1rem;
 font-family:var(--mono)}
 
