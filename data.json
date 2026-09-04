@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 14:06:55+09:00",
+  "generated_at": "2026-09-04 14:26:54+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3368,6 +3368,39 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "pcspocket:10001159",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 Lenovo | ThinkCentre | M720s Small | Windows11 | デスクトップ | 中古パソコン | 第8世代 | Core i3 8100 3.6GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | Win11Pro64bit",
+      "price_yen": 19980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0bjtzbqvm%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10001159%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 04:42:19",
+      "price_history": [
+        {
+          "price_yen": 19980,
+          "observed_at": "2026-08-24 04:42:19"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "pcspocket:10001236",
       "watch_name": "mate_mrl36l-5",
       "spec_id": "mate_mrl36l-5",
@@ -3383,7 +3416,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "【送料無料 1年保証】 第9世代 | Core i3 | NEC | Mate MRL36L-5 | Windows11 | デスクトップ | 中古パソコン | Core i3 9100 3.6(〜最大4.2)GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | Win11Pro64bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第9世代 | Core i3 | NEC | Mate MRL36L-5 | Windows11 | デスクトップ | 中古パソコン | Core i3 9100 3.6(〜最大4.2)GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | Win11Pro64bit",
       "price_yen": 15000,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0bnhbx792%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10001236%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3416,7 +3449,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "【送料無料 1年保証】 第8世代 | Core i3 | Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 中古パソコン | Core i3 8100 3.6GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | 無線LAN:なし | Win11Pro64bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第8世代 | Core i3 | Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 中古パソコン | Core i3 8100 3.6GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | 無線LAN:なし | Win11Pro64bit",
       "price_yen": 19980,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0cgz68y3w%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10002081%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3428,6 +3461,39 @@
         {
           "price_yen": 19980,
           "observed_at": "2026-09-03 23:04:56"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcspocket:10002320",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第8世代 Corei5 DELL | OptiPlex 3060 SF | Windows11 | デスクトップ | 中古パソコン | 第8世代 | Core i5 8500 3.0(〜最大4.1)GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | 無線LAN:なし",
+      "price_yen": 24980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0cpdbhj9x%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10002320%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-24 04:42:21",
+      "price_history": [
+        {
+          "price_yen": 24980,
+          "observed_at": "2026-08-24 04:42:21"
         }
       ]
     },
@@ -3449,7 +3515,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "送料無料 1年保証 第8世代 Core i5 Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 中古パソコン | Core i5 8400 2.8(〜最大4.0)GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | Win11Pro64bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第8世代 Core i5 Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 中古パソコン | Core i5 8400 2.8(〜最大4.0)GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | Win11Pro64bit",
       "price_yen": 20000,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0d83lbl4j%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10002843%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3482,7 +3548,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "送料無料 1年保証 第9世代 i3 NEC | Mate MRL36L-5 | Windows11 | デスクトップ | 中古パソコン | Core i3 9100 3.6(〜最大4.2)GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | 無線LANなし | Win11Pro64bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第9世代 i3 NEC | Mate MRL36L-5 | Windows11 | デスクトップ | 中古パソコン | Core i3 9100 3.6(〜最大4.2)GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | 無線LANなし | Win11Pro64bit",
       "price_yen": 15000,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0dxkfl1w6%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10003471%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3494,6 +3560,39 @@
         {
           "price_yen": 15000,
           "observed_at": "2026-09-03 23:06:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcspocket:10003577",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第8世代 Core i3 Lenovo | ThinkCentre M720s Small | Windows11 | デスクトップ | 中古パソコン | Core i3 8100 3.6GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | Win11Pro64bit",
+      "price_yen": 25980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0f32gdrfm%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10003577%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 05:22:20",
+      "price_history": [
+        {
+          "price_yen": 25980,
+          "observed_at": "2026-09-04 05:22:20"
         }
       ]
     },
@@ -3515,7 +3614,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "【送料無料 1年保証】中古パソコン | Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 一年保証 | 第8世代 | Core i3 8100 3.6GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | Win11Pro64bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証中古パソコン | Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 一年保証 | 第8世代 | Core i3 8100 3.6GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | Win11Pro64bit",
       "price_yen": 24980,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0fnmcz34g%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10003857%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3548,7 +3647,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "送料無料 1年保証 第8世代 Core i3 EPSON | Endeavor AT994E | Windows11 | デスクトップ | 中古パソコン | Core i3 8100 3.6GHz | MEM:8GB | SSD:256GB(新品) | DVD-ROM | 無線LAN:なし | Win11Home64Bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第8世代 Core i3 EPSON | Endeavor AT994E | Windows11 | デスクトップ | 中古パソコン | Core i3 8100 3.6GHz | MEM:8GB | SSD:256GB(新品) | DVD-ROM | 無線LAN:なし | Win11Home64Bit",
       "price_yen": 15000,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0fwhw8vcc%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10003933%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3581,7 +3680,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "送料無料 1年保証 第8世代 Core i5 Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 中古パソコン | Core i5 8400 2.8(〜最大4.0)GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | Win11Pro64bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第8世代 Core i5 Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 中古パソコン | Core i5 8400 2.8(〜最大4.0)GHz | MEM:8GB | SSD:512GB(新品) | DVDマルチ | Win11Pro64bit",
       "price_yen": 26980,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0gjqqwkk9%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10004157%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3614,7 +3713,7 @@
         "memory_gb": 8,
         "os": "Windows 11"
       },
-      "title": "送料無料 1年保証 NEC | Mate MRL36L-5 | Windows11 | デスクトップ | 中古パソコン | Core i3 9100 3.6(〜最大4.2)GHz | MEM:8GB | SSD:256GB | DVDマルチ | 無線LAN:なし | Win11Pro64bit",
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 NEC | Mate MRL36L-5 | Windows11 | デスクトップ | 中古パソコン | Core i3 9100 3.6(〜最大4.2)GHz | MEM:8GB | SSD:256GB | DVDマルチ | 無線LAN:なし | Win11Pro64bit",
       "price_yen": 15000,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0gx4qk2dn%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10004368%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -3630,6 +3729,72 @@
         {
           "price_yen": 15000,
           "observed_at": "2026-09-04 04:45:36"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcspocket:10004543",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m700",
+      "model_name": "ThinkCentre M700",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5（第6世代）",
+        "cpu_generation": 6,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第6世代 Corei5 Lenovo | ThinkCentre M700 | Windows11 | デスクトップ | 中古パソコン | 第6世代 | Core i5 6400 2.7(〜最大3.3)GHz | MEM:8GB | SSD:120GB | DVDマルチ | Win11Pro64Bit",
+      "price_yen": 11980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fbdt0000067%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10004543%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 05:22:20",
+      "price_history": [
+        {
+          "price_yen": 11980,
+          "observed_at": "2026-09-04 05:22:20"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcspocket:10004613",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "【先着10名様 SS期間限定10％OFFクーポン配布中】送料無料 1年保証 第8世代 | Core i3 | Lenovo | ThinkCentre M720q Tiny | Windows11 | デスクトップ 極小 | 中古パソコン | Core i3 8100T 3.1GHz | MEM:8GB | SSD:256GB(NVMe) | 光学ドライブ非搭載 | 無線LAN:なし",
+      "price_yen": 17980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fbdt0000111%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10004613%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 05:24:51",
+      "price_history": [
+        {
+          "price_yen": 17980,
+          "observed_at": "2026-09-04 05:24:51"
         }
       ]
     },
@@ -3729,6 +3894,39 @@
         {
           "price_yen": 29700,
           "observed_at": "2026-09-04 02:02:17"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "rainbowpc:10060097",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060mff",
+      "model_name": "OptiPlex 3060MFF",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5-8500T",
+        "cpu_generation": 8,
+        "memory_gb": 16,
+        "os": "Windows 11"
+      },
+      "title": "中古美品 DELL Optiplex 3060 MFF / Windows11/ 高性能 第8世代Core i5-8500T/ 16GB/ 爆速512GB-SSD/ Office付き/ Win11【デスクトップ 中古パソコン 中古PC】送料無料 あす楽対応 即日発送",
+      "price_yen": 19789,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s8m4o.2lytq96d.g00s8m4o.2lytrdae/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frainbowpc%2F3060mff-ly09041347f%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frainbowpc%2Fi%2F10060097%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-04 05:22:22",
+      "price_history": [
+        {
+          "price_yen": 19789,
+          "observed_at": "2026-09-04 05:22:22"
         }
       ]
     },
@@ -10561,6 +10759,39 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "seathedemi_ysde0069",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i7-8700",
+        "cpu_generation": 8,
+        "memory_gb": 16,
+        "storage": "SSD 256GB"
+      },
+      "title": "【中古】DELL Optiplex7060SF /Corei7-8700 /SSD256GB /mem16GB /マルチ /win11 /(ysde0069",
+      "price_yen": 27500,
+      "url": "https://store.shopping.yahoo.co.jp/seathedemi/ysde0069.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-04 05:22:31",
+      "price_history": [
+        {
+          "price_yen": 27500,
+          "observed_at": "2026-09-04 05:22:31"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "seathedemi_ysde0082",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -11680,6 +11911,38 @@
         {
           "price_yen": 31300,
           "observed_at": "2026-08-22 17:51:49"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "thanksjp_toshiba-dynabook-g83-kv",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第12世代）",
+        "cpu_generation": 12,
+        "memory_gb": 16
+      },
+      "title": "TOSHIBA DYNABOOK G83/KV i5第12世代 ノートPC Core i5-1235U 中古 東芝 パソコン メモリ16GB NVMe 256GB 13.3 フルHD LAPTOP",
+      "price_yen": 45000,
+      "url": "https://store.shopping.yahoo.co.jp/thanksjp/toshiba-dynabook-g83-kv.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-04 05:26:10",
+      "price_history": [
+        {
+          "price_yen": 45000,
+          "observed_at": "2026-09-04 05:26:10"
         }
       ]
     },
