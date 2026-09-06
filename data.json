@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06 20:06:37+09:00",
+  "generated_at": "2026-09-07 08:07:08+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1588,6 +1588,41 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
+      "listing_id": "IC625040",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-12400",
+        "cpu_generation": 12,
+        "memory_gb": 16,
+        "storage": "SSD 500GB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  Original PC(Intel Core i5 12400/16GB DDR4 (PC4)/SSD500GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 193927【9/3値下げ!】",
+      "price_yen": 88800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC625040.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-06 23:01:59",
+      "price_history": [
+        {
+          "price_yen": 88800,
+          "observed_at": "2026-09-06 23:01:59"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
       "listing_id": "IC630032",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -1798,41 +1833,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC662508",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i7-10700",
-        "cpu_generation": 10,
-        "memory_gb": 16,
-        "storage": "SSD 500GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SK(Intel Core i7 10700/16GB DDR4 (PC4)/SSD500GB/BD-RE/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 202604【9/3値下げ!】",
-      "price_yen": 87800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC662508.html",
-      "is_affiliate": false,
-      "condition_rank": "D:訳あり品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-06 11:01:51",
-      "price_history": [
-        {
-          "price_yen": 87800,
-          "observed_at": "2026-09-06 11:01:51"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC666349",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -1861,6 +1861,107 @@
         {
           "price_yen": 87800,
           "observed_at": "2026-09-04 23:02:02"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC666698",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": "galleria-xa7r-r36",
+      "model_name": "GALLERIA XA7R-R36",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "サードウェーブ",
+      "parsed": {
+        "cpu": "Ryzen 7 3700X",
+        "memory_gb": 32,
+        "storage": "SSD 1TB + HDD 4TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  GALLERIA XA7R-R36(Ryzen 7 3700X/32GB/M.2 SSD1TB/HDD4TB/BD-XL/RTX3060 12GB/W11H) 4640003169",
+      "price_yen": 88000,
+      "url": "https://www.dospara.co.jp/SBR1391/IC666698.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-06 23:01:59",
+      "price_history": [
+        {
+          "price_yen": 88000,
+          "observed_at": "2026-09-06 23:01:59"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC666943",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 5 3400G",
+        "memory_gb": 8,
+        "storage": "SSD 500GB",
+        "os": "Windows 11 Home"
+      },
+      "title": "中古  iimama デスクトップPC(Ryzen 5 3400G/8GB/SSD500GB/W11H) 4540002557",
+      "price_yen": 24900,
+      "url": "https://www.dospara.co.jp/SBR1391/IC666943.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-06 23:03:04",
+      "price_history": [
+        {
+          "price_yen": 24900,
+          "observed_at": "2026-09-06 23:03:04"
+        }
+      ]
+    },
+    {
+      "source": "pc_koubou",
+      "source_label": "パソコン工房",
+      "listing_id": "1253647",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": "pc_koubou",
+      "category": "pc",
+      "model_slug": "dell-optiplex-5070",
+      "model_name": "OptiPlex 5070",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8,
+        "os": "Windows 11 Pro",
+        "gpu": "内蔵GPU"
+      },
+      "title": "DELL  〔中古〕Optiplex 5070 Core i5 プロセッサー  9500 (3GHz)/8GB/128GB SSD/Intel UHD Graphics 630(CPU内蔵)/Windows 11 Pro MAR(中古1ヶ月保証)",
+      "price_yen": 28980,
+      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1253647",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-24 02:24:24",
+      "price_history": [
+        {
+          "price_yen": 28980,
+          "observed_at": "2026-08-24 02:24:24"
         }
       ]
     },
@@ -2430,6 +2531,72 @@
         {
           "price_yen": 28400,
           "observed_at": "2026-09-03 23:04:56"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "e-fellows5:10058867",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-1235U",
+        "cpu_generation": 12,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "【エントリーでポイント5倍】 【Bランク】Lenovo ThinkPad X13 Gen3 第12世代 Core i5-1235U 10コア メモリ8GB SSD 256GB NVMe 13.3型 WUXGA Windows11 Pro USB4 カメラ 指紋認証 レノボ 中古ノートパソコン 中古PC",
+      "price_yen": 59800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qbu0o.2lytqee1.g00qbu0o.2lytrcb6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-fellows5%2F17101701%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-fellows5%2Fi%2F10058867%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-06 23:06:16",
+      "price_history": [
+        {
+          "price_yen": 59800,
+          "observed_at": "2026-09-06 23:06:16"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "e-fellows5:10058895",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第12世代）",
+        "cpu_generation": 12,
+        "memory_gb": 8
+      },
+      "title": "【エントリーでポイント5倍】 ノートパソコン 中古 Cランク 訳あり Win11 Pro i5 第12世代 10コア Lenovo ThinkBook 15 Gen4 15.6インチ 8GB 256GB SSD USB4 カメラ付き テンキー Wi-Fi6 A4",
+      "price_yen": 59800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qbu0o.2lytqee1.g00qbu0o.2lytrcb6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-fellows5%2F17110802%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-fellows5%2Fi%2F10058895%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-06 23:06:18",
+      "price_history": [
+        {
+          "price_yen": 59800,
+          "observed_at": "2026-09-06 23:06:18"
         }
       ]
     },
@@ -3281,6 +3448,198 @@
         {
           "price_yen": 17980,
           "observed_at": "2026-09-04 05:24:51"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "risemark:10006601",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-ny2300s",
+      "model_name": "Endeavor NY2300S",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5-3230M",
+        "cpu_generation": 3,
+        "os": "Windows 10 Home"
+      },
+      "title": "【中古】 EPSON Endeavor NY2300S Core i5 3230M Windows10 Home MS 365 Office Web 充電可 Wi-Fi USB3.0 HDMI 長期保証 [96485]",
+      "price_yen": 8820,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umzio.2lytqa74.g00umzio.2lytr890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisemark%2F96485%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisemark%2Fi%2F10006601%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-06 23:02:17",
+      "price_history": [
+        {
+          "price_yen": 8820,
+          "observed_at": "2026-09-06 23:02:17"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "risemark:10006639",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jn4100",
+      "model_name": "Endeavor JN4100",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5-7200U",
+        "cpu_generation": 7,
+        "os": "Windows 11 Home"
+      },
+      "title": "【中古】 EPSON Endeavor JN4100 大容量HDD搭載 Core i5 7200U Windows11 Home 充電可 長期保証 [96525]",
+      "price_yen": 18810,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umzio.2lytqa74.g00umzio.2lytr890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisemark%2F96525%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisemark%2Fi%2F10006639%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-06 23:02:17",
+      "price_history": [
+        {
+          "price_yen": 18810,
+          "observed_at": "2026-09-06 23:02:17"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "risemark:10006894",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jn4100",
+      "model_name": "Endeavor JN4100",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5-7200U",
+        "cpu_generation": 7,
+        "os": "Windows 11 Home"
+      },
+      "title": "【中古】 EPSON Endeavor JN4100 Core i5 7200U Windows11 Home MS 365 Office Web 充電可 USB3.0 HDMI 保証付 [96817]",
+      "price_yen": 15960,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umzio.2lytqa74.g00umzio.2lytr890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisemark%2F96817%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisemark%2Fi%2F10006894%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-08-22 17:53:16",
+      "price_history": [
+        {
+          "price_yen": 15960,
+          "observed_at": "2026-08-22 17:53:16"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "risemark:10006948",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-jn4100",
+      "model_name": "Endeavor JN4100",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5-7200U",
+        "cpu_generation": 7,
+        "os": "Windows 11 Home"
+      },
+      "title": "【中古】 EPSON Endeavor JN4100 Core i5 7200U Windows11 Home MS 365 Office Web USB3.0 HDMI 長期保証 [96875]",
+      "price_yen": 16800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umzio.2lytqa74.g00umzio.2lytr890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisemark%2F96875%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisemark%2Fi%2F10006948%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-06 23:02:17",
+      "price_history": [
+        {
+          "price_yen": 16800,
+          "observed_at": "2026-09-06 23:02:17"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "risemark:10006955",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-na520e",
+      "model_name": "Endeavor NA520E",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5-8265U",
+        "cpu_generation": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "【中古】 EPSON Endeavor NA520E M.2 SSD搭載 Core i5 8265U Windows11 Pro 充電可 Wi-Fi 長期保証 [96884]",
+      "price_yen": 24800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umzio.2lytqa74.g00umzio.2lytr890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisemark%2F96884%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisemark%2Fi%2F10006955%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-06 23:02:17",
+      "price_history": [
+        {
+          "price_yen": 24800,
+          "observed_at": "2026-09-06 23:02:17"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "risemark:10006962",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-na520e",
+      "model_name": "Endeavor NA520E",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5-8265U",
+        "cpu_generation": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "【中古】 EPSON Endeavor NA520E M.2 SSD搭載 Core i5 8265U Windows11 Pro 充電可 Wi-Fi 長期保証 [96851]",
+      "price_yen": 17480,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00umzio.2lytqa74.g00umzio.2lytr890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisemark%2F96851%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisemark%2Fi%2F10006962%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-06 23:02:17",
+      "price_history": [
+        {
+          "price_yen": 17480,
+          "observed_at": "2026-09-06 23:02:17"
         }
       ]
     },
@@ -4883,32 +5242,34 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "excellar_1050019023",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
+      "listing_id": "genel_n-toshiba-g83hu",
+      "watch_name": "dynabook_g83hu",
+      "spec_id": "dynabook_g83hu",
       "shop_id": null,
-      "category": "part",
+      "category": "pc",
       "model_slug": null,
       "model_name": null,
-      "chassis_gpu_fit": null,
+      "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {
-        "memory_gb": 12,
-        "gpu": "RTX 3060",
-        "vram_gb": 12
+        "cpu": "Core i5-1135G",
+        "cpu_generation": 11,
+        "memory_gb": 16,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
       },
-      "title": "【中古】玄人志向 グラフィックボード GALAKURO GK-RTX3060-E12GB/OC/WHITE PCIExp 12GB 元箱あり【いつでも+1％！5のつく日と日曜日は+2%！】　爆買",
-      "price_yen": 42800,
-      "url": "https://store.shopping.yahoo.co.jp/excellar/1050019023.html",
+      "title": "東芝 TOSHIBA dynabook G83/HU 第11世代 Core i5 1135G7 2.40GHz メモリ 16GB NVMeSSD256GB 無線 カメラ 指紋 Office フルHD 13.3型ワイド Windows 11 64bit",
+      "price_yen": 32480,
+      "url": "https://store.shopping.yahoo.co.jp/genel/n-toshiba-g83hu.html",
       "is_affiliate": false,
       "condition_rank": null,
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:52:28",
+      "observed_at": "2026-08-22 17:51:49",
       "price_history": [
         {
-          "price_yen": 42800,
-          "observed_at": "2026-08-22 17:52:28"
+          "price_yen": 32480,
+          "observed_at": "2026-08-22 17:51:49"
         }
       ]
     },
@@ -6234,6 +6595,37 @@
         {
           "price_yen": 44980,
           "observed_at": "2026-08-22 17:52:28"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_66418596-66",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "【中古】NVIDIA GeForce RTX3060 12GB(GDDR6)/PCI-E【秋葉3号】保証期間１週間",
+      "price_yen": 34980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/66418596-66.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-23 02:49:23",
+      "price_history": [
+        {
+          "price_yen": 34980,
+          "observed_at": "2026-08-23 02:49:23"
         }
       ]
     },
@@ -8952,6 +9344,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "makxasstore_2266756",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "galleria-rm5r-r36",
+      "model_name": "GALLERIA RM5R-R36",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "サードウェーブ",
+      "parsed": {
+        "cpu": "Ryzen 5 3600",
+        "memory_gb": 32,
+        "os": "Windows 11",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "■GALLERIA RM5R-R36 ゲーミングPC Ryzen5 3600 RTX3060 12GB メモリ32GB SSD約500GB Windows11 動作確認済",
+      "price_yen": 83000,
+      "url": "https://store.shopping.yahoo.co.jp/makxasstore/2266756.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-06 23:01:49",
+      "price_history": [
+        {
+          "price_yen": 83000,
+          "observed_at": "2026-09-06 23:01:49"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "marblepc_ndt012",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -10707,40 +11133,6 @@
         {
           "price_yen": 14500,
           "observed_at": "2026-09-03 23:02:44"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_553266315",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-8100",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ Lenovo ThinkCentre M720s Core i3-8100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
-      "price_yen": 14500,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/553266315.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-04 23:02:24",
-      "price_history": [
-        {
-          "price_yen": 14500,
-          "observed_at": "2026-09-04 23:02:24"
         }
       ]
     },
