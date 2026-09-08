@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 13:06:43+09:00",
+  "generated_at": "2026-09-08 20:06:43+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -1971,41 +1971,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC667187",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 5700G",
-        "memory_gb": 32,
-        "storage": "SSD 1TB",
-        "os": "Windows 11 Home",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SKM(Ryzen 7 5700G/32GB/SSD1TB/RTX3060 12GB/W11H) 4720003146",
-      "price_yen": 92800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC667187.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-07 23:01:52",
-      "price_history": [
-        {
-          "price_yen": 92800,
-          "observed_at": "2026-09-07 23:01:52"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC667485",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -3488,6 +3453,39 @@
         {
           "price_yen": 17980,
           "observed_at": "2026-09-04 05:24:51"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pcwrap:10903313",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "【期間限定P15倍+最大10%OFFクーポン】 【3年保証】DELL デル OPTIPLEX 3060 SSD256GB メモリ8GB Core i5 Windows 11 Pro 中古 アウトレット 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC OFFICE付き",
+      "price_yen": 25300,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl40o.2lytq230.g00pl40o.2lytr624/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcwrap%2F5bdesf-020%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcwrap%2Fi%2F10903313%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-08 11:02:10",
+      "price_history": [
+        {
+          "price_yen": 25300,
+          "observed_at": "2026-09-08 11:02:10"
         }
       ]
     },
@@ -9295,39 +9293,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "marblepc_ndt012",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5",
-        "memory_gb": 8,
-        "storage": "SSD 128GB",
-        "os": "Windows 11"
-      },
-      "title": "中古デスクトップパソコン NEC Mate タイプMB MKM30 Windows11 Corei5 メモリ8GB SSD128GB搭載 WPS Office付き",
-      "price_yen": 25800,
-      "url": "https://store.shopping.yahoo.co.jp/marblepc/ndt012.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:51",
-      "price_history": [
-        {
-          "price_yen": 25800,
-          "observed_at": "2026-08-24 02:22:51"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "nabekin_h26021909",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -11482,6 +11447,41 @@
         {
           "price_yen": 20800,
           "observed_at": "2026-08-22 17:53:17"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "whatfun_800g4-rtx3060",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "hp-elitedesk-800g4",
+      "model_name": "EliteDesk 800G4",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "HP",
+      "parsed": {
+        "cpu": "Core i7-8700",
+        "cpu_generation": 8,
+        "memory_gb": 32,
+        "storage": "SSD 512GB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "HP EliteDesk 800G4 eスポーツ 最強ゲーミングパソコン RTX3060 12GBB搭載  画像生成AI[Core i7 8700 メモリ32GB SSD512GB マルチ ]:良品",
+      "price_yen": 99980,
+      "url": "https://store.shopping.yahoo.co.jp/whatfun/800g4-rtx3060.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-06 11:01:42",
+      "price_history": [
+        {
+          "price_yen": 99980,
+          "observed_at": "2026-09-06 11:01:42"
         }
       ]
     },
