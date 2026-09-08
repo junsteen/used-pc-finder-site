@@ -423,7 +423,10 @@
     { key: 'os', label: 'OS', est: true,
       value: l => l.parsed.os, cell: l => est(l.parsed.os) },
     { key: 'condition', label: '状態',
-      value: l => l.condition_rank, cell: l => esc(l.condition_rank || '—') },
+      value: l => l.condition_rank || (l.condition === 'new' ? '新品' : null),
+      cell: l => l.condition === 'new'
+        ? '<span class="chip new">新品</span>'
+        : esc(l.condition_rank || '—') },
     { key: 'shipping', label: '送料', cls: 'num',
       value: l => l.shipping,
       cell: l => l.shipping_label === '—'
@@ -649,7 +652,8 @@
       // 販売元より後でよい情報。狭い画面では最後にまとめる。
       const meta = [];
       if (l.count > 1) meta.push('<span class="chip stock">' + l.count + '台</span>');
-      if (l.condition_rank) meta.push('<span class="chip rank">' + esc(l.condition_rank) + '</span>');
+      if (l.condition === 'new') meta.push('<span class="chip new">新品</span>');
+      else if (l.condition_rank) meta.push('<span class="chip rank">' + esc(l.condition_rank) + '</span>');
       if (l.shipping && l.shipping === l.shipping_label) {
         meta.push('<span class="chip ship">' + esc(l.shipping) + '</span>');
       }
