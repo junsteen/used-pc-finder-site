@@ -327,6 +327,7 @@ background:none;border:none;cursor:pointer;text-align:left;padding:.55rem .7rem}
 padding:.15rem .6rem;color:var(--text-muted);
 font-family:var(--mono);font-size:.75rem}
 .chip.rank{color:var(--accent);border-color:var(--accent-soft)}
+.chip.new{color:var(--ok);border-color:var(--ok)}
 /* 同一機種が複数台出ているときの台数 */
 .chip.stock{color:var(--text);border-color:var(--text-muted);margin-left:.4rem}
 .chip.ship{color:var(--ok)}
