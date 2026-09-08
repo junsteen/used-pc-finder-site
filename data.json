@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 08:06:43+09:00",
+  "generated_at": "2026-09-08 13:06:43+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3158,6 +3158,74 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "pc-shinjyo:10000643",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第6世代）",
+        "cpu_generation": 6,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン 22型 液晶モニターセット 最新 Windows11 DELL OptiPlex 第六世代 Corei5 マウスキーボード付 メモリ8GB SSD128GB Office USB3.0 HDMI DisplayPort VGA DVDドライブ 22インチ 中古デスクトップパソコン PC 中古パソコン 中古PC 中古",
+      "price_yen": 17820,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnb8o.2lytqb69.g00tnb8o.2lytra1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-shinjyo%2Fpc-desk-dell-7020-sff-20set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-shinjyo%2Fi%2F10000643%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-08 04:02:07",
+      "price_history": [
+        {
+          "price_yen": 17820,
+          "observed_at": "2026-09-08 04:02:07"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "pc-shinjyo:10001806",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第6世代）",
+        "cpu_generation": 6,
+        "memory_gb": 8,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン 22型 液晶モニターセット 最新 Windows11 DELL OptiPlex 第六世代 Corei5 マウスキーボード付 メモリ8GB SSD128GB Office USB3.0 HDMI DisplayPort VGA DVDドライブ 22インチ 中古デスクトップパソコン PC 中古パソコン 中古PC 中古",
+      "price_yen": 19800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnb8o.2lytqb69.g00tnb8o.2lytra1c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-shinjyo%2Fpc-desk-dell-7020-sff-20set-ss%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-shinjyo%2Fi%2F10001806%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-08 04:02:07",
+      "price_history": [
+        {
+          "price_yen": 19800,
+          "observed_at": "2026-09-08 04:02:07"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "pcspocket:10001236",
       "watch_name": "mate_mrl36l-5",
       "spec_id": "mate_mrl36l-5",
@@ -3559,6 +3627,130 @@
       ]
     },
     {
+      "source": "sofmap",
+      "source_label": "ソフマップ",
+      "listing_id": "2133075770450",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "sofmap",
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "GeForce RTX 3060 Dual OC 12GB NE63060T19K9-190AD LHR版",
+      "price_yen": 44980,
+      "url": "https://used.sofmap.com/r/item/2133075770450",
+      "is_affiliate": false,
+      "condition_rank": "A",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-06 11:01:29",
+      "price_history": [
+        {
+          "price_yen": 44980,
+          "observed_at": "2026-09-06 11:01:29"
+        }
+      ]
+    },
+    {
+      "source": "sofmap",
+      "source_label": "ソフマップ",
+      "listing_id": "4710562242430",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "sofmap",
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "GEFORCE RTX 3060 GHOST 12GB",
+      "price_yen": 44980,
+      "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4710562242430&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-22 17:52:35",
+      "price_history": [
+        {
+          "price_yen": 44980,
+          "observed_at": "2026-08-22 17:52:35"
+        }
+      ]
+    },
+    {
+      "source": "sofmap",
+      "source_label": "ソフマップ",
+      "listing_id": "4988755057653",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "sofmap",
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "GK-RTX3060-E12GB／OC／WHITE",
+      "price_yen": 44980,
+      "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4988755057653&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-22 17:52:35",
+      "price_history": [
+        {
+          "price_yen": 44980,
+          "observed_at": "2026-08-22 17:52:35"
+        }
+      ]
+    },
+    {
+      "source": "sofmap",
+      "source_label": "ソフマップ",
+      "listing_id": "4988755057660",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "sofmap",
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "GALAKURO GAMING GG-RTX3060-E12GB／OC／DF",
+      "price_yen": 44980,
+      "url": "https://used.sofmap.com/r/item?_matome=0&q=RTX%203060%2012GB&jan=4988755057660&_returnto=%2Fr%2Fitem%3Fq%3DRTX%25203060%252012GB#product-search-matome",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-08-22 17:52:35",
+      "price_history": [
+        {
+          "price_yen": 44980,
+          "observed_at": "2026-08-22 17:52:35"
+        }
+      ]
+    },
+    {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
       "listing_id": "alpaca-pc_d-nemmrm28l401",
@@ -3758,6 +3950,39 @@
         {
           "price_yen": 16800,
           "observed_at": "2026-08-22 17:53:19"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_14301",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mj34lb-g",
+      "model_name": "Mate MJ34LB-G",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i3-3240",
+        "cpu_generation": 3,
+        "memory_gb": 8,
+        "os": "Windows 7 Pro"
+      },
+      "title": "Windows7 Pro 64bit Windows8 Pro 64bitリカバリー付き NEC Mate MJ34LB-G (PC-MJ34LBZNG) Core i3-3240 3.4GHz 8GB 500GB マルチ 外観難あり",
+      "price_yen": 22800,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/14301.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:53:23",
+      "price_history": [
+        {
+          "price_yen": 22800,
+          "observed_at": "2026-08-22 17:53:23"
         }
       ]
     },
@@ -4329,6 +4554,37 @@
         {
           "price_yen": 19400,
           "observed_at": "2026-08-24 08:42:35"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_n-pc-mkm21czc4-a007",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ NEC Mate タイプMC MKM21/C-4 PC-MKM21CZC4 Core i5 メモリ：8GB 256GB Win11 ランクA 動作A 6ヶ月保証",
+      "price_yen": 19400,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/n-pc-mkm21czc4-a007.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-03 23:02:48",
+      "price_history": [
+        {
+          "price_yen": 19400,
+          "observed_at": "2026-09-03 23:02:48"
         }
       ]
     },
