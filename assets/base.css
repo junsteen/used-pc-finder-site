@@ -357,6 +357,18 @@ font-family:inherit}
 line-height:1;cursor:pointer;padding:2px 8px;border-radius:4px;flex-shrink:0}
 .btn-icon:hover{color:var(--danger);background:var(--surface-2)}
 .btn-icon:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+/* 各ページ末尾の共有ブロック。QRコードは読み取り機器の互換性のため
+   テーマに関わらず白地固定(qr.py側)。ここでは枠だけ付けて浮かせる。 */
+.share-block{margin-top:40px}
+.share-row{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap}
+.qr-wrap{background:#fff;padding:8px;border-radius:8px;border:1px solid var(--surface-line);
+flex-shrink:0;line-height:0}
+.share-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.share-btn{border:none;font-family:inherit;cursor:pointer}
+.share-link{display:inline-block;color:var(--text);text-decoration:none;
+font-size:.85rem;font-weight:600;padding:.5rem 1rem;border-radius:6px;
+border:1px solid var(--surface-line-strong)}
+.share-link:hover{border-color:var(--text-muted)}
 .comment{background:var(--surface);border:1px solid var(--surface-line);
 border-left:3px solid var(--accent);border-radius:8px;padding:.8rem 1rem;margin:0 0 .8rem}
 .comment p{margin:.3rem 0}
