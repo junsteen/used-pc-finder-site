@@ -133,18 +133,6 @@
     return location.origin + location.pathname + '?' + p.toString();
   }
 
-  function copyToClipboard(text) {
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(function () {
-        alert('共有リンクをコピーしました');
-      }, function () {
-        window.prompt('コピーできませんでした。このリンクを手動でコピーしてください:', text);
-      });
-    } else {
-      window.prompt('このリンクをコピーしてください:', text);
-    }
-  }
-
   var albumListEl = document.getElementById('album-list');
 
   function renderAlbums() {
@@ -190,7 +178,7 @@
       var shareBtn = ev.target.closest('[data-share-album]');
       if (shareBtn) {
         var album = pcFinder.getAlbums().filter(function (a) { return a.id === shareBtn.dataset.shareAlbum; })[0];
-        if (album) copyToClipboard(buildShareUrl(album));
+        if (album && window.pcFinder) pcFinder.copyToClipboard(buildShareUrl(album), '共有リンクをコピーしました');
         return;
       }
       var renameBtn = ev.target.closest('[data-rename-album]');
