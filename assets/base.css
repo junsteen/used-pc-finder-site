@@ -369,6 +369,14 @@ flex-shrink:0;line-height:0}
 font-size:.85rem;font-weight:600;padding:.5rem 1rem;border-radius:6px;
 border:1px solid var(--surface-line-strong)}
 .share-link:hover{border-color:var(--text-muted)}
+/* 機種ページの価格推移グラフ。折れ線はアクセントカラー。観測日数が
+   3日未満のページではtrend_svg()がNoneを返しこのブロック自体が出ない。 */
+.price-trend{margin:24px 0}
+.price-trend-svg{width:100%;height:auto;display:block}
+.price-trend-svg polyline{stroke:var(--accent);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.price-trend-svg circle{fill:var(--accent)}
+.price-trend-label{font-size:11px;fill:var(--text-muted);font-family:var(--sans)}
+.price-trend-empty{color:var(--text-muted);font-size:.85rem}
 .comment{background:var(--surface);border:1px solid var(--surface-line);
 border-left:3px solid var(--accent);border-radius:8px;padding:.8rem 1rem;margin:0 0 .8rem}
 .comment p{margin:.3rem 0}
