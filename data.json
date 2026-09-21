@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21 20:11:50+09:00",
+  "generated_at": "2026-09-22 08:10:55+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2196,46 +2196,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC662508",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i7-10700",
-        "cpu_generation": 10,
-        "memory_gb": 16,
-        "storage": "SSD 500GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SK(Intel Core i7 10700/16GB DDR4 (PC4)/SSD500GB/BD-RE/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 202604【9/17値下げ!】",
-      "price_yen": 83800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC662508.html",
-      "is_affiliate": false,
-      "condition_rank": "D:訳あり品",
-      "condition": "used",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-20 23:10:58",
-      "price_history": [
-        {
-          "price_yen": 87800,
-          "observed_at": "2026-09-06 11:01:51"
-        },
-        {
-          "price_yen": 83800,
-          "observed_at": "2026-09-20 23:10:58"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC662618",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": "endeavor_na520e",
@@ -2484,42 +2444,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC670736",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-12400",
-        "cpu_generation": 12,
-        "memory_gb": 16,
-        "storage": "SSD 500GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 12400/16GB DDR4 (PC4)/SSD500GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 203865",
-      "price_yen": 79800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC670736.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "condition": "used",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-20 23:10:58",
-      "price_history": [
-        {
-          "price_yen": 79800,
-          "observed_at": "2026-09-20 23:10:58"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC670816",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -2549,6 +2473,76 @@
         {
           "price_yen": 77800,
           "observed_at": "2026-09-20 23:10:58"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC670821",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 3700X",
+        "memory_gb": 16,
+        "storage": "SSD 500GB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  THIRDWAVE GALLERIA SK(AMD Ryzen 7 3700X/16GB DDR4 (PC4)/SSD500GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 203950",
+      "price_yen": 84800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC670821.html",
+      "is_affiliate": false,
+      "condition_rank": "D:訳あり品",
+      "condition": "used",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-21 23:02:08",
+      "price_history": [
+        {
+          "price_yen": 84800,
+          "observed_at": "2026-09-21 23:02:08"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC670852",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 5 4500",
+        "memory_gb": 16,
+        "storage": "SSD 500GB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  THIRDWAVE GALLERIA SKM(AMD Ryzen 5 4500/16GB DDR4 (PC4)/SSD500GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 203981",
+      "price_yen": 93800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC670852.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "condition": "used",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-21 23:02:08",
+      "price_history": [
+        {
+          "price_yen": 93800,
+          "observed_at": "2026-09-21 23:02:08"
         }
       ]
     },
@@ -2850,39 +2844,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "MC23293",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {},
-      "title": "GALLERIA XDC7A-R58-WL Intel Core Ultra 7 270K Plus搭載",
-      "price_yen": 479980,
-      "url": "https://www.dospara.co.jp/TC30/MC23293.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-17 23:00:10",
-      "price_history": [
-        {
-          "price_yen": 489980,
-          "observed_at": "2026-09-13 11:00:09"
-        },
-        {
-          "price_yen": 479980,
-          "observed_at": "2026-09-17 23:00:10"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "MC23392",
       "watch_name": "rtx5080_pc",
       "spec_id": "geforce_rtx5080",
@@ -2935,6 +2896,37 @@
         {
           "price_yen": 484980,
           "observed_at": "2026-09-20 23:06:47"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "MC25355",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 9 9950X"
+      },
+      "title": "GALLERIA XMR9A-R58-GD Ryzen 9 9950X3D搭載 VRChat 推奨スペックPC",
+      "price_yen": 619980,
+      "url": "https://www.dospara.co.jp/TC30/MC25355.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-21 23:00:09",
+      "price_history": [
+        {
+          "price_yen": 619980,
+          "observed_at": "2026-09-21 23:00:09"
         }
       ]
     },
@@ -3591,7 +3583,7 @@
     {
       "source": "pc_koubou",
       "source_label": "パソコン工房",
-      "listing_id": "1255351",
+      "listing_id": "1255341",
       "watch_name": "rtx5080_pc",
       "spec_id": "geforce_rtx5080",
       "shop_id": "pc_koubou",
@@ -3601,9 +3593,9 @@
       "chassis_gpu_fit": "unknown",
       "model_maker": null,
       "parsed": {},
-      "title": "LEVEL-R785-LCR98D-VK1X [Memory Re]",
-      "price_yen": 444800,
-      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1255351",
+      "title": "LEVEL-R785-LCR99Z-VKX",
+      "price_yen": 579800,
+      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1255341",
       "is_affiliate": false,
       "condition_rank": null,
       "condition": "new",
@@ -3612,7 +3604,36 @@
       "observed_at": "2026-09-12 13:29:16",
       "price_history": [
         {
-          "price_yen": 444800,
+          "price_yen": 579800,
+          "observed_at": "2026-09-12 13:29:16"
+        }
+      ]
+    },
+    {
+      "source": "pc_koubou",
+      "source_label": "パソコン工房",
+      "listing_id": "1255356",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": "pc_koubou",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {},
+      "title": "LEVEL-R785-LCR98D-VK1X",
+      "price_yen": 504700,
+      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1255356",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-12 13:29:16",
+      "price_history": [
+        {
+          "price_yen": 504700,
           "observed_at": "2026-09-12 13:29:16"
         }
       ]
@@ -6059,75 +6080,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "jyunntenn:10000149",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB"
-      },
-      "title": "【全商品10%OFF】【超小型ミニPC】中古 デスクトップパソコン Dell OptiPlex 3070 Micro Win11公式対応 第9世代 Core i5 メモリ 8GB/16GB 高速SSD 256GB/512GB 2画面出力対応 HDMI DP WPS搭載 Wi-Fi 手のひらサイズ 初期設定済 すぐ使える テレワーク 事務用 中古PC",
-      "price_yen": 35000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00upk3o.2lytq8da.g00upk3o.2lytr8b0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyunntenn%2Fjt-dl-3070-m-i5-9th%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyunntenn%2Fi%2F10000149%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-14 04:10:20",
-      "price_history": [
-        {
-          "price_yen": 35000,
-          "observed_at": "2026-09-14 04:10:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "jyunntenn:10000150",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070sff",
-      "model_name": "OptiPlex 3070SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "【全商品10%OFF】中古 デスクトップパソコン Dell OptiPlex 3070 SFF 省スペース 第9世代 Core i3 メモリ 8GB/16GB 高速SSD 256GB/512GB Windows11 Pro 2画面出力対応 HDMI DP WPS搭載 Wi-Fi 初期設定済 すぐ使える テレワーク 事務用 中古PC",
-      "price_yen": 29300,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00upk3o.2lytq8da.g00upk3o.2lytr8b0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyunntenn%2Fjt-dl-3070-sff-i3-9th%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyunntenn%2Fi%2F10000150%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-14 04:10:20",
-      "price_history": [
-        {
-          "price_yen": 29300,
-          "observed_at": "2026-09-14 04:10:20"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "jyunntenn:10000162",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -6340,40 +6292,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "pckujira:10261670",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060",
-      "model_name": "OptiPlex 3060",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "【今だけポイント3倍！】 中古パソコン 中古 デスクトップパソコン Office付き 現品撮影 第8世代 本体のみ 省スペース ビジネス 在宅 安心サポート Windows11 Pro DELL OptiPlex 3060 Core i5 8GB 中古 パソコン デスクトップパソコン",
-      "price_yen": 29999,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qk4wo.2lytqc63.g00qk4wo.2lytrf6c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpckujira%2Fse1590w26%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpckujira%2Fi%2F10261670%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-17 23:06:49",
-      "price_history": [
-        {
-          "price_yen": 29999,
-          "observed_at": "2026-09-17 23:06:49"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "pcspocket:10001159",
       "watch_name": "thinkcentre_m720s",
       "spec_id": "thinkcentre_m720s",
@@ -6435,40 +6353,6 @@
       "price_history": [
         {
           "price_yen": 19980,
-          "observed_at": "2026-09-03 23:04:56"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "pcspocket:10002843",
-      "watch_name": "thinkcentre_m720e",
-      "spec_id": "thinkcentre_m720e",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720e",
-      "model_name": "ThinkCentre M720e",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "送料無料 1年保証 第8世代 Core i5 Lenovo | ThinkCentre M720e | Windows11 | デスクトップ | 中古パソコン | Core i5 8400 2.8(〜最大4.0)GHz | MEM:8GB | SSD:256GB(新品) | DVDマルチ | Win11Pro64bit",
-      "price_yen": 20000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00t353o.2lytqf8b.g00t353o.2lytr1c3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcspocket%2Fb0d83lbl4j%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcspocket%2Fi%2F10002843%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-03 23:04:56",
-      "price_history": [
-        {
-          "price_yen": 20000,
           "observed_at": "2026-09-03 23:04:56"
         }
       ]
@@ -7128,388 +7012,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000281",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 9 9950x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen9 9950x ／ RTX5080 16GB ウッドデザイン ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 240mm ブラック 黒",
-      "price_yen": 664800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00279%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000281%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:06",
-      "price_history": [
-        {
-          "price_yen": 664800,
-          "observed_at": "2026-09-21 11:00:06"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000288",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 9800x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen7 9800x3D ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ホワイト 白",
-      "price_yen": 649800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00207%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000288%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:06",
-      "price_history": [
-        {
-          "price_yen": 649800,
-          "observed_at": "2026-09-21 11:00:06"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000293",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 9800x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen7 9800x3D ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ブラック 黒",
-      "price_yen": 595800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00209%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000293%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:06",
-      "price_history": [
-        {
-          "price_yen": 595800,
-          "observed_at": "2026-09-21 11:00:06"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000297",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 9 9950x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen9 9950x3D ／ RTX5080 16GB ウッドデザイン ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 240mm ブラック 黒",
-      "price_yen": 669800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00288%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000297%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:05",
-      "price_history": [
-        {
-          "price_yen": 669800,
-          "observed_at": "2026-09-21 11:00:05"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000303",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 9 9950x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen9 9950x ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ブラック 黒",
-      "price_yen": 651800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00213%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000303%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:06",
-      "price_history": [
-        {
-          "price_yen": 651800,
-          "observed_at": "2026-09-21 11:00:06"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000308",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 9 9950x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen9 9950x3D ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ブラック 黒",
-      "price_yen": 656800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00216%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000308%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:06",
-      "price_history": [
-        {
-          "price_yen": 656800,
-          "observed_at": "2026-09-21 11:00:06"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000309",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 7800x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen7 7800x3D ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ホワイト 白",
-      "price_yen": 630800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00218%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000309%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:06",
-      "price_history": [
-        {
-          "price_yen": 630800,
-          "observed_at": "2026-09-21 11:00:06"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000310",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 7800x",
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ AMD Ryzen7 7800x3D ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ブラック 黒",
-      "price_yen": 576800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00219%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000310%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:06",
-      "price_history": [
-        {
-          "price_yen": 576800,
-          "observed_at": "2026-09-21 11:00:06"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000342",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ Intel Core Ultra 7 265KF ／ RTX5080 16GB ウッドデザイン ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 240mm ブラック 黒",
-      "price_yen": 600800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00297%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000342%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:05",
-      "price_history": [
-        {
-          "price_yen": 600800,
-          "observed_at": "2026-09-21 11:00:05"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000351",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ Intel Core Ultra 7 265KF ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ホワイト 白",
-      "price_yen": 641800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00306%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000351%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:05",
-      "price_history": [
-        {
-          "price_yen": 641800,
-          "observed_at": "2026-09-21 11:00:05"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "smo-lab:10000360",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 32,
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080",
-        "vram_gb": 16
-      },
-      "title": "スモールラボ Intel Core Ultra 7 265KF ／ RTX5080 16GB ガラス2面ATX ゲーミングPC Windows11 Home SSD M.2 NVME 1TB メモリ DDR5 4800MHz 32GB 簡易水冷 360mm ブラック 黒",
-      "price_yen": 588800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6fo.2lytq899.g00ur6fo.2lytr1d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmo-lab%2Fg00315%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmo-lab%2Fi%2F10000360%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-21 11:00:05",
-      "price_history": [
-        {
-          "price_yen": 588800,
-          "observed_at": "2026-09-21 11:00:05"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "soo-ya:10000954",
       "watch_name": "endeavor_st180e",
       "spec_id": "endeavor_st180e",
@@ -8155,39 +7657,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "usedpc:10042579",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060",
-      "model_name": "OptiPlex 3060",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5",
-        "memory_gb": 8,
-        "storage": "SSD 256GB"
-      },
-      "title": "DELL Optiplex 3060 3000SFF (Win11x64) 中古 Core i5-3.0GHz(8500)/メモリ8GB/SSD256GB/DVDマルチ [B:良品]",
-      "price_yen": 23760,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pj2no.2lytq38c.g00pj2no.2lytr1aa/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fusedpc%2F5725326b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fusedpc%2Fi%2F10042579%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-09-14 04:08:22",
-      "price_history": [
-        {
-          "price_yen": 23760,
-          "observed_at": "2026-09-14 04:08:22"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "usedpc:10042580",
       "watch_name": "optiplex_3060",
       "spec_id": "optiplex_3060",
@@ -8390,38 +7859,6 @@
         {
           "price_yen": 19800,
           "observed_at": "2026-09-18 04:06:05"
-        }
-      ]
-    },
-    {
-      "source": "sofmap",
-      "source_label": "ソフマップ",
-      "listing_id": "2133075770450",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "sofmap",
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "GeForce RTX 3060 Dual OC 12GB NE63060T19K9-190AD LHR版",
-      "price_yen": 44980,
-      "url": "https://used.sofmap.com/r/item/2133075770450",
-      "is_affiliate": false,
-      "condition_rank": "A",
-      "condition": "used",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-06 11:01:29",
-      "price_history": [
-        {
-          "price_yen": 44980,
-          "observed_at": "2026-09-06 11:01:29"
         }
       ]
     },
@@ -9147,75 +8584,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_14461-2",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m73",
-      "model_name": "ThinkCentre M73",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-4170",
-        "cpu_generation": 4,
-        "memory_gb": 4,
-        "os": "Windows 10"
-      },
-      "title": "Windows10 Lenovo ThinkCentre M73 Small 10B7-007NJP Core i3-4170 3.7GHz 4GB 500GB DVDマルチ 中古パソコン デスクトップ 中古PC 本体のみ",
-      "price_yen": 19800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/14461-2.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-23 10:22:28",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-23 10:22:28"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "aqua-light_14461-3",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m73",
-      "model_name": "ThinkCentre M73",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-4170",
-        "cpu_generation": 4,
-        "memory_gb": 4,
-        "storage": "SSD 128GB",
-        "os": "Windows 10 Pro"
-      },
-      "title": "Windows10 Pro 64bit Lenovo ThinkCentre M73 Small 10B7-007NJP Core i3-4170 3.7GHz 4GB 128GB(SSD) DVDマルチ 中古パソコン デスクトップ 本体のみ",
-      "price_yen": 19800,
-      "url": "https://store.shopping.yahoo.co.jp/aqua-light/14461-3.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 19800,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_14990",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -9772,6 +9140,38 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_d-3060-3060ms-a015",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Dell デル Optiplex 3060 3060-3060MS Core i5 メモリ：8GB SSD搭載 6ヶ月保証",
+      "price_yen": 26700,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/d-3060-3060ms-a015.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-12 13:43:26",
+      "price_history": [
+        {
+          "price_yen": 26700,
+          "observed_at": "2026-09-12 13:43:26"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "be-stocktsb_d-3070-3070ms-a001",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -9830,6 +9230,38 @@
         {
           "price_yen": 25600,
           "observed_at": "2026-09-12 13:44:43"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_d-3070-3070sf-a018",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070sff",
+      "model_name": "OptiPlex 3070SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Dell デル Optiplex 3070 SFF 3070-3070SF Core i5 メモリ：8GB SSD搭載 6ヶ月保証",
+      "price_yen": 25700,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/d-3070-3070sf-a018.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-12 23:10:40",
+      "price_history": [
+        {
+          "price_yen": 25700,
+          "observed_at": "2026-09-12 23:10:40"
         }
       ]
     },
@@ -9926,38 +9358,6 @@
         {
           "price_yen": 25100,
           "observed_at": "2026-09-18 11:07:44"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "be-stocktsb_d-3070-3070sf-c002",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070sff",
-      "model_name": "OptiPlex 3070SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5",
-        "memory_gb": 8
-      },
-      "title": "中古 デスクトップ Dell デル Optiplex 3070 SFF 3070-3070SF Core i5 メモリ：8GB SSD搭載 6ヶ月保証",
-      "price_yen": 24500,
-      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/d-3070-3070sf-c002.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-09-18 04:07:32",
-      "price_history": [
-        {
-          "price_yen": 24500,
-          "observed_at": "2026-09-18 04:07:32"
         }
       ]
     },
@@ -14857,6 +14257,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-webshop_1233920",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070sff",
+      "model_name": "OptiPlex 3070SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5（第9世代）",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン DELL OPTIPLEX 3070 SFF 中古 2018年モデル 単体 Windows11 64bit 第9世代 Core i5 メモリ8GB 高速 SSD 1233920",
+      "price_yen": 29800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1233920.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-13 23:10:33",
+      "price_history": [
+        {
+          "price_yen": 29800,
+          "observed_at": "2026-09-13 23:10:33"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1234119",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -15224,40 +14658,6 @@
       "price_history": [
         {
           "price_yen": 24500,
-          "observed_at": "2026-09-12 13:44:43"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_1235526",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 16,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン DELL OPTIPLEX 3070 Micro 中古 2018年モデル 超小型デスク 単体 Windows11 64bit 第9世代 Core i5 メモリ16GB 高速 SSD 1235526",
-      "price_yen": 32800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1235526.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-09-12 13:44:43",
-      "price_history": [
-        {
-          "price_yen": 32800,
           "observed_at": "2026-09-12 13:44:43"
         }
       ]
@@ -16350,40 +15750,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_20007162",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン NEC Mate ME-3 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ8GB 高速 SSD 20007162",
-      "price_yen": 22800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/20007162.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-09-04 23:02:28",
-      "price_history": [
-        {
-          "price_yen": 22800,
-          "observed_at": "2026-09-04 23:02:28"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_20007163",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -17139,6 +16505,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "logworldshop_pc7918",
+      "watch_name": "memory32gb_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i7-1365U",
+        "cpu_generation": 13,
+        "memory_gb": 32,
+        "storage": "SSD 1TB"
+      },
+      "title": "爆速起動12秒 Latitude 5540 Core i7-1365U メモリ32GB SSD 1TB Win11 15インチ 10キー DELL デル ノートパソコン PC 管理A09",
+      "price_yen": 88000,
+      "url": "https://store.shopping.yahoo.co.jp/logworldshop/pc7918.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-21 23:09:57",
+      "price_history": [
+        {
+          "price_yen": 88000,
+          "observed_at": "2026-09-21 23:09:57"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "marblepc_dtop004",
       "watch_name": "optiplex_3060",
       "spec_id": "optiplex_3060",
@@ -17761,6 +17161,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "pc-koubou_m5s1p1124407c1",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 9800X",
+        "memory_gb": 32,
+        "os": "Windows 11",
+        "gpu": "RTX 5080"
+      },
+      "title": "ゲーミングPC 新品 Ryzen 7 9800X3D+水冷/RTX 5080/32GB/1TB SSD/Windows 11 BTO レベルインフィニティ",
+      "price_yen": 569880,
+      "url": "https://store.shopping.yahoo.co.jp/pc-koubou/m5s1p1124407c1.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-18 11:00:07",
+      "price_history": [
+        {
+          "price_yen": 569880,
+          "observed_at": "2026-09-18 11:00:07"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pc-koubou_m5s1p1124415c1",
       "watch_name": "rtx5080_pc",
       "spec_id": "geforce_rtx5080",
@@ -18369,41 +17803,6 @@
         {
           "price_yen": 28980,
           "observed_at": "2026-09-12 13:43:26"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "pchands_y-d-313",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "美品 デスクトップパソコン Windows11 Win11 中古パソコン HP 9世代 Core i3 メモリ8GB 16GB 新品M.2SSD256GB office付き PC 400 G6 d313",
-      "price_yen": 27830,
-      "url": "https://store.shopping.yahoo.co.jp/pchands/y-d-313.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-24 02:22:45",
-      "price_history": [
-        {
-          "price_yen": 27830,
-          "observed_at": "2026-08-24 02:22:45"
         }
       ]
     },
@@ -19816,6 +19215,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "senrakuen_dell3050",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5-6400",
+        "cpu_generation": 6,
+        "memory_gb": 8,
+        "storage": "SSD 256GB + HDD 500GB"
+      },
+      "title": "デスクトップパソコンDELL　Optiplex3050 MSOffice第6世代Corei5-6400　M.2SSD256GB+HDD500GB メモリ8GB DVD Win11 USB3.0 WIFI/Bluetooth/HDMI",
+      "price_yen": 25980,
+      "url": "https://store.shopping.yahoo.co.jp/senrakuen/dell3050.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-24 02:22:50",
+      "price_history": [
+        {
+          "price_yen": 25980,
+          "observed_at": "2026-08-24 02:22:50"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "senrakuen_hr-dell-optiplex",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -20872,41 +20305,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_542268785",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060sff",
-      "model_name": "OptiPlex 3060SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ DELL OptiPlex 3060 SFF Core i5-8400 2.8GHz 8GB 256GB(新品SSD) HDMI/DisplayPort/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
-      "price_yen": 22300,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/542268785.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-12 13:43:26",
-      "price_history": [
-        {
-          "price_yen": 22300,
-          "observed_at": "2026-09-12 13:43:26"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_542268808",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -21006,6 +20404,41 @@
         {
           "price_yen": 25000,
           "observed_at": "2026-09-03 23:04:57"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_543269749",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060sff",
+      "model_name": "OptiPlex 3060SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ DELL OptiPlex 3060 SFF Core i5-8400 2.8GHz 8GB 256GB(SSD) HDMI/DisplayPort/アナログRGB出力 DVD+-RW Windows11 Pro 64bit 小難",
+      "price_yen": 22300,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/543269749.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-12 13:43:26",
+      "price_history": [
+        {
+          "price_yen": 22300,
+          "observed_at": "2026-09-12 13:43:26"
         }
       ]
     },
@@ -21179,6 +20612,41 @@
         {
           "price_yen": 17700,
           "observed_at": "2026-09-03 23:06:21"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_54b255542",
+      "watch_name": "thinkcentre_m720s",
+      "spec_id": "thinkcentre_m720s",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ Lenovo ThinkCentre M720s Core i3-8100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
+      "price_yen": 13900,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/54b255542.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-21 23:06:05",
+      "price_history": [
+        {
+          "price_yen": 13900,
+          "observed_at": "2026-09-21 23:06:05"
         }
       ]
     },
@@ -21567,41 +21035,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_55c252770",
-      "watch_name": "thinkcentre_m720s",
-      "spec_id": "thinkcentre_m720s",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720s",
-      "model_name": "ThinkCentre M720s",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i5-8400",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ Lenovo ThinkCentre M720s Core i5-8400 2.8GHz 8GB 256GB(SSD) DisplayPort x2/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
-      "price_yen": 21900,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/55c252770.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-08-22 17:53:19",
-      "price_history": [
-        {
-          "price_yen": 21900,
-          "observed_at": "2026-08-22 17:53:19"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_55c252774",
       "watch_name": "thinkcentre_m720s",
       "spec_id": "thinkcentre_m720s",
@@ -21666,41 +21099,6 @@
         {
           "price_yen": 26500,
           "observed_at": "2026-09-12 13:44:43"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_564264454",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060sff",
-      "model_name": "OptiPlex 3060SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5-8500",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ DELL OptiPlex 3060 SFF Core i5-8500 3GHz 8GB 256GB(新品SSD) HDMI/DisplayPort/アナログRGB出力 DVD-ROM Windows11 Pro 64bit 難有",
-      "price_yen": 23400,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/564264454.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-13 23:08:37",
-      "price_history": [
-        {
-          "price_yen": 23400,
-          "observed_at": "2026-09-13 23:08:37"
         }
       ]
     },
@@ -23391,6 +22789,42 @@
         {
           "price_yen": 25740,
           "observed_at": "2026-09-12 13:44:43"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "whatfun_800g4-rtx3060",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "hp-elitedesk-800g4",
+      "model_name": "EliteDesk 800G4",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "HP",
+      "parsed": {
+        "cpu": "Core i7-8700",
+        "cpu_generation": 8,
+        "memory_gb": 32,
+        "storage": "SSD 512GB",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "HP EliteDesk 800G4 eスポーツ 最強ゲーミングパソコン RTX3060 12GBB搭載  画像生成AI[Core i7 8700 メモリ32GB SSD512GB マルチ ]:良品",
+      "price_yen": 99980,
+      "url": "https://store.shopping.yahoo.co.jp/whatfun/800g4-rtx3060.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-06 11:01:42",
+      "price_history": [
+        {
+          "price_yen": 99980,
+          "observed_at": "2026-09-06 11:01:42"
         }
       ]
     },
