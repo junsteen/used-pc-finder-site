@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25 08:10:26+09:00",
+  "generated_at": "2026-09-25 13:10:05+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3632,6 +3632,35 @@
     {
       "source": "pc_koubou",
       "source_label": "パソコン工房",
+      "listing_id": "1257466",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": "pc_koubou",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {},
+      "title": "LEVEL-RG85-LCR9ZZ-VKX-ZETA DIVISION [RGB Build]",
+      "price_yen": 659800,
+      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1257466",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-25 04:00:21",
+      "price_history": [
+        {
+          "price_yen": 659800,
+          "observed_at": "2026-09-25 04:00:21"
+        }
+      ]
+    },
+    {
+      "source": "pc_koubou",
+      "source_label": "パソコン工房",
       "listing_id": "1258673",
       "watch_name": "optiplex_3060",
       "spec_id": "optiplex_3060",
@@ -3696,6 +3725,35 @@
         {
           "price_yen": 29980,
           "observed_at": "2026-09-12 13:43:43"
+        }
+      ]
+    },
+    {
+      "source": "pc_koubou",
+      "source_label": "パソコン工房",
+      "listing_id": "1264825",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": "pc_koubou",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {},
+      "title": "LEVEL-R785-LCR98D-VKX-PAL",
+      "price_yen": 514800,
+      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1264825",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-25 04:00:21",
+      "price_history": [
+        {
+          "price_yen": 514800,
+          "observed_at": "2026-09-25 04:00:21"
         }
       ]
     },
@@ -4859,6 +4917,150 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "dospara-r:10003761",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 9 9900X",
+        "memory_gb": 32,
+        "storage": "SSD 2TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 5080",
+        "vram_gb": 32
+      },
+      "title": "ガレリア ゲーミングPC デスクトップパソコン Ryzen 9 9900X3D RTX 5080 メモリ 32GB / SSD 2TB Windows 11 Home GALLERIA XMR9A-R58-GD Ryzen 9 9900X3D搭載 19936-4777",
+      "price_yen": 659580,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u67po.2lytq82e.g00u67po.2lytrde8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdospara-r%2F19936%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdospara-r%2Fi%2F10003761%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-25 04:00:06",
+      "price_history": [
+        {
+          "price_yen": 659580,
+          "observed_at": "2026-09-25 04:00:06"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "dospara-r:10003778",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 9 9900X",
+        "memory_gb": 32,
+        "storage": "SSD 2TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 5080",
+        "vram_gb": 32
+      },
+      "title": "ガレリア ゲーミングPC デスクトップパソコン Ryzen 9 9900X3D RTX 5080 メモリ 32GB / SSD 2TB Windows 11 Home GALLERIA XMR9A-R58-WL Ryzen 9 9900X3D搭載 20055-4777",
+      "price_yen": 659580,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u67po.2lytq82e.g00u67po.2lytrde8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdospara-r%2F20055%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdospara-r%2Fi%2F10003778%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-25 04:00:06",
+      "price_history": [
+        {
+          "price_yen": 659580,
+          "observed_at": "2026-09-25 04:00:06"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "dospara-r:10003879",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 9800X",
+        "memory_gb": 32,
+        "storage": "SSD 1TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 5080",
+        "vram_gb": 32
+      },
+      "title": "ガレリア ゲーミングPC デスクトップパソコン Ryzen 7 9800X3D RTX 5080 メモリ 32GB / SSD 1TB Windows 11 Home GALLERIA XDR7A-R58-GD Ryzen 7 9800X3D搭載 19923-4824",
+      "price_yen": 545080,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u67po.2lytq82e.g00u67po.2lytrde8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdospara-r%2F19923%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdospara-r%2Fi%2F10003879%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-25 04:00:06",
+      "price_history": [
+        {
+          "price_yen": 545080,
+          "observed_at": "2026-09-25 04:00:06"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "dospara-r:10003880",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 9800X",
+        "memory_gb": 32,
+        "storage": "SSD 1TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 5080",
+        "vram_gb": 32
+      },
+      "title": "ガレリア ゲーミングPC デスクトップパソコン Ryzen 7 9800X3D RTX 5080 メモリ 32GB / SSD 1TB Windows 11 Home GALLERIA XDR7A-R58-WL Ryzen 7 9800X3D搭載 20043-4822",
+      "price_yen": 545080,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u67po.2lytq82e.g00u67po.2lytrde8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdospara-r%2F20043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdospara-r%2Fi%2F10003880%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-25 04:00:06",
+      "price_history": [
+        {
+          "price_yen": 545080,
+          "observed_at": "2026-09-25 04:00:06"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "e-fellows5:10058978",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -5510,6 +5712,41 @@
         {
           "price_yen": 9750,
           "observed_at": "2026-09-12 13:45:02"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "freestylejapan:10008365",
+      "watch_name": "endeavor_st190e",
+      "spec_id": "endeavor_st190e",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-8100T",
+        "cpu_generation": 8,
+        "memory_gb": 4,
+        "storage": "HDD 500GB",
+        "os": "なし"
+      },
+      "title": "□■EPSON/エプソン 小型デスクトップPC Endeavor ST190EM5FC Core i3 8100T 3.10GHz/メモリ 4GB/HDD 500GB/OS無し BIOS起動確認済み 【中古】 送料無料",
+      "price_yen": 8980,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qld9o.2lytq41b.g00qld9o.2lytr784/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreestylejapan%2Fepson-st190em5fc-4gb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffreestylejapan%2Fi%2F10008365%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-25 04:07:55",
+      "price_history": [
+        {
+          "price_yen": 8980,
+          "observed_at": "2026-09-25 04:07:55"
         }
       ]
     },
@@ -6714,7 +6951,7 @@
         "storage": "SSD 256GB",
         "os": "Windows 11 Pro"
       },
-      "title": "【3年保証】DELL デル OPTIPLEX 3070 MICRO SSD256GB メモリ8GB Core i5 Windows 11 Pro 中古 アウトレット 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC ミニPC OFFICE付き",
+      "title": "【25日限定P10倍+最大10%OFFクーポン】 【3年保証】DELL デル OPTIPLEX 3070 MICRO SSD256GB メモリ8GB Core i5 Windows 11 Pro 中古 アウトレット 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC ミニPC OFFICE付き",
       "price_yen": 34100,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl40o.2lytq230.g00pl40o.2lytr624/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcwrap%2F5bdesf-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcwrap%2Fi%2F10902726%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -6748,7 +6985,7 @@
         "storage": "SSD 256GB",
         "os": "Windows 11 Home"
       },
-      "title": "【セール】【3年保証】DELL デル OPTIPLEX 3070 MICRO SSD256GB メモリ8GB Core i5 Windows 11 Home 中古 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC ミニPC OFFICE付き",
+      "title": "【セール】【25日限定P10倍+最大10%OFFクーポン】 【3年保証】DELL デル OPTIPLEX 3070 MICRO SSD256GB メモリ8GB Core i5 Windows 11 Home 中古 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC ミニPC OFFICE付き",
       "price_yen": 34100,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl40o.2lytq230.g00pl40o.2lytr624/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcwrap%2F4bdesf-037%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcwrap%2Fi%2F10903240%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -7072,6 +7309,39 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-09-18 11:06:32"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "shoptsukumo:10029802",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 9800X",
+        "memory_gb": 32,
+        "gpu": "RTX 5080"
+      },
+      "title": "ゲーミングPC G-GEAR GE7A-L261BH/CP6 Ryzen7 9800X3D /RTX5080 /32GBメモリ /2TB SSD /WiFi7+Bluetooth対応",
+      "price_yen": 535333,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tohgo.2lytqbec.g00tohgo.2lytra68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshoptsukumo%2F9092862015%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshoptsukumo%2Fi%2F10029802%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-09-25 04:00:06",
+      "price_history": [
+        {
+          "price_yen": 535333,
+          "observed_at": "2026-09-25 04:00:06"
         }
       ]
     },
@@ -11464,6 +11734,38 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_108181711-222",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
+      },
+      "title": "【中古】Palit GeForce RTX 3060 Dual OC (NE63060T19K9-190AD) RTX3060/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
+      "price_yen": 39980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/108181711-222.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-17 23:01:48",
+      "price_history": [
+        {
+          "price_yen": 39980,
+          "observed_at": "2026-09-17 23:01:48"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "janpara_108183459-222",
       "watch_name": "rtx3060_12gb",
       "spec_id": "geforce_rtx3060_12gb",
@@ -11491,6 +11793,38 @@
         {
           "price_yen": 42980,
           "observed_at": "2026-08-22 17:52:28"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_108185009-222",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
+      },
+      "title": "【中古】ASUS DUAL-RTX3060-O12G-V2 RTX3060(LHR)/12GB(GDDR6)【ECセンター】保証期間１週間",
+      "price_yen": 40980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/108185009-222.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-17 23:01:48",
+      "price_history": [
+        {
+          "price_yen": 40980,
+          "observed_at": "2026-09-17 23:01:48"
         }
       ]
     },
@@ -11556,6 +11890,38 @@
         {
           "price_yen": 42980,
           "observed_at": "2026-09-17 23:01:48"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_108187695-222",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
+      },
+      "title": "【中古】Palit GeForce RTX 3060 StormX OC (NE63060S19K9-190AF) RTX3060/12GB(GDDR6)/PCI-E【ECセンター】保証期間１週間",
+      "price_yen": 42980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/108187695-222.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-25 04:01:35",
+      "price_history": [
+        {
+          "price_yen": 42980,
+          "observed_at": "2026-09-25 04:01:35"
         }
       ]
     },
@@ -12776,6 +13142,38 @@
         {
           "price_yen": 40980,
           "observed_at": "2026-09-17 23:01:48"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "janpara_67695359-67",
+      "watch_name": "rtx3060_12gb",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": null,
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 12,
+        "gpu": "RTX 3060"
+      },
+      "title": "【中古】ZOTAC GAMING GeForce RTX 3060 Twin Edge OC (ZT-A30600H-10M) RTX3060/12GB(GDDR6)/PCI-E【秋葉2号】保証期間１週間",
+      "price_yen": 38980,
+      "url": "https://store.shopping.yahoo.co.jp/janpara/67695359-67.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-25 04:01:35",
+      "price_history": [
+        {
+          "price_yen": 38980,
+          "observed_at": "2026-09-25 04:01:35"
         }
       ]
     },
@@ -16785,6 +17183,39 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "mtd-onlinestore_optiplex3060-i5-8g-8gb-500hdd",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060",
+      "model_name": "OptiPlex 3060",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8,
+        "storage": "HDD 500GB"
+      },
+      "title": "中古 デスクトップPC OptiPlex 3060 Core i5 8GB HDD 500GB Win11 Pro 中古 PC 中古 デスクトップパソコン  Dell デル MicrosoftOffice2024",
+      "price_yen": 32900,
+      "url": "https://store.shopping.yahoo.co.jp/mtd-onlinestore/optiplex3060-i5-8g-8gb-500hdd.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-13 11:08:14",
+      "price_history": [
+        {
+          "price_yen": 32900,
+          "observed_at": "2026-09-13 11:08:14"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "mywing_mw230509-1",
       "watch_name": "thinkcentre_m710q",
       "spec_id": "thinkcentre_m710q",
@@ -16918,6 +17349,40 @@
         {
           "price_yen": 423000,
           "observed_at": "2026-09-17 23:00:07"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "nbfixer_mtrnyebt6",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 32,
+        "storage": "SSD 1TB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 5080"
+      },
+      "title": "ゲーミングPC Core Ultra 7 265KF / RTX5080 / メモリ32GB / SSD 1TB / Windows11 home / ゲーミングパソコン / パソコン / デスクトップPC / 新品 / H26",
+      "price_yen": 522000,
+      "url": "https://store.shopping.yahoo.co.jp/nbfixer/mtrnyebt6.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-13 11:00:05",
+      "price_history": [
+        {
+          "price_yen": 522000,
+          "observed_at": "2026-09-13 11:00:05"
         }
       ]
     },
@@ -19165,6 +19630,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "seathedemi_ysde0082",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "nec-mate-mkl36e-5",
+      "model_name": "Mate MKL36E-5",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "NEC",
+      "parsed": {
+        "cpu": "Core i3-9100",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "HDD 500GB"
+      },
+      "title": "【中古】NEC Mate MKL36E-5/ Corei3-9100 /HDD500GB /8GB /DVD /win11/(ysde0082",
+      "price_yen": 11550,
+      "url": "https://store.shopping.yahoo.co.jp/seathedemi/ysde0082.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-08-22 17:53:23",
+      "price_history": [
+        {
+          "price_yen": 11550,
+          "observed_at": "2026-08-22 17:53:23"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "seathedemi_ysde0088",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": "mate_mrm29l-5",
@@ -20555,6 +21054,41 @@
         {
           "price_yen": 17700,
           "observed_at": "2026-09-03 23:06:21"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_54b255542",
+      "watch_name": "thinkcentre_m720s",
+      "spec_id": "thinkcentre_m720s",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720s",
+      "model_name": "ThinkCentre M720s",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3-8100",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ Lenovo ThinkCentre M720s Core i3-8100 3.6GHz 8GB 256GB(新品SSD) DisplayPort x2/アナログRGB出力 光学不良 Windows11 Pro 64bit 小難",
+      "price_yen": 13900,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/54b255542.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-21 23:06:05",
+      "price_history": [
+        {
+          "price_yen": 13900,
+          "observed_at": "2026-09-21 23:06:05"
         }
       ]
     },
@@ -22185,6 +22719,39 @@
         {
           "price_yen": 575737,
           "observed_at": "2026-09-22 04:00:06"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tsukumo-y_0409092862013",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 9800X",
+        "memory_gb": 32,
+        "gpu": "RTX 5080"
+      },
+      "title": "ゲーミングPC G-GEAR GE7A-L261BH/CP6 Ryzen7 9800X3D /RTX5080 /32GBメモリ /2TB SSD /WiFi7+Bluetooth対応",
+      "price_yen": 535333,
+      "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/0409092862013.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-25 04:00:06",
+      "price_history": [
+        {
+          "price_yen": 535333,
+          "observed_at": "2026-09-25 04:00:06"
         }
       ]
     },
