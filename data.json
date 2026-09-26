@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26 13:11:25+09:00",
+  "generated_at": "2026-09-26 20:10:13+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2200,38 +2200,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC660947",
-      "watch_name": "rtx3060_12gb",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "part",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": null,
-      "model_maker": null,
-      "parsed": {
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  ELSA GEFORCE RTX 3060 S.A.C/L GD3060-12GEBSH4 (RTX3060 12GB) 3280023616",
-      "price_yen": 44900,
-      "url": "https://www.dospara.co.jp/SBR1522/IC660947.html",
-      "is_affiliate": false,
-      "condition_rank": "B:良品",
-      "condition": "used",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-24 23:01:47",
-      "price_history": [
-        {
-          "price_yen": 44900,
-          "observed_at": "2026-09-24 23:01:47"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC662508",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -2409,43 +2377,6 @@
         {
           "price_yen": 84800,
           "observed_at": "2026-09-19 11:02:10"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC666909",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": "galleria-rm5c-r36",
-      "model_name": "GALLERIA RM5C-R36",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "サードウェーブ",
-      "parsed": {
-        "cpu": "Core i5-12400",
-        "cpu_generation": 12,
-        "memory_gb": 16,
-        "storage": "SSD 512GB",
-        "os": "Windows 11 Home",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  GALLERIA RM5C-R36(i5 12400/16GB/SSD512GB/なし/RTX3060 12GB/W11H) 3210016116",
-      "price_yen": 99000,
-      "url": "https://www.dospara.co.jp/SBR1391/IC666909.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "condition": "used",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-12 13:31:04",
-      "price_history": [
-        {
-          "price_yen": 99000,
-          "observed_at": "2026-09-12 13:31:04"
         }
       ]
     },
@@ -3423,6 +3354,35 @@
     {
       "source": "pc_koubou",
       "source_label": "パソコン工房",
+      "listing_id": "1234047",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": "pc_koubou",
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {},
+      "title": "LEVEL-RW85-LCR9ZZ-VKX [RGB Build]",
+      "price_yen": 654800,
+      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1234047",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-12 13:29:16",
+      "price_history": [
+        {
+          "price_yen": 654800,
+          "observed_at": "2026-09-12 13:29:16"
+        }
+      ]
+    },
+    {
+      "source": "pc_koubou",
+      "source_label": "パソコン工房",
       "listing_id": "1245087",
       "watch_name": "optiplex_3060",
       "spec_id": "optiplex_3060",
@@ -3497,35 +3457,6 @@
     {
       "source": "pc_koubou",
       "source_label": "パソコン工房",
-      "listing_id": "1255081",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": "pc_koubou",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {},
-      "title": "LEVEL-R885-LCR98D-VKX [RGB Build]",
-      "price_yen": 539800,
-      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1255081",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-12 23:00:31",
-      "price_history": [
-        {
-          "price_yen": 539800,
-          "observed_at": "2026-09-12 23:00:31"
-        }
-      ]
-    },
-    {
-      "source": "pc_koubou",
-      "source_label": "パソコン工房",
       "listing_id": "1255241",
       "watch_name": "rtx5080_pc",
       "spec_id": "geforce_rtx5080",
@@ -3578,35 +3509,6 @@
         {
           "price_yen": 579800,
           "observed_at": "2026-09-12 13:29:16"
-        }
-      ]
-    },
-    {
-      "source": "pc_koubou",
-      "source_label": "パソコン工房",
-      "listing_id": "1255345",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": "pc_koubou",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {},
-      "title": "LEVEL-R785-LCR98D-VKX [Memory Re]",
-      "price_yen": 464800,
-      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1255345",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-09-25 11:00:22",
-      "price_history": [
-        {
-          "price_yen": 464800,
-          "observed_at": "2026-09-25 11:00:22"
         }
       ]
     },
@@ -4181,6 +4083,41 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "auc-junkworldwebshop:10408598",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "送料無料 2017年モデル lenovo ThinkCentre M720q 単体 超小型デスク Windows11 64bit 第8世代 Core i3 メモリー8GB 高速SSD256GB 中古デスクトップパソコン 中古 パソコン【30日保証】1243257",
+      "price_yen": 14800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F1243257%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10408598%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-03 23:05:17",
+      "price_history": [
+        {
+          "price_yen": 14800,
+          "observed_at": "2026-09-03 23:05:17"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "auc-junkworldwebshop:10409456",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -4350,41 +4287,6 @@
         {
           "price_yen": 14800,
           "observed_at": "2026-09-17 23:05:00"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "auc-junkworldwebshop:10409664",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "送料無料 2017年モデル lenovo ThinkCentre M720q 単体 Windows11 64bit HDMI 第8世代 Core i3 メモリー8GB 高速SSD256GB 中古デスクトップパソコン 中古 パソコン【30日保証】4021260",
-      "price_yen": 14800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qp35o.2lytq427.g00qp35o.2lytrc3f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-junkworldwebshop%2F4021260%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-junkworldwebshop%2Fi%2F10409664%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-24 11:02:24",
-      "price_history": [
-        {
-          "price_yen": 14800,
-          "observed_at": "2026-09-24 11:02:24"
         }
       ]
     },
@@ -5954,41 +5856,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "junkworld2:10330531",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3-8100T",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "lenovo ThinkCentre M720q 単体 Windows11 64bit HDMI Core i3 8100T メモリー8GB 高速SSD256GB デスクトップパソコン【中古】【30日保証】4021260",
-      "price_yen": 14800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s3hso.2lytq976.g00s3hso.2lytr5a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjunkworld2%2F4021260%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjunkworld2%2Fi%2F10330531%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-09-24 11:04:53",
-      "price_history": [
-        {
-          "price_yen": 14800,
-          "observed_at": "2026-09-24 11:04:53"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "jyunntenn:10000148",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -6770,7 +6637,7 @@
         "storage": "SSD 256GB",
         "os": "Windows 11 Pro"
       },
-      "title": "【25日限定P10倍+最大10%OFFクーポン】 【3年保証】DELL デル OPTIPLEX 3070 MICRO SSD256GB メモリ8GB Core i5 Windows 11 Pro 中古 アウトレット 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC ミニPC OFFICE付き",
+      "title": "【3年保証】DELL デル OPTIPLEX 3070 MICRO SSD256GB メモリ8GB Core i5 Windows 11 Pro 中古 アウトレット 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC ミニPC OFFICE付き",
       "price_yen": 34100,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl40o.2lytq230.g00pl40o.2lytr624/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcwrap%2F5bdesf-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcwrap%2Fi%2F10902726%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -8021,38 +7888,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "aidemac_tw202506301723105158757",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "nec-mate-pc-mk33mlzx1asn",
-      "model_name": "Mate PC-MK33MLZX1ASN",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "NEC",
-      "parsed": {
-        "cpu": "Core i5-4590",
-        "cpu_generation": 4
-      },
-      "title": "NEC Mate PC-MK33MLZX1ASN マザーボード Core i5 4590 純正 中古品 MK33ML-N 5-0630-3 Windows パーツ 部品 交換用",
-      "price_yen": 16300,
-      "url": "https://store.shopping.yahoo.co.jp/aidemac/tw202506301723105158757.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-08-23 01:22:16",
-      "price_history": [
-        {
-          "price_yen": 16300,
-          "observed_at": "2026-08-23 01:22:16"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "akiba-yushop_0744-3966",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -9221,38 +9056,6 @@
         {
           "price_yen": 25600,
           "observed_at": "2026-09-12 13:44:43"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "be-stocktsb_d-3070-3070sf-b001",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070sff",
-      "model_name": "OptiPlex 3070SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5",
-        "memory_gb": 8
-      },
-      "title": "中古 デスクトップ Dell デル Optiplex 3070 SFF 3070-3070SF Core i5 メモリ：8GB 6ヶ月保証",
-      "price_yen": 20800,
-      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/d-3070-3070sf-b001.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-09-13 23:10:33",
-      "price_history": [
-        {
-          "price_yen": 20800,
-          "observed_at": "2026-09-13 23:10:33"
         }
       ]
     },
@@ -14086,75 +13889,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-premium_20021902",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB 高速 SSD 中古 20021902",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/20021902.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:05:18",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-09-03 23:05:18"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-premium_20021914",
-      "watch_name": "thinkcentre_m720q",
-      "spec_id": "thinkcentre_m720q",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "lenovo-thinkcentre-m720q",
-      "model_name": "ThinkCentre M720q",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Lenovo",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "HDD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "6ヶ月保証 lenovo ThinkCentre M720q デスクトップパソコン 第8世代 Core i3 超小型デスク 単体 Windows11 64bit メモリ8GB HDD256GB 中古 20021914",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/20021914.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-09-03 23:05:18",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-09-03 23:05:18"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_20022103",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -15682,6 +15416,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-webshop_1243229",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン lenovo ThinkCentre M720q 中古 2017年モデル 超小型デスク 単体 Windows11 64bit 第8世代 Core i3 メモリ8GB 高速 SSD 1243229",
+      "price_yen": 14800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243229.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-03 23:05:18",
+      "price_history": [
+        {
+          "price_yen": 14800,
+          "observed_at": "2026-09-03 23:05:18"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1243257",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -17022,41 +16790,6 @@
         {
           "price_yen": 522000,
           "observed_at": "2026-09-13 11:00:05"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "nbfixer_n5721n43e",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 9700X",
-        "memory_gb": 32,
-        "storage": "SSD 1TB",
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080"
-      },
-      "title": "ゲーミングPC Ryzen 7 9700X / RTX5080 / メモリ32GB / SSD 1TB / Windows11 home / ゲーミングパソコン / パソコン / デスクトップPC / 新品 / H26",
-      "price_yen": 517000,
-      "url": "https://store.shopping.yahoo.co.jp/nbfixer/n5721n43e.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-09-09 04:00:04",
-      "price_history": [
-        {
-          "price_yen": 517000,
-          "observed_at": "2026-09-09 04:00:04"
         }
       ]
     },
@@ -19989,6 +19722,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "srepcstore_z08",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-9100T",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 256GB"
+      },
+      "title": "2020年モデル富士通 ミニデスクトップ PC FUJITSU ESPRIMO Q558/B  Core i3-9100T/USB複数搭載/DVI/DisplayPort/4K HDR対応/Office/Win11Pro /RAM8GB/SSD256GB",
+      "price_yen": 27980,
+      "url": "https://store.shopping.yahoo.co.jp/srepcstore/z08.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-24 02:22:45",
+      "price_history": [
+        {
+          "price_yen": 27980,
+          "observed_at": "2026-08-24 02:22:45"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "srepcstore_z248",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -20541,41 +20308,6 @@
         {
           "price_yen": 22300,
           "observed_at": "2026-09-12 13:43:26"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_544268717",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070sff",
-      "model_name": "OptiPlex 3070SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5-9500",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ DELL OptiPlex 3070 SFF Core i5-9500 3GHz 8GB 256GB(新品SSD) HDMI/DisplayPort/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
-      "price_yen": 29200,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/544268717.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-17 23:08:04",
-      "price_history": [
-        {
-          "price_yen": 29200,
-          "observed_at": "2026-09-17 23:08:04"
         }
       ]
     },
@@ -21480,40 +21212,6 @@
         {
           "price_yen": 15600,
           "observed_at": "2026-09-12 13:43:26"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_56c250740",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3-9300T",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ DELL OptiPlex 3070 Micro Core i3-9300T 3.2GHz 8GB 256GB(新品NVMeSSD) HDMI/DisplayPort出力 Windows11 Pro 64bit",
-      "price_yen": 20800,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/56c250740.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-25 23:09:17",
-      "price_history": [
-        {
-          "price_yen": 20800,
-          "observed_at": "2026-09-25 23:09:17"
         }
       ]
     },
