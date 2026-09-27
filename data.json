@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27 08:10:05+09:00",
+  "generated_at": "2026-09-27 13:10:06+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2598,6 +2598,42 @@
         {
           "price_yen": 22000,
           "observed_at": "2026-09-24 11:03:21"
+        }
+      ]
+    },
+    {
+      "source": "dospara",
+      "source_label": "ドスパラ",
+      "listing_id": "IC671414",
+      "watch_name": "rtx3060_12gb_pc",
+      "spec_id": "geforce_rtx3060_12gb",
+      "shop_id": "dospara",
+      "category": "pc",
+      "model_slug": "galleria-rm5r-r36",
+      "model_name": "GALLERIA RM5R-R36",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "サードウェーブ",
+      "parsed": {
+        "cpu": "Ryzen 5 3600",
+        "memory_gb": 16,
+        "storage": "SSD 512GB",
+        "os": "Windows 11 Home",
+        "gpu": "RTX 3060",
+        "vram_gb": 12
+      },
+      "title": "中古  GALLERIA RM5R-R36(Ryzen 5 3600/16GB/SSD512GB/-/RTX3060 12GB/W11H) 4680004027",
+      "price_yen": 79800,
+      "url": "https://www.dospara.co.jp/SBR1391/IC671414.html",
+      "is_affiliate": false,
+      "condition_rank": "C:並品",
+      "condition": "used",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-09-24 23:02:06",
+      "price_history": [
+        {
+          "price_yen": 79800,
+          "observed_at": "2026-09-24 23:02:06"
         }
       ]
     },
@@ -5583,6 +5619,41 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "junkworld2:10329588",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3-8100T",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11"
+      },
+      "title": "lenovo ThinkCentre M720q 単体 超小型デスク Windows11 64bit Core i3 8100T メモリー8GB 高速SSD256GB デスクトップパソコン【中古】【30日保証】1243257",
+      "price_yen": 14800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00s3hso.2lytq976.g00s3hso.2lytr5a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjunkworld2%2F1243257%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjunkworld2%2Fi%2F10329588%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-15 04:06:02",
+      "price_history": [
+        {
+          "price_yen": 14800,
+          "observed_at": "2026-09-15 04:06:02"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "junkworld2:10330352",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -6592,6 +6663,41 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "recyclepcseiwa:10000377",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i3（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 240GB",
+        "os": "Windows 11"
+      },
+      "title": "Lenovo ThinkCentre M720q Tiny 22型ワイド液晶セット第8世代 Core i3 メモリ8GB SSD240GB 中古PC デスクトップ 小型PC ミニPC レノボ デスクトップパソコン windows11 パソコン 中古パソコン 省スペース ミニパソコン 中古デスクトップパソコン 超小型PC あす楽",
+      "price_yen": 23800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8aao.2lytq7c8.g00u8aao.2lytr07d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frecyclepcseiwa%2Fm720q%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frecyclepcseiwa%2Fi%2F10000377%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-12 04:05:54",
+      "price_history": [
+        {
+          "price_yen": 23800,
+          "observed_at": "2026-09-12 04:05:54"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "risemark:10006878",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -6932,6 +7038,39 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-09-18 11:06:32"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "shoptsukumo:10028411",
+      "watch_name": "rtx5080_pc",
+      "spec_id": "geforce_rtx5080",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Ryzen 7 9850X",
+        "memory_gb": 32,
+        "gpu": "RTX 5080"
+      },
+      "title": "ゲーミングPC G-GEAR GE7A-L262BH/NT2 Ryzen7 9850X3D /RTX5080 /32GBメモリ /2TB SSD /WiFi7+BT対応、水冷仕様",
+      "price_yen": 555535,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tohgo.2lytqbec.g00tohgo.2lytra68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshoptsukumo%2F9092427016%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshoptsukumo%2Fi%2F10028411%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "new",
+      "shipping": "送料別",
+      "shipping_label": "送料別",
+      "observed_at": "2026-09-14 04:00:05",
+      "price_history": [
+        {
+          "price_yen": 555535,
+          "observed_at": "2026-09-14 04:00:05"
         }
       ]
     },
