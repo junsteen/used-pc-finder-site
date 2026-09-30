@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30 08:10:03+09:00",
+  "generated_at": "2026-09-30 13:10:13+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -5972,6 +5972,71 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "pcwrap:10902726",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070micro",
+      "model_name": "OptiPlex 3070MICRO",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "【30日限定P10倍+最大10%OFFクーポン】 【3年保証】DELL デル OPTIPLEX 3070 MICRO SSD256GB メモリ8GB Core i5 Windows 11 Pro 中古 アウトレット 返品 送料無料 中古デスクトップパソコン 中古パソコン デスクトップパソコン デスクトップ PC ミニPC OFFICE付き",
+      "price_yen": 34100,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl40o.2lytq230.g00pl40o.2lytr624/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcwrap%2F5bdesf-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcwrap%2Fi%2F10902726%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-14 11:10:18",
+      "price_history": [
+        {
+          "price_yen": 34100,
+          "observed_at": "2026-09-14 11:10:18"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
+      "listing_id": "plus-market:10168697",
+      "watch_name": "memory32gb_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "memory_gb": 32
+      },
+      "title": "【送料無料】KOOTION USBメモリ32GB Type Cメモリ USB3.0 2in1 OTG デュアルメモリ メモリースティック キーリング付き 金属 防水360度回転デザイン フラッシュドライブ 高速データ転送 スマホ/Windows/ノートパソコン対応 （黒）",
+      "price_yen": 3239,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00uliio.2lytqed4.g00uliio.2lytr44f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplus-market%2Fb09shqgyfs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fplus-market%2Fi%2F10168697%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-09-30 04:09:26",
+      "price_history": [
+        {
+          "price_yen": 3239,
+          "observed_at": "2026-09-30 04:09:26"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "recyclepcseiwa:10000377",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -6942,6 +7007,41 @@
         {
           "price_yen": 23800,
           "observed_at": "2026-09-12 13:43:26"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "aoshiro_pc-desk-dell-3040-sff",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060sff",
+      "model_name": "OptiPlex 3060SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 4,
+        "storage": "SSD 128GB",
+        "os": "Windows 11"
+      },
+      "title": "中古デスクトップパソコン Windows11 MicrosoftOffice2024 DELL OptiPlex 3060 SFF 第8世代 Corei5 メモリ4GB SSD128GB USB3.0 HDMI DisplayPort VGA DVD-ROM",
+      "price_yen": 19800,
+      "url": "https://store.shopping.yahoo.co.jp/aoshiro/pc-desk-dell-3040-sff.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-12 13:43:25",
+      "price_history": [
+        {
+          "price_yen": 19800,
+          "observed_at": "2026-09-12 13:43:25"
         }
       ]
     },
@@ -8187,6 +8287,42 @@
         {
           "price_yen": 24200,
           "observed_at": "2026-09-28 11:08:57"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_d-3070-3070sf-c002",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070sff",
+      "model_name": "OptiPlex 3070SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Dell デル Optiplex 3070 SFF 3070-3070SF Core i5 メモリ：8GB SSD搭載 6ヶ月保証",
+      "price_yen": 23100,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/d-3070-3070sf-c002.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-09-30 04:07:44",
+      "price_history": [
+        {
+          "price_yen": 24500,
+          "observed_at": "2026-09-18 04:07:32"
+        },
+        {
+          "price_yen": 23100,
+          "observed_at": "2026-09-30 04:07:44"
         }
       ]
     },
@@ -16325,6 +16461,41 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "pon-junkshop_554265828",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060sff",
+      "model_name": "OptiPlex 3060SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ DELL OptiPlex 3060 SFF Core i5-8400 2.8GHz 8GB 256GB(SSD) HDMI/DisplayPort/アナログRGB出力 DVD-ROM Windows11 Pro 64bit 小難",
+      "price_yen": 24600,
+      "url": "https://store.shopping.yahoo.co.jp/pon-junkshop/554265828.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-22 04:07:30",
+      "price_history": [
+        {
+          "price_yen": 24600,
+          "observed_at": "2026-09-22 04:07:30"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "pon-junkshop_556258835",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -20059,6 +20230,40 @@
         {
           "price_yen": 10800,
           "observed_at": "2026-09-12 23:08:01"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_56c252355",
+      "watch_name": "thinkcentre_m720q",
+      "spec_id": "thinkcentre_m720q",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "lenovo-thinkcentre-m720q",
+      "model_name": "ThinkCentre M720q",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Lenovo",
+      "parsed": {
+        "cpu": "Core i5-9400T",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ Lenovo ThinkCentre M720q Core i5-9400T 1.8GHz 8GB 256GB(NVMeSSD) HDMI/DisplayPort/アナログRGB出力 Windows11 Pro 64bit",
+      "price_yen": 25000,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/56c252355.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-03 23:05:18",
+      "price_history": [
+        {
+          "price_yen": 25000,
+          "observed_at": "2026-09-03 23:05:18"
         }
       ]
     },
