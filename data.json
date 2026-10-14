@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14 08:11:25+09:00",
+  "generated_at": "2026-10-14 13:11:08+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -3432,6 +3432,38 @@
       ]
     },
     {
+      "source": "pc_koubou",
+      "source_label": "パソコン工房",
+      "listing_id": "1270522",
+      "watch_name": "rtx4060ti_16gb",
+      "spec_id": "geforce_rtx4060ti_16gb",
+      "shop_id": "pc_koubou",
+      "category": "part",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": null,
+      "model_maker": null,
+      "parsed": {
+        "gpu": "RTX 4060 Ti",
+        "vram_gb": 16
+      },
+      "title": "ノーブランド  〔中古〕GeForce RTX 4060 Ti 16GB(中古保証1ヶ月間)",
+      "price_yen": 94980,
+      "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1270522",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": null,
+      "shipping_label": "—",
+      "observed_at": "2026-10-14 04:00:48",
+      "price_history": [
+        {
+          "price_yen": 94980,
+          "observed_at": "2026-10-14 04:00:48"
+        }
+      ]
+    },
+    {
       "source": "rakuten",
       "source_label": "楽天市場",
       "listing_id": "alpacapc:10005929",
@@ -5449,6 +5481,40 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
+      "listing_id": "miyamotoshouji:10005895",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060sff",
+      "model_name": "OptiPlex 3060SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Pentium Gold",
+        "memory_gb": 8,
+        "storage": "SSD 128GB + HDD 500GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "【美品・省スペースデスクトップ】◆ DELL OptiPlex 3060 SFF◆ Pentium Gold G5400 / メモリ8GB / SSD128GB + HDD500GB◆ 最新 Windows 11 Pro 搭載 / 3ヶ月保証 中古デスクトップPC",
+      "price_yen": 15800,
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00ud7io.2lytqdaa.g00ud7io.2lytra2d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyamotoshouji%2Fdell-00512%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmiyamotoshouji%2Fi%2F10005895%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
+      "is_affiliate": true,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料込み",
+      "shipping_label": "送料込み",
+      "observed_at": "2026-10-14 04:07:06",
+      "price_history": [
+        {
+          "price_yen": 15800,
+          "observed_at": "2026-10-14 04:07:06"
+        }
+      ]
+    },
+    {
+      "source": "rakuten",
+      "source_label": "楽天市場",
       "listing_id": "pasonette:10000160",
       "watch_name": "optiplex_3060",
       "spec_id": "optiplex_3060",
@@ -5880,7 +5946,7 @@
         "cpu_generation": 9,
         "os": "Windows 11"
       },
-      "title": "【中古】 Windows 11 適合モデル DELL OptiPlex 3070 SFF 第9世代 Core i5 9400 2.90G メモリ 8G〜 SSD 256G〜 + HDD 500G HDMI 中古デスクトップパソコン 中古パソコン オフィス Windows 10",
+      "title": "ポイント 10倍 実施中【中古】 Windows 11 適合モデル DELL OptiPlex 3070 SFF 第9世代 Core i5 9400 2.90G メモリ 8G〜 SSD 256G〜 + HDD 500G HDMI 中古デスクトップパソコン 中古パソコン オフィス Windows 10",
       "price_yen": 31800,
       "url": "https://hb.afl.rakuten.co.jp/hgc/g00tdspo.2lytq7c5.g00tdspo.2lytre5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishin-sj%2Fdesk-dell-357%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseishin-sj%2Fi%2F10004797%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
       "is_affiliate": true,
@@ -8020,6 +8086,41 @@
         {
           "price_yen": 22800,
           "observed_at": "2026-10-05 04:02:46"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_22191",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": "optiplex_3010",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3010",
+      "model_name": "OptiPlex 3010",
+      "chassis_gpu_fit": "unknown",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i3-3220",
+        "cpu_generation": 3,
+        "memory_gb": 4,
+        "storage": "HDD 500GB",
+        "os": "Windows 7 Pro"
+      },
+      "title": "Windows7 Pro 32bit DELL OPTIPLEX 3010 DT Core i3-3220 3.3GHz メモリ 4GB HDD 500GB(SATA) DVDマルチ 難あり(ファン不良)",
+      "price_yen": 24800,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/22191.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-10-11 23:03:24",
+      "price_history": [
+        {
+          "price_yen": 24800,
+          "observed_at": "2026-10-11 23:03:24"
         }
       ]
     },
@@ -13540,6 +13641,40 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-09-28 23:02:30"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-webshop_1235801",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i5（第8世代）",
+        "cpu_generation": 8,
+        "memory_gb": 16,
+        "os": "Windows 11"
+      },
+      "title": "デスクトップパソコン NEC Mate J ML-3 中古 2017年モデル 単体 Windows11 64bit 第8世代 Core i5 メモリ16GB 高速 SSD 1235801",
+      "price_yen": 29800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1235801.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-10-14 04:02:48",
+      "price_history": [
+        {
+          "price_yen": 29800,
+          "observed_at": "2026-10-14 04:02:48"
         }
       ]
     },
@@ -19609,6 +19744,41 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_55c253602",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060sff",
+      "model_name": "OptiPlex 3060SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "cpu_generation": 8,
+        "memory_gb": 8,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ DELL OptiPlex 3060 SFF Core i5-8400 2.8GHz 8GB 256GB(SSD) HDMI/DisplayPort/アナログRGB出力 DVD+-RW Windows11 Pro 64bit 小難",
+      "price_yen": 22300,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/55c253602.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-10-14 04:07:07",
+      "price_history": [
+        {
+          "price_yen": 22300,
+          "observed_at": "2026-10-14 04:07:07"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_564265020",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -20060,6 +20230,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_56c250790",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070micro",
+      "model_name": "OptiPlex 3070MICRO",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i3-9100T",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ DELL OptiPlex 3070 Micro Core i3-9100T 3.1GHz 8GB 256GB(NVMeSSD) HDMI/DisplayPort/アナログRGB出力 Windows11 Pro 64bit 小難",
+      "price_yen": 19200,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/56c250790.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-10-09 11:08:26",
+      "price_history": [
+        {
+          "price_yen": 19200,
+          "observed_at": "2026-10-09 11:08:26"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_56c250795",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -20087,6 +20291,40 @@
       "price_history": [
         {
           "price_yen": 20800,
+          "observed_at": "2026-10-09 11:08:26"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_56c250797",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070micro",
+      "model_name": "OptiPlex 3070MICRO",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i3-9100T",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ DELL OptiPlex 3070 Micro Core i3-9100T 3.1GHz 8GB 256GB(NVMeSSD) HDMI/DisplayPort/アナログRGB出力 Windows11 Pro 64bit 小難",
+      "price_yen": 19200,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/56c250797.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-10-09 11:08:26",
+      "price_history": [
+        {
+          "price_yen": 19200,
           "observed_at": "2026-10-09 11:08:26"
         }
       ]
@@ -20990,14 +21228,14 @@
         "gpu": "RTX 5080"
       },
       "title": "ゲーミングPC G-GEAR GE7A-L261BH/CP6 Ryzen7 9800X3D /RTX5080 /32GBメモリ /2TB SSD /WiFi7+Bluetooth対応",
-      "price_yen": 550189,
+      "price_yen": 557874,
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/0409092862013.html",
       "is_affiliate": false,
       "condition_rank": null,
       "condition": "new",
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-10-10 04:00:07",
+      "observed_at": "2026-10-14 04:00:07",
       "price_history": [
         {
           "price_yen": 535333,
@@ -21018,6 +21256,10 @@
         {
           "price_yen": 550189,
           "observed_at": "2026-10-10 04:00:07"
+        },
+        {
+          "price_yen": 557874,
+          "observed_at": "2026-10-14 04:00:07"
         }
       ]
     },
@@ -21988,7 +22230,7 @@
     {
       "source": "combo",
       "source_label": "組み合わせ（2店）",
-      "listing_id": "yahoo_shopping:apexshop_apex-927+yahoo_shopping:janpara_67697744-67",
+      "listing_id": "yahoo_shopping:apexshop_apex-927+pc_koubou:1270522",
       "watch_name": "bonsai_gpu_pc",
       "spec_id": "geforce_rtx4060ti_16gb",
       "shop_id": null,
@@ -22006,15 +22248,15 @@
         "gpu": "GeForce RTX 4060 Ti 16GB",
         "vram_gb": 16
       },
-      "title": "Dell OptiPlex 3010 DT 中古 デスクトップPC Windows10Pro MS Office2021 第3世代 Corei5 メモリ16GB SSD128GB DVD-ROM ＋ 【中古】Inno3D GeForce RTX 4060 Ti 16GB TWIN X2 OC N406T2-16D6X-178055N RTX4060Ti/16GB(GDDR6)【秋葉2号】保証期間１週間",
-      "price_yen": 110980,
+      "title": "Dell OptiPlex 3010 DT 中古 デスクトップPC Windows10Pro MS Office2021 第3世代 Corei5 メモリ16GB SSD128GB DVD-ROM ＋ ノーブランド  〔中古〕GeForce RTX 4060 Ti 16GB(中古保証1ヶ月間)",
+      "price_yen": 105980,
       "url": "https://store.shopping.yahoo.co.jp/apexshop/apex-927.html",
       "is_affiliate": false,
       "condition": "used",
       "condition_rank": null,
       "shipping": null,
       "shipping_label": "—",
-      "observed_at": "2026-09-20 23:11:38",
+      "observed_at": "2026-10-14 04:00:48",
       "price_history": [],
       "combo": {
         "base": {
@@ -22026,10 +22268,10 @@
           "gpu_fit": "unknown"
         },
         "card": {
-          "title": "【中古】Inno3D GeForce RTX 4060 Ti 16GB TWIN X2 OC N406T2-16D6X-178055N RTX4060Ti/16GB(GDDR6)【秋葉2号】保証期間１週間",
-          "price_yen": 99980,
-          "url": "https://store.shopping.yahoo.co.jp/janpara/67697744-67.html",
-          "source_label": "Yahoo!ショッピング"
+          "title": "ノーブランド  〔中古〕GeForce RTX 4060 Ti 16GB(中古保証1ヶ月間)",
+          "price_yen": 94980,
+          "url": "https://www.pc-koubou.jp/products/detail.php?product_id=1270522",
+          "source_label": "パソコン工房"
         },
         "note": "筐体が判別できませんでした。増設の可否は販売元のページでご確認ください。"
       }
