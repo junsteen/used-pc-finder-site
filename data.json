@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28 13:08:48+09:00",
+  "generated_at": "2026-11-28 20:08:49+09:00",
   "correction_url": "https://github.com/junsteen/used-pc-finder-site/issues/new?template=correction.yml",
   "request_queue": {
     "open": [],
@@ -2153,42 +2153,6 @@
     {
       "source": "dospara",
       "source_label": "ドスパラ",
-      "listing_id": "IC685807",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-12400F",
-        "cpu_generation": 12,
-        "memory_gb": 16,
-        "storage": "SSD 500GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  自作PC(i5 12400F/16GB/SSD500GB/RTX3060 12GB) 5250001875",
-      "price_yen": 87800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC685807.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "condition": "used",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-11-21 23:01:53",
-      "price_history": [
-        {
-          "price_yen": 87800,
-          "observed_at": "2026-11-21 23:01:53"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
       "listing_id": "IC686319",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": "endeavor_na710e",
@@ -2254,42 +2218,6 @@
         {
           "price_yen": 87800,
           "observed_at": "2026-11-27 23:01:44"
-        }
-      ]
-    },
-    {
-      "source": "dospara",
-      "source_label": "ドスパラ",
-      "listing_id": "IC687257",
-      "watch_name": "rtx3060_12gb_pc",
-      "spec_id": "geforce_rtx3060_12gb",
-      "shop_id": "dospara",
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i5-13400F",
-        "cpu_generation": 13,
-        "memory_gb": 16,
-        "storage": "SSD 512GB",
-        "gpu": "RTX 3060",
-        "vram_gb": 12
-      },
-      "title": "中古  THIRDWAVE GALLERIA SKM(Intel Core i5 13400F/16GB DDR4 (PC4)/SSD512GB/なし/NVIDIA GeForce RTX 3060 12GB/W11H64 MAR) 206213",
-      "price_yen": 92800,
-      "url": "https://www.dospara.co.jp/SBR1391/IC687257.html",
-      "is_affiliate": false,
-      "condition_rank": "C:並品",
-      "condition": "used",
-      "shipping": null,
-      "shipping_label": "—",
-      "observed_at": "2026-11-26 23:01:44",
-      "price_history": [
-        {
-          "price_yen": 92800,
-          "observed_at": "2026-11-26 23:01:44"
         }
       ]
     },
@@ -5304,48 +5232,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "jyunntenn:10000149",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "storage": "SSD 256GB"
-      },
-      "title": "【全商品10%OFF】【超小型ミニPC】中古 デスクトップパソコン Dell OptiPlex 3070 Micro Win11公式対応 第9世代 Core i5 メモリ 8GB/16GB 高速SSD 256GB/512GB 2画面出力対応 HDMI DP WPS搭載 Wi-Fi 手のひらサイズ 初期設定済 すぐ使える テレワーク 事務用 中古PC",
-      "price_yen": 32000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00upk3o.2lytq8da.g00upk3o.2lytr8b0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyunntenn%2Fjt-dl-3070-m-i5-9th%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyunntenn%2Fi%2F10000149%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-11-26 04:06:41",
-      "price_history": [
-        {
-          "price_yen": 35000,
-          "observed_at": "2026-09-14 04:10:20"
-        },
-        {
-          "price_yen": 34300,
-          "observed_at": "2026-09-28 04:08:45"
-        },
-        {
-          "price_yen": 32000,
-          "observed_at": "2026-11-26 04:06:41"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "jyunntenn:10000150",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -5466,108 +5352,6 @@
         {
           "price_yen": 26800,
           "observed_at": "2026-11-27 04:04:10"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "jyunntenn:10000170",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060sff",
-      "model_name": "OptiPlex 3060SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "【全商品10%OFF】デスクトップパソコン 中古 Windows11 Dell OptiPlex 3060 SFF 省スペース 第8世代 Core i3 メモリ 8GB/16GB 高速SSD 256GB/512GB 2画面出力対応 HDMI DP DVDドライブ WPS搭載 Wi-Fi 初期設定済 テレワーク 事務用 中古PC",
-      "price_yen": 26800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00upk3o.2lytq8da.g00upk3o.2lytr8b0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyunntenn%2Fjt-dl-3060-sff-i3-8th%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyunntenn%2Fi%2F10000170%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-11-27 04:05:41",
-      "price_history": [
-        {
-          "price_yen": 27200,
-          "observed_at": "2026-09-14 04:08:22"
-        },
-        {
-          "price_yen": 26500,
-          "observed_at": "2026-09-28 04:07:22"
-        },
-        {
-          "price_yen": 26800,
-          "observed_at": "2026-11-10 11:06:21"
-        },
-        {
-          "price_yen": 24120,
-          "observed_at": "2026-11-26 04:05:41"
-        },
-        {
-          "price_yen": 26800,
-          "observed_at": "2026-11-27 04:05:41"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "jyunntenn:10000171",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060sff",
-      "model_name": "OptiPlex 3060SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 256GB",
-        "os": "Windows 11"
-      },
-      "title": "【全商品10%OFF】デスクトップパソコン 中古 Windows11 Dell OptiPlex 3060 SFF 省スペース 第8世代 Core i5 メモリ 8GB/16GB 高速SSD 256GB/512GB 2画面出力対応 HDMI DP DVDドライブ WPS搭載 Wi-Fi 初期設定済 テレワーク 事務用 中古PC",
-      "price_yen": 31800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00upk3o.2lytq8da.g00upk3o.2lytr8b0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyunntenn%2Fjt-dl-3060-sff-i5-8th%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyunntenn%2Fi%2F10000171%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-11-27 04:05:41",
-      "price_history": [
-        {
-          "price_yen": 34300,
-          "observed_at": "2026-09-12 13:43:25"
-        },
-        {
-          "price_yen": 32200,
-          "observed_at": "2026-09-28 04:07:22"
-        },
-        {
-          "price_yen": 31800,
-          "observed_at": "2026-11-10 11:06:21"
-        },
-        {
-          "price_yen": 28620,
-          "observed_at": "2026-11-26 04:05:41"
-        },
-        {
-          "price_yen": 31800,
-          "observed_at": "2026-11-27 04:05:41"
         }
       ]
     },
@@ -7154,40 +6938,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "pc-r-cube:10015339",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060micro",
-      "model_name": "OptiPlex 3060MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3-8100T",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "storage": "SSD 512GB"
-      },
-      "title": "DELL OptiPlex 3060 Micro【Core i3-8100T/8GB(DDR4)/SSD512GB(M.2)/Win11Pro-64bit】【中古/送料無料】※沖縄、離島を除く",
-      "price_yen": 17800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qew0o.2lytq65b.g00qew0o.2lytr785/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-r-cube%2F50041024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-r-cube%2Fi%2F10015339%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-11-27 04:05:41",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-11-27 04:05:41"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "pc1s:10515274",
       "watch_name": "optiplex_3070",
       "spec_id": "optiplex_3070",
@@ -7431,39 +7181,6 @@
     {
       "source": "rakuten",
       "source_label": "楽天市場",
-      "listing_id": "seishin-sj:10004797",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070sff",
-      "model_name": "OptiPlex 3070SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5-9400",
-        "cpu_generation": 9,
-        "os": "Windows 11"
-      },
-      "title": "【中古】 Windows 11 適合モデル DELL OptiPlex 3070 SFF 第9世代 Core i5 9400 2.90G メモリ 8G〜 SSD 256G〜 + HDD 500G HDMI 中古デスクトップパソコン 中古パソコン オフィス Windows 10",
-      "price_yen": 31800,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tdspo.2lytq7c5.g00tdspo.2lytre5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishin-sj%2Fdesk-dell-357%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseishin-sj%2Fi%2F10004797%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料込み",
-      "shipping_label": "送料込み",
-      "observed_at": "2026-10-13 11:08:29",
-      "price_history": [
-        {
-          "price_yen": 31800,
-          "observed_at": "2026-10-13 11:08:29"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
       "listing_id": "seishin-sj:10004911",
       "watch_name": "thinkcentre_m720s",
       "spec_id": "thinkcentre_m720s",
@@ -7569,163 +7286,6 @@
         {
           "price_yen": 29800,
           "observed_at": "2026-11-27 04:05:41"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "shoptsukumo:10028743",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 9 9955HX",
-        "memory_gb": 32,
-        "os": "Windows 11 Pro",
-        "gpu": "RTX 5080"
-      },
-      "title": "ゲーミングノート AORUS MASTER 16 6YJM5JPE64SP [16型 /Ryzen 9 9955HX3D /RTX5080 /RAM:32GB /SSD:1TB /Windows 11 Pro /ブラックグレー]",
-      "price_yen": 684000,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tohgo.2lytqbec.g00tohgo.2lytra68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshoptsukumo%2F9092588014%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshoptsukumo%2Fi%2F10028743%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-11-15 04:00:05",
-      "price_history": [
-        {
-          "price_yen": 694526,
-          "observed_at": "2026-10-03 04:00:08"
-        },
-        {
-          "price_yen": 684000,
-          "observed_at": "2026-11-15 04:00:05"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "shoptsukumo:10029802",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 9800X",
-        "memory_gb": 32,
-        "gpu": "RTX 5080"
-      },
-      "title": "ゲーミングPC G-GEAR GE7A-L261BH/CP6 Ryzen7 9800X3D /RTX5080 /32GBメモリ /2TB SSD /WiFi7+Bluetooth対応",
-      "price_yen": 589453,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tohgo.2lytqbec.g00tohgo.2lytra68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshoptsukumo%2F9092862015%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshoptsukumo%2Fi%2F10029802%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-11-28 04:00:05",
-      "price_history": [
-        {
-          "price_yen": 535333,
-          "observed_at": "2026-09-25 04:00:06"
-        },
-        {
-          "price_yen": 557874,
-          "observed_at": "2026-10-02 04:00:07"
-        },
-        {
-          "price_yen": 550189,
-          "observed_at": "2026-10-03 04:00:08"
-        },
-        {
-          "price_yen": 557874,
-          "observed_at": "2026-10-07 04:00:06"
-        },
-        {
-          "price_yen": 550189,
-          "observed_at": "2026-10-11 04:00:07"
-        },
-        {
-          "price_yen": 589453,
-          "observed_at": "2026-11-28 04:00:05"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "shoptsukumo:10030246",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Ryzen 7 9800X",
-        "memory_gb": 32,
-        "gpu": "RTX 5080"
-      },
-      "title": "ゲーミングPC G-GEARピラーレス GV7A-H261B/R/CP2 Ryzen7 9800X3D /RTX5080 /32GBメモリ /1TB SSD /WiFi7+BT対応 /ガラスサイド+水冷仕様",
-      "price_yen": 557874,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tohgo.2lytqbec.g00tohgo.2lytra68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshoptsukumo%2F9092963019%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshoptsukumo%2Fi%2F10030246%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-11-15 04:00:05",
-      "price_history": [
-        {
-          "price_yen": 557874,
-          "observed_at": "2026-11-15 04:00:05"
-        }
-      ]
-    },
-    {
-      "source": "rakuten",
-      "source_label": "楽天市場",
-      "listing_id": "shoptsukumo:10030424",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i7",
-        "memory_gb": 32,
-        "gpu": "RTX 5080"
-      },
-      "title": "ゲーミングPC G-GEAR GE7J-M261BH/CP8 CoreUltra7 270K Plus /RTX5080 /32GBメモリ /2TB SSD /WiFi7+Bluetooth対応",
-      "price_yen": 589453,
-      "url": "https://hb.afl.rakuten.co.jp/hgc/g00tohgo.2lytqbec.g00tohgo.2lytra68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshoptsukumo%2F9093061011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshoptsukumo%2Fi%2F10030424%2F&rafcid=wsc_i_is_208d45dd-92bc-4761-9bd9-93a5d026199a",
-      "is_affiliate": true,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料別",
-      "shipping_label": "送料別",
-      "observed_at": "2026-11-27 04:00:05",
-      "price_history": [
-        {
-          "price_yen": 589453,
-          "observed_at": "2026-11-27 04:00:05"
         }
       ]
     },
@@ -9084,6 +8644,41 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "aqua-light_21931",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "endeavor-at10",
+      "model_name": "Endeavor AT10",
+      "chassis_gpu_fit": "maybe",
+      "model_maker": "エプソンダイレクト",
+      "parsed": {
+        "cpu": "Core i5-7500",
+        "cpu_generation": 7,
+        "memory_gb": 8,
+        "storage": "HDD 500GB",
+        "os": "Windows 10 Pro"
+      },
+      "title": "Windows10 Pro 64bit EPSON Endeavor AT10 Core i5-7500 3.4GHz メモリー 8GB HDD 500GB(SATA) 光学ドライブ不良 筐体黄ばみあり",
+      "price_yen": 13800,
+      "url": "https://store.shopping.yahoo.co.jp/aqua-light/21931.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-22 17:53:25",
+      "price_history": [
+        {
+          "price_yen": 13800,
+          "observed_at": "2026-08-22 17:53:25"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "aqua-light_21964",
       "watch_name": "bare_desktop_for_gpu",
       "spec_id": null,
@@ -9363,40 +8958,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "atr2023_lenovo-x260-x280",
-      "watch_name": "memory32gb_laptop",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i7（第11世代）",
-        "cpu_generation": 11,
-        "memory_gb": 32,
-        "storage": "SSD 512GB"
-      },
-      "title": "中古 ノートパソコン lenovo thinkpad x1 YOGA 第11世代 Core i7 Win11 office メモリ32GB SSD512GB 高画質 中古PC 14インチ タブレット2in1 タッチパネル 爆買",
-      "price_yen": 39900,
-      "url": "https://store.shopping.yahoo.co.jp/atr2023/lenovo-x260-x280.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-08 23:09:08",
-      "price_history": [
-        {
-          "price_yen": 39900,
-          "observed_at": "2026-11-08 23:09:08"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "be-stocktsb_d-3060-3060sf-a016",
       "watch_name": "optiplex_3060",
       "spec_id": "optiplex_3060",
@@ -9590,6 +9151,38 @@
       "price_history": [
         {
           "price_yen": 27100,
+          "observed_at": "2026-11-26 11:06:43"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "be-stocktsb_d-3070-3070sf-b004",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070sff",
+      "model_name": "OptiPlex 3070SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5",
+        "memory_gb": 8
+      },
+      "title": "中古 デスクトップ Dell デル Optiplex 3070 SFF 3070-3070SF Core i5 メモリ：8GB SSD搭載 6ヶ月保証",
+      "price_yen": 31500,
+      "url": "https://store.shopping.yahoo.co.jp/be-stocktsb/d-3070-3070sf-b004.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-11-26 11:06:43",
+      "price_history": [
+        {
+          "price_yen": 31500,
           "observed_at": "2026-11-26 11:06:43"
         }
       ]
@@ -14234,74 +13827,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-premium_1243374",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 16,
-        "os": "Windows 11"
-      },
-      "title": "6ヶ月保証 DELL OPTIPLEX 3070 Micro デスクトップパソコン 第9世代 Core i3 単体 超小型デスク Windows11 64bit メモリ16GB 高速 SSD 中古 1243374",
-      "price_yen": 26800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243374.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-20 11:07:41",
-      "price_history": [
-        {
-          "price_yen": 26800,
-          "observed_at": "2026-11-20 11:07:41"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-premium_1243375",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "6ヶ月保証 DELL OPTIPLEX 3070 Micro デスクトップパソコン 第9世代 Core i3 単体 超小型デスク Windows11 64bit メモリ8GB 高速 SSD 中古 1243375",
-      "price_yen": 20800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/1243375.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-20 11:07:41",
-      "price_history": [
-        {
-          "price_yen": 20800,
-          "observed_at": "2026-11-20 11:07:41"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_20007217",
       "watch_name": "thinkcentre_m720e",
       "spec_id": "thinkcentre_m720e",
@@ -14330,40 +13855,6 @@
         {
           "price_yen": 18800,
           "observed_at": "2026-09-17 23:04:44"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-premium_20007327",
-      "watch_name": "optiplex_3060",
-      "spec_id": "optiplex_3060",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3060sff",
-      "model_name": "OptiPlex 3060SFF",
-      "chassis_gpu_fit": "low_profile",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5（第8世代）",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "6ヶ月保証 DELL OptiPlex 3060 SFF デスクトップパソコン 第8世代 Core i5 単体 Windows11 64bit HDMI メモリ8GB 高速 SSD WiFi 中古 20007327",
-      "price_yen": 27800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/20007327.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-08 04:06:00",
-      "price_history": [
-        {
-          "price_yen": 27800,
-          "observed_at": "2026-11-08 04:06:00"
         }
       ]
     },
@@ -14506,6 +13997,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_4021465",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070micro",
+      "model_name": "OptiPlex 3070MICRO",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i3（第9世代）",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 DELL OPTIPLEX 3070 Micro デスクトップパソコン 第9世代 Core i3 単体 Windows11 64bit HDMI メモリ8GB 高速 SSD 中古 4021465",
+      "price_yen": 20800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/4021465.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-11-24 11:06:39",
+      "price_history": [
+        {
+          "price_yen": 20800,
+          "observed_at": "2026-11-24 11:06:39"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-premium_4021466",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -14568,6 +14093,40 @@
         {
           "price_yen": 26800,
           "observed_at": "2026-11-24 11:02:05"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "junkworld-premium_4021471",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070micro",
+      "model_name": "OptiPlex 3070MICRO",
+      "chassis_gpu_fit": "no",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i3（第9世代）",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11"
+      },
+      "title": "6ヶ月保証 DELL OPTIPLEX 3070 Micro デスクトップパソコン 第9世代 Core i3 単体 Windows11 64bit HDMI メモリ8GB 高速 SSD 中古 4021471",
+      "price_yen": 20800,
+      "url": "https://store.shopping.yahoo.co.jp/junkworld-premium/4021471.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-11-24 11:06:39",
+      "price_history": [
+        {
+          "price_yen": 20800,
+          "observed_at": "2026-11-24 11:06:39"
         }
       ]
     },
@@ -15662,74 +15221,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_1243361",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン NEC Mate ML-5 中古 2018年モデル 単体 Windows11 64bit 第9世代 Core i3 メモリ8GB 高速 SSD 1243361",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243361.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-20 11:02:33",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-11-20 11:02:33"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_1243362",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 8,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン NEC Mate ML-5 中古 2018年モデル 単体 Windows11 64bit 第9世代 Core i3 メモリ8GB 高速 SSD 1243362",
-      "price_yen": 17800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243362.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-20 11:02:33",
-      "price_history": [
-        {
-          "price_yen": 17800,
-          "observed_at": "2026-11-20 11:02:33"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "junkworld-webshop_1243369",
       "watch_name": "thinkcentre_m720q",
       "spec_id": "thinkcentre_m720q",
@@ -15860,40 +15351,6 @@
         {
           "price_yen": 23800,
           "observed_at": "2026-11-20 11:04:45"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "junkworld-webshop_1243374",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i3（第9世代）",
-        "cpu_generation": 9,
-        "memory_gb": 16,
-        "os": "Windows 11"
-      },
-      "title": "デスクトップパソコン DELL OPTIPLEX 3070 Micro 中古 2018年モデル 単体 超小型デスク Windows11 64bit 第9世代 Core i3 メモリ16GB 高速 SSD 1243374",
-      "price_yen": 23800,
-      "url": "https://store.shopping.yahoo.co.jp/junkworld-webshop/1243374.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-20 11:07:41",
-      "price_history": [
-        {
-          "price_yen": 23800,
-          "observed_at": "2026-11-20 11:07:41"
         }
       ]
     },
@@ -16731,6 +16188,43 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "logworldshop_pc8582",
+      "watch_name": "gen12_laptop",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i7-1255U",
+        "cpu_generation": 12,
+        "memory_gb": 32
+      },
+      "title": "dynabook G83/KV Core i7-1255U 32GB 512GB Office Win11 USB4 カメラ ノートパソコン PC 管理R04",
+      "price_yen": 78000,
+      "url": "https://store.shopping.yahoo.co.jp/logworldshop/pc8582.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-11-28 11:07:29",
+      "price_history": [
+        {
+          "price_yen": 67000,
+          "observed_at": "2026-11-24 23:07:28"
+        },
+        {
+          "price_yen": 78000,
+          "observed_at": "2026-11-28 11:07:29"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "makxasstore_2266756",
       "watch_name": "rtx3060_12gb_pc",
       "spec_id": "geforce_rtx3060_12gb",
@@ -17152,48 +16646,6 @@
         },
         {
           "price_yen": 536000,
-          "observed_at": "2026-11-08 04:00:14"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "nbfixer_mtrnyebt6",
-      "watch_name": "rtx5080_pc",
-      "spec_id": "geforce_rtx5080",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": null,
-      "model_name": null,
-      "chassis_gpu_fit": "unknown",
-      "model_maker": null,
-      "parsed": {
-        "memory_gb": 32,
-        "storage": "SSD 1TB",
-        "os": "Windows 11 Home",
-        "gpu": "RTX 5080"
-      },
-      "title": "ゲーミングPC Core Ultra 7 265KF / RTX5080 / メモリ32GB / SSD 1TB / Windows11 home / ゲーミングパソコン / パソコン / デスクトップPC / 新品 / H26",
-      "price_yen": 620000,
-      "url": "https://store.shopping.yahoo.co.jp/nbfixer/mtrnyebt6.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "new",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-08 04:00:14",
-      "price_history": [
-        {
-          "price_yen": 522000,
-          "observed_at": "2026-09-13 11:00:05"
-        },
-        {
-          "price_yen": 525000,
-          "observed_at": "2026-10-02 23:00:08"
-        },
-        {
-          "price_yen": 620000,
           "observed_at": "2026-11-08 04:00:14"
         }
       ]
@@ -18562,40 +18014,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "pon-junkshop_565265665",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5-8500T",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ DELL OptiPlex 3070 Micro Core i5-8500T 2.1GHz 8GB 256GB(NVMeSSD) HDMI/DisplayPort/アナログRGB出力 Windows11 Pro 64bit 難有",
-      "price_yen": 23500,
-      "url": "https://store.shopping.yahoo.co.jp/pon-junkshop/565265665.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-25 23:09:17",
-      "price_history": [
-        {
-          "price_yen": 23500,
-          "observed_at": "2026-09-25 23:09:17"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "pon-junkshop_566267208",
       "watch_name": "mate_mrm28l-4",
       "spec_id": "mate_mrm28l-4",
@@ -19198,39 +18616,6 @@
         {
           "price_yen": 18810,
           "observed_at": "2026-11-08 04:02:27"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
-      "listing_id": "risemark_97712",
-      "watch_name": "bare_desktop_for_gpu",
-      "spec_id": null,
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "endeavor-nj4300",
-      "model_name": "Endeavor NJ4300",
-      "chassis_gpu_fit": "unknown",
-      "model_maker": "エプソンダイレクト",
-      "parsed": {
-        "cpu": "Core i3-8145U",
-        "cpu_generation": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "EPSON Endeavor NJ4300【M.2 SSD搭載】　Core i3 8145U　【Windows11 Pro】 ／充電可／Wi-Fi／長期保証 [97712]",
-      "price_yen": 16800,
-      "url": "https://store.shopping.yahoo.co.jp/risemark/97712.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "送料無料",
-      "shipping_label": "送料無料",
-      "observed_at": "2026-11-27 04:02:13",
-      "price_history": [
-        {
-          "price_yen": 16800,
-          "observed_at": "2026-11-27 04:02:13"
         }
       ]
     },
@@ -20163,6 +19548,40 @@
         {
           "price_yen": 25980,
           "observed_at": "2026-11-08 04:06:31"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "srepcstore_z08",
+      "watch_name": "bare_desktop_for_gpu",
+      "spec_id": null,
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": null,
+      "model_name": null,
+      "chassis_gpu_fit": "unknown",
+      "model_maker": null,
+      "parsed": {
+        "cpu": "Core i3-9100T",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "storage": "SSD 256GB"
+      },
+      "title": "2020年モデル富士通 ミニデスクトップ PC FUJITSU ESPRIMO Q558/B  Core i3-9100T/USB複数搭載/DVI/DisplayPort/4K HDR対応/Office/Win11Pro /RAM8GB/SSD256GB",
+      "price_yen": 27980,
+      "url": "https://store.shopping.yahoo.co.jp/srepcstore/z08.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "送料無料",
+      "shipping_label": "送料無料",
+      "observed_at": "2026-08-24 02:22:45",
+      "price_history": [
+        {
+          "price_yen": 27980,
+          "observed_at": "2026-08-24 02:22:45"
         }
       ]
     },
@@ -21352,6 +20771,40 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_558268755",
+      "watch_name": "optiplex_3070",
+      "spec_id": "optiplex_3070",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3070sff",
+      "model_name": "OptiPlex 3070SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5-9500",
+        "cpu_generation": 9,
+        "memory_gb": 8,
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ DELL OptiPlex 3070 SFF Core i5-9500 3GHz 8GB 256GB(新品NVMeSSD) HDMI/DisplayPort/アナログRGB出力 DVD-ROM Windows11 Pro 64bit 小難",
+      "price_yen": 27600,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/558268755.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-10-09 11:08:26",
+      "price_history": [
+        {
+          "price_yen": 27600,
+          "observed_at": "2026-10-09 11:08:26"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_55c252770",
       "watch_name": "thinkcentre_m720s",
       "spec_id": "thinkcentre_m720s",
@@ -21527,40 +20980,6 @@
     {
       "source": "yahoo_shopping",
       "source_label": "Yahoo!ショッピング",
-      "listing_id": "tce-direct_565265665",
-      "watch_name": "optiplex_3070",
-      "spec_id": "optiplex_3070",
-      "shop_id": null,
-      "category": "pc",
-      "model_slug": "dell-optiplex-3070micro",
-      "model_name": "OptiPlex 3070MICRO",
-      "chassis_gpu_fit": "no",
-      "model_maker": "Dell",
-      "parsed": {
-        "cpu": "Core i5-8500T",
-        "cpu_generation": 8,
-        "memory_gb": 8,
-        "os": "Windows 11 Pro"
-      },
-      "title": "デスクトップ DELL OptiPlex 3070 Micro Core i5-8500T 2.1GHz 8GB 256GB(NVMeSSD) HDMI/DisplayPort/アナログRGB出力 Windows11 Pro 64bit 難有",
-      "price_yen": 22300,
-      "url": "https://store.shopping.yahoo.co.jp/tce-direct/565265665.html",
-      "is_affiliate": false,
-      "condition_rank": null,
-      "condition": "used",
-      "shipping": "設定なし",
-      "shipping_label": "—",
-      "observed_at": "2026-09-12 13:44:43",
-      "price_history": [
-        {
-          "price_yen": 22300,
-          "observed_at": "2026-09-12 13:44:43"
-        }
-      ]
-    },
-    {
-      "source": "yahoo_shopping",
-      "source_label": "Yahoo!ショッピング",
       "listing_id": "tce-direct_566267208",
       "watch_name": "mate_mrm28l-4",
       "spec_id": "mate_mrm28l-4",
@@ -21660,6 +21079,41 @@
         {
           "price_yen": 19800,
           "observed_at": "2026-09-12 13:43:45"
+        }
+      ]
+    },
+    {
+      "source": "yahoo_shopping",
+      "source_label": "Yahoo!ショッピング",
+      "listing_id": "tce-direct_56b255772",
+      "watch_name": "optiplex_3060",
+      "spec_id": "optiplex_3060",
+      "shop_id": null,
+      "category": "pc",
+      "model_slug": "dell-optiplex-3060sff",
+      "model_name": "OptiPlex 3060SFF",
+      "chassis_gpu_fit": "low_profile",
+      "model_maker": "Dell",
+      "parsed": {
+        "cpu": "Core i5-8400",
+        "cpu_generation": 8,
+        "memory_gb": 12,
+        "storage": "SSD 256GB",
+        "os": "Windows 11 Pro"
+      },
+      "title": "デスクトップ DELL OptiPlex 3060 SFF Core i5-8400 2.8GHz 12GB 256GB(SSD) HDMI/DisplayPort/アナログRGB出力 DVD+-RW Windows11 Pro 64bit",
+      "price_yen": 26100,
+      "url": "https://store.shopping.yahoo.co.jp/tce-direct/56b255772.html",
+      "is_affiliate": false,
+      "condition_rank": null,
+      "condition": "used",
+      "shipping": "設定なし",
+      "shipping_label": "—",
+      "observed_at": "2026-09-28 23:06:32",
+      "price_history": [
+        {
+          "price_yen": 26100,
+          "observed_at": "2026-09-28 23:06:32"
         }
       ]
     },
@@ -22653,14 +22107,14 @@
         "os": "Windows 11"
       },
       "title": "今日も当日発送 パソコン MS Office 2024H&amp;B 搭載 デスクトップ PC 富士通 8世代 COREi3 COREi5 メモリ 8GB SSD 240GB Windows11 オフィス Word Excel",
-      "price_yen": 20800,
+      "price_yen": 17800,
       "url": "https://store.shopping.yahoo.co.jp/ugreen-oaplaza/desk-dell990.html",
       "is_affiliate": false,
       "condition_rank": null,
       "condition": "used",
       "shipping": "送料無料",
       "shipping_label": "送料無料",
-      "observed_at": "2026-09-13 23:03:20",
+      "observed_at": "2026-11-28 11:02:05",
       "price_history": [
         {
           "price_yen": 20800,
@@ -22673,6 +22127,10 @@
         {
           "price_yen": 20800,
           "observed_at": "2026-09-13 23:03:20"
+        },
+        {
+          "price_yen": 17800,
+          "observed_at": "2026-11-28 11:02:05"
         }
       ]
     },
